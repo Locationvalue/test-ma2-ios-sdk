@@ -1,0 +1,32 @@
+{
+    "schema_version": 1,
+    "config_version": 1,
+    "app_name": "moduleapps-banner",
+    "shop_account_app_id": 0,
+    "config_values": [
+        {
+            "config_value_name": "ma_banner_network_timeout_time",
+            "integer_value": 60
+        },
+        {
+            "config_value_name": "ma_banner_carousel_scroll_interval",
+            "double_value": 3.0
+        },
+        {
+            "config_value_name": "ma_banner_carousel_show_placeholder_image_if_no_banners",
+            "boolean_value": true
+        },
+        {
+            "config_value_name": "ma_banner_carousel_image_indicator_style",
+            "string_value": "always"
+        },
+        {
+            "config_value_name": "ma_banner_list_default_spacing",
+            "integer_value": 4
+        },
+        {
+            "config_value_name": "ma_banner_list_show_placeholder_image_if_no_banners",
+            "boolean_value": true
+        }
+    ]
+}

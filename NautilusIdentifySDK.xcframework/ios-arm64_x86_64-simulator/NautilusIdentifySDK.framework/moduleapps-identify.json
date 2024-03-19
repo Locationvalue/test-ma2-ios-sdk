@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-identify",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_identify_network_timeout_time",
+      "integer_value": 60
+    },
+    {
+      "config_value_name": "ma_identify_pid_retry_time_interval",
+      "integer_value": 60
+    },
+    {
+      "config_value_name": "ma_identify_user_info_view_current_time_date_format",
+      "string_value": "yyyy/MM/dd HH:mm:ss"
+    },
+    {
+      "config_value_name": "ma_identify_user_info_view_enable_brightness_adjust",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_identify_user_info_view_brightness_adjust_text",
+      "string_value": "バーコードをタップすると画面が明るくなります"
+    },
+    {
+      "config_value_name": "ma_identify_user_info_view_header_text",
+      "string_value": "会員バーコード"
+    }
+  ]
+}

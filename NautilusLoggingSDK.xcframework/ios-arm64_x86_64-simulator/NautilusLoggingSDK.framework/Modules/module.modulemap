@@ -1,0 +1,4 @@
+framework module NautilusLoggingSDK {
+  header "NautilusLoggingSDK-Swift.h"
+  requires objc
+}

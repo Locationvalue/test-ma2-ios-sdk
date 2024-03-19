@@ -1,0 +1,4 @@
+framework module NautilusStampRallyUISDK {
+  header "NautilusStampRallyUISDK-Swift.h"
+  requires objc
+}

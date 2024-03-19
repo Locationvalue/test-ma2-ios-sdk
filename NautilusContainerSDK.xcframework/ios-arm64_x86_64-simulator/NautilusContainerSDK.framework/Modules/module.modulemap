@@ -1,0 +1,6 @@
+framework module NautilusContainerSDK {
+    umbrella header "Container.h"
+    
+    export *
+    module * { export * }
+}

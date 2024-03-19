@@ -1,0 +1,4 @@
+framework module NautilusCodeReaderSDK {
+  header "NautilusCodeReaderSDK-Swift.h"
+  requires objc
+}

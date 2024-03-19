@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-inappmessage",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_inappmessage_network_timeout_time",
+      "integer_value": 60
+    },
+    {
+      "config_value_name": "ma_inappmessage_toast_display_duration",
+      "integer_value": 5
+    },
+    {
+      "config_value_name": "ma_inappmessage_modal_display_duration",
+      "integer_value": 0
+    },
+    {
+      "config_value_name": "ma_inappmessage_modal_action_button_text",
+      "string_value": "詳細を見る"
+    },
+    {
+      "config_value_name": "ma_inappmessage_toast_color",
+      "string_value": "#535353"
+    },
+    {
+      "config_value_name": "ma_inappmessage_on_toast_color",
+      "string_value": "#FFFFFF"
+    }
+  ]
+}

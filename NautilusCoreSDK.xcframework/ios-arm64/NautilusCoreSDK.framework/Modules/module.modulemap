@@ -1,0 +1,4 @@
+framework module NautilusCoreSDK {
+  header "NautilusCoreSDK-Swift.h"
+  requires objc
+}

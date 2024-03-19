@@ -1,0 +1,4 @@
+framework module NautilusShopSDK {
+  header "NautilusShopSDK-Swift.h"
+  requires objc
+}

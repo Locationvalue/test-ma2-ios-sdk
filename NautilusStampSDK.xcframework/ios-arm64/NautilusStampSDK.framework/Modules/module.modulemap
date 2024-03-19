@@ -1,0 +1,4 @@
+framework module NautilusStampSDK {
+  header "NautilusStampSDK-Swift.h"
+  requires objc
+}

@@ -1,0 +1,4 @@
+framework module NautilusServerTimeSDK {
+  header "NautilusServerTimeSDK-Swift.h"
+  requires objc
+}

@@ -1,0 +1,4 @@
+framework module NautilusInAppMessageSDK {
+  header "NautilusInAppMessageSDK-Swift.h"
+  requires objc
+}

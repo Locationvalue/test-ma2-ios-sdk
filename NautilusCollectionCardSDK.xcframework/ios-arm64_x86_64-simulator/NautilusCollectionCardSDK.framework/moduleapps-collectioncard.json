@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-collectioncard",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_collectioncard_network_timeout_time",
+      "integer_value": 60
+    }
+  ]
+}

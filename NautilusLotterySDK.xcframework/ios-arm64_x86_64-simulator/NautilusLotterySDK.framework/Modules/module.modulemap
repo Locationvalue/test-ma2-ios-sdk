@@ -1,0 +1,4 @@
+framework module NautilusLotterySDK {
+  header "NautilusLotterySDK-Swift.h"
+  requires objc
+}

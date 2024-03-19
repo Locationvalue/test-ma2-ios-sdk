@@ -1,0 +1,4 @@
+framework module NautilusIdentifySDK {
+  header "NautilusIdentifySDK-Swift.h"
+  requires objc
+}
