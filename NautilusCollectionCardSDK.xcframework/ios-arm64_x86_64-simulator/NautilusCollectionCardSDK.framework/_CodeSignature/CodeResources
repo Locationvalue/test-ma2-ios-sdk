@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0Qy779JvQ7rCkbM77ov+SJhFlI0=
+		oqbxduykEO1p9w7qVfxV1MKSmfo=
 		</data>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iPBPmksWcx5fXwy+uy0i3CkQnqM=
+		gDIchiQ3CZwK4nD5gaU1n25aj3I=
 		</data>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6se4Ld+pFauWGqvwUgaIufA2pFM=
+		Lxz+nEkKvNNAcN7B+KkF+1mUi8g=
 		</data>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iPBPmksWcx5fXwy+uy0i3CkQnqM=
+		gDIchiQ3CZwK4nD5gaU1n25aj3I=
 		</data>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7GeDJFQUtJennBklPWs9l/cxwII=
+		NTQWv4ProKfDsVVmYEJF0PRA39A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gwaG6JVKlXVwo0n5NErB8fDiAp3TSwN54COt+fgvzYk=
+			L4E7S7jRkHK9woEAjhvjkOAg0UjQN121yb7ryKy8/Bg=
 			</data>
 		</dict>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vGPB0kA6LQLY8YAw380ajk1PQ7gqPUUIySre6cu+RTE=
+			dSC3bYWbl6wvkN7LcbEtJW6GBspnyFvtbnGLluZw6U0=
 			</data>
 		</dict>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gwaG6JVKlXVwo0n5NErB8fDiAp3TSwN54COt+fgvzYk=
+			L4E7S7jRkHK9woEAjhvjkOAg0UjQN121yb7ryKy8/Bg=
 			</data>
 		</dict>
 		<key>Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C8IN4imUFduMREFElXZFZO4X8KDd0bYfdUluP2V0Wk8=
+			T/q/LNJzQo8cDU0cAiQkXnp64Ncidq+jgk22jOf2S00=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

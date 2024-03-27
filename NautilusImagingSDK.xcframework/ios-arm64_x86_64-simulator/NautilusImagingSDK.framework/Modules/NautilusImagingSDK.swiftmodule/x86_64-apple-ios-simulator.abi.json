@@ -760,252 +760,252 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageDownloader.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageDownloader.swift",
       "kind": "Array",
       "offset": 1044,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageDownloader.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageDownloader.swift",
       "kind": "FloatLiteral",
       "offset": 1430,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 10,
       "value": "\"Nautilus\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 7,
       "value": "\"plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
       "kind": "Dictionary",
       "offset": 557,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
       "kind": "Dictionary",
       "offset": 686,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1037,
       "length": 42,
       "value": "\"[Nautilus\/F] Missing key \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1069,
       "length": 2,
       "value": "\" in plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1451,
       "length": 42,
       "value": "\"[Nautilus\/F] Missing key \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1483,
       "length": 2,
       "value": "\" in plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 1267,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "Dictionary",
       "offset": 1294,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 1568,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 3994,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 4052,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 5572,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 5822,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 6023,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 6416,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "StringLiteral",
       "offset": 7743,
       "length": 29,
       "value": "\"Cache write error: \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "StringLiteral",
       "offset": 7771,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 9674,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 9854,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 9906,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 12480,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 12612,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 14854,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 14946,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "StringLiteral",
       "offset": 15182,
       "length": 21,
       "value": "\"Conversion failure.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 15264,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "StringLiteral",
       "offset": 15467,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "StringLiteral",
       "offset": 15493,
       "length": 6,
       "value": "\"%02x\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "StringLiteral",
       "offset": 15680,
       "length": 36,
       "value": "\"nautilus_imaging_memory_cache_size\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "StringLiteral",
       "offset": 15789,
       "length": 34,
       "value": "\"nautilus_imaging_disk_cache_size\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "StringLiteral",
       "offset": 15960,
       "length": 44,
       "value": "\"nautilus_imaging_disk_cache_directory_name\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Imaging\/Sources\/NautilusImageCache.swift",
       "kind": "BooleanLiteral",
       "offset": 16090,
       "length": 4,

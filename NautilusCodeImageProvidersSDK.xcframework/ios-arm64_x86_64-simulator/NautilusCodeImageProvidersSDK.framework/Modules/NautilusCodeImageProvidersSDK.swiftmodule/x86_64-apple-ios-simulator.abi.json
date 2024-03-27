@@ -528,14 +528,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeImageProviders\/Sources\/Providers\/NautilusUserInfoQRCodeImageProvider.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeImageProviders\/Sources\/Providers\/NautilusUserInfoQRCodeImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 19,
       "value": "\"CIQRCodeGenerator\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeImageProviders\/Sources\/Providers\/NautilusUserInfoQRCodeImageProvider.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeImageProviders\/Sources\/Providers\/NautilusUserInfoQRCodeImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 683,
       "length": 14,

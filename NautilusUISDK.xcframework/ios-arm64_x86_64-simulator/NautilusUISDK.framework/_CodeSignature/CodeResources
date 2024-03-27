@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		l1UJCehxdttQ0JbalW6YADlsjxc=
+		qB7S+Y6IELHFVNVJmXNh9sX1G9E=
 		</data>
 		<key>Headers/NautilusUI.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UC9Bkh0Ky6oEZzpjz4dSEoAeAe4=
+		siOhF0nYPsEB+PlbZ6O8/CCr2OQ=
 		</data>
 		<key>Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uLedPcs+PYVU5aBfvyXBnu5fzYQ=
+		HUrLecdyclVr6HPYUg87hl3+D8o=
 		</data>
 		<key>Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JroeHfrs/5PvyyiSvWQRGAqPFCQ=
+		VQlUPaEZ9Zdk1D4vfxtvi/EWe/4=
 		</data>
 		<key>Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uLedPcs+PYVU5aBfvyXBnu5fzYQ=
+		HUrLecdyclVr6HPYUg87hl3+D8o=
 		</data>
 		<key>Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0D/cb4Hho1cDwFfln9BoxfpoO7o=
+		lQlsMdoeMSMIWu7e4FBG0qC4tfw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fts4nDylgmOp8WRY4if9436DzPMkLtOjrwuvdr0Afh4=
+			L26ftkudl/jwqMo1fNKXguUFosDRpeuRxwQ2rTRwjAM=
 			</data>
 		</dict>
 		<key>Headers/NautilusUI.h</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pEGZ54ROl3AhGeo8qaqilBIZz+H0abM2ETxHo9BM7Kw=
+			sYTH7+lwpzy3BFFDK2a6m9cSj78jhrBsE6KK+pT7FSw=
 			</data>
 		</dict>
 		<key>Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AMqZb/WaFjHej63JpiceE3b6KX3G7+G/8gYLkkcpPWI=
+			xIIf5BJTlTZdhIeRJlkqG7lGzD09KZg+Df+ctOrcRxs=
 			</data>
 		</dict>
 		<key>Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pEGZ54ROl3AhGeo8qaqilBIZz+H0abM2ETxHo9BM7Kw=
+			sYTH7+lwpzy3BFFDK2a6m9cSj78jhrBsE6KK+pT7FSw=
 			</data>
 		</dict>
 		<key>Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3XNh4UKz5BrlX8B5cvTe4I4ZW/D6vmvWiEvsBBVGGtI=
+			+9Te7n2whRtMKZVnmmpLCb5RPEr4BE+pjn9Z+3jDqnE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

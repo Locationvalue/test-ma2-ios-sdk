@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4tSzoaj+PNo6RlcrDWfnxcFsht4=
+		tOucqNNSv/Eni+DXaE3s2fEY9hs=
 		</data>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		M9/bcHahae7jsY1HW19Lg+p/uf4=
+		lJ4pYspMdOoeVzyxj1PacA2jdgw=
 		</data>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7dvKj7vhz2iwF35JN3hiT/d3k+k=
+		cSwqYpv0jwqB0WbPuLWWjfbCM3E=
 		</data>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		M9/bcHahae7jsY1HW19Lg+p/uf4=
+		lJ4pYspMdOoeVzyxj1PacA2jdgw=
 		</data>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3nHUz7stKNic7NsaZDzVZCj2634=
+		H3v/MsJwVWn8e65gGrs9CzPb2vE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENrDW6d778bO7ZZj2gfaTOYRQhJKa/VWN8Qq3Unwtd0=
+			LrFYQ7Ke0t0FlMDEk7fZ+CCAK8oiba5g31CVxP0V1Tw=
 			</data>
 		</dict>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5D7eCnMg1S0114ruLwnVHgO0VKGymBWQOinFv3dSo50=
+			eWdfdG0XdcztBMESoYE7SXjNhcN98qhHqS+/VmfKjGc=
 			</data>
 		</dict>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENrDW6d778bO7ZZj2gfaTOYRQhJKa/VWN8Qq3Unwtd0=
+			LrFYQ7Ke0t0FlMDEk7fZ+CCAK8oiba5g31CVxP0V1Tw=
 			</data>
 		</dict>
 		<key>Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OTHFMVAiZf07Q7UUgqklXVI3cQmfIb1vhQbRjiqIQl8=
+			K/lPxpRDTSH3Yqy08Pegmi83igSMdjweq3BGiQx9u7o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

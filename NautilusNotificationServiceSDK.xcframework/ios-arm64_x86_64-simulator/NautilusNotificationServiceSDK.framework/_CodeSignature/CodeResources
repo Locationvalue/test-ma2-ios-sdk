@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MR81z6Os+p74UXdPxDaXPJzFyWs=
+		SXSJn9ikIKVW2QEVOnB3Goh8v+g=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dGLPm4KOV754566NOUkfNqzJvts=
+		8dwdWKkLp7QN8NsByahGRUEPBl8=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Bhr24dLTbVWQwgEYwWagJHpjYzw=
+		qb2V85+akxSJWxRlBpkGwaPJ5Oo=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dGLPm4KOV754566NOUkfNqzJvts=
+		8dwdWKkLp7QN8NsByahGRUEPBl8=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+nlFwYzUHJav1EwKr5egGycfkC4=
+		SIjuWCqY95JD2XTLZ3Le/aad52M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/1G7XeHHBqf2udeRXo1oFLZP395DfTl4JR/tEdZlYE=
+			DeWIkQyHORkor7o8/K8vsDM7V/cq1mHI/a2t8+kEQgw=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5kEulJMr5YEjpmMjl6IWkjnhCbX9a4s0ueqqT07vww=
+			bpqtR4OMKZkYFa8puFnX0cVAo9Mdv86V/3iMOzR63O4=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/1G7XeHHBqf2udeRXo1oFLZP395DfTl4JR/tEdZlYE=
+			DeWIkQyHORkor7o8/K8vsDM7V/cq1mHI/a2t8+kEQgw=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ox2CZODEHqvJ+3i4lskYKHwkqdvSbdFJ5t1QCQI55+U=
+			wozAAxqGSZfe8BhRrqe8KS+fQnoExMszv+L7d+Wm5TE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

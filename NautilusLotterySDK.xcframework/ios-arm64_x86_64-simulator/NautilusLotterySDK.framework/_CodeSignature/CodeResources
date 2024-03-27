@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fGD9O67Mhfoczwc0CcFbZih1wA8=
+		iciNudQ7ecWyGYfhz2QJtTsuAVI=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7Jcgb32ZRq5nWSJuRI52PrsIi9I=
+		+v7Gw8DVQXyEUDy5ufpassNrO3o=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/NmyCwvhKTr60By5oy6/pno8TVE=
+		Mx5l0WDt0TJrNcnndcIS0hjq5P4=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7Jcgb32ZRq5nWSJuRI52PrsIi9I=
+		+v7Gw8DVQXyEUDy5ufpassNrO3o=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dVPVmixORXZVuCAtzD5FihVlhyc=
+		iHha4M9F8GDHHiD0zCygVOszX/g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQpa6erWAcG3eSfcp/Io/cYTRvTRA30r2w6Sw2J6IGg=
+			OFrRa6jYSX4k3F2wUN0boLVQEjGnIAk9h3LLbCeyPzI=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUVYXXsoU0Xb9JaFcwS2T3V+/V2CU9tiGlEu89YpOiE=
+			4SXnU9LHKaB3Mr9r/d348yu4HiY2V5UCi6jlxkYP3+0=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQpa6erWAcG3eSfcp/Io/cYTRvTRA30r2w6Sw2J6IGg=
+			OFrRa6jYSX4k3F2wUN0boLVQEjGnIAk9h3LLbCeyPzI=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U4w7Ieq2azO8PSIzm6mnA/+8SAXsany2wb1ivUrb1lg=
+			tZQ5ZOx6a0Jz/zbLm1nC+kowD1BGOeUZWziPtqy+wOk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

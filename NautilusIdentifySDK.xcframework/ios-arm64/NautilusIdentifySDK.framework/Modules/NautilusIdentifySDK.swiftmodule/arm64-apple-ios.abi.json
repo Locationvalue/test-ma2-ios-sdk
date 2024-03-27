@@ -5347,2289 +5347,2289 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttribute.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttribute.swift",
       "kind": "Dictionary",
       "offset": 393,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeRequest.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 2584,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeRequest.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 2586,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 18,
       "value": "\"__nautilus_pid__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 18,
       "value": "\"__nautilus_cid__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 25,
       "value": "\"__nautilus_ref_number__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify+Store.swift",
       "kind": "StringLiteral",
       "offset": 525,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUser.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUser.swift",
       "kind": "StringLiteral",
       "offset": 992,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUser.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUser.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 13,
       "value": "\"manage_code\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUser.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUser.swift",
       "kind": "StringLiteral",
       "offset": 1068,
       "length": 13,
       "value": "\"external_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUser.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUser.swift",
       "kind": "StringLiteral",
       "offset": 1114,
       "length": 18,
       "value": "\"external_id_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "StringLiteral",
       "offset": 3345,
       "length": 67,
       "value": "\"Change user: \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "StringLiteral",
       "offset": 3384,
       "length": 8,
       "value": "\"(none)\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "StringLiteral",
       "offset": 3393,
       "length": 2,
       "value": "\" => \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "StringLiteral",
       "offset": 3411,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3472,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3510,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "StringLiteral",
       "offset": 3723,
       "length": 56,
       "value": "\"No anonymous user, current user is cleared accidently.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3804,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3874,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "StringLiteral",
       "offset": 4115,
       "length": 49,
       "value": "\"No invalid user, return invalid anonymous user.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "StringLiteral",
       "offset": 4212,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4680,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 22,
       "value": "\"NautilusUserInfoView\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "StringLiteral",
       "offset": 1464,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "StringLiteral",
       "offset": 2185,
       "length": 52,
       "value": "\"Nib \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "StringLiteral",
       "offset": 2209,
       "length": 4,
       "value": "\" does not contain any view.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 2315,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 2382,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 2974,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 3064,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 3273,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 3714,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 3826,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 3878,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 3979,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 4031,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 5075,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 5134,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 5409,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 5470,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "StringLiteral",
       "offset": 5832,
       "length": 7,
       "value": "\"ja_JP\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoView.swift",
       "kind": "StringLiteral",
       "offset": 5895,
       "length": 12,
       "value": "\"Asia\/Tokyo\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 10,
       "value": "\"Nautilus\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 7,
       "value": "\"plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "Dictionary",
       "offset": 560,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "Dictionary",
       "offset": 689,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1040,
       "length": 42,
       "value": "\"[Nautilus\/F] Missing key \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1072,
       "length": 2,
       "value": "\" in plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1454,
       "length": 42,
       "value": "\"[Nautilus\/F] Missing key \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1486,
       "length": 2,
       "value": "\" in plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 34,
       "value": "\"ma_identify_network_timeout_time\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 53,
       "value": "\"ma_identify_user_info_view_current_time_date_format\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 53,
       "value": "\"ma_identify_user_info_view_enable_brightness_adjust\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 51,
       "value": "\"ma_identify_user_info_view_brightness_adjust_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 40,
       "value": "\"ma_identify_user_info_view_header_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 34,
       "value": "\"ma_identify_network_timeout_time\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 53,
       "value": "\"ma_identify_user_info_view_current_time_date_format\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 53,
       "value": "\"ma_identify_user_info_view_enable_brightness_adjust\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 51,
       "value": "\"ma_identify_user_info_view_brightness_adjust_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 40,
       "value": "\"ma_identify_user_info_view_header_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1100,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 1378,
       "length": 21,
       "value": "\"yyyy\/MM\/dd HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1689,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 2000,
       "length": 68,
       "value": "\"バーコードをタップすると画面が明るくなります\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Config\/NautilusIdentifyConfig.swift",
       "kind": "StringLiteral",
       "offset": 2294,
       "length": 23,
       "value": "\"会員バーコード\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogin\/RegisterLoginEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogin\/RegisterLoginEntity.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogin\/RegisterLoginEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogin\/RegisterLoginEntity.swift",
       "kind": "StringLiteral",
       "offset": 408,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogin\/RegisterLoginEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogin\/RegisterLoginEntity.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogin\/RegisterLoginEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogin\/RegisterLoginEntity.swift",
       "kind": "StringLiteral",
       "offset": 408,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyModel.swift",
       "kind": "BooleanLiteral",
       "offset": 6075,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyModel.swift",
       "kind": "BooleanLiteral",
       "offset": 6553,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusAnonymousUser.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusAnonymousUser.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 15,
       "value": "\"__anonymous__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusAnonymousUser.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusAnonymousUser.swift",
       "kind": "BooleanLiteral",
       "offset": 703,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogout\/RegisterLogoutEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogout\/RegisterLogoutEntity.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogout\/RegisterLogoutEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogout\/RegisterLogoutEntity.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogout\/RegisterLogoutEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogout\/RegisterLogoutEntity.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogout\/RegisterLogoutEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RegisterLogout\/RegisterLogoutEntity.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
       "kind": "StringLiteral",
       "offset": 331,
       "length": 5,
       "value": "\"cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
       "kind": "StringLiteral",
       "offset": 331,
       "length": 5,
       "value": "\"cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/PIDEntity.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 452,
       "length": 3,
       "value": "260"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 465,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
       "kind": "StringLiteral",
       "offset": 523,
       "length": 14,
       "value": "\"Unsupported.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
       "kind": "StringLiteral",
       "offset": 1668,
       "length": 35,
       "value": "\"Code Image Provider is not given.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/View\/NautilusUserInfoViewProvider.swift",
       "kind": "StringLiteral",
       "offset": 1728,
       "length": 35,
       "value": "\"Code Image Provider is not given.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetAppAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 589,
       "length": 30,
       "value": "\"__nautilus_identify_activate\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 635,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 1207,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 1282,
       "length": 26,
       "value": "\"moduleapps-identify.json\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 2094,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 3766,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 4967,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 5404,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 5874,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 5930,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 6062,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 6215,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 7131,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 8824,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 8876,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 8890,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 9498,
       "length": 33,
       "value": "\"Failed to change user: \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 9530,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 9771,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 9947,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 9999,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 10013,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 10083,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 10201,
       "length": 49,
       "value": "\"No invalid user, return invalid anonymous user.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 10298,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 10592,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 10644,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 10658,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 11270,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 11322,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 11336,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 12075,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 12127,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 12141,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 12882,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 12958,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 13706,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 13782,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 14775,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 14851,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 15777,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 16596,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 16672,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 17437,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 18060,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 18136,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 20524,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 21673,
       "length": 19,
       "value": "\"Unknown situation\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 21866,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 22033,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 22515,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 22986,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 24876,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 26001,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 26077,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 26423,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 26475,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 26489,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 26809,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 26861,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 26875,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 27228,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 27280,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 27294,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 27569,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 27621,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 27635,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 27857,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28012,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28064,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28078,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28173,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 28321,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28488,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28540,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28554,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28678,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28919,
       "length": 84,
       "value": "\"NautilusIdentifySDK is \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28971,
       "length": 1,
       "value": "\". \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 28985,
       "length": 6,
       "value": "\" cannot executed.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 31094,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 31506,
       "length": 30,
       "value": "\"Succeed to set App Attribute\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 31594,
       "length": 44,
       "value": "\"Result of set_app_attribute API is failure\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 32091,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 33038,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 33269,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 390,
       "length": 16,
       "value": "\"NautilusIdentifySDK.NautilusIdentify\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 34121,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 34184,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 34284,
       "length": 48,
       "value": "\"Invalid Feature Status in NautilusIdentifySDK.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 34724,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "BooleanLiteral",
       "offset": 34755,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 34947,
       "length": 15,
       "value": "\"uninitialized\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 35009,
       "length": 13,
       "value": "\"unavailable\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 35067,
       "length": 11,
       "value": "\"available\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 35124,
       "length": 12,
       "value": "\"restricted\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentify.swift",
       "kind": "StringLiteral",
       "offset": 35232,
       "length": 48,
       "value": "\"Invalid Feature Status in NautilusIdentifySDK.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2525,
       "length": 7,
       "value": "\"a_pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2552,
       "length": 7,
       "value": "\"a_cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2586,
       "length": 15,
       "value": "\"a_app_version\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2628,
       "length": 15,
       "value": "\"n_device_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2666,
       "length": 11,
       "value": "\"n_os_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2703,
       "length": 14,
       "value": "\"a_app_locale\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2743,
       "length": 14,
       "value": "\"a_os_version\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2790,
       "length": 23,
       "value": "\"n_shop_account_app_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2850,
       "length": 16,
       "value": "\"a_contact_code\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2890,
       "length": 13,
       "value": "\"n_flg_login\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2928,
       "length": 7,
       "value": "\"a_lat\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2961,
       "length": 7,
       "value": "\"a_lon\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2994,
       "length": 15,
       "value": "\"zh_User-Agent\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 3033,
       "length": 10,
       "value": "\"arzh_opt\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2525,
       "length": 7,
       "value": "\"a_pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2552,
       "length": 7,
       "value": "\"a_cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2586,
       "length": 15,
       "value": "\"a_app_version\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2628,
       "length": 15,
       "value": "\"n_device_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2666,
       "length": 11,
       "value": "\"n_os_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2703,
       "length": 14,
       "value": "\"a_app_locale\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2743,
       "length": 14,
       "value": "\"a_os_version\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2790,
       "length": 23,
       "value": "\"n_shop_account_app_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2850,
       "length": 16,
       "value": "\"a_contact_code\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2890,
       "length": 13,
       "value": "\"n_flg_login\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2928,
       "length": 7,
       "value": "\"a_lat\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2961,
       "length": 7,
       "value": "\"a_lon\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 2994,
       "length": 15,
       "value": "\"zh_User-Agent\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 3033,
       "length": 10,
       "value": "\"arzh_opt\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusKnownUser.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusKnownUser.swift",
       "kind": "BooleanLiteral",
       "offset": 543,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 28,
       "value": "\"__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 17,
       "value": "\"_latest_user_id__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 477,
       "length": 32,
       "value": "\"__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 21,
       "value": "\"_nautilus_user_list__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 1403,
       "length": 28,
       "value": "\"Failed to store user info.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "BooleanLiteral",
       "offset": 1452,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 2487,
       "length": 27,
       "value": "\"__nautilus_user_\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 2513,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "Array",
       "offset": 2795,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "Array",
       "offset": 4280,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 4508,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "Array",
       "offset": 5110,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "Array",
       "offset": 5620,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 5650,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/User\/NautilusUserStorage.swift",
       "kind": "StringLiteral",
       "offset": 5717,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 365,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 382,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 416,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 7,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 467,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 484,
       "length": 7,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 501,
       "length": 8,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 365,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 382,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 416,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 7,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 467,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 484,
       "length": 7,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/Data\/NautilusAppOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 501,
       "length": 8,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 29,
       "value": "\"NautilusIdentifyErrorDomain\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 479,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 526,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 571,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 630,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 699,
       "length": 12,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 787,
       "length": 13,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 843,
       "length": 16,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 905,
       "length": 15,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1003,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1088,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1177,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1234,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1298,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1373,
       "length": 3,
       "value": "903"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1427,
       "length": 3,
       "value": "905"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1482,
       "length": 3,
       "value": "906"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1562,
       "length": 3,
       "value": "907"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 479,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 526,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 571,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 630,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 699,
       "length": 12,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 787,
       "length": 13,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 843,
       "length": 16,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 905,
       "length": 15,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1003,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1088,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1177,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1234,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1298,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1373,
       "length": 3,
       "value": "903"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1427,
       "length": 3,
       "value": "905"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1482,
       "length": 3,
       "value": "906"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/NautilusIdentifyError.swift",
       "kind": "IntegerLiteral",
       "offset": 1562,
       "length": 3,
       "value": "907"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Notification+Identify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Notification+Identify.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 30,
       "value": "\"NautilusAppIdentifyUpdateCID\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Notification+Identify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Notification+Identify.swift",
       "kind": "StringLiteral",
       "offset": 401,
       "length": 38,
       "value": "\"NautilusAppIdentifyChangeCurrentUser\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Notification+Identify.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/Base\/Notification+Identify.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 18,
       "value": "\"identify-new-cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
       "kind": "StringLiteral",
       "offset": 347,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 5,
       "value": "\"cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 12,
       "value": "\"contact_cd\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
       "kind": "StringLiteral",
       "offset": 347,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 5,
       "value": "\"cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusContactEntity.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 12,
       "value": "\"contact_cd\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetManageCodeEntitiy.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetManageCodeEntitiy.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetManageCodeEntitiy.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetManageCodeEntitiy.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetManageCodeEntitiy.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetManageCodeEntitiy.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetManageCodeEntitiy.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/SetManageCodeEntitiy.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 518,
       "length": 65,
       "value": "\"\/api\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 548,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 574,
       "length": 1,
       "value": "\"\/get_pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 72,
       "value": "\"\/api\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 663,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 689,
       "length": 1,
       "value": "\"\/get_contact_cd\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 78,
       "value": "\"\/api\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 910,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 936,
       "length": 1,
       "value": "\"\/set_member_attribute\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1009,
       "length": 75,
       "value": "\"\/api\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1039,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1065,
       "length": 1,
       "value": "\"\/set_app_attribute\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1133,
       "length": 72,
       "value": "\"\/api\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1163,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1189,
       "length": 1,
       "value": "\"\/register_login\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1255,
       "length": 73,
       "value": "\"\/api\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1285,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 1311,
       "length": 1,
       "value": "\"\/register_logout\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 3831,
       "length": 16,
       "value": "\"pidm5.lvdev.jp\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 3915,
       "length": 21,
       "value": "\"pidm.moduleapps.com\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "IntegerLiteral",
       "offset": 4055,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 4195,
       "length": 5,
       "value": "\"stg\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/Identify\/Sources\/API\/NautilusEndpoints.swift",
       "kind": "StringLiteral",
       "offset": 4272,
       "length": 5,

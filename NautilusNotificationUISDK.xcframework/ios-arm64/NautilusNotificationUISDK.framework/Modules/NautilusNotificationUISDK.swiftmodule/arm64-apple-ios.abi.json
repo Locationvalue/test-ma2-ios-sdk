@@ -1361,679 +1361,679 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "Array",
       "offset": 1273,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1351,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1441,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2508,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 2562,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2740,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 3084,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 3154,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 3444,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "StringLiteral",
       "offset": 3535,
       "length": 42,
       "value": "\"Failed to load remote messages: \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "StringLiteral",
       "offset": 3576,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 3835,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 4077,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 4421,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 4491,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 4665,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "StringLiteral",
       "offset": 4756,
       "length": 47,
       "value": "\"Failed to load more remote messages: \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "StringLiteral",
       "offset": 4802,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 5729,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 6677,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewModel.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 33,
       "value": "\"NautilusNotificationUISDK.NautilusNotificationListViewModel\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig+Image.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig+Image.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 44,
       "value": "\"ma_notification_history_list_cell_no_image\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "StringLiteral",
       "offset": 832,
       "length": 26,
       "value": "\"NautilusNotificationList\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "StringLiteral",
       "offset": 963,
       "length": 26,
       "value": "\"NautilusNotificationList\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4271,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4359,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4705,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 5481,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "StringLiteral",
       "offset": 5686,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 6398,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 7247,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 9994,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 10891,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 43,
       "value": "\"ma_notification_history_list_screen_title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 455,
       "length": 58,
       "value": "\"ma_notification_history_list_number_of_messages_per_load\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 563,
       "length": 56,
       "value": "\"ma_notification_history_list_cell_send_datetime_format\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 43,
       "value": "\"ma_notification_history_list_loading_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 48,
       "value": "\"ma_notification_history_list_empty_state_title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 837,
       "length": 50,
       "value": "\"ma_notification_history_list_empty_state_message\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 61,
       "value": "\"ma_notification_history_list_empty_state_show_reload_button\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 1044,
       "length": 47,
       "value": "\"ma_notification_history_list_load_error_title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 1135,
       "length": 49,
       "value": "\"ma_notification_history_list_load_error_message\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 49,
       "value": "\"ma_notification_history_list_reload_button_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 43,
       "value": "\"ma_notification_history_list_screen_title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 455,
       "length": 58,
       "value": "\"ma_notification_history_list_number_of_messages_per_load\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 563,
       "length": 56,
       "value": "\"ma_notification_history_list_cell_send_datetime_format\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 43,
       "value": "\"ma_notification_history_list_loading_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 48,
       "value": "\"ma_notification_history_list_empty_state_title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 837,
       "length": 50,
       "value": "\"ma_notification_history_list_empty_state_message\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 61,
       "value": "\"ma_notification_history_list_empty_state_show_reload_button\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 1044,
       "length": 47,
       "value": "\"ma_notification_history_list_load_error_title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 1135,
       "length": 49,
       "value": "\"ma_notification_history_list_load_error_message\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 49,
       "value": "\"ma_notification_history_list_reload_button_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 1689,
       "length": 26,
       "value": "\"プッシュ通知履歴\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 2006,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 2326,
       "length": 20,
       "value": "\"yyyy年M月d日(E)\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 2616,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 2918,
       "length": 44,
       "value": "\"コンテンツがありませんでした\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 3256,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 3601,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 3918,
       "length": 17,
       "value": "\"通信エラー\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 4244,
       "length": 50,
       "value": "\"読み込み中にエラーが発生しました\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Config\/NautilusNotificationUIConfig.swift",
       "kind": "StringLiteral",
       "offset": 4643,
       "length": 17,
       "value": "\"再読み込み\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 33,
       "value": "\"moduleapps-notification-ui.json\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "BooleanLiteral",
       "offset": 792,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "BooleanLiteral",
       "offset": 882,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "BooleanLiteral",
       "offset": 973,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "BooleanLiteral",
       "offset": 1271,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "BooleanLiteral",
       "offset": 2944,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "BooleanLiteral",
       "offset": 3068,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "BooleanLiteral",
       "offset": 6287,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationUI.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 22,
       "value": "\"NautilusNotificationUISDK.NautilusNotificationUI\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationModel.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/NautilusNotificationModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1087,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 415,
       "length": 10,
       "value": "\"Nautilus\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 435,
       "length": 7,
       "value": "\"plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "Dictionary",
       "offset": 578,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "Dictionary",
       "offset": 707,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1058,
       "length": 42,
       "value": "\"[Nautilus\/F] Missing key \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1090,
       "length": 2,
       "value": "\" in plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1472,
       "length": 42,
       "value": "\"[Nautilus\/F] Missing key \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/Base\/Bundle+SDK.swift",
       "kind": "StringLiteral",
       "offset": 1504,
       "length": 2,
       "value": "\" in plist\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 389,
       "length": 34,
       "value": "\"NautilusNotificationListViewCell\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 520,
       "length": 9,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 528,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 952,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 1182,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 1221,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1404,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 2656,
       "length": 12,
       "value": "\"Asia\/Tokyo\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 2720,
       "length": 7,
       "value": "\"ja_JP\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3004,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3088,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 3193,
       "length": 9,
       "value": "\"#222222\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3289,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/NotificationUI\/Sources\/List\/NautilusNotificationListViewCell.swift",
       "kind": "StringLiteral",
       "offset": 3397,
       "length": 9,
       "value": "\"#757575\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusNotificationUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusNotificationUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-dkgtmmgrkhvrixfyqxttwtotfwvu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusNotificationUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusNotificationUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 44,

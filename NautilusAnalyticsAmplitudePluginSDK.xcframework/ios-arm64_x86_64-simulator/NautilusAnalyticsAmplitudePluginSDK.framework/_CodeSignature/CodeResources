@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9JToLNLWh1dQ5sM/HOylhED2n00=
+		X5ZRAfR0cXmy/4S/lp6/vXKZPL0=
 		</data>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		w5jsOTujz2u5gAogkmZpNQzm/u4=
+		y3+UMi25o/yB2fm1gvm5c2qfde4=
 		</data>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		56LSUQ7N9gZJJfX8j3hqZte3a+w=
+		gbBqBDFtNBn7DBzKwCu4+8+A7hA=
 		</data>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		w5jsOTujz2u5gAogkmZpNQzm/u4=
+		y3+UMi25o/yB2fm1gvm5c2qfde4=
 		</data>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J9zE9CO/iM0Dh2bv2NQnhkDrx4k=
+		uVp2KX6oz3nDurUmIrVX5al86DM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LWoRAR/uWMS1tZn2KUGlYRGrfktO8C/mKk7ELBGBCnA=
+			sryjs7kZarqNs7CT2L3C908Ozpzk57m0uIuU2JFcnoM=
 			</data>
 		</dict>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -102,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gW2dTG5NV9Z0B3a+vGaXvPzYwDLRN9CXbhEvOdaKHVk=
+			uz4+hxDPlq+vikVtFRaZWBVvkZrTQzxlXrMLMGmNSbo=
 			</data>
 		</dict>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LWoRAR/uWMS1tZn2KUGlYRGrfktO8C/mKk7ELBGBCnA=
+			sryjs7kZarqNs7CT2L3C908Ozpzk57m0uIuU2JFcnoM=
 			</data>
 		</dict>
 		<key>Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xPGLR6slRe10N+PWyFZv0tLOQ1PaNpY/iTRKDWD0S0Y=
+			0SSM05aceWK/Rk+rRgbftHb/bqFfbUpH+cjWOuO1PRs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

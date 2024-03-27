@@ -1627,217 +1627,217 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 255,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 255,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "StringLiteral",
       "offset": 1163,
       "length": 39,
       "value": "\"com.locationvalue.nautilus.codereader\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "StringLiteral",
       "offset": 1630,
       "length": 103,
       "value": "\"NautilusAppに、CameraPermissionProviderを実装したインスタンスを設定してください\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2121,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 6046,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 6931,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7106,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 7291,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 7489,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7903,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 8053,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 8135,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 8598,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9389,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9444,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "FloatLiteral",
       "offset": 9525,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9581,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9644,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9694,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9751,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9810,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 10093,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 10258,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderSetting.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderSetting.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 25,

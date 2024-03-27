@@ -4194,119 +4194,119 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/NautilusAnalyticsAmplitudePlugin.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/NautilusAnalyticsAmplitudePlugin.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 396,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "Array",
       "offset": 466,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 1048,
       "length": 35,
       "value": "\"Amplitude is already initialized.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 1230,
       "length": 29,
       "value": "\"Amplitude API key is empty.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1375,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 1772,
       "length": 80,
       "value": "\"Failed to send log event to Amplitude, because Amplitude API key is not given.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 2171,
       "length": 86,
       "value": "\"Failed to send user properties to Amplitude, because Amplitude API key is not given.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 2569,
       "length": 69,
       "value": "\"User property `\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 2592,
       "length": 1,
       "value": "\"` is invalid value type: `\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 2636,
       "length": 1,
       "value": "\"`\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 3142,
       "length": 86,
       "value": "\"Failed to send user properties to Amplitude, because Amplitude API key is not given.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 3466,
       "length": 32,
       "value": "\"User property `\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 3489,
       "length": 1,
       "value": "\"` is nil\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 3610,
       "length": 69,
       "value": "\"User property `\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 3633,
       "length": 1,
       "value": "\"` is invalid value type: `\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
+      "filePath": "\/Users\/runner\/work\/test-sign-ios-sdk\/test-sign-ios-sdk\/Nautilus-ios-sdk\/AnalyticsAmplitudePlugin\/Sources\/Base\/AmplitudeManager.swift",
       "kind": "StringLiteral",
       "offset": 3677,
       "length": 1,

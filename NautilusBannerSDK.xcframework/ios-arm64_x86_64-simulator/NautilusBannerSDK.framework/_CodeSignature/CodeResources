@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Jp9gUUJ9spdnDDVoD1VttgrIp/M=
+		HdjKkV31ahillpMI3mZo8argm4k=
 		</data>
 		<key>BannerListView.nib</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qaZ/hgW0Jay/Hy0OxEwnJ+mSoRI=
+		90uhGgeyHwOtXu0b+vXYctKFnO0=
 		</data>
 		<key>Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eRpjvW7Xi22pssuDQoSLT4S+5TM=
+		aMs+NWE1AHtN2MkM22LbvQvMEzI=
 		</data>
 		<key>Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L2bLoOCBcocExHGC1SR6ceLjlGY=
+		U/gvvsKdk2NO5cOGg8tZZF6q8kI=
 		</data>
 		<key>Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eRpjvW7Xi22pssuDQoSLT4S+5TM=
+		aMs+NWE1AHtN2MkM22LbvQvMEzI=
 		</data>
 		<key>Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UR3TkkGZQCk+QZcxbtJMCq4o4zY=
+		a0GG5Kd3AuELRRw27u50UyYqGq4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7b7cJhSa2PUGAOayIkXAn6bOaNLLO2XhWmbSi5cd1bg=
+			KjyTczcLjcweLXMwpvEfVeKiDFDcK4x1T2BSk2TfgFU=
 			</data>
 		</dict>
 		<key>BannerListView.nib</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/oclIm0CnUQxIrw05vDtwbqWzF3UMAiovm/a/3Ckufs=
+			R4WixPm8Cex45+RhBq/4z6fWrflV9OSxSqoDRo9B1xI=
 			</data>
 		</dict>
 		<key>Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -150,14 +150,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YHSMHkJ6Vl5jHDzLNPTeOZqqk1ndtZ2Kbtu6MRv4XrQ=
+			ov2eQV+j2LQxj9/UawvCu6zabWAjmgs38+Gb5ih4I9I=
 			</data>
 		</dict>
 		<key>Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/oclIm0CnUQxIrw05vDtwbqWzF3UMAiovm/a/3Ckufs=
+			R4WixPm8Cex45+RhBq/4z6fWrflV9OSxSqoDRo9B1xI=
 			</data>
 		</dict>
 		<key>Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t5PkueT1RdMYfnJbqL5MTOGcFs186VV7TvVzrXGLIag=
+			qCwxMTDcuWYAF0O/oy5nk3vNv5QHFlQBY0x87LbUDNg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
