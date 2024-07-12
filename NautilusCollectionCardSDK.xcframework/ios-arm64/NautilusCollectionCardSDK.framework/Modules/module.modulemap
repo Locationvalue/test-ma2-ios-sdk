@@ -1,0 +1,4 @@
+framework module NautilusCollectionCardSDK {
+  header "NautilusCollectionCardSDK-Swift.h"
+  requires objc
+}

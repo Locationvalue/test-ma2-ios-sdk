@@ -1,0 +1,124 @@
+{
+    "schema_version": 1,
+    "config_version": 2,
+    "app_name": "moduleapps-lottery-ui",
+    "shop_account_app_id": 0,
+    "config_values": [
+        {
+            "config_value_name": "ma_lottery_scratch_card_scratching_area_radius",
+            "integer_value": 20
+        },
+        {
+            "config_value_name": "ma_lottery_scratch_card_apply_threshold",
+            "integer_value": 70
+        },
+        {
+            "config_value_name": "ma_lottery_list_screen_title",
+            "string_value": "抽選"
+        },
+        {
+            "config_value_name": "ma_lottery_list_cell_publish_start_datetime_format",
+            "string_value": "yyyy/MM/dd"
+        },
+        {
+            "config_value_name": "ma_lottery_list_cell_publish_end_datetime_format",
+            "string_value": "yyyy/MM/dd"
+        },
+        {
+            "config_value_name": "ma_lottery_list_cell_publish_period_infix",
+            "string_value": "〜"
+        },
+        {
+            "config_value_name": "ma_lottery_list_loading_text",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_lottery_list_empty_state_title",
+            "string_value": "現在掲載されている抽選はありません"
+        },
+        {
+            "config_value_name": "ma_lottery_list_empty_state_message",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_lottery_list_empty_state_show_reload_button",
+            "boolean_value": true
+        },
+        {
+            "config_value_name": "ma_lottery_list_load_error_title",
+            "string_value": "通信エラー"
+        },
+        {
+            "config_value_name": "ma_lottery_list_load_error_message",
+            "string_value": "読み込み中にエラーが発生しました"
+        },
+        {
+            "config_value_name": "ma_lottery_list_reload_button_text",
+            "string_value": "再読み込み"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_screen_title",
+            "string_value": "抽選"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_publish_start_datetime_format",
+            "string_value": "yyyy/MM/dd"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_publish_end_datetime_format",
+            "string_value": "yyyy/MM/dd"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_publish_period_infix",
+            "string_value": "〜"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_winning_result_coupon_text",
+            "string_value": "クーポン獲得！"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_winning_result_point_text",
+            "string_value": "ポイント獲得！"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_winning_result_check_coupon_button_text",
+            "string_value": "クーポンを確認する"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_winning_result_check_point_button_text",
+            "string_value": "ポイントを確認する"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_loading_text",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_lottery_detail_losing_result_text",
+            "string_value": "またチャレンジしてね！"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_losing_result_close_button_text",
+            "string_value": "閉じる"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_load_error_text",
+            "string_value": "読み込み中にエラーが発生しました"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_reload_button_text",
+            "string_value": "再読み込み"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_screen_background_color",
+            "string_value": "#FF57B3E6"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_lottery_title_text_color",
+            "string_value": "#FFFFFFFF"
+        },
+        {
+            "config_value_name": "ma_lottery_detail_available_period_text_color",
+            "string_value": "#FFFFFFFF"
+        }
+    ]
+}

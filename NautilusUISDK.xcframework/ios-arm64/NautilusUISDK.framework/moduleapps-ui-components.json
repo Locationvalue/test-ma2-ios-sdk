@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-ui-components",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_ui_general_ok",
+      "string_value": "OK"
+    },
+    {
+      "config_value_name": "ma_ui_general_cancel",
+      "string_value": "キャンセル"
+    },
+    {
+      "config_value_name": "ma_ui_general_yes",
+      "string_value": "はい"
+    },
+    {
+      "config_value_name": "ma_ui_general_no",
+      "string_value": "いいえ"
+    },
+    {
+      "config_value_name": "ma_ui_general_close",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_ui_general_delete",
+      "string_value": "削除する"
+    },
+    {
+      "config_value_name": "ma_ui_general_submit",
+      "string_value": "送信する"
+    },
+    {
+      "config_value_name": "ma_ui_general_select",
+      "string_value": "選択する"
+    },
+    {
+      "config_value_name": "ma_ui_general_retry",
+      "string_value": "リトライする"
+    },
+    {
+      "config_value_name": "ma_ui_general_reload",
+      "string_value": "再読み込みする"
+    },
+    {
+      "config_value_name": "ma_ui_inappbrowser_error_dialog_load_title",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_ui_inappbrowser_error_dialog_load_message",
+      "string_value": "ページの読み込み中に問題が発生しました。ページの再読み込みをしますか？"
+    },
+    {
+      "config_value_name": "ma_ui_inappbrowser_confirm_dialog_repost_title",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_ui_inappbrowser_confirm_dialog_repost_message",
+      "string_value": "データを再送信して、ページを表示しますか？\nデータを再送信した場合、重複した操作が行われる場合があります。"
+    },
+    {
+      "config_value_name": "ma_ui_inappbrowser_error_dialog_invalid_scheme_title",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_ui_inappbrowser_error_dialog_invalid_scheme_message",
+      "string_value": "本アプリで許可されていないアプリを開こうとしました。"
+    },
+    {
+      "config_value_name": "ma_ui_inappbrowser_error_dialog_scheme_open_error_title",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_ui_inappbrowser_error_dialog_scheme_open_error_message",
+      "string_value": "リンク先に指定されているアプリを開くことができませんでした。"
+    },
+    {
+        "config_value_name": "ma_ui_top_bar_color",
+        "string_value": "#FFFFFF"
+    },
+    {
+        "config_value_name": "ma_ui_on_top_bar_color",
+        "string_value": "#333333"
+    },
+    {
+        "config_value_name": "ma_ui_primary_color",
+        "string_value": "#1992D6"
+    },
+    {
+        "config_value_name": "ma_ui_on_primary_color",
+        "string_value": "#FFFFFF"
+    },
+    {
+        "config_value_name": "ma_ui_focus_color",
+        "string_value": "#1992D6"
+    },
+    {
+        "config_value_name": "ma_ui_foundation_color",
+        "string_value": "#FFFFFF"
+    },
+    {
+        "config_value_name": "ma_ui_foundation_color_low",
+        "string_value": "#F7F7F7"
+    },
+    {
+        "config_value_name": "ma_ui_on_foundation_color",
+        "string_value": "#333333"
+    },
+    {
+        "config_value_name": "ma_ui_on_foundation_color_modest_text",
+        "string_value": "#757575"
+    },
+    {
+        "config_value_name": "ma_ui_on_foundation_color_modest_component",
+        "string_value": "#D9D9D9"
+    },
+    {
+        "config_value_name": "ma_ui_on_foundation_color_modest_separate_thin",
+        "string_value": "#EEEEEE"
+    },
+    {
+        "config_value_name": "ma_ui_on_foundation_color_modest_separate_bold",
+        "string_value": "#F7F7F7"
+    },
+    {
+        "config_value_name": "ma_ui_on_foundation_color_modest_separate_text",
+        "string_value": "#333333"
+    },
+    {
+        "config_value_name": "ma_ui_shadow_color",
+        "string_value": "#29000000"
+    },
+    {
+        "config_value_name": "ma_ui_overlay_color_deep",
+        "string_value": "#80000000"
+    },
+    {
+        "config_value_name": "ma_ui_overlay_color_dark",
+        "string_value": "#B3000000"
+    },
+    {
+        "config_value_name": "ma_ui_disable_color",
+        "string_value": "#BDBDBD"
+    },
+    {
+        "config_value_name": "ma_ui_on_disable_color",
+        "string_value": "#FFFFFF"
+    },
+    {
+        "config_value_name": "ma_ui_accent_color",
+        "string_value": "#FD5B3C"
+    },
+    {
+        "config_value_name": "ma_ui_text_link_color",
+        "string_value": "#1A73E8"
+    },
+    {
+        "config_value_name": "ma_ui_on_foundation_color_low",
+        "string_value": "#333333"
+    },
+    {
+        "config_value_name": "ma_ui_on_primary_color_container",
+        "string_value": "#333333"
+    }
+  ]
+}

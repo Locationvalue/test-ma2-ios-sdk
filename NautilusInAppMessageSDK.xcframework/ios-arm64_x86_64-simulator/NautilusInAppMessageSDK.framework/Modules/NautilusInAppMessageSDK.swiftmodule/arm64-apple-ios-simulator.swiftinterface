@@ -1,0 +1,143 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusInAppMessageSDK
+import CoreData
+import DeveloperToolsSupport
+import Foundation
+import NautilusAnalyticsSDK
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusIdentifySDK
+import NautilusImagingSDK
+import NautilusLoggingSDK
+import NautilusUISDK
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct NautilusInAppMessageViewConditionGroupItem : Swift.Equatable {
+  public let eventID: NautilusInAppMessageSDK.NautilusEventIdentifierType
+  public let eventCount: Swift.Int
+  public static func == (a: NautilusInAppMessageSDK.NautilusInAppMessageViewConditionGroupItem, b: NautilusInAppMessageSDK.NautilusInAppMessageViewConditionGroupItem) -> Swift.Bool
+}
+public struct NautilusInAppMessageViewCondition : Swift.Equatable {
+  public let groups: [NautilusInAppMessageSDK.NautilusInAppMessageViewConditionGroup]
+  public static func == (a: NautilusInAppMessageSDK.NautilusInAppMessageViewCondition, b: NautilusInAppMessageSDK.NautilusInAppMessageViewCondition) -> Swift.Bool
+}
+public struct NautilusInAppMessageViewConditionGroup : Swift.Equatable {
+  public let items: [NautilusInAppMessageSDK.NautilusInAppMessageViewConditionGroupItem]
+  public static func == (a: NautilusInAppMessageSDK.NautilusInAppMessageViewConditionGroup, b: NautilusInAppMessageSDK.NautilusInAppMessageViewConditionGroup) -> Swift.Bool
+}
+@objc public protocol NautilusInAppMessageControllerDelegate {
+  @objc func inAppMessageBeforeDisplay(inAppMessageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType)
+  @objc func inAppMessageAfterDisplay(inAppMessageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType)
+  @objc func inAppMessageBeforeClose(inAppMessageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType)
+  @objc func inAppMessageAfterClose(inAppMessageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType)
+  @objc func inAppMessageClickCloseButton(inAppMessageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType)
+  @objc func inAppMessageClickActionButton(inAppMessageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType)
+  @objc func inAppMessageCanHandleTransitionURL(inAppMessageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType, url: Foundation.URL) -> Swift.Bool
+  @objc func inAppMessageHandleTransitionURL(url: Foundation.URL)
+  @objc func inAppMessageHandleTransition(transition: Swift.String)
+}
+extension NautilusInAppMessageSDK.NautilusInAppMessageControllerDelegate {
+  public func inAppMessageCanHandleTransitionURL(inAppMessageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType, url: Foundation.URL) -> Swift.Bool
+  public func inAppMessageHandleTransitionURL(url: Foundation.URL)
+}
+@_inheritsConvenienceInitializers @objc final public class NautilusInAppMessageBuilder : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc final public func setViewType(_ viewType: NautilusInAppMessageSDK.NautilusInAppMessageViewType)
+  @objc final public func setMessage(_ message: Swift.String)
+  @objc final public func setImageURL(_ imageURL: Foundation.URL?)
+  @objc final public func setTransitionURL(_ transitionURL: Foundation.URL?)
+  @objc final public func setTransitionParameter(_ transitionParameter: Swift.String?)
+  @objc final public func setSortNumber(_ sortNumber: Swift.Int)
+  @objc final public func build() -> NautilusInAppMessageSDK.NautilusInAppMessage
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusInAppMessageFeature : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc final public let app: NautilusCoreSDK.NautilusApp
+  @objc final public let name: Swift.String?
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func inAppMessage() -> NautilusInAppMessageSDK.NautilusInAppMessageFeature
+  @objc(inAppMessageAppNamed:) public static func inAppMessage(appName: Swift.String) -> NautilusInAppMessageSDK.NautilusInAppMessageFeature
+  @objc final public func trigger(eventID: Swift.String)
+  @objc deinit
+}
+@objc public enum NautilusInAppMessageViewType : Swift.Int {
+  case unknown = -1
+  case toast = 1
+  case modal = 2
+  public init(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct NautilusInAppMessageInterval : Swift.Equatable {
+  public let unit: NautilusInAppMessageSDK.NautilusInAppMessageIntervalUnit
+  public let count: Swift.Int
+  public static func == (a: NautilusInAppMessageSDK.NautilusInAppMessageInterval, b: NautilusInAppMessageSDK.NautilusInAppMessageInterval) -> Swift.Bool
+}
+public enum NautilusInAppMessageIntervalUnit {
+  case hour
+  case day
+  case week
+  case month
+  public static func == (a: NautilusInAppMessageSDK.NautilusInAppMessageIntervalUnit, b: NautilusInAppMessageSDK.NautilusInAppMessageIntervalUnit) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias NautilusInAppMessageIdentifierType = Swift.Int
+public typealias NautilusEventIdentifierType = Swift.String
+extension Swift.Int {
+  public static var unknownIdentifier: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusInAppMessage : ObjectiveC.NSObject {
+  final public let messageID: NautilusInAppMessageSDK.NautilusInAppMessageIdentifierType
+  final public let viewType: NautilusInAppMessageSDK.NautilusInAppMessageViewType
+  final public let message: Swift.String?
+  final public let imageURL: Foundation.URL?
+  final public let transitionURL: Foundation.URL?
+  final public let transitionParameter: Swift.String?
+  final public let deepLink: Swift.String?
+  final public let condition: NautilusInAppMessageSDK.NautilusInAppMessageViewCondition
+  final public let triggerEventID: NautilusInAppMessageSDK.NautilusEventIdentifierType
+  final public let sortNumber: Swift.Int
+  final public let startDate: Foundation.Date
+  final public let endDate: Foundation.Date?
+  final public let isRepeat: Swift.Bool
+  final public let interval: NautilusInAppMessageSDK.NautilusInAppMessageInterval?
+  @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+  final public func isAvailable(date: Foundation.Date) -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusInAppMessageController : ObjectiveC.NSObject {
+  @objc weak public static var delegate: (any NautilusInAppMessageSDK.NautilusInAppMessageControllerDelegate)?
+  @objc public static func addInAppMessage(_ message: NautilusInAppMessageSDK.NautilusInAppMessage)
+  @objc deinit
+}
+extension NautilusInAppMessageSDK.NautilusInAppMessageViewType : Swift.Equatable {}
+extension NautilusInAppMessageSDK.NautilusInAppMessageViewType : Swift.Hashable {}
+extension NautilusInAppMessageSDK.NautilusInAppMessageViewType : Swift.RawRepresentable {}
+extension NautilusInAppMessageSDK.NautilusInAppMessageIntervalUnit : Swift.Equatable {}
+extension NautilusInAppMessageSDK.NautilusInAppMessageIntervalUnit : Swift.Hashable {}

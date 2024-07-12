@@ -1,0 +1,3685 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusContainerSDK",
+        "printedName": "NautilusContainerSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLoggingSDK",
+        "printedName": "NautilusLoggingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusMaintenance",
+        "printedName": "NautilusMaintenance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configFilename",
+            "printedName": "configFilename",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cpy)configFilename",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C14configFilenameSSSgvpZ",
+            "moduleName": "NautilusMaintenanceSDK",
+            "static": true,
+            "objc_name": "configFilename",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cm)configFilename",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C14configFilenameSSSgvgZ",
+                "moduleName": "NautilusMaintenanceSDK",
+                "static": true,
+                "objc_name": "configFilename",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "app",
+            "printedName": "app",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusApp",
+                "printedName": "NautilusCoreSDK.NautilusApp",
+                "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(py)app",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C3app0a4CoreC00A3AppCvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "objc_name": "app",
+            "declAttributes": [
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusApp",
+                    "printedName": "NautilusCoreSDK.NautilusApp",
+                    "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)app",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C3app0a4CoreC00A3AppCvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "objc_name": "app",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusApp",
+                    "printedName": "NautilusCoreSDK.NautilusApp",
+                    "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)setApp:",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C3app0a4CoreC00A3AppCvs",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB0C3app0a4CoreC00A3AppCvM",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C3app0a4CoreC00A3AppCvM",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(py)name",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C4nameSSSgvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)name",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C4nameSSSgvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)setName:",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C4nameSSSgvs",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB0C4nameSSSgvM",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C4nameSSSgvM",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "componentType",
+            "printedName": "componentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusComponentType",
+                "printedName": "NautilusContainerSDK.NautilusComponentType",
+                "usr": "c:@E@NautilusComponentType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cpy)componentType",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C13componentTypeSo0a9ComponentE0VvpZ",
+            "moduleName": "NautilusMaintenanceSDK",
+            "static": true,
+            "objc_name": "componentType",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusComponentType",
+                    "printedName": "NautilusContainerSDK.NautilusComponentType",
+                    "usr": "c:@E@NautilusComponentType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cm)componentType",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C13componentTypeSo0a9ComponentE0VvgZ",
+                "moduleName": "NautilusMaintenanceSDK",
+                "static": true,
+                "objc_name": "componentType",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dependencies",
+            "printedName": "dependencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NautilusContainerSDK.NautilusComponentDependency]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusComponentDependency",
+                    "printedName": "NautilusContainerSDK.NautilusComponentDependency",
+                    "usr": "c:objc(cs)NautilusComponentDependency"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cpy)dependencies",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C12dependenciesSaySo0A19ComponentDependencyCGvpZ",
+            "moduleName": "NautilusMaintenanceSDK",
+            "static": true,
+            "objc_name": "dependencies",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NautilusContainerSDK.NautilusComponentDependency]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusComponentDependency",
+                        "printedName": "NautilusContainerSDK.NautilusComponentDependency",
+                        "usr": "c:objc(cs)NautilusComponentDependency"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cm)dependencies",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C12dependenciesSaySo0A19ComponentDependencyCGvgZ",
+                "moduleName": "NautilusMaintenanceSDK",
+                "static": true,
+                "objc_name": "dependencies",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkMaintenanceDelegate",
+            "printedName": "checkMaintenanceDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any NautilusMaintenanceSDK.CheckMaintenanceDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(py)checkMaintenanceDelegate",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C05checkB8DelegateAA05CheckbE0_pSgvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NautilusMaintenanceSDK.CheckMaintenanceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckMaintenanceDelegate",
+                        "printedName": "any NautilusMaintenanceSDK.CheckMaintenanceDelegate",
+                        "usr": "c:@M@NautilusMaintenanceSDK@objc(pl)CheckMaintenanceDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)checkMaintenanceDelegate",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C05checkB8DelegateAA05CheckbE0_pSgvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NautilusMaintenanceSDK.CheckMaintenanceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckMaintenanceDelegate",
+                        "printedName": "any NautilusMaintenanceSDK.CheckMaintenanceDelegate",
+                        "usr": "c:@M@NautilusMaintenanceSDK@objc(pl)CheckMaintenanceDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)setCheckMaintenanceDelegate:",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C05checkB8DelegateAA05CheckbE0_pSgvs",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB0C05checkB8DelegateAA05CheckbE0_pSgvM",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C05checkB8DelegateAA05CheckbE0_pSgvM",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureStatus",
+            "printedName": "featureStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusFeatureStatus",
+                "printedName": "NautilusCoreSDK.NautilusFeatureStatus",
+                "usr": "c:@M@NautilusCoreSDK@E@NautilusFeatureStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(py)featureStatus",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C13featureStatus0a4CoreC00a7FeatureE0Ovp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "objc_name": "featureStatus",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusFeatureStatus",
+                    "printedName": "NautilusCoreSDK.NautilusFeatureStatus",
+                    "usr": "c:@M@NautilusCoreSDK@E@NautilusFeatureStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)featureStatus",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB0C13featureStatus0a4CoreC00a7FeatureE0Ovg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "objc_name": "featureStatus",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(application:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusApp",
+                "printedName": "NautilusCoreSDK.NautilusApp",
+                "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cm)initializeWithApplication:completion:",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C10initialize11application10completiony0a4CoreC00A3AppC_ySb_So7NSErrorCSgtctFZ",
+            "moduleName": "NautilusMaintenanceSDK",
+            "static": true,
+            "objc_name": "initializeWithApplication:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "maintenance",
+            "printedName": "maintenance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusMaintenance",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenance",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cm)maintenance",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C11maintenanceACyFZ",
+            "moduleName": "NautilusMaintenanceSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "maintenance",
+            "printedName": "maintenance(appName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusMaintenance",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenance",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(cm)maintenanceAppNamed:",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C11maintenance7appNameACSS_tFZ",
+            "moduleName": "NautilusMaintenanceSDK",
+            "static": true,
+            "objc_name": "maintenanceAppNamed:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkMaintenance",
+            "printedName": "checkMaintenance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)checkMaintenance",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0C05checkB0yyF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusMaintenance",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenance",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance(im)init",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB0CACycfc",
+            "moduleName": "NautilusMaintenanceSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenance",
+        "mangledName": "$s22NautilusMaintenanceSDK0aB0C",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NautilusFeature",
+            "printedName": "NautilusFeature",
+            "usr": "c:@M@NautilusCoreSDK@objc(pl)NautilusFeature",
+            "mangledName": "$s15NautilusCoreSDK0A7FeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CheckMaintenanceDelegate",
+        "printedName": "CheckMaintenanceDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onChecked",
+            "printedName": "onChecked(checkResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusMaintenanceCheckMaintenanceResult",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceCheckMaintenanceResult",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenanceCheckMaintenanceResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(pl)CheckMaintenanceDelegate(im)onCheckedWithCheckResult:",
+            "mangledName": "$s22NautilusMaintenanceSDK05CheckB8DelegateP9onChecked11checkResultyAA0abdbI0C_tF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NautilusMaintenanceSDK.CheckMaintenanceDelegate>",
+            "sugared_genericSig": "<Self where Self : NautilusMaintenanceSDK.CheckMaintenanceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCheckFailed",
+            "printedName": "onCheckFailed(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusMaintenanceError",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(pl)CheckMaintenanceDelegate(im)onCheckFailedWithError:",
+            "mangledName": "$s22NautilusMaintenanceSDK05CheckB8DelegateP02onD6Failed5erroryAA0aB5ErrorO_tF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NautilusMaintenanceSDK.CheckMaintenanceDelegate>",
+            "sugared_genericSig": "<Self where Self : NautilusMaintenanceSDK.CheckMaintenanceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@NautilusMaintenanceSDK@objc(pl)CheckMaintenanceDelegate",
+        "mangledName": "$s22NautilusMaintenanceSDK05CheckB8DelegateP",
+        "moduleName": "NautilusMaintenanceSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusMaintenanceStatus",
+        "printedName": "NautilusMaintenanceStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "systemMaintenance",
+            "printedName": "systemMaintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceStatus.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceStatus",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceStatus",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus@NautilusMaintenanceStatusSystemMaintenance",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB6StatusO06systemB0yA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "individualMaintenance",
+            "printedName": "individualMaintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceStatus.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceStatus",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceStatus",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus@NautilusMaintenanceStatusIndividualMaintenance",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB6StatusO010individualB0yA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceStatus",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22NautilusMaintenanceSDK0aB6StatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB6StatusO8rawValueACSgSi_tcfc",
+            "moduleName": "NautilusMaintenanceSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB6StatusO8rawValueSivp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB6StatusO8rawValueSivp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB6StatusO8rawValueSivg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB6StatusO8rawValueSivg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus",
+        "mangledName": "$s22NautilusMaintenanceSDK0aB6StatusO",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "NautilusMaintenanceErrorDomain",
+        "printedName": "NautilusMaintenanceErrorDomain",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:22NautilusMaintenanceSDK0aB11ErrorDomainSSvp",
+        "mangledName": "$s22NautilusMaintenanceSDK0aB11ErrorDomainSSvp",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:22NautilusMaintenanceSDK0aB11ErrorDomainSSvg",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB11ErrorDomainSSvg",
+            "moduleName": "NautilusMaintenanceSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusMaintenanceError",
+        "printedName": "NautilusMaintenanceError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorUnknown",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO7unknownyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "connection",
+            "printedName": "connection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorConnection",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO10connectionyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "timedout",
+            "printedName": "timedout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorTimedout",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO8timedoutyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "apiProcessError",
+            "printedName": "apiProcessError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorApiProcessError",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO010apiProcessD0yA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "httpConnection",
+            "printedName": "httpConnection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorHttpConnection",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO14httpConnectionyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "parseFailure",
+            "printedName": "parseFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorParseFailure",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO12parseFailureyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "userCancelled",
+            "printedName": "userCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorUserCancelled",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO13userCancelledyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "invalidParamater",
+            "printedName": "invalidParamater",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorInvalidParamater",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO16invalidParamateryA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "invalidInstance",
+            "printedName": "invalidInstance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorInvalidInstance",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO15invalidInstanceyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "illegalConfiguration",
+            "printedName": "illegalConfiguration",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorIllegalConfiguration",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO20illegalConfigurationyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "invalidParameters",
+            "printedName": "invalidParameters",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorInvalidParameters",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO17invalidParametersyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "missingRequiredParameter",
+            "printedName": "missingRequiredParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorMissingRequiredParameter",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO24missingRequiredParameteryA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "unexpectedParameterFormat",
+            "printedName": "unexpectedParameterFormat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorUnexpectedParameterFormat",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO25unexpectedParameterFormatyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorServerError",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO06serverD0yA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
+          },
+          {
+            "kind": "Var",
+            "name": "serviceMaintenance",
+            "printedName": "serviceMaintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorServiceMaintenance",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO07serviceB0yA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 14
+          },
+          {
+            "kind": "Var",
+            "name": "unknownAPIService",
+            "printedName": "unknownAPIService",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorUnknownAPIService",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO17unknownAPIServiceyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 15
+          },
+          {
+            "kind": "Var",
+            "name": "invalidUserPID",
+            "printedName": "invalidUserPID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorInvalidUserPID",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO14invalidUserPIDyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 16
+          },
+          {
+            "kind": "Var",
+            "name": "developerError",
+            "printedName": "developerError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorDeveloperError",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO09developerD0yA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 17
+          },
+          {
+            "kind": "Var",
+            "name": "requiresLoginStatus",
+            "printedName": "requiresLoginStatus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceError.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceError",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError@NautilusMaintenanceErrorRequiresLoginStatus",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO19requiresLoginStatusyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 18
+          },
+          {
+            "kind": "Var",
+            "name": "nautilusMaintenanceErrorCode",
+            "printedName": "nautilusMaintenanceErrorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB5ErrorO08nautilusbD4CodeSivp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO08nautilusbD4CodeSivp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB5ErrorO08nautilusbD4CodeSivg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO08nautilusbD4CodeSivg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceError",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceError",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22NautilusMaintenanceSDK0aB5ErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "NautilusMaintenanceSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB5ErrorO8rawValueSivp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO8rawValueSivp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB5ErrorO8rawValueSivg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO8rawValueSivg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_nsErrorDomain",
+            "printedName": "_nsErrorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB5ErrorO03_nsD6DomainSSvpZ",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO03_nsD6DomainSSvpZ",
+            "moduleName": "NautilusMaintenanceSDK",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB5ErrorO03_nsD6DomainSSvgZ",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO03_nsD6DomainSSvgZ",
+                "moduleName": "NautilusMaintenanceSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceError",
+        "mangledName": "$s22NautilusMaintenanceSDK0aB5ErrorO",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_BridgedNSError",
+            "printedName": "_BridgedNSError",
+            "usr": "s:10Foundation15_BridgedNSErrorP",
+            "mangledName": "$s10Foundation15_BridgedNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeableError",
+            "printedName": "_ObjectiveCBridgeableError",
+            "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
+            "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusMaintenanceData",
+        "printedName": "NautilusMaintenanceData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fromDatetime",
+            "printedName": "fromDatetime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB4DataC12fromDatetime10Foundation4DateVvp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC12fromDatetime10Foundation4DateVvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB4DataC12fromDatetime10Foundation4DateVvg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC12fromDatetime10Foundation4DateVvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toDatetime",
+            "printedName": "toDatetime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB4DataC10toDatetime10Foundation4DateVSgvp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC10toDatetime10Foundation4DateVSgvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB4DataC10toDatetime10Foundation4DateVSgvg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC10toDatetime10Foundation4DateVSgvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maintenanceTitle",
+            "printedName": "maintenanceTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB4DataC16maintenanceTitleSSSgvp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC16maintenanceTitleSSSgvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB4DataC16maintenanceTitleSSSgvg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC16maintenanceTitleSSSgvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maintenanceMessage",
+            "printedName": "maintenanceMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB4DataC18maintenanceMessageSSvp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC18maintenanceMessageSSvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB4DataC18maintenanceMessageSSvg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC18maintenanceMessageSSvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extData",
+            "printedName": "extData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB4DataC03extD0SSSgvp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC03extD0SSSgvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB4DataC03extD0SSSgvg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC03extD0SSSgvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenanceData",
+        "mangledName": "$s22NautilusMaintenanceSDK0aB4DataC",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusMaintenanceEnvironment",
+        "printedName": "NautilusMaintenanceEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sandboxSystem",
+            "printedName": "sandboxSystem",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceEnvironment.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceEnvironment",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceEnvironment",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment@NautilusMaintenanceEnvironmentSandboxSystem",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB11EnvironmentO13sandboxSystemyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "sandboxIndividual",
+            "printedName": "sandboxIndividual",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceEnvironment.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceEnvironment",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceEnvironment",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment@NautilusMaintenanceEnvironmentSandboxIndividual",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB11EnvironmentO17sandboxIndividualyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "publicSystem",
+            "printedName": "publicSystem",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceEnvironment.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceEnvironment",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceEnvironment",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment@NautilusMaintenanceEnvironmentPublicSystem",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB11EnvironmentO12publicSystemyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "publicIndividual",
+            "printedName": "publicIndividual",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusMaintenanceSDK.NautilusMaintenanceEnvironment.Type) -> NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceEnvironment",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceEnvironment",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment@NautilusMaintenanceEnvironmentPublicIndividual",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB11EnvironmentO16publicIndividualyA2CmF",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceEnvironment",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceEnvironment",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22NautilusMaintenanceSDK0aB11EnvironmentO8rawValueACSgSi_tcfc",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB11EnvironmentO8rawValueACSgSi_tcfc",
+            "moduleName": "NautilusMaintenanceSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0aB11EnvironmentO8rawValueSivp",
+            "mangledName": "$s22NautilusMaintenanceSDK0aB11EnvironmentO8rawValueSivp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0aB11EnvironmentO8rawValueSivg",
+                "mangledName": "$s22NautilusMaintenanceSDK0aB11EnvironmentO8rawValueSivg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceEnvironment",
+        "mangledName": "$s22NautilusMaintenanceSDK0aB11EnvironmentO",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusMaintenanceCheckMaintenanceResult",
+        "printedName": "NautilusMaintenanceCheckMaintenanceResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "checkResult",
+            "printedName": "checkResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0ab5CheckB6ResultC05checkE0Sbvp",
+            "mangledName": "$s22NautilusMaintenanceSDK0ab5CheckB6ResultC05checkE0Sbvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0ab5CheckB6ResultC05checkE0Sbvg",
+                "mangledName": "$s22NautilusMaintenanceSDK0ab5CheckB6ResultC05checkE0Sbvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusMaintenanceStatus",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenanceCheckMaintenanceResult(py)status",
+            "mangledName": "$s22NautilusMaintenanceSDK0ab5CheckB6ResultC6statusAA0aB6StatusOvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceStatus",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceStatus",
+                    "usr": "c:@M@NautilusMaintenanceSDK@E@NautilusMaintenanceStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenanceCheckMaintenanceResult(im)status",
+                "mangledName": "$s22NautilusMaintenanceSDK0ab5CheckB6ResultC6statusAA0aB6StatusOvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maintenanceData",
+            "printedName": "maintenanceData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusMaintenanceData",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceData",
+                    "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenanceData"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22NautilusMaintenanceSDK0ab5CheckB6ResultC15maintenanceDataAA0abG0CSgvp",
+            "mangledName": "$s22NautilusMaintenanceSDK0ab5CheckB6ResultC15maintenanceDataAA0abG0CSgvp",
+            "moduleName": "NautilusMaintenanceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusMaintenanceData",
+                        "printedName": "NautilusMaintenanceSDK.NautilusMaintenanceData",
+                        "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenanceData"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22NautilusMaintenanceSDK0ab5CheckB6ResultC15maintenanceDataAA0abG0CSgvg",
+                "mangledName": "$s22NautilusMaintenanceSDK0ab5CheckB6ResultC15maintenanceDataAA0abG0CSgvg",
+                "moduleName": "NautilusMaintenanceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusMaintenanceSDK@objc(cs)NautilusMaintenanceCheckMaintenanceResult",
+        "mangledName": "$s22NautilusMaintenanceSDK0ab5CheckB6ResultC",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusMaintenanceSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 936,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1165,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 19,
+      "value": "\"NautilusMaintenanceSDK.NautilusMaintenance\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 388,
+      "length": 21,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 388,
+      "length": 21,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 32,
+      "value": "\"NautilusMaintenanceErrorDomain\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 546,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 650,
+      "length": 14,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 13,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 863,
+      "length": 16,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 928,
+      "length": 15,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 998,
+      "length": 20,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1101,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1186,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1275,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1332,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1396,
+      "length": 3,
+      "value": "901"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 3,
+      "value": "903"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1525,
+      "length": 3,
+      "value": "905"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1580,
+      "length": 3,
+      "value": "906"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1660,
+      "length": 3,
+      "value": "907"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 546,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 650,
+      "length": 14,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 13,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 863,
+      "length": 16,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 928,
+      "length": 15,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 998,
+      "length": 20,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1101,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1186,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1275,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1332,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1396,
+      "length": 3,
+      "value": "901"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 3,
+      "value": "903"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1525,
+      "length": 3,
+      "value": "905"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1580,
+      "length": 3,
+      "value": "906"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1660,
+      "length": 3,
+      "value": "907"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2633,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2710,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2788,
+      "length": 16,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2633,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2710,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2788,
+      "length": 16,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 6,
+      "value": "\"from\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 4,
+      "value": "\"to\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 10,
+      "value": "\"ext_data\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 6,
+      "value": "\"from\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 4,
+      "value": "\"to\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 10,
+      "value": "\"ext_data\""
+    }
+  ]
+}

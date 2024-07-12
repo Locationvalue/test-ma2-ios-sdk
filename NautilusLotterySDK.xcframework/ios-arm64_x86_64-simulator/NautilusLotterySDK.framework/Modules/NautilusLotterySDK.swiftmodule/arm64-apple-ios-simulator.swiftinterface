@@ -1,0 +1,140 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusLotterySDK
+import Foundation
+import NautilusAnalyticsSDK
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusIdentifySDK
+import NautilusLoggingSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public let NautilusLotteryErrorDomain: Swift.String
+@objc public enum NautilusLotteryError : Swift.Int, Swift.Error {
+  case unknown
+  case connection
+  case timedout
+  case apiProcessError
+  case httpConnection
+  case parseFailure
+  case userCancelled
+  case invalidParamater
+  case invalidInstance
+  case invalidParameters = 100
+  case missingRequiredParameter = 101
+  case unexpectedParameterFormat = 102
+  case serverError = 200
+  case serviceMaintenance = 901
+  case unknownAPIService = 903
+  case invalidUserPID = 905
+  case developerError = 906
+  case requiresLoginStatus = 907
+  public var nautilusLotteryErrorCode: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusLottery : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc final public var app: NautilusCoreSDK.NautilusApp
+  @objc final public var name: Swift.String?
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func lottery() -> NautilusLotterySDK.NautilusLottery
+  @objc(lotteryAppNamed:) public static func lottery(appName: Swift.String) -> NautilusLotterySDK.NautilusLottery
+  final public func getLotteryList(lotteryID: Swift.Int?, ignoreMissed: Swift.Bool?, completion: @escaping (Swift.Result<[NautilusLotterySDK.NautilusLotteryInfo], NautilusLotterySDK.NautilusLotteryError>) -> Swift.Void)
+  @objc final public func requestLotteryList(lotteryID: Swift.Int, ignoreMissed: Swift.Bool, completion: @escaping ([NautilusLotterySDK.NautilusLotteryInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getLotteryCount(checkDateTime: Foundation.Date?, ignoreMissed: Swift.Bool?, completion: @escaping (Swift.Result<Swift.Int, NautilusLotterySDK.NautilusLotteryError>) -> Swift.Void)
+  @objc final public func getLotteryCount(checkDateTime: Foundation.Date?, ignoreMissed: Swift.Bool, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  final public func checkLotteryInterval(lotteryID: Swift.Int, completion: @escaping (Swift.Result<NautilusLotterySDK.NautilusLotteryIntervalCheckResult, NautilusLotterySDK.NautilusLotteryError>) -> Swift.Void)
+  @objc final public func checkLotteryInterval(lotteryID: Swift.Int, completion: @escaping (NautilusLotterySDK.NautilusLotteryIntervalCheckResult?, Foundation.NSError?) -> Swift.Void)
+  final public func applyLottery(lotteryID: Swift.Int, completion: @escaping (Swift.Result<NautilusLotterySDK.NautilusLotteryResult, NautilusLotterySDK.NautilusLotteryError>) -> Swift.Void)
+  @objc final public func applyLottery(lotteryID: Swift.Int, completion: @escaping (NautilusLotterySDK.NautilusLotteryResult?, Foundation.NSError?) -> Swift.Void)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusLotteryIntervalCheckResult : ObjectiveC.NSObject {
+  final public let checkResult: Swift.Bool
+  final public let rank: Swift.Int?
+  final public let prize: NautilusLotterySDK.NautilusLotteryPrizeInfo?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusLotteryPrizeInfo : ObjectiveC.NSObject {
+  final public let prizeID: Swift.Int?
+  final public let prizeType: NautilusLotterySDK.NautilusLotteryPrizeType?
+  final public let coupon: NautilusLotterySDK.NautilusLotteryPrizeCouponInfo?
+  final public let point: NautilusLotterySDK.NautilusLotteryPrizePointInfo?
+  @objc deinit
+}
+@objc public enum NautilusLotteryPrizeType : Swift.Int {
+  case coupon = 1
+  case point = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusLotteryPrizeCouponInfo : ObjectiveC.NSObject {
+  final public let exchangeID: Swift.Int?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusLotteryPrizePointInfo : ObjectiveC.NSObject {
+  final public let addPoint: Swift.Int?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusLotteryResult : ObjectiveC.NSObject {
+  final public let rank: Swift.Int
+  final public let prize: NautilusLotterySDK.NautilusLotteryPrizeInfo?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusLotteryInfo : ObjectiveC.NSObject {
+  final public let lotteryID: Swift.Int
+  final public let lotteryTitle: Swift.String?
+  final public let alias: Swift.String?
+  final public let imageURL: Foundation.URL?
+  final public let imageAspectRatio: Swift.Double?
+  final public let publishStartDate: Foundation.Date
+  final public let publishEndDate: Foundation.Date?
+  final public let lotteryType: NautilusLotterySDK.NautilusLotteryType
+  final public let isRepeat: Swift.Bool
+  final public let isCompleted: Swift.Bool
+  @objc deinit
+}
+@objc public enum NautilusLotteryType : Swift.Int {
+  case scratch = 1
+  case slot = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension NautilusLotterySDK.NautilusLotteryError : Swift.Equatable {}
+extension NautilusLotterySDK.NautilusLotteryError : Swift.Hashable {}
+extension NautilusLotterySDK.NautilusLotteryError : Swift.RawRepresentable {}
+extension NautilusLotterySDK.NautilusLotteryPrizeType : Swift.Equatable {}
+extension NautilusLotterySDK.NautilusLotteryPrizeType : Swift.Hashable {}
+extension NautilusLotterySDK.NautilusLotteryPrizeType : Swift.RawRepresentable {}
+extension NautilusLotterySDK.NautilusLotteryType : Swift.Equatable {}
+extension NautilusLotterySDK.NautilusLotteryType : Swift.Hashable {}
+extension NautilusLotterySDK.NautilusLotteryType : Swift.RawRepresentable {}

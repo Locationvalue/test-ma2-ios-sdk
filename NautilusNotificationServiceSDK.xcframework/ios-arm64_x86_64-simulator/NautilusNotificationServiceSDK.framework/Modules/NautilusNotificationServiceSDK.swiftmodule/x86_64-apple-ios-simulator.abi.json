@@ -1,0 +1,882 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusNotificationServiceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NautilusNotificationServiceSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusPushNotificationInfo",
+        "printedName": "NautilusPushNotificationInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pushIdentifier",
+            "printedName": "pushIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC14pushIdentifierSivp",
+            "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC14pushIdentifierSivp",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC14pushIdentifierSivg",
+                "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC14pushIdentifierSivg",
+                "moduleName": "NautilusNotificationServiceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pushType",
+            "printedName": "pushType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC8pushTypeSivp",
+            "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC8pushTypeSivp",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC8pushTypeSivg",
+                "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC8pushTypeSivg",
+                "moduleName": "NautilusNotificationServiceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transitionCommand",
+            "printedName": "transitionCommand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC17transitionCommandSSSgvp",
+            "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC17transitionCommandSSSgvp",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC17transitionCommandSSSgvg",
+                "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC17transitionCommandSSSgvg",
+                "moduleName": "NautilusNotificationServiceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC5titleSSvp",
+            "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC5titleSSvp",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC5titleSSvg",
+                "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC5titleSSvg",
+                "moduleName": "NautilusNotificationServiceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC7messageSSvp",
+            "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC7messageSSvp",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30NautilusNotificationServiceSDK0a4PushB4InfoC7messageSSvg",
+                "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC7messageSSvg",
+                "moduleName": "NautilusNotificationServiceSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusPushNotificationInfo",
+                "printedName": "NautilusNotificationServiceSDK.NautilusPushNotificationInfo",
+                "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusPushNotificationInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusPushNotificationInfo(im)init",
+            "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoCACycfc",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusPushNotificationInfo",
+        "mangledName": "$s30NautilusNotificationServiceSDK0a4PushB4InfoC",
+        "moduleName": "NautilusNotificationServiceSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusNotificationHandler",
+        "printedName": "NautilusNotificationHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusNotificationHandler",
+                "printedName": "NautilusNotificationServiceSDK.NautilusNotificationHandler",
+                "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler(im)init",
+            "mangledName": "$s30NautilusNotificationServiceSDK0aB7HandlerCACycfc",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handleRemoteNotification",
+            "printedName": "handleRemoteNotification(request:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((NautilusNotificationServiceSDK.NautilusPushNotificationInfo) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NautilusNotificationServiceSDK.NautilusPushNotificationInfo) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusPushNotificationInfo",
+                        "printedName": "NautilusNotificationServiceSDK.NautilusPushNotificationInfo",
+                        "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusPushNotificationInfo"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler(im)handleRemoteNotificationWithRequest:action:",
+            "mangledName": "$s30NautilusNotificationServiceSDK0aB7HandlerC012handleRemoteB07request6actionSbSo21UNNotificationRequestC_yAA0a4PushB4InfoCcSgtF",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "objc_name": "handleRemoteNotificationWithRequest:action:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleRemoteNotification",
+            "printedName": "handleRemoteNotification(userInfo:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((NautilusNotificationServiceSDK.NautilusPushNotificationInfo) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NautilusNotificationServiceSDK.NautilusPushNotificationInfo) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusPushNotificationInfo",
+                        "printedName": "NautilusNotificationServiceSDK.NautilusPushNotificationInfo",
+                        "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusPushNotificationInfo"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler(im)handleRemoteNotificationWithUserInfo:action:",
+            "mangledName": "$s30NautilusNotificationServiceSDK0aB7HandlerC012handleRemoteB08userInfo6actionSbSDys11AnyHashableVypG_yAA0a4PushbI0CcSgtF",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "objc_name": "handleRemoteNotificationWithUserInfo:action:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canHandleRemoteNotification",
+            "printedName": "canHandleRemoteNotification(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler(im)canHandleRemoteNotificationWithRequest:",
+            "mangledName": "$s30NautilusNotificationServiceSDK0aB7HandlerC015canHandleRemoteB07requestSbSo21UNNotificationRequestC_tF",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "objc_name": "canHandleRemoteNotificationWithRequest:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canHandleRemoteNotification",
+            "printedName": "canHandleRemoteNotification(userInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler(im)canHandleRemoteNotificationWithUserInfo:",
+            "mangledName": "$s30NautilusNotificationServiceSDK0aB7HandlerC015canHandleRemoteB08userInfoSbSDys11AnyHashableVypG_tF",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "objc_name": "canHandleRemoteNotificationWithUserInfo:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(request:bestAttemptContent:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNMutableNotificationContent",
+                "printedName": "UserNotifications.UNMutableNotificationContent",
+                "usr": "c:objc(cs)UNMutableNotificationContent"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler(im)didReceiveWithRequest:bestAttemptContent:completion:",
+            "mangledName": "$s30NautilusNotificationServiceSDK0aB7HandlerC10didReceive7request18bestAttemptContent10completionySo21UNNotificationRequestC_So09UNMutablebK0CySbctF",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "objc_name": "didReceiveWithRequest:bestAttemptContent:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceExtensionTimeWillExpire",
+            "printedName": "serviceExtensionTimeWillExpire(request:bestAttemptContent:contentHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNMutableNotificationContent",
+                "printedName": "UserNotifications.UNMutableNotificationContent",
+                "usr": "c:objc(cs)UNMutableNotificationContent"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationContent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationContent",
+                    "printedName": "UserNotifications.UNNotificationContent",
+                    "usr": "c:objc(cs)UNNotificationContent"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler(im)serviceExtensionTimeWillExpireWithRequest:bestAttemptContent:contentHandler:",
+            "mangledName": "$s30NautilusNotificationServiceSDK0aB7HandlerC30serviceExtensionTimeWillExpire7request18bestAttemptContent07contentE0ySo21UNNotificationRequestC_So09UNMutablebN0CySo0pN0CXEtF",
+            "moduleName": "NautilusNotificationServiceSDK",
+            "objc_name": "serviceExtensionTimeWillExpireWithRequest:bestAttemptContent:contentHandler:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusNotificationServiceSDK@objc(cs)NautilusNotificationHandler",
+        "mangledName": "$s30NautilusNotificationServiceSDK0aB7HandlerC",
+        "moduleName": "NautilusNotificationServiceSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 28,
+      "value": "\"NautilusNotificationServiceSDK.NautilusPushNotificationInfo\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 9,
+      "value": "\"push_id\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 14,
+      "value": "\"push_id_type\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1363,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1412,
+      "length": 11,
+      "value": "\"image-url\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1470,
+      "length": 17,
+      "value": "\"imageAttachment\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1526,
+      "length": 5,
+      "value": "\"cmd\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1564,
+      "length": 7,
+      "value": "\"trans\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1639,
+      "length": 7,
+      "value": "\"alert\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1674,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Notification\/Sources\/Base\/NautilusNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1794,
+      "length": 7,
+      "value": "\"ma2.0\""
+    }
+  ]
+}

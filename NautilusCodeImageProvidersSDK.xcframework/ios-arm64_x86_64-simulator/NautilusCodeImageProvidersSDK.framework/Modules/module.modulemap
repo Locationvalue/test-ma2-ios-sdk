@@ -1,0 +1,4 @@
+framework module NautilusCodeImageProvidersSDK {
+  header "NautilusCodeImageProvidersSDK-Swift.h"
+  requires objc
+}

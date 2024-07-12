@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-introduction",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_intro_default_button_action",
+      "string_value": "next"
+    },
+    {
+      "config_value_name": "ma_intro_default_action_button_text",
+      "string_value": "次へ"
+    },
+    {
+      "config_value_name": "ma_intro_last_page_action_button_text",
+      "string_value": "はじめる"
+    },
+    {
+      "config_value_name": "ma_intro_action_button_text_color",
+      "string_value": "#FFFFFFFF"
+    },
+    {
+      "config_value_name": "ma_intro_action_button_background_color",
+      "string_value": "#FFE95861"
+    },
+    {
+      "config_value_name": "ma_intro_page_indicator_color",
+      "string_value": "#FFD4D4D4"
+    },
+    {
+      "config_value_name": "ma_intro_current_page_indicator_color",
+      "string_value": "#FFE95861"
+    },
+    {
+      "config_value_name": "ma_intro_show_page_indicator_for_single_page",
+      "boolean_value": false
+    }
+  ]
+}

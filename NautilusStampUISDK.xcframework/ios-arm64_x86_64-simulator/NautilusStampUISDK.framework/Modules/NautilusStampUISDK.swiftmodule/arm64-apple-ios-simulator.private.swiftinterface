@@ -1,0 +1,119 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusStampUISDK
+import DeveloperToolsSupport
+import Foundation
+import NautilusAnalyticsSDK
+import NautilusCodeReaderSDK
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusImagingSDK
+import NautilusLoggingSDK
+import NautilusServerTimeSDK
+import NautilusStampSDK
+import NautilusUISDK
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @objc final public class NautilusStampCardUI : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc final public let app: NautilusCoreSDK.NautilusApp
+  @objc final public let name: Swift.String?
+  @objc final public let router: NautilusStampUISDK.NautilusStampCardRouter
+  @objc weak final public var prizeActionDelegate: (any NautilusStampUISDK.NautilusStampCardPrizeActionDelegate)?
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func stampCardUI() -> NautilusStampUISDK.NautilusStampCardUI
+  @objc(stampUIAppNamed:) public static func stampCardUI(appName: Swift.String) -> NautilusStampUISDK.NautilusStampCardUI
+  @available(*, deprecated, message: "Use NautilusStampCardRouter function.")
+  @objc final public func presentStampCardListViewController(in viewController: UIKit.UIViewController)
+  @available(*, deprecated, message: "Use NautilusStampCardRouter function.")
+  @objc final public func instantiateStampCardListViewController() -> NautilusStampUISDK.NautilusStampCardListViewController
+  @available(*, deprecated, message: "Use NautilusStampCardRouter function.")
+  @objc final public func instantiateStampCardDetailViewController(stampCardID: Swift.Int, hasCloseButton: Swift.Bool) -> NautilusStampUISDK.NautilusStampCardDetailViewController
+  @available(*, deprecated, message: "Use NautilusStampCardRouter function.")
+  @objc final public func instantiateStampCardDetailViewController(stampCard: NautilusStampSDK.NautilusStampCardInfo, hasCloseButton: Swift.Bool) -> NautilusStampUISDK.NautilusStampCardDetailViewController
+  @objc deinit
+}
+extension UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+}
+@objc public protocol NautilusStampCardPrizeActionDelegate {
+  @objc func stampCard(_ stampCard: NautilusStampUISDK.NautilusStampCardUI, showPrizeButtonTitleForStampCardInfo stampCardInfo: NautilusStampSDK.NautilusStampCardInfo, prizeInfo: NautilusStampSDK.NautilusStampPrizeExchangeResult, in viewController: UIKit.UIViewController) -> Swift.String
+  @objc func stampCard(_ stampCard: NautilusStampUISDK.NautilusStampCardUI, handleStampCardInfo stampCardInfo: NautilusStampSDK.NautilusStampCardInfo, prizeInfo: NautilusStampSDK.NautilusStampPrizeExchangeResult, in viewController: UIKit.UIViewController) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) final public class NautilusStampCardDetailViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension NautilusStampUISDK.NautilusStampCardDetailViewController : NautilusCodeReaderSDK.NautilusCodeReaderHandler {
+  @_Concurrency.MainActor(unsafe) @objc final public func codeReaderHandle(_ viewController: UIKit.UIViewController, codeText: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc final public func handleCodeDetectionError(_ viewController: UIKit.UIViewController, error: NautilusCodeReaderSDK.NautilusCodeReaderError) -> Swift.Bool
+}
+extension NautilusStampUISDK.NautilusStampCardDetailViewController : NautilusStampUISDK.NautilusStampCardDetailInstantiatable {
+  @_Concurrency.MainActor(unsafe) @objc public static func instantiate(app: NautilusCoreSDK.NautilusApp, stampCard: NautilusStampSDK.NautilusStampCardInfo, hasCloseButton: Swift.Bool) -> UIKit.UIViewController
+}
+@objc public protocol NautilusStampCardDetailInstantiatable {
+  @objc static func instantiate(app: NautilusCoreSDK.NautilusApp, stampCard: NautilusStampSDK.NautilusStampCardInfo, hasCloseButton: Swift.Bool) -> UIKit.UIViewController
+}
+@objc public enum NautilusStampRoutableScreen : Swift.Int, Swift.CaseIterable {
+  case stampCardList
+  case stampCardDetail
+  case stampCodeReader
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [NautilusStampUISDK.NautilusStampRoutableScreen]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [NautilusStampUISDK.NautilusStampRoutableScreen] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) final public class NautilusStampCardListViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension NautilusStampUISDK.NautilusStampCardListViewController : NautilusStampUISDK.NautilusStampCardListInstantiatable {
+  @_Concurrency.MainActor(unsafe) @objc public static func instantiate(app: NautilusCoreSDK.NautilusApp) -> UIKit.UIViewController
+}
+@objc public protocol NautilusStampCardListInstantiatable {
+  @objc static func instantiate(app: NautilusCoreSDK.NautilusApp) -> UIKit.UIViewController
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusStampCardRouter : ObjectiveC.NSObject {
+  @objc final public func register(screen: NautilusStampUISDK.NautilusStampRoutableScreen, viewControllerClass: UIKit.UIViewController.Type)
+  @objc final public func unregister(screen: NautilusStampUISDK.NautilusStampRoutableScreen)
+  @objc final public func instantiateStampList() -> UIKit.UIViewController
+  @objc final public func instantiateStampDetail(stampCard: NautilusStampSDK.NautilusStampCardInfo, hasCloseButton: Swift.Bool) -> UIKit.UIViewController
+  @objc final public func instantiateStampCodeReader(setting: NautilusCodeReaderSDK.NautilusCodeReaderSetting, handler: any NautilusCodeReaderSDK.NautilusCodeReaderHandler) -> UIKit.UIViewController
+  @objc final public func routeStampCardList(in viewController: UIKit.UIViewController)
+  @objc final public func routeStampDetail(stampCard: NautilusStampSDK.NautilusStampCardInfo, hasCloseButton: Swift.Bool, in viewController: UIKit.UIViewController)
+  @objc final public func routeStampCodeReader(setting: NautilusCodeReaderSDK.NautilusCodeReaderSetting, handler: any NautilusCodeReaderSDK.NautilusCodeReaderHandler, in viewController: UIKit.UIViewController)
+  @objc deinit
+}
+extension NautilusStampUISDK.NautilusStampRoutableScreen : Swift.Equatable {}
+extension NautilusStampUISDK.NautilusStampRoutableScreen : Swift.Hashable {}
+extension NautilusStampUISDK.NautilusStampRoutableScreen : Swift.RawRepresentable {}

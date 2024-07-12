@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "config_version": 2,
+  "app_name": "moduleapps-notification-ui",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_notification_history_list_screen_title",
+      "string_value": "プッシュ通知履歴"
+    },
+    {
+      "config_value_name": "ma_notification_history_list_number_of_messages_per_load",
+      "integer_value": 30
+    },
+    {
+      "config_value_name": "ma_notification_history_list_cell_send_datetime_format",
+      "string_value": "yyyy/MM/dd"
+    },
+    {
+      "config_value_name": "ma_notification_history_list_loading_text",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_notification_history_list_empty_state_title",
+      "string_value": "コンテンツがありませんでした"
+    },
+    {
+      "config_value_name": "ma_notification_history_list_empty_state_message",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_notification_history_list_empty_state_show_reload_button",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_notification_history_list_load_error_title",
+      "string_value": "通信エラー"
+    },
+    {
+      "config_value_name": "ma_notification_history_list_load_error_message",
+      "string_value": "読み込み中にエラーが発生しました"
+    },
+    {
+      "config_value_name": "ma_notification_history_list_reload_button_text",
+      "string_value": "再読み込み"
+    }
+  ]
+}

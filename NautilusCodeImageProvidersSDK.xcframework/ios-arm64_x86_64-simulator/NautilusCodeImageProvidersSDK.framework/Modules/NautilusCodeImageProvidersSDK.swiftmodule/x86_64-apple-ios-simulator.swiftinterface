@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusCodeImageProvidersSDK
+import CoreImage
+import NautilusIdentifySDK
+import Swift
+import UIKit
+import ZXingObjC
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc final public class NautilusUserInfoNW7CodeImageProvider : ObjectiveC.NSObject, NautilusIdentifySDK.NautilusUserInfoCodeImageProvider {
+  @objc final public func provideCodeImage(for codeString: Swift.String, size: CoreFoundation.CGSize) -> UIKit.UIImage?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class NautilusUserInfoJAN13CodeImageProvider : ObjectiveC.NSObject, NautilusIdentifySDK.NautilusUserInfoCodeImageProvider {
+  @objc final public func provideCodeImage(for codeString: Swift.String, size: CoreFoundation.CGSize) -> UIKit.UIImage?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class NautilusUserInfoQRCodeImageProvider : ObjectiveC.NSObject, NautilusIdentifySDK.NautilusUserInfoCodeImageProvider {
+  @objc final public func provideCodeImage(for codeString: Swift.String, size: CoreFoundation.CGSize) -> UIKit.UIImage?
+  @objc override dynamic public init()
+  @objc deinit
+}

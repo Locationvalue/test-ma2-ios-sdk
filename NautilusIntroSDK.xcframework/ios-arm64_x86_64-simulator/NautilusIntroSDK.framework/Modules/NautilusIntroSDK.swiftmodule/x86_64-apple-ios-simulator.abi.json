@@ -1,0 +1,2014 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusIntroductionDelegate",
+        "printedName": "NautilusIntroductionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "introductionDidFinish",
+            "printedName": "introductionDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroduction",
+                "printedName": "NautilusIntroSDK.NautilusIntroduction",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(pl)NautilusIntroductionDelegate(im)introductionDidFinish:",
+            "mangledName": "$s16NautilusIntroSDK0A20IntroductionDelegateP21introductionDidFinishyyAA0aD0CF",
+            "moduleName": "NautilusIntroSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NautilusIntroSDK.NautilusIntroductionDelegate>",
+            "sugared_genericSig": "<Self where Self : NautilusIntroSDK.NautilusIntroductionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "introductionDidSkip",
+            "printedName": "introductionDidSkip(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroduction",
+                "printedName": "NautilusIntroSDK.NautilusIntroduction",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(pl)NautilusIntroductionDelegate(im)introductionDidSkip:",
+            "mangledName": "$s16NautilusIntroSDK0A20IntroductionDelegateP19introductionDidSkipyyAA0aD0CF",
+            "moduleName": "NautilusIntroSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NautilusIntroSDK.NautilusIntroductionDelegate>",
+            "sugared_genericSig": "<Self where Self : NautilusIntroSDK.NautilusIntroductionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@NautilusIntroSDK@objc(pl)NautilusIntroductionDelegate",
+        "mangledName": "$s16NautilusIntroSDK0A20IntroductionDelegateP",
+        "moduleName": "NautilusIntroSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusContainerSDK",
+        "printedName": "NautilusContainerSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusConfigSDK",
+        "printedName": "NautilusConfigSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLoggingSDK",
+        "printedName": "NautilusLoggingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusIdentifySDK",
+        "printedName": "NautilusIdentifySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusAnalyticsSDK",
+        "printedName": "NautilusAnalyticsSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusIntroduction",
+        "printedName": "NautilusIntroduction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configFilename",
+            "printedName": "configFilename",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cpy)configFilename",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC14configFilenameSSSgvpZ",
+            "moduleName": "NautilusIntroSDK",
+            "static": true,
+            "objc_name": "configFilename",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cm)configFilename",
+                "mangledName": "$s16NautilusIntroSDK0A12IntroductionC14configFilenameSSSgvgZ",
+                "moduleName": "NautilusIntroSDK",
+                "static": true,
+                "objc_name": "configFilename",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "componentType",
+            "printedName": "componentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusComponentType",
+                "printedName": "NautilusContainerSDK.NautilusComponentType",
+                "usr": "c:@E@NautilusComponentType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cpy)componentType",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC13componentTypeSo0a9ComponentF0VvpZ",
+            "moduleName": "NautilusIntroSDK",
+            "static": true,
+            "objc_name": "componentType",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusComponentType",
+                    "printedName": "NautilusContainerSDK.NautilusComponentType",
+                    "usr": "c:@E@NautilusComponentType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cm)componentType",
+                "mangledName": "$s16NautilusIntroSDK0A12IntroductionC13componentTypeSo0a9ComponentF0VvgZ",
+                "moduleName": "NautilusIntroSDK",
+                "static": true,
+                "objc_name": "componentType",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dependencies",
+            "printedName": "dependencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NautilusContainerSDK.NautilusComponentDependency]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusComponentDependency",
+                    "printedName": "NautilusContainerSDK.NautilusComponentDependency",
+                    "usr": "c:objc(cs)NautilusComponentDependency"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cpy)dependencies",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC12dependenciesSaySo0A19ComponentDependencyCGvpZ",
+            "moduleName": "NautilusIntroSDK",
+            "static": true,
+            "objc_name": "dependencies",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NautilusContainerSDK.NautilusComponentDependency]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusComponentDependency",
+                        "printedName": "NautilusContainerSDK.NautilusComponentDependency",
+                        "usr": "c:objc(cs)NautilusComponentDependency"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cm)dependencies",
+                "mangledName": "$s16NautilusIntroSDK0A12IntroductionC12dependenciesSaySo0A19ComponentDependencyCGvgZ",
+                "moduleName": "NautilusIntroSDK",
+                "static": true,
+                "objc_name": "dependencies",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "app",
+            "printedName": "app",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusApp",
+                "printedName": "NautilusCoreSDK.NautilusApp",
+                "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(py)app",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC3app0a4CoreC00A3AppCvp",
+            "moduleName": "NautilusIntroSDK",
+            "objc_name": "app",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusApp",
+                    "printedName": "NautilusCoreSDK.NautilusApp",
+                    "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(im)app",
+                "mangledName": "$s16NautilusIntroSDK0A12IntroductionC3app0a4CoreC00A3AppCvg",
+                "moduleName": "NautilusIntroSDK",
+                "implicit": true,
+                "objc_name": "app",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(py)name",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC4nameSSSgvp",
+            "moduleName": "NautilusIntroSDK",
+            "objc_name": "name",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(im)name",
+                "mangledName": "$s16NautilusIntroSDK0A12IntroductionC4nameSSSgvg",
+                "moduleName": "NautilusIntroSDK",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureStatus",
+            "printedName": "featureStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusFeatureStatus",
+                "printedName": "NautilusCoreSDK.NautilusFeatureStatus",
+                "usr": "c:@M@NautilusCoreSDK@E@NautilusFeatureStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(py)featureStatus",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC13featureStatus0a4CoreC00a7FeatureF0Ovp",
+            "moduleName": "NautilusIntroSDK",
+            "objc_name": "featureStatus",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusFeatureStatus",
+                    "printedName": "NautilusCoreSDK.NautilusFeatureStatus",
+                    "usr": "c:@M@NautilusCoreSDK@E@NautilusFeatureStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(im)featureStatus",
+                "mangledName": "$s16NautilusIntroSDK0A12IntroductionC13featureStatus0a4CoreC00a7FeatureF0Ovg",
+                "moduleName": "NautilusIntroSDK",
+                "objc_name": "featureStatus",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(application:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusApp",
+                "printedName": "NautilusCoreSDK.NautilusApp",
+                "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cm)initializeWithApplication:completion:",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC10initialize11application10completiony0a4CoreC00A3AppC_ySb_So7NSErrorCSgtctFZ",
+            "moduleName": "NautilusIntroSDK",
+            "static": true,
+            "objc_name": "initializeWithApplication:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "introduction",
+            "printedName": "introduction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroduction",
+                "printedName": "NautilusIntroSDK.NautilusIntroduction",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cm)introduction",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC12introductionACyFZ",
+            "moduleName": "NautilusIntroSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "introduction",
+            "printedName": "introduction(appName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroduction",
+                "printedName": "NautilusIntroSDK.NautilusIntroduction",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(cm)introductionAppNamed:",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC12introduction7appNameACSS_tFZ",
+            "moduleName": "NautilusIntroSDK",
+            "static": true,
+            "objc_name": "introductionAppNamed:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentIntroduction",
+            "printedName": "presentIntroduction(in:introList:animated:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionList",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionList",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionList"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any NautilusIntroSDK.NautilusIntroductionDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusIntroductionDelegate",
+                    "printedName": "any NautilusIntroSDK.NautilusIntroductionDelegate",
+                    "usr": "c:@M@NautilusIntroSDK@objc(pl)NautilusIntroductionDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(im)presentIntroductionIn:introList:animated:delegate:",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC07presentD02in9introList8animated8delegateySo16UIViewControllerC_AA0adH0CSbAA0aD8Delegate_pSgtF",
+            "moduleName": "NautilusIntroSDK",
+            "objc_name": "presentIntroductionIn:introList:animated:delegate:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "instantiateIntroductionViewController",
+            "printedName": "instantiateIntroductionViewController(introList:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionList",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionList",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionList"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any NautilusIntroSDK.NautilusIntroductionDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusIntroductionDelegate",
+                    "printedName": "any NautilusIntroSDK.NautilusIntroductionDelegate",
+                    "usr": "c:@M@NautilusIntroSDK@objc(pl)NautilusIntroductionDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(im)instantiateIntroductionViewControllerWithIntroList:delegate:",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionC011instantiateD14ViewController9introList8delegateSo06UIViewG0CAA0adI0C_AA0aD8Delegate_pSgtF",
+            "moduleName": "NautilusIntroSDK",
+            "objc_name": "instantiateIntroductionViewControllerWithIntroList:delegate:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroduction",
+                "printedName": "NautilusIntroSDK.NautilusIntroduction",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction(im)init",
+            "mangledName": "$s16NautilusIntroSDK0A12IntroductionCACycfc",
+            "moduleName": "NautilusIntroSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroduction",
+        "mangledName": "$s16NautilusIntroSDK0A12IntroductionC",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NautilusFeature",
+            "printedName": "NautilusFeature",
+            "usr": "c:@M@NautilusCoreSDK@objc(pl)NautilusFeature",
+            "mangledName": "$s15NautilusCoreSDK0A7FeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLoggingSDK",
+        "printedName": "NautilusLoggingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusIntroductionListItem",
+        "printedName": "NautilusIntroductionListItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "backgroundImageName",
+            "printedName": "backgroundImageName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NautilusIntroSDK0A20IntroductionListItemC19backgroundImageNameSSvp",
+            "mangledName": "$s16NautilusIntroSDK0A20IntroductionListItemC19backgroundImageNameSSvp",
+            "moduleName": "NautilusIntroSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NautilusIntroSDK0A20IntroductionListItemC19backgroundImageNameSSvg",
+                "mangledName": "$s16NautilusIntroSDK0A20IntroductionListItemC19backgroundImageNameSSvg",
+                "moduleName": "NautilusIntroSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(backgroundImageName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionListItem",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionListItem",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListItem"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16NautilusIntroSDK0A20IntroductionListItemC19backgroundImageNameACSS_tcfc",
+            "mangledName": "$s16NautilusIntroSDK0A20IntroductionListItemC19backgroundImageNameACSS_tcfc",
+            "moduleName": "NautilusIntroSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionListItem",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionListItem",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListItem"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListItem(im)init",
+            "mangledName": "$s16NautilusIntroSDK0A20IntroductionListItemCACycfc",
+            "moduleName": "NautilusIntroSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListItem",
+        "mangledName": "$s16NautilusIntroSDK0A20IntroductionListItemC",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusIntroductionList",
+        "printedName": "NautilusIntroductionList",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NautilusIntroSDK.NautilusIntroductionListItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusIntroductionListItem",
+                    "printedName": "NautilusIntroSDK.NautilusIntroductionListItem",
+                    "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListItem"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NautilusIntroSDK0A16IntroductionListC5itemsSayAA0adE4ItemCGvp",
+            "mangledName": "$s16NautilusIntroSDK0A16IntroductionListC5itemsSayAA0adE4ItemCGvp",
+            "moduleName": "NautilusIntroSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NautilusIntroSDK.NautilusIntroductionListItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusIntroductionListItem",
+                        "printedName": "NautilusIntroSDK.NautilusIntroductionListItem",
+                        "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListItem"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NautilusIntroSDK0A16IntroductionListC5itemsSayAA0adE4ItemCGvg",
+                "mangledName": "$s16NautilusIntroSDK0A16IntroductionListC5itemsSayAA0adE4ItemCGvg",
+                "moduleName": "NautilusIntroSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16NautilusIntroSDK0A16IntroductionListC5countSivp",
+            "mangledName": "$s16NautilusIntroSDK0A16IntroductionListC5countSivp",
+            "moduleName": "NautilusIntroSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16NautilusIntroSDK0A16IntroductionListC5countSivg",
+                "mangledName": "$s16NautilusIntroSDK0A16IntroductionListC5countSivg",
+                "moduleName": "NautilusIntroSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionList",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionList",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionList"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionList(im)init",
+            "mangledName": "$s16NautilusIntroSDK0A16IntroductionListCACycfc",
+            "moduleName": "NautilusIntroSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionList",
+        "mangledName": "$s16NautilusIntroSDK0A16IntroductionListC",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusIntroductionListBuilder",
+        "printedName": "NautilusIntroductionListBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionListBuilder",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionListBuilder",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListBuilder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListBuilder(im)init",
+            "mangledName": "$s16NautilusIntroSDK0A23IntroductionListBuilderCACycfc",
+            "moduleName": "NautilusIntroSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(item:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionListItem",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionListItem",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListItem"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NautilusIntroSDK0A23IntroductionListBuilderC3add4itemACXDAA0adE4ItemC_tF",
+            "mangledName": "$s16NautilusIntroSDK0A23IntroductionListBuilderC3add4itemACXDAA0adE4ItemC_tF",
+            "moduleName": "NautilusIntroSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionList",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionList",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionList"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16NautilusIntroSDK0A23IntroductionListBuilderC5buildAA0adE0CyF",
+            "mangledName": "$s16NautilusIntroSDK0A23IntroductionListBuilderC5buildAA0adE0CyF",
+            "moduleName": "NautilusIntroSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionListBuilder",
+        "mangledName": "$s16NautilusIntroSDK0A23IntroductionListBuilderC",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLoggingSDK",
+        "printedName": "NautilusLoggingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusConfigSDK",
+        "printedName": "NautilusConfigSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLoggingSDK",
+        "printedName": "NautilusLoggingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusAnalyticsSDK",
+        "printedName": "NautilusAnalyticsSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusIntroSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusIntroductionViewController",
+        "printedName": "NautilusIntroductionViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController(im)viewDidLoad",
+            "mangledName": "$s16NautilusIntroSDK0A26IntroductionViewControllerC11viewDidLoadyyF",
+            "moduleName": "NautilusIntroSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pageViewController",
+            "printedName": "pageViewController(_:didFinishAnimating:previousViewControllers:transitionCompleted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPageViewController",
+                "printedName": "UIKit.UIPageViewController",
+                "usr": "c:objc(cs)UIPageViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIViewController]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController(im)pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:",
+            "mangledName": "$s16NautilusIntroSDK0A26IntroductionViewControllerC04pageeF0_18didFinishAnimating08previousE11Controllers19transitionCompletedySo06UIPageeF0C_SbSaySo06UIViewF0CGSbtF",
+            "moduleName": "NautilusIntroSDK",
+            "objc_name": "pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pageViewController",
+            "printedName": "pageViewController(_:viewControllerBefore:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPageViewController",
+                "printedName": "UIKit.UIPageViewController",
+                "usr": "c:objc(cs)UIPageViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController(im)pageViewController:viewControllerBeforeViewController:",
+            "mangledName": "$s16NautilusIntroSDK0A26IntroductionViewControllerC04pageeF0_04viewF6BeforeSo06UIViewF0CSgSo06UIPageeF0C_AGtF",
+            "moduleName": "NautilusIntroSDK",
+            "objc_name": "pageViewController:viewControllerBeforeViewController:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pageViewController",
+            "printedName": "pageViewController(_:viewControllerAfter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPageViewController",
+                "printedName": "UIKit.UIPageViewController",
+                "usr": "c:objc(cs)UIPageViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController(im)pageViewController:viewControllerAfterViewController:",
+            "mangledName": "$s16NautilusIntroSDK0A26IntroductionViewControllerC04pageeF0_04viewF5AfterSo06UIViewF0CSgSo06UIPageeF0C_AGtF",
+            "moduleName": "NautilusIntroSDK",
+            "objc_name": "pageViewController:viewControllerAfterViewController:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusIntroductionViewController",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionViewController",
+                "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s16NautilusIntroSDK0A26IntroductionViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "NautilusIntroSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusIntroSDK.NautilusIntroductionViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusIntroductionViewController",
+                    "printedName": "NautilusIntroSDK.NautilusIntroductionViewController",
+                    "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController(im)initWithCoder:",
+            "mangledName": "$s16NautilusIntroSDK0A26IntroductionViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "NautilusIntroSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusIntroSDK@objc(cs)NautilusIntroductionViewController",
+        "mangledName": "$s16NautilusIntroSDK0A26IntroductionViewControllerC",
+        "moduleName": "NautilusIntroSDK",
+        "declAttributes": [
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 20,
+      "value": "\"NautilusIntroSDK.NautilusIntroduction\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Entities\/NautilusIntroductionListItem.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 28,
+      "value": "\"NautilusIntroSDK.NautilusIntroductionListItem\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Entities\/NautilusIntroductionList.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 24,
+      "value": "\"NautilusIntroSDK.NautilusIntroductionList\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Entities\/NautilusIntroductionList.swift",
+      "kind": "Array",
+      "offset": 952,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 32,
+      "value": "\"ma_intro_default_button_action\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 37,
+      "value": "\"ma_intro_default_action_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 39,
+      "value": "\"ma_intro_last_page_action_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 35,
+      "value": "\"ma_intro_action_button_text_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 41,
+      "value": "\"ma_intro_action_button_background_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 31,
+      "value": "\"ma_intro_page_indicator_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 39,
+      "value": "\"ma_intro_current_page_indicator_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 46,
+      "value": "\"ma_intro_show_page_indicator_for_single_page\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 32,
+      "value": "\"ma_intro_default_button_action\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 37,
+      "value": "\"ma_intro_default_action_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 39,
+      "value": "\"ma_intro_last_page_action_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 35,
+      "value": "\"ma_intro_action_button_text_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 41,
+      "value": "\"ma_intro_action_button_background_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 31,
+      "value": "\"ma_intro_page_indicator_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 39,
+      "value": "\"ma_intro_current_page_indicator_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 46,
+      "value": "\"ma_intro_show_page_indicator_for_single_page\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/View\/NautilusIntroductionViewController.swift",
+      "kind": "Dictionary",
+      "offset": 1643,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

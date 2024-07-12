@@ -1,0 +1,318 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusStampSDK
+import Foundation
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusIdentifySDK
+import NautilusLoggingSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum NautilusStampPrizeUseLimitType : Swift.Int {
+  case day
+  case month
+  case specificDate
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusStampPrizeInfo : ObjectiveC.NSObject {
+  final public let prizeID: Swift.Int?
+  final public let prizeType: NautilusStampSDK.NautilusStampPrizeType?
+  final public let requiredStampNumber: Swift.Int?
+  final public let prizeExchangeType: NautilusStampSDK.NautilusStampPrizeExchangeType?
+  final public let prizeImages: [NautilusStampSDK.NautilusStampPrizeImage]?
+  final public let remainingExchangeCount: Swift.Int?
+  final public let prizeTitle: Swift.String?
+  final public let useLimitType: NautilusStampSDK.NautilusStampPrizeUseLimitType?
+  final public let useLimit: Swift.Int?
+  final public let useLimitHour: Swift.Int?
+  final public let useLimitDate: Foundation.Date?
+  @objc deinit
+}
+@objc public enum NautilusStampPrizeType : Swift.Int {
+  case coupon
+  case point
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusStampPrizeExchangeType : Swift.Int {
+  case automatic
+  case manual
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusStampPrizeImage : ObjectiveC.NSObject {
+  final public let imageURL: Foundation.URL?
+  final public let aspectRatio: Swift.Double?
+  final public let sortNumber: Swift.Int?
+  @objc deinit
+}
+@objc public class NautilusExchangePrizeRequestInfo : ObjectiveC.NSObject {
+  final public let targetPrizes: [NautilusStampSDK.NautilusExchangePrizeRequestTargetPrize]
+  @objc public init(targetPrizes: [NautilusStampSDK.NautilusExchangePrizeRequestTargetPrize])
+  @objc deinit
+}
+@objc public class NautilusExchangePrizeRequestTargetPrize : ObjectiveC.NSObject {
+  final public let prizeID: Swift.Int
+  final public let prizeType: NautilusStampSDK.NautilusStampPrizeType
+  @objc public init(prizeID: Swift.Int, prizeType: NautilusStampSDK.NautilusStampPrizeType)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusStampCardInfo : ObjectiveC.NSObject {
+  final public let stampCardID: Swift.Int
+  final public let stampCardTitle: Swift.String
+  final public let publishStartDate: Foundation.Date
+  final public let publishEndDate: Foundation.Date?
+  final public let prizeExchangeLimitDate: Foundation.Date?
+  final public let stampCardText: Swift.String
+  final public let numberOfStamps: Swift.Int
+  final public let headerImageURL: Foundation.URL
+  final public let headerImageAspectRatio: Swift.Double
+  final public let alias: Swift.String?
+  final public let hasStampAvailablePeriod: Swift.Bool?
+  final public let stampAvailableType: NautilusStampSDK.NautilusStampAvailableType?
+  final public let stampAvailablePeriodType: NautilusStampSDK.NautilusStampAvailablePeriodType??
+  final public let stampAvailablePeriod: Swift.Int?
+  final public let stampCardPrizes: [NautilusStampSDK.NautilusStampPrizeInfo]?
+  final public let numberOfCurrentStamps: Swift.Int?
+  final public let numberOfExpiredStamps: Swift.Int?
+  final public let isRepeat: Swift.Bool?
+  final public let numberOfRepeat: Swift.Int?
+  final public let isRepeatLimit: Swift.Bool?
+  final public let stampCardCompleteImageURL: Foundation.URL?
+  final public let stampCardCompleteImageAspectRatio: Swift.Double?
+  final public let currentLap: Swift.Int?
+  final public let stampCardImages: [NautilusStampSDK.NautilusStampImage]?
+  @objc deinit
+}
+@objc public enum NautilusStampAvailableType : Swift.Int {
+  case initialCheckIn
+  case lastCheckIn
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusStampAvailablePeriodType : Swift.Int {
+  case day
+  case month
+  case year
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusStampImage : ObjectiveC.NSObject {
+  final public let imageURL: Foundation.URL?
+  final public let aspectRatio: Swift.Double?
+  final public let position: Swift.Int?
+  final public let imageType: NautilusStampSDK.NautilusStampImageType?
+  @objc deinit
+}
+@objc public enum NautilusStampImageType : Swift.Int {
+  case beforeCheckIn
+  case afterCheckIn
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusStampPrizeExchangeResult : ObjectiveC.NSObject {
+  final public let prizeID: Swift.Int?
+  final public let prizeType: Swift.Int?
+  final public let couponInfo: NautilusStampSDK.NautilusStampPrizeExchangeCouponInfo?
+  final public let pointInfo: NautilusStampSDK.NautilusStampPrizeExchangePointInfo?
+  final public let prizeTitle: Swift.String?
+  final public let prizeImageList: [NautilusStampSDK.NautilusStampPrizeImage]?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusStampPrizeExchangeCouponInfo : ObjectiveC.NSObject {
+  final public let couponExchangeID: Swift.Int?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusStampPrizeExchangePointInfo : ObjectiveC.NSObject {
+  final public let point: Swift.Int?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusStampRallyInfo : ObjectiveC.NSObject {
+  final public let stampRallyID: Swift.Int
+  final public let stampRallyTitle: Swift.String
+  final public let publishStartDate: Foundation.Date
+  final public let publishEndDate: Foundation.Date?
+  final public let prizeExchangeLimitDate: Foundation.Date?
+  final public let stampRallyText: Swift.String
+  final public let numberOfStamps: Swift.Int
+  final public let headerImageURL: Foundation.URL
+  final public let headerImageAspectRatio: Swift.Double
+  final public let alias: Swift.String?
+  final public let stampRallyPrizes: [NautilusStampSDK.NautilusStampPrizeInfo]?
+  final public let numberOfCurrentStamps: Swift.Int?
+  final public let numberOfExpiredStamps: Swift.Int?
+  final public let stampCompleteImagePath: Foundation.URL?
+  final public let stampCompleteImageAspectRatio: Swift.Double?
+  final public let currentLap: Swift.Int?
+  final public let checkPoints: [NautilusStampSDK.NautilusCheckPoint]?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusCheckPoint : ObjectiveC.NSObject {
+  final public let checkPointID: Swift.Int?
+  final public let checkPointName: Swift.String?
+  final public let latitude: Swift.String?
+  final public let longitude: Swift.String?
+  final public let checkinResult: Swift.Bool?
+  final public let checkPointImages: [NautilusStampSDK.NautilusCheckPointImage]?
+  final public let position: Swift.Int?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusCheckPointImage : ObjectiveC.NSObject {
+  final public let imageURL: Foundation.URL?
+  final public let aspectRatio: Swift.Double?
+  final public let imageType: NautilusStampSDK.NautilusCheckPointImageType?
+  @objc deinit
+}
+@objc public enum NautilusCheckPointImageType : Swift.Int {
+  case beforeCheckIn
+  case afterCheckIn
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class NautilusStampCheckInDeviceInfo : ObjectiveC.NSObject {
+  final public let checkInID: Swift.String
+  final public let location: NautilusCoreSDK.NautilusLocation?
+  final public let checkInDeviceType: NautilusStampSDK.NautilusStampCheckInDeviceType
+  public init(checkInID: Swift.String, location: NautilusCoreSDK.NautilusLocation?, checkInDeviceType: NautilusStampSDK.NautilusStampCheckInDeviceType)
+  @objc deinit
+}
+@objc public enum NautilusStampCheckInDeviceType : Swift.Int {
+  case qrCode
+  case beacon
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusCheckInResultInfo : ObjectiveC.NSObject {
+  final public let stampID: Swift.Int?
+  final public let numberOfAddedStamps: Swift.Int?
+  final public let prizes: [NautilusStampSDK.NautilusStampPrizeExchangeResult]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusStamp : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc final public var app: NautilusCoreSDK.NautilusApp
+  @objc final public var name: Swift.String?
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func stamp() -> NautilusStampSDK.NautilusStamp
+  @objc(stampAppNamed:) public static func stamp(appName: Swift.String) -> NautilusStampSDK.NautilusStamp
+  final public func getStampCardList(stampCardIDs: [Swift.Int]?, completion: @escaping (Swift.Result<[NautilusStampSDK.NautilusStampCardInfo], NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func getStampCardList(stampCardIDs: [Swift.Int]?, completion: @escaping ([NautilusStampSDK.NautilusStampCardInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getStampCardCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<Swift.Int, NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func getStampCardCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  final public func checkIn(checkInDevice: NautilusStampSDK.NautilusStampCheckInDeviceInfo, completion: @escaping (Swift.Result<[NautilusStampSDK.NautilusCheckInResultInfo], NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func checkIn(checkInDevice: NautilusStampSDK.NautilusStampCheckInDeviceInfo, completion: @escaping ([NautilusStampSDK.NautilusCheckInResultInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func checkIn(stampCard: NautilusStampSDK.NautilusStampCardInfo, checkInDevice: NautilusStampSDK.NautilusStampCheckInDeviceInfo, completion: @escaping (Swift.Result<[NautilusStampSDK.NautilusCheckInResultInfo], NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func checkIn(stampCard: NautilusStampSDK.NautilusStampCardInfo, checkInDevice: NautilusStampSDK.NautilusStampCheckInDeviceInfo, completion: @escaping ([NautilusStampSDK.NautilusCheckInResultInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func checkIn(stampRally: NautilusStampSDK.NautilusStampRallyInfo, checkInDevice: NautilusStampSDK.NautilusStampCheckInDeviceInfo, completion: @escaping (Swift.Result<[NautilusStampSDK.NautilusCheckInResultInfo], NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func checkIn(stampRally: NautilusStampSDK.NautilusStampRallyInfo, checkInDevice: NautilusStampSDK.NautilusStampCheckInDeviceInfo, completion: @escaping ([NautilusStampSDK.NautilusCheckInResultInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func exchangePrize(stampCard: NautilusStampSDK.NautilusStampCardInfo, prizes: NautilusStampSDK.NautilusExchangePrizeRequestInfo, completion: @escaping (Swift.Result<[NautilusStampSDK.NautilusStampPrizeExchangeResult], NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func exchangePrize(stampCard: NautilusStampSDK.NautilusStampCardInfo, prizes: NautilusStampSDK.NautilusExchangePrizeRequestInfo, completion: @escaping ([NautilusStampSDK.NautilusStampPrizeExchangeResult]?, Foundation.NSError?) -> Swift.Void)
+  final public func getStampRallyList(stampRallyIDs: [Swift.Int]?, completion: @escaping (Swift.Result<[NautilusStampSDK.NautilusStampRallyInfo], NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func getStampRallyList(stampRallyIDs: [Swift.Int]?, completion: @escaping ([NautilusStampSDK.NautilusStampRallyInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getStampRallyCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<Swift.Int, NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func getStampRallyCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  final public func exchangePrize(stampRally: NautilusStampSDK.NautilusStampRallyInfo, prizes: NautilusStampSDK.NautilusExchangePrizeRequestInfo, completion: @escaping (Swift.Result<[NautilusStampSDK.NautilusStampPrizeExchangeResult], NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func exchangePrize(stampRally: NautilusStampSDK.NautilusStampRallyInfo, prizes: NautilusStampSDK.NautilusExchangePrizeRequestInfo, completion: @escaping ([NautilusStampSDK.NautilusStampPrizeExchangeResult]?, Foundation.NSError?) -> Swift.Void)
+  final public func migrateStampCard(installId: Swift.String, manageCode: Swift.String? = nil, completion: @escaping (Swift.Result<Swift.Void, NautilusStampSDK.NautilusStampError>) -> Swift.Void)
+  @objc final public func migrateStampCard(installId: Swift.String, manageCode: Swift.String? = nil, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  @objc deinit
+}
+public let NautilusStampErrorDomain: Swift.String
+@objc public enum NautilusStampError : Swift.Int, Swift.Error {
+  public var nautilusStampErrorCode: Swift.Int {
+    get
+  }
+  case unknown
+  case connection
+  case timedout
+  case apiProcessError
+  case httpConnection
+  case parseFailure
+  case userCancelled
+  case invalidParamater
+  case invalidInstance
+  case invalidParameters = 100
+  case missingRequiredParameter = 101
+  case unexpectedParameterFormat = 102
+  case serverError = 200
+  case serviceMaintenance = 901
+  case unknownAPIService = 903
+  case invalidUserPID = 905
+  case developerError = 906
+  case requiresLoginStatus = 907
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension NautilusStampSDK.NautilusStampPrizeUseLimitType : Swift.Equatable {}
+extension NautilusStampSDK.NautilusStampPrizeUseLimitType : Swift.Hashable {}
+extension NautilusStampSDK.NautilusStampPrizeUseLimitType : Swift.RawRepresentable {}
+extension NautilusStampSDK.NautilusStampPrizeType : Swift.Equatable {}
+extension NautilusStampSDK.NautilusStampPrizeType : Swift.Hashable {}
+extension NautilusStampSDK.NautilusStampPrizeType : Swift.RawRepresentable {}
+extension NautilusStampSDK.NautilusStampPrizeExchangeType : Swift.Equatable {}
+extension NautilusStampSDK.NautilusStampPrizeExchangeType : Swift.Hashable {}
+extension NautilusStampSDK.NautilusStampPrizeExchangeType : Swift.RawRepresentable {}
+extension NautilusStampSDK.NautilusStampAvailableType : Swift.Equatable {}
+extension NautilusStampSDK.NautilusStampAvailableType : Swift.Hashable {}
+extension NautilusStampSDK.NautilusStampAvailableType : Swift.RawRepresentable {}
+extension NautilusStampSDK.NautilusStampAvailablePeriodType : Swift.Equatable {}
+extension NautilusStampSDK.NautilusStampAvailablePeriodType : Swift.Hashable {}
+extension NautilusStampSDK.NautilusStampAvailablePeriodType : Swift.RawRepresentable {}
+extension NautilusStampSDK.NautilusStampImageType : Swift.Equatable {}
+extension NautilusStampSDK.NautilusStampImageType : Swift.Hashable {}
+extension NautilusStampSDK.NautilusStampImageType : Swift.RawRepresentable {}
+extension NautilusStampSDK.NautilusCheckPointImageType : Swift.Equatable {}
+extension NautilusStampSDK.NautilusCheckPointImageType : Swift.Hashable {}
+extension NautilusStampSDK.NautilusCheckPointImageType : Swift.RawRepresentable {}
+extension NautilusStampSDK.NautilusStampCheckInDeviceType : Swift.Equatable {}
+extension NautilusStampSDK.NautilusStampCheckInDeviceType : Swift.Hashable {}
+extension NautilusStampSDK.NautilusStampCheckInDeviceType : Swift.RawRepresentable {}
+extension NautilusStampSDK.NautilusStampError : Swift.Equatable {}
+extension NautilusStampSDK.NautilusStampError : Swift.Hashable {}
+extension NautilusStampSDK.NautilusStampError : Swift.RawRepresentable {}

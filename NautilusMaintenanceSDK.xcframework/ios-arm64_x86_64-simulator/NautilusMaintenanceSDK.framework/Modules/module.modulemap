@@ -1,0 +1,11 @@
+framework module NautilusMaintenanceSDK {
+  umbrella header "NautilusMaintenanceSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module NautilusMaintenanceSDK.Swift {
+  header "NautilusMaintenanceSDK-Swift.h"
+  requires objc
+}

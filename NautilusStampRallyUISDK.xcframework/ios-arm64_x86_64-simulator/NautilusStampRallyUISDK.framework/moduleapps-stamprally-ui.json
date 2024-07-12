@@ -1,0 +1,300 @@
+{
+    "schema_version": 1,
+    "config_version": 1,
+    "app_name": "moduleapps-stamp",
+    "shop_account_app_id": 0,
+    "config_values": [
+        {
+            "config_value_name": "ma_stamprally_stamp_check_in_method",
+            "string_value": "qr_code_plus_gps"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_screen_title",
+            "string_value": "開催中スタンプラリー"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_loading_text",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_list_cell_stamprally_new_threshold",
+            "integer_value": 604800
+        },
+        {
+            "config_value_name": "ma_stamprally_list_reload_button_text",
+            "string_value": "再読み込み"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_empty_state_title",
+            "string_value": "現在、スタンプラリーが掲載されていません"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_empty_state_show_reload_button",
+            "boolean_value": true
+        },
+        {
+            "config_value_name": "ma_stamprally_list_empty_state_message",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_list_load_error_title",
+            "string_value": "通信エラー"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_load_error_message",
+            "string_value": "読み込み中にエラーが発生しました"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_cell_publish_start_datetime_format",
+            "string_value": "yyyy/MM/dd"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_cell_publish_end_datetime_format",
+            "string_value": "yyyy/MM/dd"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_cell_publish_period_prefix",
+            "string_value": "開催期間："
+        },
+        {
+            "config_value_name": "ma_stamprally_list_cell_publish_period_infix",
+            "string_value": "〜"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_cell_prize_exchange_enable_text",
+            "string_value": "交換できる特典があります"
+        },
+        {
+            "config_value_name": "ma_stamprally_list_cell_prize_exchange_limit_datetime_format",
+            "string_value": "交換はMM/ddまで"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_screen_title",
+            "string_value": "スタンプラリー"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_loading_text",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_publish_start_datetime_format",
+            "string_value": "yyyy/MM/dd"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_publish_end_datetime_format",
+            "string_value": "yyyy/MM/dd HH:mm"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_publish_period_infix",
+            "string_value": "〜"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_publish_period_prefix",
+            "string_value": "開催期間："
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_error_dialog_title",
+            "string_value": "エラー"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_error_dialog_no_content_message",
+            "string_value": "該当するスタンプラリーは、現在、配信されていません"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_error_dialog_load_error_message",
+            "string_value": "スタンプラリーが取得できませんでした。お手数ですが、電波環境をご確認いただき、再表示をしてください。"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_error_dialog_close_button_text",
+            "string_value": "閉じる"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_qr_code_reader_title",
+            "string_value": "QRコードスキャン"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_qr_code_reader_description",
+            "string_value": "QRコードを読み取ってください"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_prize_list_header_text",
+            "string_value": "景品"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_prize_remaining_count_format",
+            "string_value": "あと%d箇所で下記の景品を獲得できます"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_prize_exchange_enable_text",
+            "string_value": "特典と交換できます"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_prize_exchange_limit_datetime_format",
+            "string_value": "交換可能期限：yyyy/MM/dd HH:mm"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_stamp_prize_auto_exchanged_dialog_title",
+            "string_value": "獲得クーポン"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_exchange_prize_button_text",
+            "string_value": "景品交換"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_spots_button_text",
+            "string_value": "スポット一覧"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_checked_stamps_text",
+            "string_value": "取得スタンプ数"
+        },
+        {
+            "config_value_name": "ma_stamprally_qr_code_reader_read_error_dialog_title",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_qr_code_reader_read_error_dialog_message",
+            "string_value": "QRコードの読み取りが行えませんでした"
+        },
+        {
+            "config_value_name": "ma_stamprally_qr_code_reader_read_error_dialog_close_button_text",
+            "string_value": "閉じる"
+        },
+        {
+            "config_value_name": "ma_stamprally_qr_code_reader_enable_continuous_read_if_read_error",
+            "boolean_value": false
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_get_location_info_error_dialog_title",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_get_location_info_error_dialog_message",
+            "string_value": "位置情報の取得が行えませんでした"
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_get_location_info_error_dialog_close_button_text",
+            "string_value": "閉じる"
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_error_dialog_title",
+            "string_value": "チェックインエラー"
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_error_dialog_message",
+            "string_value": "スタンプラリーのチェックインができませんでした"
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_error_dialog_close_button_text",
+            "string_value": "閉じる"
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_failure_error_dialog_title",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_failure_error_dialog_message",
+            "string_value": "既にチェックイン済のスポットのため、スタンプラリーのチェックインができませんでした"
+        },
+        {
+            "config_value_name": "ma_stamprally_check_in_failure_error_dialog_close_button_text",
+            "string_value": "閉じる"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_list_screen_title",
+            "string_value": "スポット一覧"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_list_map_initial_radius",
+            "double_value": 5.0
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_list_show_result_list_button_title",
+            "string_value": "リストを表示"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_list_checked_stamps_text",
+            "string_value": "取得スタンプ数"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_list_style",
+            "string_value": "list_plus_map"
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_confirm_dialog_title",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_confirm_dialog_message",
+            "string_value": "スタンプ景品の交換をしますか？"
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_confirm_dialog_exchange_button_text",
+            "string_value": "交換する"
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_confirm_dialog_cancel_button_text",
+            "string_value": "キャンセル"
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_success_dialog_title",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_success_dialog_message",
+            "string_value": "スタンプ景品の交換をしました"
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_success_dialog_close_button_text",
+            "string_value": "閉じる"
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_error_dialog_title",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_error_dialog_message",
+            "string_value": "スタンプ景品の交換に失敗しました"
+        },
+        {
+            "config_value_name": "ma_stamprally_exchange_prize_error_dialog_close_button_text",
+            "string_value": "閉じる"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_route_dialog_title",
+            "string_value": ""
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_route_dialog_message",
+            "string_value": "経路選択画面へ移動します。よろしいですか？"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_route_dialog_cancel_button_text",
+            "string_value": "キャンセル"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_route_dialog_move_button_text",
+            "string_value": "移動"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_list_map_initial_latitude",
+            "double_value": 35.681111
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_list_map_initial_longitude",
+            "double_value": 139.766667
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_total_stamps_format",
+            "string_value": "/%d"
+        },
+        {
+            "config_value_name": "ma_stamprally_detail_check_in_button_text",
+            "string_value": "QRを読み取る"
+        },
+        {
+            "config_value_name": "ma_stamprally_spot_list_total_stamps_format",
+            "string_value": "/%d"
+        }
+    ]
+}

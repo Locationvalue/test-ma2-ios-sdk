@@ -1,0 +1,1072 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusUISDK
+import DeveloperToolsSupport
+import Foundation
+import NautilusAnalyticsSDK
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusLoggingSDK
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MACellLabel : UIKit.UILabel {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MASubCellLabel : UIKit.UILabel {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MACellButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) public var insets: UIKit.UIEdgeInsets
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func point(inside point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class NautilusAppTabViewCell : UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor(unsafe) public var cellNameLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var selectedBar: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var isActiveCell: Swift.Bool?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func preferredLayoutAttributesFitting(_ layoutAttributes: UIKit.UICollectionViewLayoutAttributes) -> UIKit.UICollectionViewLayoutAttributes
+  @_Concurrency.MainActor(unsafe) public func setUpContents(textName: Swift.String, textColor: UIKit.UIColor?, cellBackgroundColor: UIKit.UIColor?, width: NautilusUISDK.CategoryCellWidth?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class NautilusDropdownGroup : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var dataSource: (any NautilusUISDK.NautilusDropdownGroupDataSource)?
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any NautilusUISDK.NautilusDropdownGroupDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var dropdownGroupTitle: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public var selectedIndex: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor(unsafe) public func selectItem(at index: Swift.Int)
+  @objc deinit
+}
+@objc public protocol NautilusDropdownGroupDataSource {
+  @objc func numberOfDropdownItems(_ dropdownGroup: NautilusUISDK.NautilusDropdownGroup) -> Swift.Int
+  @objc func dropdownItemTitle(_ dropdownGroup: NautilusUISDK.NautilusDropdownGroup, at index: Swift.Int) -> Swift.String
+}
+@objc public protocol NautilusDropdownGroupDelegate {
+  @objc func dropdownGroup(_ dropdownGroup: NautilusUISDK.NautilusDropdownGroup, didSelect index: Swift.Int)
+  @objc func dropdownGroup(_ dropdownGroup: NautilusUISDK.NautilusDropdownGroup, actionSheet: UIKit.UIAlertController)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class NautilusAppPageViewController : UIKit.UIPageViewController {
+  @_Concurrency.MainActor(unsafe) public var childVC: [UIKit.UIViewController]?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(transitionStyle style: UIKit.UIPageViewController.TransitionStyle, navigationOrientation: UIKit.UIPageViewController.NavigationOrientation, options: [UIKit.UIPageViewController.OptionsKey : Any]? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension NautilusUISDK.NautilusAppPageViewController : UIKit.UIPageViewControllerDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerBefore viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerAfter viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func presentationCount(for pageViewController: UIKit.UIPageViewController) -> Swift.Int
+}
+public struct NautilusUIUtil {
+  public static func htmlToAttributedString(htmlString: Swift.String, family: Swift.String, point: Swift.String, weight: Swift.String, hexColor: Swift.String) -> Foundation.NSAttributedString?
+  public static func createActivityIndicator(viewWidth: CoreFoundation.CGFloat, viewHeight: CoreFoundation.CGFloat, text: Swift.String?) -> NautilusUISDK.ActivityStackView
+  public static func rowHeight(font: UIKit.UIFont, row: Swift.Int) -> CoreFoundation.CGFloat
+  public static func rawRect(font: UIKit.UIFont, text: Swift.String) -> CoreFoundation.CGRect
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var parentViewController: UIKit.UIViewController? {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ActivityStackView : UIKit.UIStackView {
+  @_Concurrency.MainActor(unsafe) public var indicatorView: UIKit.UIActivityIndicatorView?
+  @_Concurrency.MainActor(unsafe) public var activityLabel: UIKit.UILabel?
+  @objc deinit
+}
+extension UIKit.UIColor {
+  convenience public init(hexCode: Swift.String)
+  convenience public init(hex: Swift.String, alpha: CoreFoundation.CGFloat = 1.0)
+}
+@objc final public class NautilusInAppBrowserOption : ObjectiveC.NSObject {
+  public init(title: Swift.String? = nil, isSendID: Swift.Bool = false)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class NautilusInAppBrowserViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var progressView: UIKit.UIProgressView!
+  @_Concurrency.MainActor(unsafe) public var webView: WebKit.WKWebView!
+  @_Concurrency.MainActor(unsafe) final public let webConfigration: WebKit.WKWebViewConfiguration
+  @objc @_Concurrency.MainActor(unsafe) public static func initialize(linkURL: Foundation.URL, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings?, inAppBrowserOption: NautilusUISDK.NautilusInAppBrowserOption?, configuration: NautilusUISDK.NautilusWebHelper.Configuration?) -> NautilusUISDK.NautilusInAppBrowserViewController
+  @objc @_Concurrency.MainActor(unsafe) public static func initialize(redirectorKey: Swift.String, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings, inAppBrowserOption: NautilusUISDK.NautilusInAppBrowserOption?, configuration: NautilusUISDK.NautilusWebHelper.Configuration?) -> NautilusUISDK.NautilusInAppBrowserViewController
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class NautilusAppTabView : UIKit.UICollectionView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, collectionViewLayout layout: UIKit.UICollectionViewLayout)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public protocol NautilusAppTopBarDelegate {
+  @objc func appTopBar(_ appTopBar: NautilusUISDK.NautilusAppTopBar, didSelectedAt index: Swift.Int)
+}
+@objc public protocol NautilusAppTopBarDataSource {
+  @objc func numberOfItems(in appTopBar: NautilusUISDK.NautilusAppTopBar) -> Swift.Int
+  @objc func appTopBar(_ appTopBar: NautilusUISDK.NautilusAppTopBar, viewForItemAt index: Swift.Int) -> NautilusUISDK.NautilusAppTopBarItemView
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class NautilusAppTopBar : UIKit.UIView {
+  public enum SelectionStyle {
+    case bar
+    case boundingBox
+    public static func == (a: NautilusUISDK.NautilusAppTopBar.SelectionStyle, b: NautilusUISDK.NautilusAppTopBar.SelectionStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public struct Style {
+    public let backgroundColor: UIKit.UIColor
+    public let selectionShadowRadius: CoreFoundation.CGFloat
+    public let selectionShadowColor: UIKit.UIColor?
+    public let selectionStyle: NautilusUISDK.NautilusAppTopBar.SelectionStyle
+    public let selectionBarColor: UIKit.UIColor
+    public let selectionBarHeight: CoreFoundation.CGFloat
+    public let selectionBoundingBoxColor: UIKit.UIColor
+    public let selectionBoundingBoxInsets: UIKit.UIEdgeInsets
+    public let selectionBoundingBoxCornerRadius: CoreFoundation.CGFloat
+    public static var `default`: NautilusUISDK.NautilusAppTopBar.Style {
+      get
+    }
+    public init(backgroundColor: UIKit.UIColor, selectionShadowRadius: CoreFoundation.CGFloat, selectionShadowColor: UIKit.UIColor? = nil, selectionStyle: NautilusUISDK.NautilusAppTopBar.SelectionStyle, selectionBarColor: UIKit.UIColor, selectionBarHeight: CoreFoundation.CGFloat, selectionBoundingBoxColor: UIKit.UIColor, selectionBoundingBoxInsets: UIKit.UIEdgeInsets, selectionBoundingBoxCornerRadius: CoreFoundation.CGFloat)
+  }
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak final public var delegate: (any NautilusUISDK.NautilusAppTopBarDelegate)?
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak final public var dataSource: (any NautilusUISDK.NautilusAppTopBarDataSource)?
+  @_Concurrency.MainActor(unsafe) final public var selectedIndex: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var style: NautilusUISDK.NautilusAppTopBar.Style {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) final public func reloadData()
+  @_Concurrency.MainActor(unsafe) final public func selectItem(at index: Swift.Int, animated: Swift.Bool = true)
+  @objc deinit
+}
+@objc public class NautilusInAppBrowserSettings : ObjectiveC.NSObject {
+  public init(app: NautilusCoreSDK.NautilusApp, pid: Swift.String?, cid: Swift.String?)
+  @objc deinit
+}
+@objc public protocol NautilusColor {
+  @objc var primaryColor: UIKit.UIColor { get }
+  @objc var onPrimaryColor: UIKit.UIColor { get }
+  @objc var primaryColorContainer: UIKit.UIColor { get }
+  @objc var onPrimaryColorContainer: UIKit.UIColor { get }
+  @objc var focusColor: UIKit.UIColor { get }
+  @objc var foundationColor: UIKit.UIColor { get }
+  @objc var foundationColorLow: UIKit.UIColor { get }
+  @objc var onFoundationColorLow: UIKit.UIColor { get }
+  @objc var onFoundationColor: UIKit.UIColor { get }
+  @objc var onFoundationColorModestText: UIKit.UIColor { get }
+  @objc var onFoundationColorModestComponent: UIKit.UIColor { get }
+  @objc var onFoundationColorModestSeparateThin: UIKit.UIColor { get }
+  @objc var onFoundationColorModestSeparateBold: UIKit.UIColor { get }
+  @objc var onFoundationColorModestSeparateText: UIKit.UIColor { get }
+  @objc var shadowColor: UIKit.UIColor { get }
+  @objc var overlayColorDeep: UIKit.UIColor { get }
+  @objc var overlayColorDark: UIKit.UIColor { get }
+  @objc var topBarColor: UIKit.UIColor { get }
+  @objc var onTopBarColor: UIKit.UIColor { get }
+  @objc var disableColor: UIKit.UIColor { get }
+  @objc var onDisableColor: UIKit.UIColor { get }
+  @objc var accentColor: UIKit.UIColor { get }
+  @objc var textLinkColor: UIKit.UIColor { get }
+}
+@_hasMissingDesignatedInitializers @objc public class NautilusUIComponent : ObjectiveC.NSObject, NautilusUISDK.NautilusColor {
+  public var generalOK: Swift.String {
+    get
+  }
+  public var generalCancel: Swift.String {
+    get
+  }
+  public var generalYes: Swift.String {
+    get
+  }
+  public var generalNo: Swift.String {
+    get
+  }
+  public var generalClose: Swift.String {
+    get
+  }
+  public var generalDelete: Swift.String {
+    get
+  }
+  public var generalSubmit: Swift.String {
+    get
+  }
+  public var generalSelect: Swift.String {
+    get
+  }
+  public var generalRetry: Swift.String {
+    get
+  }
+  public var generalReload: Swift.String {
+    get
+  }
+  @objc public var topBarColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onTopBarColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var primaryColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onPrimaryColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var primaryColorContainer: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onPrimaryColorContainer: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var focusColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var foundationColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var foundationColorLow: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onFoundationColorLow: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onFoundationColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onFoundationColorModestText: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onFoundationColorModestComponent: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onFoundationColorModestSeparateThin: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onFoundationColorModestSeparateBold: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onFoundationColorModestSeparateText: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var shadowColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var overlayColorDeep: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var overlayColorDark: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var disableColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var onDisableColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var accentColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc public var textLinkColor: UIKit.UIColor {
+    @objc get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class NautilusLoadingView : UIKit.UIView {
+  public enum Style {
+    case transparent
+    case cover
+    public static func == (a: NautilusUISDK.NautilusLoadingView.Style, b: NautilusUISDK.NautilusLoadingView.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public static func showLoadingIndicator(app: NautilusCoreSDK.NautilusApp? = nil, title: Swift.String, style: NautilusUISDK.NautilusLoadingView.Style = .transparent, to viewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) public static func hideLoadingIndicator(from viewController: UIKit.UIViewController)
+  @objc deinit
+}
+public protocol HTMLViewDelegate : AnyObject {
+  func htmlViewTapLink(_ htmlView: NautilusUISDK.HTMLView, url: Foundation.URL)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class HTMLView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any NautilusUISDK.HTMLViewDelegate)?
+  @_Concurrency.MainActor(unsafe) final public var htmlString: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var font: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var textColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override final public func updateConstraints()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class NautilusAppContentsCollectionView : UIKit.UICollectionView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, collectionViewLayout layout: UIKit.UICollectionViewLayout)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension NautilusUISDK.NautilusAppContentsCollectionView : UIKit.UICollectionViewDelegateFlowLayout {
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class ContainedButton : UIKit.UIControl {
+  @objc public enum NautilusBorderRadiusStyle : Swift.Int {
+    case none
+    case small
+    case midium
+    case large
+    case pill
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var textColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var textColorDisabled: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var titleFontSize: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var titleFontSizeDisabled: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var fillColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var fillColorDisabled: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var outlineColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var outlineColorDisabled: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var title: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var image: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var stackViewInsets: UIKit.UIEdgeInsets {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var borderRadiusStyle: NautilusUISDK.ContainedButton.NautilusBorderRadiusStyle {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override final public func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor(unsafe) @objc override final public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
+  @objc deinit
+}
+@objc public protocol NautilusGridViewLayout {
+  @objc var numberOfColumns: Swift.Int { get set }
+  @objc var gridView: NautilusUISDK.NautilusGridView? { get set }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class NautilusGridViewCollectionFlowLayout : UIKit.UICollectionViewFlowLayout, NautilusUISDK.NautilusGridViewLayout {
+  @_Concurrency.MainActor(unsafe) @objc public var numberOfColumns: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc weak public var gridView: NautilusUISDK.NautilusGridView?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepare()
+  @objc deinit
+}
+@objc public protocol NautilusURLHandler {
+  @objc func open(url: Foundation.URL, browseType: NautilusUISDK.NautilusURLBrowseType, in viewController: UIKit.UIViewController)
+}
+@objc public enum NautilusURLBrowseType : Swift.Int {
+  case webView
+  case safariViewController
+  case externalApp
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol NautilusYearMonthDatePickerGroupDelegate {
+  @objc func yearMonthDatePickerGroup(_ pickerGroup: NautilusUISDK.NautilusYearMonthDatePickerGroup, didChanged date: Foundation.Date)
+  @objc func yearMonthDatePickerGroupDidClear(_ pickerGroup: NautilusUISDK.NautilusYearMonthDatePickerGroup)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class NautilusYearMonthDatePickerGroup : UIKit.UIView, UIKit.UIPickerViewDataSource, UIKit.UIPickerViewDelegate {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any NautilusUISDK.NautilusYearMonthDatePickerGroupDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var datePickerTitle: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var placeholder: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var locale: Foundation.Locale {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var timeZone: Foundation.TimeZone {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var calendar: Foundation.Calendar {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var date: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var dateFormat: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var minimumDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var maximumDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var pickerYearFormat: Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public var pickerMonthFormat: Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc public func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc public func pickerView(_ pickerView: UIKit.UIPickerView, titleForRow row: Swift.Int, forComponent component: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc public func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow row: Swift.Int, inComponent component: Swift.Int)
+  @objc deinit
+}
+public protocol NautilusBottomSheetContainerViewControllerDelegate : AnyObject {
+  func bottomSheetViewController(_ bottomSheetViewController: NautilusUISDK.NautilusBottomSheetContainerViewController, didChangeTo screenOverlayType: NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType)
+  func bottomSheetViewController(_ bottomSheetViewController: NautilusUISDK.NautilusBottomSheetContainerViewController)
+  func bottomSheetViewController(_ bottomSheetViewController: NautilusUISDK.NautilusBottomSheetContainerViewController, update sheetContainerViewFrame: CoreFoundation.CGRect, didChangeBottomSheetFrameWithReason reason: NautilusUISDK.NautilusBottomSheetFrameChangeReason)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class NautilusBottomSheetContainerViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
+  public enum BottomSheetScreenOverlayType {
+    case full
+    case half
+    case minimum
+    public static func == (a: NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType, b: NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) open var bottomSheetContentViewController: NautilusUISDK.NautilusBottomSheetContentViewController {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var initialBottomSheetOverlayType: NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var sheetMoveHandleSize: CoreFoundation.CGSize {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var sheetMoveHandleEdgeInsets: UIKit.UIEdgeInsets {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) weak public var bottomSheetDelegate: (any NautilusUISDK.NautilusBottomSheetContainerViewControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) public var panGestureRecognizer: UIKit.UIPanGestureRecognizer! {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var currentBottomSheetScreenOverlayType: NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewSafeAreaInsetsDidChange()
+  @_Concurrency.MainActor(unsafe) public func updateBottomSheetScreenOverlayType(_ screenType: NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType)
+  @_Concurrency.MainActor(unsafe) public func estimateBottomSheetSize(for screenOverlayType: NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum NautilusBottomSheetFrameChangeReason {
+  case swipeByUser
+  case updateByAction
+  public static func == (a: NautilusUISDK.NautilusBottomSheetFrameChangeReason, b: NautilusUISDK.NautilusBottomSheetFrameChangeReason) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class GhostButton : UIKit.UIControl {
+  @_Concurrency.MainActor(unsafe) @objc override final public var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var textColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var textColorDisabled: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var titleFontSize: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var titleFontSizeDisabled: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var title: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var buttonTitleInsets: UIKit.UIEdgeInsets {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override final public func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor(unsafe) @objc override final public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class NautilusWebViewNavigationDelegate : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
+  @objc open func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @objc open func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @objc open func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @objc open func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
+  @objc open func webView(_ webView: WebKit.WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @objc open func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class NautilusGridViewCell : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) open var isSelected: Swift.Bool
+  @_Concurrency.MainActor(unsafe) open var isHighlighted: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ContentsLayout : UIKit.UICollectionViewLayout, NautilusUISDK.SetContentsLayout {
+  @_Concurrency.MainActor(unsafe) public func setLayoutData(headerSize: CoreFoundation.CGSize, itemHeights: [[CoreFoundation.CGFloat]], column: NautilusUISDK.ContentsColumn)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var collectionViewContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func prepare()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutAttributesForItem(at indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewLayoutAttributes?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutAttributesForElements(in rect: CoreFoundation.CGRect) -> [UIKit.UICollectionViewLayoutAttributes]?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol SetContentsLayout : AnyObject {
+  func setLayoutData(headerSize: CoreFoundation.CGSize, itemHeights: [[CoreFoundation.CGFloat]], column: NautilusUISDK.ContentsColumn)
+}
+public enum CellLayoutSize {
+  case large
+  case midium
+  case small
+  public static func == (a: NautilusUISDK.CellLayoutSize, b: NautilusUISDK.CellLayoutSize) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class NautilusRadioGroup : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var dataSource: (any NautilusUISDK.NautilusRadioGroupDataSource)?
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any NautilusUISDK.NautilusRadioGroupDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var radioGroupTitle: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var indexForSelectedItem: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor(unsafe) public func loadItems()
+  @objc @_Concurrency.MainActor(unsafe) public func selectItem(at index: Swift.Int)
+  @objc deinit
+}
+@objc public protocol NautilusRadioGroupDataSource {
+  @objc func numberOfRadioItems(_ radioGroup: NautilusUISDK.NautilusRadioGroup) -> Swift.Int
+  @objc func radioItemTitle(_ radioGroup: NautilusUISDK.NautilusRadioGroup, at index: Swift.Int) -> Swift.String
+}
+@objc public protocol NautilusRadioGroupDelegate {
+  @objc func radioGroup(_ radioGroup: NautilusUISDK.NautilusRadioGroup, didSelect index: Swift.Int)
+}
+@objc open class NautilusWebViewWebScriptMessageHandler : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
+  final public let name: Swift.String
+  public init(name: Swift.String)
+  public func addScriptMessageHandler(to configuration: WebKit.WKWebViewConfiguration)
+  public func removeScriptMessageHandler(from configuration: WebKit.WKWebViewConfiguration)
+  @objc open func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @objc deinit
+}
+@objc public protocol NautilusAppTopBarControllerDelegate {
+  @objc func numberOfViewControllers(_ appTopBarController: NautilusUISDK.NautilusAppTopBarController) -> Swift.Int
+  @objc func appTopBarController(_ appTopBarController: NautilusUISDK.NautilusAppTopBarController, viewControllerAt index: Swift.Int) -> UIKit.UIViewController
+  @objc func appTopBarController(_ appTopBarController: NautilusUISDK.NautilusAppTopBarController, indexOfViewController viewController: UIKit.UIViewController) -> Swift.Int
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class NautilusAppTopBarController : UIKit.UIViewController, NautilusUISDK.NautilusAppTopBarDelegate, NautilusUISDK.NautilusAppTopBarDataSource, UIKit.UIPageViewControllerDelegate, UIKit.UIPageViewControllerDataSource {
+  @_Concurrency.MainActor(unsafe) public var appTopBar: NautilusUISDK.NautilusAppTopBar! {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var contentView: UIKit.UIView! {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var pageViewController: UIKit.UIPageViewController! {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any NautilusUISDK.NautilusAppTopBarControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func selectViewController(at index: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc open func appTopBar(_ appTopBar: NautilusUISDK.NautilusAppTopBar, didSelectedAt index: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc open func appTopBar(_ appTopBar: NautilusUISDK.NautilusAppTopBar, viewForItemAt index: Swift.Int) -> NautilusUISDK.NautilusAppTopBarItemView
+  @_Concurrency.MainActor(unsafe) @objc open func numberOfItems(in appTopBar: NautilusUISDK.NautilusAppTopBar) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerBefore viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerAfter viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc public func presentationCount(for pageViewController: UIKit.UIPageViewController) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc public func pageViewController(_ pageViewController: UIKit.UIPageViewController, didFinishAnimating finished: Swift.Bool, previousViewControllers: [UIKit.UIViewController], transitionCompleted completed: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public protocol NautilusURLPreprocessor {
+  @objc func buildURL(from baseURL: Foundation.URL, browseType: NautilusUISDK.NautilusURLBrowseType) -> Foundation.URL
+}
+@_inheritsConvenienceInitializers @objc open class NautilusWebViewUIDelegate : ObjectiveC.NSObject, WebKit.WKUIDelegate {
+  @objc open func webView(_ webView: WebKit.WKWebView, runJavaScriptAlertPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
+  @objc open func webView(_ webView: WebKit.WKWebView, runJavaScriptConfirmPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @objc open func webView(_ webView: WebKit.WKWebView, runJavaScriptTextInputPanelWithPrompt prompt: Swift.String, defaultText: Swift.String?, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.String?) -> Swift.Void)
+  @objc open func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class NautilusAppTopBarItemTitledLabelView : NautilusUISDK.NautilusAppTopBarItemView {
+  @_Concurrency.MainActor(unsafe) final public var title: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override final public var isHighlighted: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override final public var isSelected: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) override final public func updateStyle()
+  @objc deinit
+}
+public protocol NautilusAppTabViewDataSource {
+  var hierarchicalCategories: [[NautilusUISDK.NautilusCategory]]? { get }
+}
+@objc public enum NoneCategory : Swift.Int {
+  case removeMargin
+  case addAllTab
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class CellWidth : ObjectiveC.NSObject {
+  public var width: NautilusUISDK.CategoryCellWidth
+  public init(width: CoreFoundation.CGFloat?)
+  @objc deinit
+}
+@objc public class NautilusCategory : ObjectiveC.NSObject {
+  final public let hierarchy: Swift.Int
+  final public let parentCategoryID: Swift.Int?
+  final public let categoryID: Swift.Int?
+  final public let categoryName: Swift.String
+  final public let sortNo: Swift.Int
+  final public let alias: Swift.String
+  public init(hierarchy: Swift.Int, parentCategoryID: Swift.Int?, categoryID: Swift.Int?, categoryName: Swift.String, sortNo: Swift.Int, alias: Swift.String)
+  @objc deinit
+}
+extension NautilusUISDK.NautilusCategory {
+  public static let allTab: NautilusUISDK.NautilusCategory
+}
+public enum CategoryCellWidth {
+  case auto
+  case fixed(width: CoreFoundation.CGFloat)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class NautilusMessageDialogViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override final public var title: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) final public var message: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var closeButtonImage: UIKit.UIImage? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var modalTransitionStyle: UIKit.UIModalTransitionStyle {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var modalPresentationStyle: UIKit.UIModalPresentationStyle {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String?, message: Swift.String?, closeButtonImage: UIKit.UIImage?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class NautilusCommonErrorView : UIKit.UIView {
+  public struct ErrorInfo {
+    public let image: UIKit.UIImage?
+    public let title: Swift.String
+    public let message: Swift.String
+    public let reason: NautilusUISDK.NautilusCommonErrorView.ErrorReason
+    public let actionText: Swift.String
+    public let action: () -> Swift.Void
+    public init(image: UIKit.UIImage? = nil, title: Swift.String, message: Swift.String = "", reason: NautilusUISDK.NautilusCommonErrorView.ErrorReason = .network, actionText: Swift.String = "", action: @escaping () -> Swift.Void)
+  }
+  public enum ErrorReason {
+    case empty
+    case network
+    case invalidInstance
+    public static func == (a: NautilusUISDK.NautilusCommonErrorView.ErrorReason, b: NautilusUISDK.NautilusCommonErrorView.ErrorReason) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public static func instantiate(errorInfo: NautilusUISDK.NautilusCommonErrorView.ErrorInfo) -> NautilusUISDK.NautilusCommonErrorView
+  @_Concurrency.MainActor(unsafe) public static func instantiate(app: NautilusCoreSDK.NautilusApp, errorInfo: NautilusUISDK.NautilusCommonErrorView.ErrorInfo) -> NautilusUISDK.NautilusCommonErrorView
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ContentsFlowLayout : UIKit.UICollectionViewFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func shouldInvalidateLayout(forBoundsChange newBounds: CoreFoundation.CGRect) -> Swift.Bool
+  @objc deinit
+}
+@objc public enum ContentsColumn : Swift.Int {
+  case one = 1
+  case two = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum TransitionStyle : Swift.Int {
+  case dialog
+  case fullscreen
+  case notHaveDetail
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol NautilusStackListViewDataSource : AnyObject {
+  func numberOfItems(_ stackListView: NautilusUISDK.NautilusStackListView) -> Swift.Int
+  func stackListView(_ stackListView: NautilusUISDK.NautilusStackListView, viewForItemAt index: Swift.Int) -> UIKit.UIView
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class NautilusStackListView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var dataSource: (any NautilusUISDK.NautilusStackListViewDataSource)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) public func clearData()
+  @_Concurrency.MainActor(unsafe) public func reloadData()
+  @objc deinit
+}
+@objc open class NautilusAnalyticsWebScriptMessageHandler : NautilusUISDK.NautilusWebViewWebScriptMessageHandler {
+  public init(app: NautilusCoreSDK.NautilusApp, name: Swift.String)
+  @objc override public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class NautilusBottomSheetContentViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) open var trackableScrollView: UIKit.UIScrollView? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var minimumSheetContentHeight: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusUI : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc final public var app: NautilusCoreSDK.NautilusApp
+  @objc final public var name: Swift.String?
+  final public var config: NautilusUISDK.NautilusUIComponent! {
+    get
+  }
+  final public var nautilusColor: (any NautilusUISDK.NautilusColor)! {
+    get
+  }
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func uiComponent() -> NautilusUISDK.NautilusUI
+  @objc(uiComponentAppNamed:) public static func uiComponent(appName: Swift.String) -> NautilusUISDK.NautilusUI
+  @objc deinit
+}
+@objc public protocol NautilusGridViewDataSource {
+  @objc func numberOfSections(in gridView: NautilusUISDK.NautilusGridView) -> Swift.Int
+  @objc func gridView(_ gridView: NautilusUISDK.NautilusGridView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @objc func gridView(_ gridView: NautilusUISDK.NautilusGridView, cellForItemAt indexPath: Foundation.IndexPath) -> NautilusUISDK.NautilusGridViewCell
+  @objc func gridView(_ gridView: NautilusUISDK.NautilusGridView, cellHeightThatFitsTo size: CoreFoundation.CGSize, forItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+}
+@objc public protocol NautilusGridViewDelegate {
+  @objc func gridView(_ gridView: NautilusUISDK.NautilusGridView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @objc func gridView(_ gridView: NautilusUISDK.NautilusGridView, didDeselectItemAt indexPath: Foundation.IndexPath)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) final public class NautilusGridView : UIKit.UIView, UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource {
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak final public var dataSource: (any NautilusUISDK.NautilusGridViewDataSource)?
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak final public var delegate: (any NautilusUISDK.NautilusGridViewDelegate)?
+  @_Concurrency.MainActor(unsafe) final public var gridLayout: any NautilusUISDK.NautilusGridViewLayout {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var refreshControl: UIKit.UIRefreshControl? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, gridLayout: any NautilusUISDK.NautilusGridViewLayout)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) final public func reloadData()
+  @_Concurrency.MainActor(unsafe) final public func reloadItem(at indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) final public func reloadItems(at indexPaths: [Foundation.IndexPath])
+  @_Concurrency.MainActor(unsafe) @objc final public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, didDeselectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class NautilusAppTopBarItemView : UIKit.UIView {
+  public struct Style {
+    public let backgroundColor: UIKit.UIColor
+    public let selectedBackgroundColor: UIKit.UIColor
+    public let textColor: UIKit.UIColor
+    public let selectedTextColor: UIKit.UIColor
+    public let selectedFont: UIKit.UIFont
+    public let unselectedFont: UIKit.UIFont
+    public let textInsets: UIKit.UIEdgeInsets
+    public static var `default`: NautilusUISDK.NautilusAppTopBarItemView.Style {
+      get
+    }
+    public init(backgroundColor: UIKit.UIColor, selectedBackgroundColor: UIKit.UIColor, textColor: UIKit.UIColor, selectedTextColor: UIKit.UIColor, selectedFont: UIKit.UIFont, unselectedFont: UIKit.UIFont, textInsets: UIKit.UIEdgeInsets)
+  }
+  @_Concurrency.MainActor(unsafe) open var isHighlighted: Swift.Bool
+  @_Concurrency.MainActor(unsafe) open var isSelected: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var style: NautilusUISDK.NautilusAppTopBarItemView.Style {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) open func updateStyle()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class NautilusDatePickerGroup : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any NautilusUISDK.NautilusDatePickerGroupDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var datePickerTitle: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var placeholder: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var locale: Foundation.Locale? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var calendar: Foundation.Calendar {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var timeZone: Foundation.TimeZone? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var datePickerMode: UIKit.UIDatePicker.Mode {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var date: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var minimumDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var maximumDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var dateFormat: Swift.String {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+@objc public protocol NautilusDatePickerGroupDelegate {
+  @objc func datePickerGroup(_: NautilusUISDK.NautilusDatePickerGroup, dateChanged date: Foundation.Date)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusWebHelper : ObjectiveC.NSObject {
+  @_inheritsConvenienceInitializers @objc final public class Configuration : ObjectiveC.NSObject {
+    final public var modalPresentationStyle: UIKit.UIModalPresentationStyle?
+    final public var webViewUIDelegate: (any WebKit.WKUIDelegate)?
+    final public var webViewNavigationDelegate: (any WebKit.WKNavigationDelegate)?
+    final public var safariDelegate: (any SafariServices.SFSafariViewControllerDelegate)?
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  public static var handler: (any NautilusUISDK.NautilusURLHandler)?
+  public static var preprocessor: (any NautilusUISDK.NautilusURLPreprocessor)?
+  @objc public static func addMessageHandler(_ messageHandler: NautilusUISDK.NautilusWebViewWebScriptMessageHandler)
+  @objc public static func removeMessageHandler(_ messageHandler: NautilusUISDK.NautilusWebViewWebScriptMessageHandler)
+  @objc public static func open(url: Foundation.URL, browseType: NautilusUISDK.NautilusURLBrowseType, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings? = nil, in viewController: UIKit.UIViewController)
+  @objc public static func open(url: Foundation.URL, browseType: NautilusUISDK.NautilusURLBrowseType, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings? = nil, inAppBrowserOption: NautilusUISDK.NautilusInAppBrowserOption, in viewController: UIKit.UIViewController)
+  @objc public static func open(url: Foundation.URL, browseType: NautilusUISDK.NautilusURLBrowseType, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings? = nil, configuration: NautilusUISDK.NautilusWebHelper.Configuration, in viewController: UIKit.UIViewController)
+  @objc public static func open(url: Foundation.URL, browseType: NautilusUISDK.NautilusURLBrowseType, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings? = nil, inAppBrowserOption: NautilusUISDK.NautilusInAppBrowserOption, configuration: NautilusUISDK.NautilusWebHelper.Configuration, in viewController: UIKit.UIViewController)
+  @objc public static func open(redirectKey: Swift.String, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings, in viewController: UIKit.UIViewController)
+  @objc public static func open(redirectKey: Swift.String, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings, inAppBrowserOption: NautilusUISDK.NautilusInAppBrowserOption, in viewController: UIKit.UIViewController)
+  @objc public static func open(redirectKey: Swift.String, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings, configuration: NautilusUISDK.NautilusWebHelper.Configuration, in viewController: UIKit.UIViewController)
+  @objc public static func open(redirectKey: Swift.String, inAppBrowserSettings: NautilusUISDK.NautilusInAppBrowserSettings, inAppBrowserOption: NautilusUISDK.NautilusInAppBrowserOption, configuration: NautilusUISDK.NautilusWebHelper.Configuration, in viewController: UIKit.UIViewController)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class NautilusCheckBoxGroup : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var dataSource: (any NautilusUISDK.NautilusCheckBoxGroupDataSource)?
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any NautilusUISDK.NautilusCheckBoxGroupDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var checkBoxGroupTitle: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var indicesForSelectedItem: [Swift.Int] {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor(unsafe) public func loadItems()
+  @objc @_Concurrency.MainActor(unsafe) public func selectItem(at index: Swift.Int)
+  @objc @_Concurrency.MainActor(unsafe) public func deselectItem(at index: Swift.Int)
+  @objc deinit
+}
+@objc public protocol NautilusCheckBoxGroupDataSource {
+  @objc func numberOfCheckItems(_ checkBoxGroup: NautilusUISDK.NautilusCheckBoxGroup) -> Swift.Int
+  @objc func checkBoxItemTitle(_ checkBoxGroup: NautilusUISDK.NautilusCheckBoxGroup, at index: Swift.Int) -> Swift.String
+}
+@objc public protocol NautilusCheckBoxGroupDelegate {
+  @objc func checkBoxGroup(_ checkBoxGroup: NautilusUISDK.NautilusCheckBoxGroup, didSelect index: Swift.Int)
+  @objc func checkBoxGroup(_ checkBoxGroup: NautilusUISDK.NautilusCheckBoxGroup, didDeselect index: Swift.Int)
+}
+extension NautilusUISDK.NautilusAppTopBar.SelectionStyle : Swift.Equatable {}
+extension NautilusUISDK.NautilusAppTopBar.SelectionStyle : Swift.Hashable {}
+extension NautilusUISDK.NautilusLoadingView.Style : Swift.Equatable {}
+extension NautilusUISDK.NautilusLoadingView.Style : Swift.Hashable {}
+extension NautilusUISDK.ContainedButton.NautilusBorderRadiusStyle : Swift.Equatable {}
+extension NautilusUISDK.ContainedButton.NautilusBorderRadiusStyle : Swift.Hashable {}
+extension NautilusUISDK.ContainedButton.NautilusBorderRadiusStyle : Swift.RawRepresentable {}
+extension NautilusUISDK.NautilusURLBrowseType : Swift.Equatable {}
+extension NautilusUISDK.NautilusURLBrowseType : Swift.Hashable {}
+extension NautilusUISDK.NautilusURLBrowseType : Swift.RawRepresentable {}
+extension NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType : Swift.Equatable {}
+extension NautilusUISDK.NautilusBottomSheetContainerViewController.BottomSheetScreenOverlayType : Swift.Hashable {}
+extension NautilusUISDK.NautilusBottomSheetFrameChangeReason : Swift.Equatable {}
+extension NautilusUISDK.NautilusBottomSheetFrameChangeReason : Swift.Hashable {}
+extension NautilusUISDK.CellLayoutSize : Swift.Equatable {}
+extension NautilusUISDK.CellLayoutSize : Swift.Hashable {}
+extension NautilusUISDK.NoneCategory : Swift.Equatable {}
+extension NautilusUISDK.NoneCategory : Swift.Hashable {}
+extension NautilusUISDK.NoneCategory : Swift.RawRepresentable {}
+extension NautilusUISDK.NautilusCommonErrorView.ErrorReason : Swift.Equatable {}
+extension NautilusUISDK.NautilusCommonErrorView.ErrorReason : Swift.Hashable {}
+extension NautilusUISDK.ContentsColumn : Swift.Equatable {}
+extension NautilusUISDK.ContentsColumn : Swift.Hashable {}
+extension NautilusUISDK.ContentsColumn : Swift.RawRepresentable {}
+extension NautilusUISDK.TransitionStyle : Swift.Equatable {}
+extension NautilusUISDK.TransitionStyle : Swift.Hashable {}
+extension NautilusUISDK.TransitionStyle : Swift.RawRepresentable {}

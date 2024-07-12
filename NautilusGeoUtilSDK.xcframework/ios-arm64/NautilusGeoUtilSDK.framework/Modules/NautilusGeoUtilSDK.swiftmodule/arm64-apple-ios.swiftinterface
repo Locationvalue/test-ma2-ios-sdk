@@ -1,0 +1,146 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusGeoUtilSDK
+import Foundation
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusIdentifySDK
+import NautilusLoggingSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public let NautilusGeoUtilErrorDomain: Swift.String
+@objc public enum GeoUtilApiError : Swift.Int, Swift.Error {
+  case unknown
+  case connection
+  case timedout
+  case apiProcessError
+  case httpConnection
+  case parseFailure
+  case userCancelled
+  case invalidParamater
+  case invalidInstance
+  case invalidParameters = 100
+  case missingRequiredParameter = 101
+  case unexpectedParameterFormat = 102
+  case serverError = 200
+  case serviceMaintenance = 901
+  case unknownAPIService = 903
+  case invalidUserPID = 905
+  case developerError = 906
+  case requiresLoginStatus = 907
+  public var nautilusGeoUtilErrorCode: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusPrefectureCode : Swift.Int {
+  case hokkaido
+  case aomori
+  case iwate
+  case miyagi
+  case akita
+  case yamagata
+  case fukushima
+  case ibaraki
+  case tochigi
+  case gunma
+  case saitama
+  case chiba
+  case tokyo
+  case kanagawa
+  case niigata
+  case toyama
+  case ishikawa
+  case fukui
+  case yamanashi
+  case nagano
+  case gifu
+  case shizuoka
+  case aichi
+  case mie
+  case shiga
+  case kyoto
+  case osaka
+  case hyogo
+  case nara
+  case wakayama
+  case tottori
+  case shimane
+  case okayama
+  case hiroshima
+  case yamaguchi
+  case tokushima
+  case kagawa
+  case ehime
+  case kochi
+  case fukuoka
+  case saga
+  case nagasaki
+  case kumamoto
+  case oita
+  case miyazaki
+  case kagoshima
+  case okinawa
+  case other
+  public var code: Swift.Int {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public init?(from codeValue: Swift.Int)
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension NautilusGeoUtilSDK.NautilusPrefectureCode {
+  public static var allPrefectures: [NautilusGeoUtilSDK.NautilusPrefectureCode] {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class NautilusMunicipalityCode : ObjectiveC.NSObject {
+  final public let code: Swift.Int
+  final public let codeString: Swift.String
+  final public let name: Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusGeoUtil : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc final public var app: NautilusCoreSDK.NautilusApp
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc final public var name: Swift.String?
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func geoUtil() -> NautilusGeoUtilSDK.NautilusGeoUtil
+  @objc(geoUtilAppNamed:) public static func geoUtil(appName: Swift.String) -> NautilusGeoUtilSDK.NautilusGeoUtil
+  final public func getMunicipalityList(prefectureCode: NautilusGeoUtilSDK.NautilusPrefectureCode, completion: @escaping (Swift.Result<[NautilusGeoUtilSDK.NautilusMunicipalityCode], NautilusGeoUtilSDK.GeoUtilApiError>) -> Swift.Void)
+  @objc final public func getMunicipalityList(prefectureCode: NautilusGeoUtilSDK.NautilusPrefectureCode, completion: @escaping ([NautilusGeoUtilSDK.NautilusMunicipalityCode]?, Foundation.NSError?) -> Swift.Void)
+  @objc deinit
+}
+extension NautilusGeoUtilSDK.GeoUtilApiError : Swift.Equatable {}
+extension NautilusGeoUtilSDK.GeoUtilApiError : Swift.Hashable {}
+extension NautilusGeoUtilSDK.GeoUtilApiError : Swift.RawRepresentable {}
+extension NautilusGeoUtilSDK.NautilusPrefectureCode : Swift.Equatable {}
+extension NautilusGeoUtilSDK.NautilusPrefectureCode : Swift.Hashable {}
+extension NautilusGeoUtilSDK.NautilusPrefectureCode : Swift.RawRepresentable {}

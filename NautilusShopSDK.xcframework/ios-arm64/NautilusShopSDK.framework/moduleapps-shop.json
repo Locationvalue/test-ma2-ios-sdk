@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-shop",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_shop_network_timeout_time",
+      "integer_value": 60
+    },
+    {
+      "config_value_name": "ma_shop_use_favorite",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_shop_search_map_initial_latitude",
+      "double_value": 35.681111
+    },
+    {
+      "config_value_name": "ma_shop_search_map_initial_longitude",
+      "double_value": 139.766667
+    },
+    {
+      "config_value_name": "ma_shop_search_map_initial_radius",
+      "double_value": 30.0
+    },
+    {
+      "config_value_name": "ma_shop_search_map_use_current_location_for_initial",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_shop_search_map_number_of_shops_per_search",
+      "integer_value": 0
+    },
+    {
+      "config_value_name": "ma_shop_search_map_keyword_textfield_placeholder_text",
+      "string_value": "店舗を検索"
+    },
+    {
+      "config_value_name": "ma_shop_search_map_filtering_view_header_text",
+      "string_value": "検索条件"
+    },
+    {
+      "config_value_name": "ma_shop_search_map_filtering_clear_button_title",
+      "string_value": "リセット"
+    },
+    {
+      "config_value_name": "ma_shop_search_map_error_dialog_title",
+      "string_value": "エラー"
+    },
+    {
+      "config_value_name": "ma_shop_search_map_error_dialog_load_error_message",
+      "string_value": "店舗の検索が行えませんでした。お手数ですが、電波環境をご確認いただき、再表示をしてください。"
+    },
+    {
+      "config_value_name": "ma_shop_search_map_error_dialog_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_shop_number_of_search_history",
+      "integer_value": 5
+    },
+    {
+      "config_value_name": "ma_shop_search_keyword_textfield_placeholder_text",
+      "string_value": "店舗を検索"
+    },
+    {
+      "config_value_name": "ma_shop_search_keyword_cancel_button_title",
+      "string_value": "キャンセル"
+    },
+    {
+      "config_value_name": "ma_shop_search_keyword_table_header_text",
+      "string_value": "履歴"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_show_shop_search_tag_name",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_number_of_tag_columns",
+      "integer_value": 3
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_screen_title",
+      "string_value": "絞り込み"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_clear_button_title",
+      "string_value": "クリア"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_sections",
+      "string_array_value": [
+        "business",
+        "prefecture",
+        "tags"
+      ]
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_business_section_header_text",
+      "string_value": "ブランドを選択"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_prefecture_section_header_text",
+      "string_value": "エリアを選択"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_prefecture_section_no_selection_text",
+      "string_value": "選択されていません"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_tag_section_header_format",
+      "string_value": "%sを選択"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_search_button_title",
+      "string_value": "検索する"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_same_category_search_operation",
+      "string_value": "or"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_different_category_search_operation",
+      "string_value": "and"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_error_dialog_title",
+      "string_value": "エラー"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_error_dialog_load_error_message",
+      "string_value": "検索条件が取得できませんでした。お手数ですが、電波環境をご確認いただき、再表示をしてください。"
+    },
+    {
+      "config_value_name": "ma_shop_tag_filtering_error_dialog_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_shop_prefecture_selection_no_selection_item_text",
+      "string_value": "設定なし"
+    },
+    {
+      "config_value_name": "ma_shop_prefecture_selection_use_selectable_prefecture_list",
+      "boolean_value": false
+    },
+    {
+      "config_value_name": "ma_shop_prefecture_selection_selectable_prefecture_list",
+      "integer_array_value": []
+    },
+    {
+      "config_value_name": "ma_shop_search_list_initial_state",
+      "string_value": "collapsed"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_show_result_list_button_title",
+      "string_value": "リストを表示"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_empty_state_text",
+      "string_value": "このエリアに該当する店舗はありません"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_item_title_element",
+      "string_value": "shop_name"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_item_body1_element",
+      "string_value": "open_time"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_item_body2_element",
+      "string_value": "distance"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_near_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_near_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_near_fractional_length",
+      "integer_value": 0
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_near_unit",
+      "string_value": "m"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_far_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_far_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_far_fractional_length",
+      "integer_value": 1
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_far_unit",
+      "string_value": "km"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_result_distance_text_format_threshold",
+      "integer_value": 10000
+    },
+    {
+      "config_value_name": "ma_shop_search_map_annotation_item_title_element",
+      "string_value": "shop_name"
+    },
+    {
+      "config_value_name": "ma_shop_search_map_annotation_item_body_element",
+      "string_value": "address"
+    },
+    {
+      "config_value_name": "ma_shop_search_map_annotation_show_shop_search_tags",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_shop_detail_screen_title",
+      "string_value": "店舗情報"
+    },
+    {
+      "config_value_name": "ma_shop_detail_map_radius",
+      "double_value": 1.5
+    },
+    {
+      "config_value_name": "ma_shop_detail_map_open_map_app_button_title",
+      "string_value": "経路検索"
+    },
+    {
+      "config_value_name": "ma_shop_detail_visible_items",
+      "string_array_value": [
+        "map",
+        "name",
+        "images",
+        "links",
+        "telephone",
+        "business_hour",
+        "holiday",
+        "shop_tags"
+      ]
+    },
+    {
+      "config_value_name": "ma_shop_detail_business_hour_header_text",
+      "string_value": "営業時間"
+    },
+    {
+      "config_value_name": "ma_shop_detail_holiday_header_text",
+      "string_value": "定休日"
+    },
+    {
+      "config_value_name": "ma_shop_detail_average_budget_for_daytime_header_text",
+      "string_value": "平均予算（昼）"
+    },
+    {
+      "config_value_name": "ma_shop_detail_average_budget_for_nighttime_header_text",
+      "string_value": "平均予算（夜）"
+    },
+    {
+      "config_value_name": "ma_shop_detail_average_budget_header_text",
+      "string_value": "平均予算"
+    },
+    {
+      "config_value_name": "ma_shop_detail_shop_appeal_header_text",
+      "string_value": "アピール"
+    },
+    {
+      "config_value_name": "ma_shop_detail_shop_ads_message_header_text",
+      "string_value": "キャッチコピー"
+    },
+    {
+      "config_value_name": "ma_shop_detail_shop_address_header_text",
+      "string_value": "住所"
+    },
+    {
+      "config_value_name": "ma_shop_detail_shop_telephone_header_text",
+      "string_value": "電話番号"
+    },
+    {
+      "config_value_name": "ma_shop_detail_shop_business_header_text",
+      "string_value": "業態"
+    },
+    {
+      "config_value_name": "ma_shop_detail_shop_access_header_text",
+      "string_value": "アクセス"
+    },
+    {
+      "config_value_name": "ma_shop_detail_shop_emergency_notification_header_text",
+      "string_value": "緊急告知"
+    },
+    {
+      "config_value_name": "ma_shop_detail_shop_distance_header_text",
+      "string_value": "距離"
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_near_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_near_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_near_fractional_length",
+      "integer_value": 0
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_near_unit",
+      "string_value": "m"
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_far_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_far_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_far_fractional_length",
+      "integer_value": 2
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_far_unit",
+      "string_value": "km"
+    },
+    {
+      "config_value_name": "ma_shop_detail_distance_text_format_threshold",
+      "integer_value": 10000
+    },
+    {
+      "config_value_name": "ma_shop_detail_show_shop_search_tag_name",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_screen_title",
+      "string_value": "お気に入り店舗"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_sort_order",
+      "string_value": "descending"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_number_of_shops_per_load",
+      "integer_value": 30
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_item_title_element",
+      "string_value": "shop_name"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_item_body1_element",
+      "string_value": "open_time"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_item_body2_element",
+      "string_value": "address"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_threshold",
+      "integer_value": 10000
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_near_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_near_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_near_fractional_length",
+      "integer_value": 0
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_near_unit",
+      "string_value": "m"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_far_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_far_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_far_fractional_length",
+      "integer_value": 1
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_distance_text_format_far_unit",
+      "string_value": "km"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_empty_state_title",
+      "string_value": "お気に入りに登録されている店舗はありません"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_empty_state_message",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_empty_state_show_reload_button",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_load_error_title",
+      "string_value": "通信エラー"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_load_error_message",
+      "string_value": "読み込み中にエラーが発生しました"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_reload_button_text",
+      "string_value": "再読み込み"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_load_more_error_dialog_title",
+      "string_value": "取得エラー"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_load_more_error_dialog_message",
+      "string_value": "店舗情報の読み込みに失敗しました"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_load_more_error_dialog_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_loading_text",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_shop_detail_error_dialog_title",
+      "string_value": "エラー"
+    },
+    {
+      "config_value_name": "ma_shop_detail_error_dialog_no_content_message",
+      "string_value": "該当する店舗の情報は、現在、掲載されていません"
+    },
+    {
+      "config_value_name": "ma_shop_detail_error_dialog_load_error_message",
+      "string_value": "店舗の情報が取得できませんでした。お手数ですが、電波環境をご確認いただき、再表示をしてください。"
+    },
+    {
+      "config_value_name": "ma_shop_detail_error_dialog_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_shop_list_screen_title",
+      "string_value": "店舗一覧"
+    },
+    {
+      "config_value_name": "ma_shop_list_item_title_element",
+      "string_value": "shop_name"
+    },
+    {
+      "config_value_name": "ma_shop_list_item_body1_element",
+      "string_value": "open_time"
+    },
+    {
+      "config_value_name": "ma_shop_list_item_body2_element",
+      "string_value": "address"
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_threshold",
+      "integer_value": 10000
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_near_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_near_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_near_fractional_length",
+      "integer_value": 0
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_near_unit",
+      "string_value": "m"
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_far_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_far_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_far_fractional_length",
+      "integer_value": 2
+    },
+    {
+      "config_value_name": "ma_shop_list_distance_text_format_far_unit",
+      "string_value": "km"
+    },
+    {
+      "config_value_name": "ma_shop_list_loading_text",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_shop_list_empty_state_title",
+      "string_value": "該当する店舗情報はありません"
+    },
+    {
+      "config_value_name": "ma_shop_list_empty_state_message",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_shop_list_empty_state_show_reload_button",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_shop_list_load_error_title",
+      "string_value": "通信エラー"
+    },
+    {
+      "config_value_name": "ma_shop_list_load_error_message",
+      "string_value": "読み込み中にエラーが発生しました"
+    },
+    {
+      "config_value_name": "ma_shop_list_reload_button_text",
+      "string_value": "再読み込み"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_unavailable_error_title",
+      "string_value": "構成エラー"
+    },
+    {
+      "config_value_name": "ma_shop_favorite_list_unavailable_error_message",
+      "string_value": "表示対象となるコンテンツが登録されていません"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_number_of_shops_per_load",
+      "integer_value": 30
+    },
+    {
+      "config_value_name": "ma_shop_search_list_keyword_textfield_placeholder_text",
+      "string_value": "店舗を検索"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_item_title_element",
+      "string_value": "shop_name"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_item_body1_element",
+      "string_value": "open_time"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_item_body2_element",
+      "string_value": "distance"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_threshold",
+      "integer_value": 10000
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_near_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_near_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_near_fractional_length",
+      "integer_value": 0
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_near_unit",
+      "string_value": "m"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_far_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_far_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_far_fractional_length",
+      "integer_value": 2
+    },
+    {
+      "config_value_name": "ma_shop_search_list_distance_text_format_far_unit",
+      "string_value": "km"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_filtering_view_header_text",
+      "string_value": "検索条件"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_filtering_clear_button_title",
+      "string_value": "リセット"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_loading_text",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_shop_search_list_empty_state_title",
+      "string_value": "該当する店舗はありません"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_empty_state_message",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_shop_search_list_empty_state_show_reload_button",
+      "boolean_value": false
+    },
+    {
+      "config_value_name": "ma_shop_search_list_load_error_title",
+      "string_value": "通信エラー"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_load_error_message",
+      "string_value": "読み込み中にエラーが発生しました"
+    },
+    {
+      "config_value_name": "ma_shop_search_list_reload_button_text",
+      "string_value": "再読み込み"
+    },
+    {
+       "config_value_name": "ma_shop_search_widemap_map_initial_latitude",
+       "double_value": 35.681111
+    },
+    {
+       "config_value_name": "ma_shop_search_widemap_map_initial_longitude",
+       "double_value": 139.766667
+    },
+    {
+       "config_value_name": "ma_shop_search_widemap_map_initial_radius",
+       "double_value": 30.0
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_map_use_current_location_for_initial",
+      "boolean_value": true
+    },
+    {
+       "config_value_name": "ma_shop_search_widemap_map_number_of_shops_per_search",
+       "integer_value": 0
+    },
+    {
+       "config_value_name": "ma_shop_search_widemap_map_keyword_textfield_placeholder_text",
+       "string_value": "店舗を検索"
+    },
+    {
+       "config_value_name": "ma_shop_search_widemap_map_filtering_view_header_text",
+       "string_value": "検索条件"
+    },
+    {
+       "config_value_name": "ma_shop_search_widemap_map_filtering_clear_button_title",
+       "string_value": "リセット"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_initial_state",
+      "string_value": "collapsed"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_map_error_dialog_title",
+      "string_value": "エラー"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_map_error_dialog_load_error_message",
+      "string_value": "店舗の検索が行えませんでした。お手数ですが、電波環境をご確認いただき、再表示をしてください。"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_map_error_dialog_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_annotation_item_title_element",
+      "string_value": "shop_name"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_annotation_item_body_element",
+      "string_value": "address"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_annotation_show_shop_search_tags",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_show_result_list_button_title",
+      "string_value": "リストを表示"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_item_title_element",
+      "string_value": "shop_name"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_item_body1_element",
+      "string_value": "open_time"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_item_body2_element",
+      "string_value": "distance"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_near_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_near_decimal_separator",
+      "string_value": "."
+    },
+    {
+       "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_near_fractional_length",
+       "integer_value": 0
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_near_unit",
+      "string_value": "m"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_far_group_separator",
+      "string_value": ","
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_far_decimal_separator",
+      "string_value": "."
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_far_fractional_length",
+      "integer_value": 1
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_far_unit",
+      "string_value": "km"
+    },
+    {
+      "config_value_name": "ma_shop_search_widemap_list_result_distance_text_format_threshold",
+      "integer_value": 10000
+    },
+    {
+        "config_value_name": "ma_shop_search_widemap_list_loading_text",
+        "string_value": ""
+    },
+    {
+        "config_value_name": "ma_shop_search_widemap_list_empty_state_title",
+        "string_value": "該当する店舗情報はありません"
+    },
+    {
+        "config_value_name": "ma_shop_search_widemap_list_empty_state_message",
+        "string_value": ""
+    },
+    {
+        "config_value_name": "ma_shop_search_widemap_list_load_error_title",
+        "string_value": "通信エラー"
+    },
+    {
+        "config_value_name": "ma_shop_search_widemap_list_load_error_message",
+        "string_value": "読み込み中にエラーが発生しました"
+    },
+    {
+        "config_value_name": "ma_shop_search_widemap_auto_focus_after_search",
+        "boolean_value": false
+    },
+    {
+        "config_value_name": "ma_shop_search_map_sort_name",
+        "string_value": ""
+    },
+    {
+        "config_value_name": "ma_shop_search_widemap_map_sort_name",
+        "string_value": ""
+    }
+  ]
+}

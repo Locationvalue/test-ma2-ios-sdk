@@ -1,0 +1,3668 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusConfigSDK",
+        "printedName": "NautilusConfigSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusConfigSDK",
+        "printedName": "NautilusConfigSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusContainerSDK",
+        "printedName": "NautilusContainerSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLoggingSDK",
+        "printedName": "NautilusLoggingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusServerTime",
+        "printedName": "NautilusServerTime",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configFilename",
+            "printedName": "configFilename",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cpy)configFilename",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C14configFilenameSSSgvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "objc_name": "configFilename",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cm)configFilename",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C14configFilenameSSSgvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "objc_name": "configFilename",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "componentType",
+            "printedName": "componentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusComponentType",
+                "printedName": "NautilusContainerSDK.NautilusComponentType",
+                "usr": "c:@E@NautilusComponentType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cpy)componentType",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C13componentTypeSo0a9ComponentF0VvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "objc_name": "componentType",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusComponentType",
+                    "printedName": "NautilusContainerSDK.NautilusComponentType",
+                    "usr": "c:@E@NautilusComponentType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cm)componentType",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C13componentTypeSo0a9ComponentF0VvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "objc_name": "componentType",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dependencies",
+            "printedName": "dependencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NautilusContainerSDK.NautilusComponentDependency]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusComponentDependency",
+                    "printedName": "NautilusContainerSDK.NautilusComponentDependency",
+                    "usr": "c:objc(cs)NautilusComponentDependency"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cpy)dependencies",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C12dependenciesSaySo0A19ComponentDependencyCGvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "objc_name": "dependencies",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NautilusContainerSDK.NautilusComponentDependency]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusComponentDependency",
+                        "printedName": "NautilusContainerSDK.NautilusComponentDependency",
+                        "usr": "c:objc(cs)NautilusComponentDependency"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cm)dependencies",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C12dependenciesSaySo0A19ComponentDependencyCGvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "objc_name": "dependencies",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultRetryTimeInterval",
+            "printedName": "defaultRetryTimeInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC0C012defaultRetryC8IntervalSdvpZ",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C012defaultRetryC8IntervalSdvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C012defaultRetryC8IntervalSdvgZ",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C012defaultRetryC8IntervalSdvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultUpdateTimeInterval",
+            "printedName": "defaultUpdateTimeInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC0C013defaultUpdateC8IntervalSdvpZ",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C013defaultUpdateC8IntervalSdvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C013defaultUpdateC8IntervalSdvgZ",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C013defaultUpdateC8IntervalSdvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serverTimeStatus",
+            "printedName": "serverTimeStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusServerTimeStatus",
+                "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC0C06serverC6StatusAA0abcF0Ovp",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C06serverC6StatusAA0abcF0Ovp",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeStatus",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C06serverC6StatusAA0abcF0Ovg",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C06serverC6StatusAA0abcF0Ovg",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureStatus",
+            "printedName": "featureStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusFeatureStatus",
+                "printedName": "NautilusCoreSDK.NautilusFeatureStatus",
+                "usr": "c:@M@NautilusCoreSDK@E@NautilusFeatureStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(py)featureStatus",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C13featureStatus0a4CoreD00a7FeatureF0Ovp",
+            "moduleName": "NautilusServerTimeSDK",
+            "objc_name": "featureStatus",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusFeatureStatus",
+                    "printedName": "NautilusCoreSDK.NautilusFeatureStatus",
+                    "usr": "c:@M@NautilusCoreSDK@E@NautilusFeatureStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(im)featureStatus",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C13featureStatus0a4CoreD00a7FeatureF0Ovg",
+                "moduleName": "NautilusServerTimeSDK",
+                "objc_name": "featureStatus",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minimumUpdateTimeInterval",
+            "printedName": "minimumUpdateTimeInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC0C013minimumUpdateC8IntervalSdvpZ",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C013minimumUpdateC8IntervalSdvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C013minimumUpdateC8IntervalSdvgZ",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C013minimumUpdateC8IntervalSdvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "retryTimeInterval",
+            "printedName": "retryTimeInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC0C05retryC8IntervalSdvp",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C05retryC8IntervalSdvp",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C05retryC8IntervalSdvg",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C05retryC8IntervalSdvg",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C05retryC8IntervalSdvs",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C05retryC8IntervalSdvs",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C05retryC8IntervalSdvM",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C05retryC8IntervalSdvM",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "updateTimeInterval",
+            "printedName": "updateTimeInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC0C06updateC8IntervalSdvp",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C06updateC8IntervalSdvp",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C06updateC8IntervalSdvg",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C06updateC8IntervalSdvg",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C06updateC8IntervalSdvs",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C06updateC8IntervalSdvs",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C06updateC8IntervalSdvM",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C06updateC8IntervalSdvM",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "app",
+            "printedName": "app",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusApp",
+                "printedName": "NautilusCoreSDK.NautilusApp",
+                "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(py)app",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C3app0a4CoreD00A3AppCvp",
+            "moduleName": "NautilusServerTimeSDK",
+            "objc_name": "app",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusApp",
+                    "printedName": "NautilusCoreSDK.NautilusApp",
+                    "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(im)app",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C3app0a4CoreD00A3AppCvg",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "objc_name": "app",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusApp",
+                    "printedName": "NautilusCoreSDK.NautilusApp",
+                    "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(im)setApp:",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C3app0a4CoreD00A3AppCvs",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC0C3app0a4CoreD00A3AppCvM",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C3app0a4CoreD00A3AppCvM",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(py)name",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C4nameSSSgvp",
+            "moduleName": "NautilusServerTimeSDK",
+            "objc_name": "name",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(im)name",
+                "mangledName": "$s21NautilusServerTimeSDK0abC0C4nameSSSgvg",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(application:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusApp",
+                "printedName": "NautilusCoreSDK.NautilusApp",
+                "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cm)initializeWithApplication:completion:",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C10initialize11application10completiony0a4CoreD00A3AppC_ySb_So7NSErrorCSgtctFZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "objc_name": "initializeWithApplication:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serverTime",
+            "printedName": "serverTime()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusServerTime",
+                "printedName": "NautilusServerTimeSDK.NautilusServerTime",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cm)serverTime",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C06serverC0ACyFZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serverTime",
+            "printedName": "serverTime(appName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusServerTime",
+                "printedName": "NautilusServerTimeSDK.NautilusServerTime",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(cm)serverTimeAppNamed:",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C06serverC07appNameACSS_tFZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "objc_name": "serverTimeAppNamed:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "now",
+            "printedName": "now()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NautilusServerTimeSDK0abC0C3now10Foundation4DateVSgyF",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C3now10Foundation4DateVSgyF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateServerTime",
+            "printedName": "updateServerTime(force:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Date, NautilusServerTimeSDK.NautilusServerTimeError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Date, NautilusServerTimeSDK.NautilusServerTimeError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NautilusServerTimeSDK0abC0C06updatebC05force10completionySb_ys6ResultOy10Foundation4DateVAA0abC5ErrorOGctF",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C06updatebC05force10completionySb_ys6ResultOy10Foundation4DateVAA0abC5ErrorOGctF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateServerTime",
+            "printedName": "updateServerTime(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Date?, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Date?, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Date?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Date",
+                            "printedName": "Foundation.Date",
+                            "usr": "s:10Foundation4DateV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(im)updateServerTimeWithCompletion:",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0C06updatebC010completionyy10Foundation4DateVSg_So7NSErrorCSgtc_tF",
+            "moduleName": "NautilusServerTimeSDK",
+            "objc_name": "updateServerTimeWithCompletion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusServerTime",
+                "printedName": "NautilusServerTimeSDK.NautilusServerTime",
+                "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime(im)init",
+            "mangledName": "$s21NautilusServerTimeSDK0abC0CACycfc",
+            "moduleName": "NautilusServerTimeSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusServerTimeSDK@objc(cs)NautilusServerTime",
+        "mangledName": "$s21NautilusServerTimeSDK0abC0C",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NautilusFeature",
+            "printedName": "NautilusFeature",
+            "usr": "c:@M@NautilusCoreSDK@objc(pl)NautilusFeature",
+            "mangledName": "$s15NautilusCoreSDK0A7FeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "NautilusServerTimeErrorDomain",
+        "printedName": "NautilusServerTimeErrorDomain",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:21NautilusServerTimeSDK0abC11ErrorDomainSSvp",
+        "mangledName": "$s21NautilusServerTimeSDK0abC11ErrorDomainSSvp",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:21NautilusServerTimeSDK0abC11ErrorDomainSSvg",
+            "mangledName": "$s21NautilusServerTimeSDK0abC11ErrorDomainSSvg",
+            "moduleName": "NautilusServerTimeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusServerTimeError",
+        "printedName": "NautilusServerTimeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorUnknown",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO7unknownyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "connection",
+            "printedName": "connection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorConnection",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO10connectionyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "timedout",
+            "printedName": "timedout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorTimedout",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO8timedoutyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "apiProcessError",
+            "printedName": "apiProcessError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorApiProcessError",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO010apiProcessE0yA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "httpConnection",
+            "printedName": "httpConnection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorHttpConnection",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO14httpConnectionyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "parseFailure",
+            "printedName": "parseFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorParseFailure",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO12parseFailureyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "userCancelled",
+            "printedName": "userCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorUserCancelled",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO13userCancelledyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorInvalidResponse",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO15invalidResponseyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "invalidInstance",
+            "printedName": "invalidInstance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorInvalidInstance",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO15invalidInstanceyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "invalidParameters",
+            "printedName": "invalidParameters",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorInvalidParameters",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO17invalidParametersyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "missingRequiredParameter",
+            "printedName": "missingRequiredParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorMissingRequiredParameter",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO24missingRequiredParameteryA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "unexpectedParameterFormat",
+            "printedName": "unexpectedParameterFormat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorUnexpectedParameterFormat",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO25unexpectedParameterFormatyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorServerError",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO06serverE0yA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Var",
+            "name": "serviceMaintenance",
+            "printedName": "serviceMaintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorServiceMaintenance",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO18serviceMaintenanceyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
+          },
+          {
+            "kind": "Var",
+            "name": "unknownAPIService",
+            "printedName": "unknownAPIService",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorUnknownAPIService",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO17unknownAPIServiceyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 14
+          },
+          {
+            "kind": "Var",
+            "name": "invalidUserPID",
+            "printedName": "invalidUserPID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorInvalidUserPID",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO14invalidUserPIDyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 15
+          },
+          {
+            "kind": "Var",
+            "name": "developerError",
+            "printedName": "developerError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorDeveloperError",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO09developerE0yA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 16
+          },
+          {
+            "kind": "Var",
+            "name": "requiresLoginStatus",
+            "printedName": "requiresLoginStatus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeError.Type) -> NautilusServerTimeSDK.NautilusServerTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeError",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError@NautilusServerTimeErrorRequiresLoginStatus",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO19requiresLoginStatusyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 17
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusServerTimeSDK.NautilusServerTimeError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeError",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeError",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NautilusServerTimeSDK0abC5ErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "NautilusServerTimeSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC5ErrorO8rawValueSivp",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO8rawValueSivp",
+            "moduleName": "NautilusServerTimeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC5ErrorO8rawValueSivg",
+                "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO8rawValueSivg",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_nsErrorDomain",
+            "printedName": "_nsErrorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC5ErrorO03_nsE6DomainSSvpZ",
+            "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO03_nsE6DomainSSvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC5ErrorO03_nsE6DomainSSvgZ",
+                "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO03_nsE6DomainSSvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeError",
+        "mangledName": "$s21NautilusServerTimeSDK0abC5ErrorO",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_BridgedNSError",
+            "printedName": "_BridgedNSError",
+            "usr": "s:10Foundation15_BridgedNSErrorP",
+            "mangledName": "$s10Foundation15_BridgedNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeableError",
+            "printedName": "_ObjectiveCBridgeableError",
+            "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
+            "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusServerTimeStatus",
+        "printedName": "NautilusServerTimeStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalid",
+            "printedName": "invalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeStatus.Type) -> NautilusServerTimeSDK.NautilusServerTimeStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeStatus",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeStatus",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus@NautilusServerTimeStatusInvalid",
+            "mangledName": "$s21NautilusServerTimeSDK0abC6StatusO7invalidyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "needUpdate",
+            "printedName": "needUpdate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeStatus.Type) -> NautilusServerTimeSDK.NautilusServerTimeStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeStatus",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeStatus",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus@NautilusServerTimeStatusNeedUpdate",
+            "mangledName": "$s21NautilusServerTimeSDK0abC6StatusO10needUpdateyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "valid",
+            "printedName": "valid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusServerTimeSDK.NautilusServerTimeStatus.Type) -> NautilusServerTimeSDK.NautilusServerTimeStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeStatus",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusServerTimeStatus",
+                        "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus@NautilusServerTimeStatusValid",
+            "mangledName": "$s21NautilusServerTimeSDK0abC6StatusO5validyA2CmF",
+            "moduleName": "NautilusServerTimeSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusServerTimeStatus",
+                    "printedName": "NautilusServerTimeSDK.NautilusServerTimeStatus",
+                    "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NautilusServerTimeSDK0abC6StatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s21NautilusServerTimeSDK0abC6StatusO8rawValueACSgSi_tcfc",
+            "moduleName": "NautilusServerTimeSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NautilusServerTimeSDK0abC6StatusO8rawValueSivp",
+            "mangledName": "$s21NautilusServerTimeSDK0abC6StatusO8rawValueSivp",
+            "moduleName": "NautilusServerTimeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NautilusServerTimeSDK0abC6StatusO8rawValueSivg",
+                "mangledName": "$s21NautilusServerTimeSDK0abC6StatusO8rawValueSivg",
+                "moduleName": "NautilusServerTimeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@NautilusServerTimeSDK@E@NautilusServerTimeStatus",
+        "mangledName": "$s21NautilusServerTimeSDK0abC6StatusO",
+        "moduleName": "NautilusServerTimeSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Calendar",
+        "printedName": "Calendar",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nautilusDefault",
+            "printedName": "nautilusDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Calendar",
+                "printedName": "Foundation.Calendar",
+                "usr": "s:10Foundation8CalendarV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation8CalendarV21NautilusServerTimeSDKE15nautilusDefaultACvpZ",
+            "mangledName": "$s10Foundation8CalendarV21NautilusServerTimeSDKE15nautilusDefaultACvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Calendar",
+                    "printedName": "Foundation.Calendar",
+                    "usr": "s:10Foundation8CalendarV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation8CalendarV21NautilusServerTimeSDKE15nautilusDefaultACvgZ",
+                "mangledName": "$s10Foundation8CalendarV21NautilusServerTimeSDKE15nautilusDefaultACvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation8CalendarV",
+        "mangledName": "$s10Foundation8CalendarV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCalendar",
+                    "printedName": "Foundation.NSCalendar",
+                    "usr": "c:objc(cs)NSCalendar"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCalendar",
+                    "printedName": "Foundation.NSCalendar",
+                    "usr": "c:objc(cs)NSCalendar"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Locale",
+        "printedName": "Locale",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nautilusDefault",
+            "printedName": "nautilusDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Locale",
+                "printedName": "Foundation.Locale",
+                "usr": "s:10Foundation6LocaleV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation6LocaleV21NautilusServerTimeSDKE15nautilusDefaultACvpZ",
+            "mangledName": "$s10Foundation6LocaleV21NautilusServerTimeSDKE15nautilusDefaultACvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Locale",
+                    "printedName": "Foundation.Locale",
+                    "usr": "s:10Foundation6LocaleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation6LocaleV21NautilusServerTimeSDKE15nautilusDefaultACvgZ",
+                "mangledName": "$s10Foundation6LocaleV21NautilusServerTimeSDKE15nautilusDefaultACvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation6LocaleV",
+        "mangledName": "$s10Foundation6LocaleV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLocale",
+                    "printedName": "Foundation.NSLocale",
+                    "usr": "c:objc(cs)NSLocale"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLocale",
+                    "printedName": "Foundation.NSLocale",
+                    "usr": "c:objc(cs)NSLocale"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TimeZone",
+        "printedName": "TimeZone",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nautilusDefault",
+            "printedName": "nautilusDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TimeZone",
+                "printedName": "Foundation.TimeZone",
+                "usr": "s:10Foundation8TimeZoneV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation8TimeZoneV014NautilusServerB3SDKE15nautilusDefaultACvpZ",
+            "mangledName": "$s10Foundation8TimeZoneV014NautilusServerB3SDKE15nautilusDefaultACvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeZone",
+                    "printedName": "Foundation.TimeZone",
+                    "usr": "s:10Foundation8TimeZoneV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation8TimeZoneV014NautilusServerB3SDKE15nautilusDefaultACvgZ",
+                "mangledName": "$s10Foundation8TimeZoneV014NautilusServerB3SDKE15nautilusDefaultACvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation8TimeZoneV",
+        "mangledName": "$s10Foundation8TimeZoneV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTimeZone",
+                    "printedName": "Foundation.NSTimeZone",
+                    "usr": "c:objc(cs)NSTimeZone"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTimeZone",
+                    "printedName": "Foundation.NSTimeZone",
+                    "usr": "c:objc(cs)NSTimeZone"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DateFormatter",
+        "printedName": "DateFormatter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nautilusDefault",
+            "printedName": "nautilusDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DateFormatter",
+                "printedName": "Foundation.DateFormatter",
+                "usr": "c:objc(cs)NSDateFormatter"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So15NSDateFormatterC21NautilusServerTimeSDKE15nautilusDefaultABvpZ",
+            "mangledName": "$sSo15NSDateFormatterC21NautilusServerTimeSDKE15nautilusDefaultABvpZ",
+            "moduleName": "NautilusServerTimeSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateFormatter",
+                    "printedName": "Foundation.DateFormatter",
+                    "usr": "c:objc(cs)NSDateFormatter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So15NSDateFormatterC21NautilusServerTimeSDKE15nautilusDefaultABvgZ",
+                "mangledName": "$sSo15NSDateFormatterC21NautilusServerTimeSDKE15nautilusDefaultABvgZ",
+                "moduleName": "NautilusServerTimeSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSDateFormatter",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSDateFormatter",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSFormatter",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Foundation.Formatter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Config\/NautilusServerTimeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 36,
+      "value": "\"ma_servertime_network_timeout_time\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Config\/NautilusServerTimeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 36,
+      "value": "\"ma_servertime_network_timeout_time\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 945,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1080,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2409,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "StringLiteral",
+      "offset": 2695,
+      "length": 31,
+      "value": "\"Ignore new retryTimeInterval.\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "StringLiteral",
+      "offset": 3188,
+      "length": 32,
+      "value": "\"Ignore new updateTimeInterval.\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3762,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8310,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 18,
+      "value": "\"NautilusServerTimeSDK.NautilusServerTime\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime+DataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 30,
+      "value": "\"__nautilus_server_time_jst__\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime+DataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime+DataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 39,
+      "value": "\"__nautilus_server_time_request_time__\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTime+DataStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/API\/TimeCheckResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 6,
+      "value": "\"date\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/API\/TimeCheckResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1015,
+      "length": 7,
+      "value": "\"epoch\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/API\/TimeCheckResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 6,
+      "value": "\"date\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/API\/TimeCheckResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1015,
+      "length": 7,
+      "value": "\"epoch\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "StringLiteral",
+      "offset": 296,
+      "length": 31,
+      "value": "\"NautilusServerTimeErrorDomain\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 539,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 584,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 14,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 712,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 800,
+      "length": 13,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 913,
+      "length": 15,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 974,
+      "length": 15,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1072,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1157,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1246,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1303,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1367,
+      "length": 3,
+      "value": "901"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1442,
+      "length": 3,
+      "value": "903"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1496,
+      "length": 3,
+      "value": "905"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1551,
+      "length": 3,
+      "value": "906"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1631,
+      "length": 3,
+      "value": "907"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 539,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 584,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 14,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 712,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 800,
+      "length": 13,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 913,
+      "length": 15,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 974,
+      "length": 15,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1072,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1157,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1246,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1303,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1367,
+      "length": 3,
+      "value": "901"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1442,
+      "length": 3,
+      "value": "903"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1496,
+      "length": 3,
+      "value": "905"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1551,
+      "length": 3,
+      "value": "906"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1631,
+      "length": 3,
+      "value": "907"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 748,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 908,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 748,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/ServerTime\/Sources\/Base\/NautilusServerTimeStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 908,
+      "length": 5,
+      "value": "2"
+    }
+  ]
+}

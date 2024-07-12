@@ -1,0 +1,530 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusIdentifySDK",
+        "printedName": "NautilusIdentifySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ZXingObjC",
+        "printedName": "ZXingObjC",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusUserInfoNW7CodeImageProvider",
+        "printedName": "NautilusUserInfoNW7CodeImageProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "provideCodeImage",
+            "printedName": "provideCodeImage(for:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoNW7CodeImageProvider(im)provideCodeImageFor:size:",
+            "mangledName": "$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF",
+            "moduleName": "NautilusCodeImageProvidersSDK",
+            "objc_name": "provideCodeImageFor:size:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusUserInfoNW7CodeImageProvider",
+                "printedName": "NautilusCodeImageProvidersSDK.NautilusUserInfoNW7CodeImageProvider",
+                "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoNW7CodeImageProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoNW7CodeImageProvider(im)init",
+            "mangledName": "$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderCACycfc",
+            "moduleName": "NautilusCodeImageProvidersSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoNW7CodeImageProvider",
+        "mangledName": "$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderC",
+        "moduleName": "NautilusCodeImageProvidersSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NautilusUserInfoCodeImageProvider",
+            "printedName": "NautilusUserInfoCodeImageProvider",
+            "usr": "c:@M@NautilusIdentifySDK@objc(pl)NautilusUserInfoCodeImageProvider",
+            "mangledName": "$s19NautilusIdentifySDK0A25UserInfoCodeImageProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusIdentifySDK",
+        "printedName": "NautilusIdentifySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ZXingObjC",
+        "printedName": "ZXingObjC",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusUserInfoJAN13CodeImageProvider",
+        "printedName": "NautilusUserInfoJAN13CodeImageProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "provideCodeImage",
+            "printedName": "provideCodeImage(for:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoJAN13CodeImageProvider(im)provideCodeImageFor:size:",
+            "mangledName": "$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF",
+            "moduleName": "NautilusCodeImageProvidersSDK",
+            "objc_name": "provideCodeImageFor:size:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusUserInfoJAN13CodeImageProvider",
+                "printedName": "NautilusCodeImageProvidersSDK.NautilusUserInfoJAN13CodeImageProvider",
+                "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoJAN13CodeImageProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoJAN13CodeImageProvider(im)init",
+            "mangledName": "$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderCACycfc",
+            "moduleName": "NautilusCodeImageProvidersSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoJAN13CodeImageProvider",
+        "mangledName": "$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderC",
+        "moduleName": "NautilusCodeImageProvidersSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NautilusUserInfoCodeImageProvider",
+            "printedName": "NautilusUserInfoCodeImageProvider",
+            "usr": "c:@M@NautilusIdentifySDK@objc(pl)NautilusUserInfoCodeImageProvider",
+            "mangledName": "$s19NautilusIdentifySDK0A25UserInfoCodeImageProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusIdentifySDK",
+        "printedName": "NautilusIdentifySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusCodeImageProvidersSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusUserInfoQRCodeImageProvider",
+        "printedName": "NautilusUserInfoQRCodeImageProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "provideCodeImage",
+            "printedName": "provideCodeImage(for:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoQRCodeImageProvider(im)provideCodeImageFor:size:",
+            "mangledName": "$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF",
+            "moduleName": "NautilusCodeImageProvidersSDK",
+            "objc_name": "provideCodeImageFor:size:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusUserInfoQRCodeImageProvider",
+                "printedName": "NautilusCodeImageProvidersSDK.NautilusUserInfoQRCodeImageProvider",
+                "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoQRCodeImageProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoQRCodeImageProvider(im)init",
+            "mangledName": "$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderCACycfc",
+            "moduleName": "NautilusCodeImageProvidersSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusCodeImageProvidersSDK@objc(cs)NautilusUserInfoQRCodeImageProvider",
+        "mangledName": "$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderC",
+        "moduleName": "NautilusCodeImageProvidersSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NautilusUserInfoCodeImageProvider",
+            "printedName": "NautilusUserInfoCodeImageProvider",
+            "usr": "c:@M@NautilusIdentifySDK@objc(pl)NautilusUserInfoCodeImageProvider",
+            "mangledName": "$s19NautilusIdentifySDK0A25UserInfoCodeImageProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

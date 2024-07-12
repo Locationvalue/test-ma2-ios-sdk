@@ -1,0 +1,3022 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLoggingSDK",
+        "printedName": "NautilusLoggingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusLotteryDetailViewControllerDelegate",
+        "printedName": "NautilusLotteryDetailViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "lotteryDetail",
+            "printedName": "lotteryDetail(_:didOpen:prize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryDetailViewController",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryDetailViewController",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryInfo",
+                "printedName": "NautilusLotterySDK.NautilusLotteryInfo",
+                "usr": "c:@M@NautilusLotterySDK@objc(cs)NautilusLotteryInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryPrizeInfo",
+                "printedName": "NautilusLotterySDK.NautilusLotteryPrizeInfo",
+                "usr": "c:@M@NautilusLotterySDK@objc(cs)NautilusLotteryPrizeInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(pl)NautilusLotteryDetailViewControllerDelegate(im)lotteryDetail:didOpen:prize:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB28DetailViewControllerDelegateP07lotteryD0_7didOpen5prizeyAA0abdeF0C_0aB3SDK0aB4InfoCAI0ab5PrizeM0CtF",
+            "moduleName": "NautilusLotteryUISDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NautilusLotteryUISDK.NautilusLotteryDetailViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : NautilusLotteryUISDK.NautilusLotteryDetailViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@NautilusLotteryUISDK@objc(pl)NautilusLotteryDetailViewControllerDelegate",
+        "mangledName": "$s20NautilusLotteryUISDK0aB28DetailViewControllerDelegateP",
+        "moduleName": "NautilusLotteryUISDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusImagingSDK",
+        "printedName": "NautilusImagingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusAnalyticsSDK",
+        "printedName": "NautilusAnalyticsSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusLotteryDetailViewController",
+        "printedName": "NautilusLotteryDetailViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any NautilusLotteryUISDK.NautilusLotteryDetailViewControllerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20NautilusLotteryUISDK0aB20DetailViewControllerC8delegateAA0abdeF8Delegate_pSgvp",
+            "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC8delegateAA0abdeF8Delegate_pSgvp",
+            "moduleName": "NautilusLotteryUISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NautilusLotteryUISDK.NautilusLotteryDetailViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusLotteryDetailViewControllerDelegate",
+                        "printedName": "any NautilusLotteryUISDK.NautilusLotteryDetailViewControllerDelegate",
+                        "usr": "c:@M@NautilusLotteryUISDK@objc(pl)NautilusLotteryDetailViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20NautilusLotteryUISDK0aB20DetailViewControllerC8delegateAA0abdeF8Delegate_pSgvg",
+                "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC8delegateAA0abdeF8Delegate_pSgvg",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NautilusLotteryUISDK.NautilusLotteryDetailViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusLotteryDetailViewControllerDelegate",
+                        "printedName": "any NautilusLotteryUISDK.NautilusLotteryDetailViewControllerDelegate",
+                        "usr": "c:@M@NautilusLotteryUISDK@objc(pl)NautilusLotteryDetailViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20NautilusLotteryUISDK0aB20DetailViewControllerC8delegateAA0abdeF8Delegate_pSgvs",
+                "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC8delegateAA0abdeF8Delegate_pSgvs",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20NautilusLotteryUISDK0aB20DetailViewControllerC8delegateAA0abdeF8Delegate_pSgvM",
+                "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC8delegateAA0abdeF8Delegate_pSgvM",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "NautilusLotteryUISDK",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController(im)viewDidLoad",
+            "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC11viewDidLoadyyF",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryDetailViewController",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryDetailViewController",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryDetailViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusLotteryDetailViewController",
+                    "printedName": "NautilusLotteryUISDK.NautilusLotteryDetailViewController",
+                    "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController(im)initWithCoder:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController",
+        "mangledName": "$s20NautilusLotteryUISDK0aB20DetailViewControllerC",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusServerTimeSDK",
+        "printedName": "NautilusServerTimeSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusAnalyticsSDK",
+        "printedName": "NautilusAnalyticsSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusLotteryListViewController",
+        "printedName": "NautilusLotteryListViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s20NautilusLotteryUISDK0aB18ListViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s20NautilusLotteryUISDK0aB18ListViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "NautilusLotteryUISDK",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController(im)viewDidLoad",
+            "mangledName": "$s20NautilusLotteryUISDK0aB18ListViewControllerC11viewDidLoadyyF",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController(im)viewWillAppear:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB18ListViewControllerC14viewWillAppearyySbF",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryListViewController",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryListViewController",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB18ListViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryListViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusLotteryListViewController",
+                    "printedName": "NautilusLotteryUISDK.NautilusLotteryListViewController",
+                    "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController(im)initWithCoder:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB18ListViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController",
+        "mangledName": "$s20NautilusLotteryUISDK0aB18ListViewControllerC",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusLotteryUIDelegate",
+        "printedName": "NautilusLotteryUIDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "lottery",
+            "printedName": "lottery(_:didTap:prize:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryUI",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryUI",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryInfo",
+                "printedName": "NautilusLotterySDK.NautilusLotteryInfo",
+                "usr": "c:@M@NautilusLotterySDK@objc(cs)NautilusLotteryInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryPrizeInfo",
+                "printedName": "NautilusLotterySDK.NautilusLotteryPrizeInfo",
+                "usr": "c:@M@NautilusLotterySDK@objc(cs)NautilusLotteryPrizeInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(pl)NautilusLotteryUIDelegate(im)lottery:didTap:prize:from:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB10UIDelegateP7lottery_6didTap5prize4fromyAA0aB2UIC_0aB3SDK0aB4InfoCAJ0ab5PrizeL0CSo16UIViewControllerCtF",
+            "moduleName": "NautilusLotteryUISDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NautilusLotteryUISDK.NautilusLotteryUIDelegate>",
+            "sugared_genericSig": "<Self where Self : NautilusLotteryUISDK.NautilusLotteryUIDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@NautilusLotteryUISDK@objc(pl)NautilusLotteryUIDelegate",
+        "mangledName": "$s20NautilusLotteryUISDK0aB10UIDelegateP",
+        "moduleName": "NautilusLotteryUISDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusImagingSDK",
+        "printedName": "NautilusImagingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusServerTimeSDK",
+        "printedName": "NautilusServerTimeSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusAnalyticsSDK",
+        "printedName": "NautilusAnalyticsSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLoggingSDK",
+        "printedName": "NautilusLoggingSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusAnalyticsSDK",
+        "printedName": "NautilusAnalyticsSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusContainerSDK",
+        "printedName": "NautilusContainerSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusConfigSDK",
+        "printedName": "NautilusConfigSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusIdentifySDK",
+        "printedName": "NautilusIdentifySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusAnalyticsSDK",
+        "printedName": "NautilusAnalyticsSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusServerTimeSDK",
+        "printedName": "NautilusServerTimeSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NautilusLotteryUI",
+        "printedName": "NautilusLotteryUI",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configFilename",
+            "printedName": "configFilename",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cpy)configFilename",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC14configFilenameSSSgvpZ",
+            "moduleName": "NautilusLotteryUISDK",
+            "static": true,
+            "objc_name": "configFilename",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cm)configFilename",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC14configFilenameSSSgvgZ",
+                "moduleName": "NautilusLotteryUISDK",
+                "static": true,
+                "objc_name": "configFilename",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "componentType",
+            "printedName": "componentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusComponentType",
+                "printedName": "NautilusContainerSDK.NautilusComponentType",
+                "usr": "c:@E@NautilusComponentType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cpy)componentType",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC13componentTypeSo0a9ComponentF0VvpZ",
+            "moduleName": "NautilusLotteryUISDK",
+            "static": true,
+            "objc_name": "componentType",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusComponentType",
+                    "printedName": "NautilusContainerSDK.NautilusComponentType",
+                    "usr": "c:@E@NautilusComponentType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cm)componentType",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC13componentTypeSo0a9ComponentF0VvgZ",
+                "moduleName": "NautilusLotteryUISDK",
+                "static": true,
+                "objc_name": "componentType",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dependencies",
+            "printedName": "dependencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NautilusContainerSDK.NautilusComponentDependency]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusComponentDependency",
+                    "printedName": "NautilusContainerSDK.NautilusComponentDependency",
+                    "usr": "c:objc(cs)NautilusComponentDependency"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cpy)dependencies",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC12dependenciesSaySo0A19ComponentDependencyCGvpZ",
+            "moduleName": "NautilusLotteryUISDK",
+            "static": true,
+            "objc_name": "dependencies",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NautilusContainerSDK.NautilusComponentDependency]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusComponentDependency",
+                        "printedName": "NautilusContainerSDK.NautilusComponentDependency",
+                        "usr": "c:objc(cs)NautilusComponentDependency"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cm)dependencies",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC12dependenciesSaySo0A19ComponentDependencyCGvgZ",
+                "moduleName": "NautilusLotteryUISDK",
+                "static": true,
+                "objc_name": "dependencies",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "app",
+            "printedName": "app",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusApp",
+                "printedName": "NautilusCoreSDK.NautilusApp",
+                "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(py)app",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC3app0A7CoreSDK0A3AppCvp",
+            "moduleName": "NautilusLotteryUISDK",
+            "objc_name": "app",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusApp",
+                    "printedName": "NautilusCoreSDK.NautilusApp",
+                    "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)app",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC3app0A7CoreSDK0A3AppCvg",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "objc_name": "app",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusApp",
+                    "printedName": "NautilusCoreSDK.NautilusApp",
+                    "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)setApp:",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC3app0A7CoreSDK0A3AppCvs",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20NautilusLotteryUISDK0aB2UIC3app0A7CoreSDK0A3AppCvM",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC3app0A7CoreSDK0A3AppCvM",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(py)name",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC4nameSSSgvp",
+            "moduleName": "NautilusLotteryUISDK",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)name",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC4nameSSSgvg",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)setName:",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC4nameSSSgvs",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20NautilusLotteryUISDK0aB2UIC4nameSSSgvM",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC4nameSSSgvM",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureStatus",
+            "printedName": "featureStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusFeatureStatus",
+                "printedName": "NautilusCoreSDK.NautilusFeatureStatus",
+                "usr": "c:@M@NautilusCoreSDK@E@NautilusFeatureStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(py)featureStatus",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC13featureStatus0A7CoreSDK0a7FeatureF0Ovp",
+            "moduleName": "NautilusLotteryUISDK",
+            "objc_name": "featureStatus",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NautilusFeatureStatus",
+                    "printedName": "NautilusCoreSDK.NautilusFeatureStatus",
+                    "usr": "c:@M@NautilusCoreSDK@E@NautilusFeatureStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)featureStatus",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC13featureStatus0A7CoreSDK0a7FeatureF0Ovg",
+                "moduleName": "NautilusLotteryUISDK",
+                "objc_name": "featureStatus",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any NautilusLotteryUISDK.NautilusLotteryUIDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20NautilusLotteryUISDK0aB2UIC8delegateAA0aB10UIDelegate_pSgvp",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC8delegateAA0aB10UIDelegate_pSgvp",
+            "moduleName": "NautilusLotteryUISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NautilusLotteryUISDK.NautilusLotteryUIDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusLotteryUIDelegate",
+                        "printedName": "any NautilusLotteryUISDK.NautilusLotteryUIDelegate",
+                        "usr": "c:@M@NautilusLotteryUISDK@objc(pl)NautilusLotteryUIDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20NautilusLotteryUISDK0aB2UIC8delegateAA0aB10UIDelegate_pSgvg",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC8delegateAA0aB10UIDelegate_pSgvg",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NautilusLotteryUISDK.NautilusLotteryUIDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NautilusLotteryUIDelegate",
+                        "printedName": "any NautilusLotteryUISDK.NautilusLotteryUIDelegate",
+                        "usr": "c:@M@NautilusLotteryUISDK@objc(pl)NautilusLotteryUIDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20NautilusLotteryUISDK0aB2UIC8delegateAA0aB10UIDelegate_pSgvs",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC8delegateAA0aB10UIDelegate_pSgvs",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20NautilusLotteryUISDK0aB2UIC8delegateAA0aB10UIDelegate_pSgvM",
+                "mangledName": "$s20NautilusLotteryUISDK0aB2UIC8delegateAA0aB10UIDelegate_pSgvM",
+                "moduleName": "NautilusLotteryUISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(application:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusApp",
+                "printedName": "NautilusCoreSDK.NautilusApp",
+                "usr": "c:@M@NautilusCoreSDK@objc(cs)NautilusApp"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cm)initializeWithApplication:completion:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC10initialize11application10completiony0A7CoreSDK0A3AppC_ySb_So7NSErrorCSgtctFZ",
+            "moduleName": "NautilusLotteryUISDK",
+            "static": true,
+            "objc_name": "initializeWithApplication:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lotteryUI",
+            "printedName": "lotteryUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryUI",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryUI",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cm)lotteryUI",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC07lotteryD0ACyFZ",
+            "moduleName": "NautilusLotteryUISDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lotteryUI",
+            "printedName": "lotteryUI(appName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryUI",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryUI",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(cm)lotteryAppNamed:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC07lotteryD07appNameACSS_tFZ",
+            "moduleName": "NautilusLotteryUISDK",
+            "static": true,
+            "objc_name": "lotteryAppNamed:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentLotteryListViewController",
+            "printedName": "presentLotteryListViewController(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)presentLotteryListViewControllerIn:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC07presentB18ListViewController2inySo06UIViewH0C_tF",
+            "moduleName": "NautilusLotteryUISDK",
+            "objc_name": "presentLotteryListViewControllerIn:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "instantiateLotteryListViewController",
+            "printedName": "instantiateLotteryListViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryListViewController",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryListViewController",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryListViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)instantiateLotteryListViewController",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC011instantiateB18ListViewControllerAA0abfgH0CyF",
+            "moduleName": "NautilusLotteryUISDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentLotteryDetailViewController",
+            "printedName": "presentLotteryDetailViewController(in:lotteryID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)presentLotteryDetailViewControllerIn:lotteryID:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC07presentB20DetailViewController2in9lotteryIDySo06UIViewH0C_SitF",
+            "moduleName": "NautilusLotteryUISDK",
+            "objc_name": "presentLotteryDetailViewControllerIn:lotteryID:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "instantiateLotteryDetailViewController",
+            "printedName": "instantiateLotteryDetailViewController(lotteryID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryDetailViewController",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryDetailViewController",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)instantiateLotteryDetailViewControllerWithLotteryID:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC011instantiateB20DetailViewController9lotteryIDAA0abfgH0CSi_tF",
+            "moduleName": "NautilusLotteryUISDK",
+            "objc_name": "instantiateLotteryDetailViewControllerWithLotteryID:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentLotteryDetailViewController",
+            "printedName": "presentLotteryDetailViewController(in:lottery:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryInfo",
+                "printedName": "NautilusLotterySDK.NautilusLotteryInfo",
+                "usr": "c:@M@NautilusLotterySDK@objc(cs)NautilusLotteryInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)presentLotteryDetailViewControllerIn:lottery:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC07presentB20DetailViewController2in7lotteryySo06UIViewH0C_0aB3SDK0aB4InfoCtF",
+            "moduleName": "NautilusLotteryUISDK",
+            "objc_name": "presentLotteryDetailViewControllerIn:lottery:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "instantiateLotteryDetailViewController",
+            "printedName": "instantiateLotteryDetailViewController(lottery:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryDetailViewController",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryDetailViewController",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryDetailViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryInfo",
+                "printedName": "NautilusLotterySDK.NautilusLotteryInfo",
+                "usr": "c:@M@NautilusLotterySDK@objc(cs)NautilusLotteryInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)instantiateLotteryDetailViewControllerWithLottery:",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UIC011instantiateB20DetailViewController7lotteryAA0abfgH0C0aB3SDK0aB4InfoC_tF",
+            "moduleName": "NautilusLotteryUISDK",
+            "objc_name": "instantiateLotteryDetailViewControllerWithLottery:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NautilusLotteryUI",
+                "printedName": "NautilusLotteryUISDK.NautilusLotteryUI",
+                "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI(im)init",
+            "mangledName": "$s20NautilusLotteryUISDK0aB2UICACycfc",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NautilusLotteryUISDK@objc(cs)NautilusLotteryUI",
+        "mangledName": "$s20NautilusLotteryUISDK0aB2UIC",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NautilusFeature",
+            "printedName": "NautilusFeature",
+            "usr": "c:@M@NautilusCoreSDK@objc(pl)NautilusFeature",
+            "mangledName": "$s15NautilusCoreSDK0A7FeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusLotterySDK",
+        "printedName": "NautilusLotterySDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusCoreSDK",
+        "printedName": "NautilusCoreSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusConfigSDK",
+        "printedName": "NautilusConfigSDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NautilusUISDK",
+        "printedName": "NautilusUISDK",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "NautilusLotteryUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UINavigationController",
+        "printedName": "UINavigationController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NautilusLotteryUISDK@@objc(cs)UINavigationController(py)supportedInterfaceOrientations",
+            "mangledName": "$sSo22UINavigationControllerC20NautilusLotteryUISDKE30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "NautilusLotteryUISDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NautilusLotteryUISDK@@objc(cs)UINavigationController(im)supportedInterfaceOrientations",
+                "mangledName": "$sSo22UINavigationControllerC20NautilusLotteryUISDKE30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "NautilusLotteryUISDK",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UINavigationController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UINavigationController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/View\/NautilusLotteryListCell.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 25,
+      "value": "\"NautilusLotteryListCell\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/View\/NautilusLotteryListPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 20,
+      "value": "\"NautilusLotteryUISDK.LotteryListPresenter\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/NautilusLotteryUI.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 18,
+      "value": "\"__ma_lottery_ui-\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/NautilusLotteryUI.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/NautilusLotteryUI.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 6,
+      "value": "\"update-lottery-complete\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/NautilusLotteryUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
+      "length": 12,
+      "value": "\"lottery-id\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/NautilusLotteryUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2155,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/NautilusLotteryUI.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 17,
+      "value": "\"NautilusLotteryUISDK.NautilusLotteryUI\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/View\/NautilusScratchMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 473,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/View\/NautilusScratchMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 515,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/View\/NautilusScratchMaskView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 553,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 48,
+      "value": "\"ma_lottery_scratch_card_scratching_area_radius\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 41,
+      "value": "\"ma_lottery_scratch_card_apply_threshold\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 30,
+      "value": "\"ma_lottery_list_screen_title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 52,
+      "value": "\"ma_lottery_list_cell_publish_start_datetime_format\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 50,
+      "value": "\"ma_lottery_list_cell_publish_end_datetime_format\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 43,
+      "value": "\"ma_lottery_list_cell_publish_period_infix\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 30,
+      "value": "\"ma_lottery_list_loading_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 35,
+      "value": "\"ma_lottery_list_empty_state_title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 37,
+      "value": "\"ma_lottery_list_empty_state_message\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1083,
+      "length": 48,
+      "value": "\"ma_lottery_list_empty_state_show_reload_button\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1166,
+      "length": 34,
+      "value": "\"ma_lottery_list_load_error_title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1237,
+      "length": 36,
+      "value": "\"ma_lottery_list_load_error_message\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1310,
+      "length": 36,
+      "value": "\"ma_lottery_list_reload_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 32,
+      "value": "\"ma_lottery_detail_screen_title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 49,
+      "value": "\"ma_lottery_detail_publish_start_datetime_format\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1557,
+      "length": 47,
+      "value": "\"ma_lottery_detail_publish_end_datetime_format\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1645,
+      "length": 40,
+      "value": "\"ma_lottery_detail_publish_period_infix\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 46,
+      "value": "\"ma_lottery_detail_winning_result_coupon_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1822,
+      "length": 45,
+      "value": "\"ma_lottery_detail_winning_result_point_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1903,
+      "length": 35,
+      "value": "\"ma_lottery_detail_load_error_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1977,
+      "length": 38,
+      "value": "\"ma_lottery_detail_reload_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 59,
+      "value": "\"ma_lottery_detail_winning_result_check_coupon_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2187,
+      "length": 58,
+      "value": "\"ma_lottery_detail_winning_result_check_point_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2279,
+      "length": 32,
+      "value": "\"ma_lottery_detail_loading_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2350,
+      "length": 38,
+      "value": "\"ma_lottery_detail_losing_result_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2438,
+      "length": 51,
+      "value": "\"ma_lottery_detail_losing_result_close_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2533,
+      "length": 43,
+      "value": "\"ma_lottery_detail_screen_background_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2620,
+      "length": 44,
+      "value": "\"ma_lottery_detail_lottery_title_text_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2711,
+      "length": 47,
+      "value": "\"ma_lottery_detail_available_period_text_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 48,
+      "value": "\"ma_lottery_scratch_card_scratching_area_radius\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 41,
+      "value": "\"ma_lottery_scratch_card_apply_threshold\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 30,
+      "value": "\"ma_lottery_list_screen_title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 52,
+      "value": "\"ma_lottery_list_cell_publish_start_datetime_format\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 50,
+      "value": "\"ma_lottery_list_cell_publish_end_datetime_format\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 43,
+      "value": "\"ma_lottery_list_cell_publish_period_infix\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 30,
+      "value": "\"ma_lottery_list_loading_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 35,
+      "value": "\"ma_lottery_list_empty_state_title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 37,
+      "value": "\"ma_lottery_list_empty_state_message\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1083,
+      "length": 48,
+      "value": "\"ma_lottery_list_empty_state_show_reload_button\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1166,
+      "length": 34,
+      "value": "\"ma_lottery_list_load_error_title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1237,
+      "length": 36,
+      "value": "\"ma_lottery_list_load_error_message\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1310,
+      "length": 36,
+      "value": "\"ma_lottery_list_reload_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 32,
+      "value": "\"ma_lottery_detail_screen_title\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 49,
+      "value": "\"ma_lottery_detail_publish_start_datetime_format\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1557,
+      "length": 47,
+      "value": "\"ma_lottery_detail_publish_end_datetime_format\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1645,
+      "length": 40,
+      "value": "\"ma_lottery_detail_publish_period_infix\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 46,
+      "value": "\"ma_lottery_detail_winning_result_coupon_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1822,
+      "length": 45,
+      "value": "\"ma_lottery_detail_winning_result_point_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1903,
+      "length": 35,
+      "value": "\"ma_lottery_detail_load_error_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1977,
+      "length": 38,
+      "value": "\"ma_lottery_detail_reload_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 59,
+      "value": "\"ma_lottery_detail_winning_result_check_coupon_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2187,
+      "length": 58,
+      "value": "\"ma_lottery_detail_winning_result_check_point_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2279,
+      "length": 32,
+      "value": "\"ma_lottery_detail_loading_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2350,
+      "length": 38,
+      "value": "\"ma_lottery_detail_losing_result_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2438,
+      "length": 51,
+      "value": "\"ma_lottery_detail_losing_result_close_button_text\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2533,
+      "length": 43,
+      "value": "\"ma_lottery_detail_screen_background_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2620,
+      "length": 44,
+      "value": "\"ma_lottery_detail_lottery_title_text_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/LotteryUI\/Sources\/Config\/NautilusLotteryUIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2711,
+      "length": 47,
+      "value": "\"ma_lottery_detail_available_period_text_color\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_0\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1008,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_1\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1233,
+      "length": 42,
+      "value": "\"ma_lottery_detail_winning_result_rank_10\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1457,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_2\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1680,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_3\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1903,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_4\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2126,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_5\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2349,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_6\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2572,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_7\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2795,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_8\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3018,
+      "length": 41,
+      "value": "\"ma_lottery_detail_winning_result_rank_9\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3217,
+      "length": 31,
+      "value": "\"ma_lottery_list_cell_no_image\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3425,
+      "length": 38,
+      "value": "\"ma_lottery_list_cell_overlay_applied\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3633,
+      "length": 37,
+      "value": "\"ma_lottery_scratch_card_cover_image\""
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusLotteryUISDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusLotteryUISDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3842,
+      "length": 38,
+      "value": "\"ma_lottery_scratch_card_secret_image\""
+    }
+  ]
+}

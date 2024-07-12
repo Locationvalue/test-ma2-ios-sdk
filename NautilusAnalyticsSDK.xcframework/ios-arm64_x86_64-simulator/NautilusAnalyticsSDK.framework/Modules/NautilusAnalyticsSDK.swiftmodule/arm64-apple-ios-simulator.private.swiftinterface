@@ -1,0 +1,332 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusAnalyticsSDK
+import Foundation
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusIdentifySDK
+import NautilusLoggingSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension Foundation.Notification.NautilusApp {
+  public static let analyticsSendEvent: Foundation.Notification.Name
+}
+extension Foundation.Notification.NautilusApp.UserInfoKey {
+  public static let analyticsEventType: Swift.String
+  public static let analyticsEventProperties: Swift.String
+}
+@objc final public class NautilusAnalyticsEventPayload : ObjectiveC.NSObject {
+  final public let eventName: Swift.String
+  final public let eventProperties: [Swift.String : Any?]?
+  convenience public init(eventName: Swift.String)
+  public init(eventName: Swift.String, eventProperties: [Swift.String : Any?]?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusAnalytics : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc final public let app: NautilusCoreSDK.NautilusApp
+  @objc final public let name: Swift.String?
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  final public var isOptOut: Swift.Bool {
+    get
+    set
+  }
+  final public var plugins: [any NautilusAnalyticsSDK.NautilusAnalyticsPlugin] {
+    get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func analytics() -> NautilusAnalyticsSDK.NautilusAnalytics
+  @objc(analyticsAppNamed:) public static func analytics(appName: Swift.String) -> NautilusAnalyticsSDK.NautilusAnalytics
+  @objc final public func addPlugin(_ plugin: any NautilusAnalyticsSDK.NautilusAnalyticsPlugin)
+  @objc final public func removePlugin(_ plugin: any NautilusAnalyticsSDK.NautilusAnalyticsPlugin)
+  @objc(sendEventWithEventType:) final public func sendEvent(_ event: NautilusAnalyticsSDK.NautilusAnalyticsEvent)
+  @objc(sendEventWithEventType:eventProperties:) final public func sendEvent(_ event: NautilusAnalyticsSDK.NautilusAnalyticsEvent, eventProperties: [Swift.String : Any]?)
+  @objc(sendEvent:) final public func sendEvent(_ eventName: Swift.String)
+  @objc(sendEvent:withEventProperties:) final public func sendEvent(_ eventName: Swift.String, eventProperties: [Swift.String : Any]?)
+  @objc(setUserProperty:withBoolValue:) final public func setUserProperty(_ propertyName: Swift.String, value: Swift.Bool)
+  @objc(setUserProperty:withIntValue:) final public func setUserProperty(_ propertyName: Swift.String, value: Swift.Int)
+  @objc(setUserProperty:withFloatValue:) final public func setUserProperty(_ propertyName: Swift.String, value: Swift.Float)
+  @objc(setUserProperty:withDoubleValue:) final public func setUserProperty(_ propertyName: Swift.String, value: Swift.Double)
+  @objc(setUserProperty:withStringValue:) final public func setUserProperty(_ propertyName: Swift.String, value: Swift.String)
+  @objc(setUserProperty:withArrayValue:) final public func setUserProperty(_ propertyName: Swift.String, value: [Any])
+  @objc(setUserProperty:withDictionaryValue:) final public func setUserProperty(_ propertyName: Swift.String, value: [Swift.String : Any])
+  @objc final public func removeUserProperty(_ propertyName: Swift.String)
+  @objc final public func setUserID(_ userID: Swift.String)
+  @objc final public func removeUserID()
+  @objc final public func sendUserProperty()
+  @objc deinit
+}
+@objc public protocol NautilusAnalyticsPlugin {
+  @objc var name: Swift.String { get }
+  @objc init(name: Swift.String)
+  @objc func setup(_ analytics: NautilusAnalyticsSDK.NautilusAnalytics)
+  @objc func sendEvent(payload: NautilusAnalyticsSDK.NautilusAnalyticsEventPayload) -> NautilusAnalyticsSDK.NautilusAnalyticsEventPayload
+  @objc func setUserProperty(propertyName: Swift.String, value: Any?)
+  @objc func removeUserProperty(propertyName: Swift.String)
+  @objc func sendUserProperty()
+  @objc func setUserID(_ userID: Swift.String)
+  @objc func removeUserID()
+}
+@objc public enum NautilusAnalyticsEvent : Swift.Int {
+  case showTopPage
+  case moveAppBackground
+  case moveAppForeground
+  case showIntroduction1
+  case showIntroduction2
+  case showIntroduction3
+  case showIntroduction4
+  case showIntroduction5
+  case showIntroduction6
+  case tapIntroductionClose
+  case showTermsOfUse
+  case tapTermsOfUseOK
+  case showMemberAttribute
+  case tapMemberAttributeRegister
+  case tapMemberAttributeCancel
+  case showSurvey
+  case tapSurveyAnswer
+  case tapSurveyCancel
+  case showPushlist
+  case tapPushlistHistory
+  case doneSetManegeCode
+  case showCouponListAll
+  case showCouponListCategory
+  case showCouponDetail
+  case tapCouponFavoriteAdd
+  case tapCouponFavoriteDelete
+  case showCouponFavoriteList
+  case tapCouponUse
+  case tapCouponWeb
+  case tapCouponConditions
+  case showInAppMessage
+  case tapInAppMessage
+  case closeInAppMessage
+  case showStoreSearchMap
+  case swipeStoreList
+  case tapStorePinInMap
+  case showStoreList
+  case showStoreDetail
+  case tapStoreTelNumber
+  case tapStoreWeb
+  case tapMapApp
+  case tapStoreFavoriteAdd
+  case tapStoreFavoriteDelete
+  case showFavoriteStoreList
+  case doneStoreSearch
+  case tapStoreSearchConditionDelete
+  case tapStoreKeywordSearchHistoryDelete
+  case showStoreSearchFilteringScreen
+  case tapStoreSearchFilteringScreenClose
+  case tapStoreSearchFilteringScreenClear
+  case showStoreSearchAreaSelect
+  case tapBanner
+  case showContentsListAll
+  case showContentsListCategory
+  case showContentsDetail
+  case tapContentsFavoriteAdd
+  case tapContentsFavoriteDelete
+  case showContentsFavoriteList
+  case tapContentsWeb
+  case showLotteryList
+  case showLotteryDetail
+  case doneLotteryRunning
+  case showLotteryResult
+  case tapPrizeChecking
+  case showStampCardList
+  case showStampCardDetail
+  case showStampCardDescriptionMessage
+  case tapStampCardPrizeExchange
+  case tapStampCardCheckIn
+  case showStampCardPrizeAutoExchangeDialog
+  case showStampCardCompleteDialog
+  case showStampCardExchangeSelectDialog
+  case showStampCardExchangeSuccessDialog
+  case tapStampCardExchangeSuccessLinkInDialog
+  case showStampRallyList
+  case showStampRallyDetail
+  case tapStampRallySpotList
+  case tapStampRallyPrizeExchange
+  case tapStampRallyCheckIn
+  case showStampRallyPrizeAutoExchangeDialog
+  case showStampRallyCompleteDialog
+  case showStampRallyExchangeSelectDialog
+  case showStampRallyExchangeSuccessDialog
+  case tapStampRallyExchangeSuccessLinkInDialog
+  case showStampRallySpotList
+  case tapStampRallySpot
+  case tapStampRallySpotMapApp
+  case tapStampRallySpotPinInMap
+  case showStoreSearchWidemap
+  public static let showIntroduction: Swift.String
+  public var eventName: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusAnalyticsEventChannel : Swift.Int {
+  case app
+  case webInApp
+  public var channelName: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusAnalyticsEventProperty : Swift.Int {
+  case previousEvent
+  case latitude
+  case longitude
+  case sessionID
+  case eventFiredTime
+  case segmentID
+  case channelType
+  case appStartType
+  case appStart
+  case appMoveTrigger
+  case appMoveNotificationID
+  case appMoveNotificationTitle
+  case appMoveNotificationTransition
+  case appMoveURL
+  case introductionFinishPage
+  case gender
+  case birthday
+  case prefecture
+  case municipality
+  case brandID
+  case manageCode
+  case optionalAttribute1
+  case optionalAttribute2
+  case optionalAttribute3
+  case optionalAttribute4
+  case optionalAttribute5
+  case optionalAttribute6
+  case optionalAttribute7
+  case optionalAttribute8
+  case optionalAttribute9
+  case optionalAttribute10
+  case notificationID
+  case notificationTitle
+  case notificationTransition
+  case couponID
+  case couponTitle
+  case couponCategory
+  case couponType
+  case couponURL
+  case inAppMessageID
+  case inAppMessageBody
+  case inAppMessageTransition
+  case inAppMessageType
+  case storeListMoveActionType
+  case storeListDisplayRatio
+  case storeID
+  case storeName
+  case storeLinkTitle
+  case storeURL
+  case storeSearchKeyword
+  case storeSearchFilteringArea
+  case storeSearchCenterCoordinate
+  case storeSearchMoveDistance
+  case storeSearchNuberOfFoundShops
+  case bannerID
+  case bannerTitle
+  case bannerCategory
+  case bannerStyle
+  case bannerIndex
+  case bannerTransition
+  case selectedContentCategory
+  case contentID
+  case contentTitle
+  case contentCategory
+  case contentType
+  case contentURL
+  case lotteryID
+  case lotteryTitle
+  case lotteryType
+  case lotteryCompleted
+  case prizeID
+  case lotteryRank
+  case prizeType
+  case prizeCouponExchangeID
+  case prizePoint
+  case stampCardID
+  case stampCardTitle
+  case stampCardPrizeID
+  case stampCardPrizeTitle
+  case stampRallyID
+  case stampRallyTitle
+  case stampRallyPrizeID
+  case stampRallyPrizeTitle
+  case spotID
+  case spotName
+  public var propertyName: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusAnalyticsUserProperty : Swift.Int {
+  case cid
+  case pid
+  case favoriteShopIDList
+  case favoriteShopNameList
+  case favoriteCouponIDList
+  case favoriteCouponNameList
+  case favoriteContentIDList
+  case favoriteContentNameList
+  case gender
+  case birthday
+  case prefecture
+  case municipality
+  case optionalAttribute1
+  case optionalAttribute2
+  case optionalAttribute3
+  case optionalAttribute4
+  case optionalAttribute5
+  case optionalAttribute6
+  case optionalAttribute7
+  case optionalAttribute8
+  case optionalAttribute9
+  case optionalAttribute10
+  public var propertyName: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEvent : Swift.Equatable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEvent : Swift.Hashable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEvent : Swift.RawRepresentable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEventChannel : Swift.Equatable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEventChannel : Swift.Hashable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEventChannel : Swift.RawRepresentable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEventProperty : Swift.Equatable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEventProperty : Swift.Hashable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsEventProperty : Swift.RawRepresentable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsUserProperty : Swift.Equatable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsUserProperty : Swift.Hashable {}
+extension NautilusAnalyticsSDK.NautilusAnalyticsUserProperty : Swift.RawRepresentable {}

@@ -1,0 +1,4 @@
+framework module NautilusUserInfoSDK {
+  header "NautilusUserInfoSDK-Swift.h"
+  requires objc
+}

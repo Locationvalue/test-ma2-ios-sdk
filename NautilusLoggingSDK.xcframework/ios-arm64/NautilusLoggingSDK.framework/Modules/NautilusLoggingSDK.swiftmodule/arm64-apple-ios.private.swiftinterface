@@ -1,0 +1,39 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusLoggingSDK
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@objc public enum LogLevel : Swift.Int, Swift.Comparable {
+  case verbose = 0
+  case debug = 2
+  case info = 4
+  case warn = 6
+  case error = 8
+  case fatal = 10
+  public static let `default`: NautilusLoggingSDK.LogLevel
+  public static func < (lhs: NautilusLoggingSDK.LogLevel, rhs: NautilusLoggingSDK.LogLevel) -> Swift.Bool
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum Logger {
+  public static var logLevel: NautilusLoggingSDK.LogLevel {
+    get
+  }
+  public static func setLogLevel(logLevel: NautilusLoggingSDK.LogLevel)
+  public static func verbose(_ message: Swift.String)
+  public static func debug(_ message: Swift.String)
+  public static func info(_ message: Swift.String)
+  public static func warn(_ message: Swift.String)
+  public static func error(_ message: Swift.String)
+  public static func fatal(_ message: Swift.String)
+}
+extension NautilusLoggingSDK.LogLevel : Swift.Hashable {}
+extension NautilusLoggingSDK.LogLevel : Swift.RawRepresentable {}

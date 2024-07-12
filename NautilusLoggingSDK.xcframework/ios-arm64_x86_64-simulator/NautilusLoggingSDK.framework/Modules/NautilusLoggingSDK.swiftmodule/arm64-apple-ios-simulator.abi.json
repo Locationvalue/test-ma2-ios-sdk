@@ -1,0 +1,830 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NautilusLoggingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "NautilusLoggingSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusLoggingSDK.LogLevel.Type) -> NautilusLoggingSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusLoggingSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NautilusLoggingSDK.LogLevel",
+                        "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusLoggingSDK@E@LogLevel@LogLevelVerbose",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO7verboseyA2CmF",
+            "moduleName": "NautilusLoggingSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusLoggingSDK.LogLevel.Type) -> NautilusLoggingSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusLoggingSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NautilusLoggingSDK.LogLevel",
+                        "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusLoggingSDK@E@LogLevel@LogLevelDebug",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO5debugyA2CmF",
+            "moduleName": "NautilusLoggingSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusLoggingSDK.LogLevel.Type) -> NautilusLoggingSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusLoggingSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NautilusLoggingSDK.LogLevel",
+                        "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusLoggingSDK@E@LogLevel@LogLevelInfo",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO4infoyA2CmF",
+            "moduleName": "NautilusLoggingSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusLoggingSDK.LogLevel.Type) -> NautilusLoggingSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusLoggingSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NautilusLoggingSDK.LogLevel",
+                        "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusLoggingSDK@E@LogLevel@LogLevelWarn",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO4warnyA2CmF",
+            "moduleName": "NautilusLoggingSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusLoggingSDK.LogLevel.Type) -> NautilusLoggingSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusLoggingSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NautilusLoggingSDK.LogLevel",
+                        "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusLoggingSDK@E@LogLevel@LogLevelError",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO5erroryA2CmF",
+            "moduleName": "NautilusLoggingSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "fatal",
+            "printedName": "fatal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NautilusLoggingSDK.LogLevel.Type) -> NautilusLoggingSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NautilusLoggingSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NautilusLoggingSDK.LogLevel",
+                        "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@NautilusLoggingSDK@E@LogLevel@LogLevelFatal",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO5fatalyA2CmF",
+            "moduleName": "NautilusLoggingSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NautilusLoggingSDK.LogLevel",
+                "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NautilusLoggingSDK8LogLevelO7defaultACvpZ",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO7defaultACvpZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NautilusLoggingSDK8LogLevelO7defaultACvgZ",
+                "mangledName": "$s18NautilusLoggingSDK8LogLevelO7defaultACvgZ",
+                "moduleName": "NautilusLoggingSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NautilusLoggingSDK.LogLevel",
+                "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NautilusLoggingSDK.LogLevel",
+                "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NautilusLoggingSDK8LogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NautilusLoggingSDK.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18NautilusLoggingSDK8LogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "NautilusLoggingSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NautilusLoggingSDK8LogLevelO8rawValueSivp",
+            "mangledName": "$s18NautilusLoggingSDK8LogLevelO8rawValueSivp",
+            "moduleName": "NautilusLoggingSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NautilusLoggingSDK8LogLevelO8rawValueSivg",
+                "mangledName": "$s18NautilusLoggingSDK8LogLevelO8rawValueSivg",
+                "moduleName": "NautilusLoggingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@NautilusLoggingSDK@E@LogLevel",
+        "mangledName": "$s18NautilusLoggingSDK8LogLevelO",
+        "moduleName": "NautilusLoggingSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NautilusLoggingSDK.LogLevel",
+                "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NautilusLoggingSDK6LoggerO8logLevelAA03LogF0OvpZ",
+            "mangledName": "$s18NautilusLoggingSDK6LoggerO8logLevelAA03LogF0OvpZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NautilusLoggingSDK.LogLevel",
+                    "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NautilusLoggingSDK6LoggerO8logLevelAA03LogF0OvgZ",
+                "mangledName": "$s18NautilusLoggingSDK6LoggerO8logLevelAA03LogF0OvgZ",
+                "moduleName": "NautilusLoggingSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setLogLevel",
+            "printedName": "setLogLevel(logLevel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NautilusLoggingSDK.LogLevel",
+                "usr": "c:@M@NautilusLoggingSDK@E@LogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NautilusLoggingSDK6LoggerO11setLogLevel03logG0yAA0fG0O_tFZ",
+            "mangledName": "$s18NautilusLoggingSDK6LoggerO11setLogLevel03logG0yAA0fG0O_tFZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verbose",
+            "printedName": "verbose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NautilusLoggingSDK6LoggerO7verboseyySSFZ",
+            "mangledName": "$s18NautilusLoggingSDK6LoggerO7verboseyySSFZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NautilusLoggingSDK6LoggerO5debugyySSFZ",
+            "mangledName": "$s18NautilusLoggingSDK6LoggerO5debugyySSFZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NautilusLoggingSDK6LoggerO4infoyySSFZ",
+            "mangledName": "$s18NautilusLoggingSDK6LoggerO4infoyySSFZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NautilusLoggingSDK6LoggerO4warnyySSFZ",
+            "mangledName": "$s18NautilusLoggingSDK6LoggerO4warnyySSFZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NautilusLoggingSDK6LoggerO5erroryySSFZ",
+            "mangledName": "$s18NautilusLoggingSDK6LoggerO5erroryySSFZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fatal",
+            "printedName": "fatal(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NautilusLoggingSDK6LoggerO5fatalyySSFZ",
+            "mangledName": "$s18NautilusLoggingSDK6LoggerO5fatalyySSFZ",
+            "moduleName": "NautilusLoggingSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18NautilusLoggingSDK6LoggerO",
+        "mangledName": "$s18NautilusLoggingSDK6LoggerO",
+        "moduleName": "NautilusLoggingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 263,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 263,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Logging\/Sources\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 10,
+      "value": "\"Nautilus\""
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusCoreSDK
+import CoreTelephony
+import Foundation
+import NautilusContainerSDK
+import NautilusLoggingSDK
+import Network
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol NetworkServiceLogger {
+  var id: Swift.String { get }
+  func printRequest(_ request: Foundation.URLRequest)
+  func printResponse(_ data: Foundation.Data?, _ response: Foundation.URLResponse)
+  func printError(_ error: any Swift.Error)
+}
+final public class NautilusRequestPolicy : NautilusCoreSDK.RequestPolicy {
+  public enum Preset {
+    public static let `default`: NautilusCoreSDK.NautilusRequestPolicy
+    public static let short: NautilusCoreSDK.NautilusRequestPolicy
+    public static let long: NautilusCoreSDK.NautilusRequestPolicy
+  }
+  final public let cachePolicy: Foundation.URLRequest.CachePolicy
+  final public let timeoutInterval: Foundation.TimeInterval
+  public init(cachePolicy: Foundation.URLRequest.CachePolicy = .reloadIgnoringLocalCacheData, timeoutInterval: Foundation.TimeInterval = 30.0)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusAppConfig : ObjectiveC.NSObject {
+  @objc final public let environment: NautilusCoreSDK.NautilusDeploymentEnvironment
+  @objc deinit
+}
+extension Foundation.Notification {
+  public enum NautilusApp {
+    public enum UserInfoKey {
+    }
+  }
+}
+public typealias NautilusFeatureInitializationCompletion = (Swift.Bool, Foundation.NSError?) -> Swift.Void
+@objc public protocol NautilusFeature : NautilusContainerSDK.NautilusComponent {
+  @objc static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc static var configFilename: Swift.String? { get }
+  @objc var app: NautilusCoreSDK.NautilusApp { get }
+  @objc var featureStatus: NautilusCoreSDK.NautilusFeatureStatus { get }
+}
+@objc public enum NautilusFeatureStatus : Swift.Int {
+  case uninitialized
+  case unavailable
+  case available
+  case restricted
+  public var isAvailable: Swift.Bool {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc final public class NautilusStatusErrorStrings : ObjectiveC.NSObject {
+  public static func string(for key: NautilusCoreSDK.NautilusStatusErrorKey) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum NautilusStatusErrorKey : Swift.Int {
+  case uninitializedErrorTitle
+  case uninitializedErrorMessage
+  case unavailableErrorTitle
+  case unavailableErrorMessage
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol APIClient {
+  var service: any NautilusCoreSDK.NetworkService { get }
+  static func instantiate() -> Self
+  static func instantiate(service: any NautilusCoreSDK.NetworkService) -> Self
+  static func instantiate(service: any NautilusCoreSDK.NetworkService, callbackQueue: Foundation.OperationQueue) -> Self
+  init(service: any NautilusCoreSDK.NetworkService)
+  init(service: any NautilusCoreSDK.NetworkService, callbackQueue: Foundation.OperationQueue?)
+  func send<R>(request: R, completion: @escaping (Swift.Result<R.Object, NautilusCoreSDK.NetworkServiceError>) -> Swift.Void) where R : NautilusCoreSDK.Request
+  func cancel()
+}
+public enum NautilusDeviceInfo {
+  public static var systemType: NautilusCoreSDK.NautilusDeviceSystemType {
+    get
+  }
+  public static var osName: Swift.String {
+    get
+  }
+  public static var osVersion: Swift.String {
+    get
+  }
+  public static var deviceName: Swift.String {
+    get
+  }
+  public static var carrier: Swift.String {
+    get
+  }
+  public static var country: Swift.String {
+    get
+  }
+  public static var language: Swift.String {
+    get
+  }
+  public static var localeDescription: Swift.String {
+    get
+  }
+}
+public enum NautilusDeviceSystemType {
+  case iOS
+  case watchOS
+  case tvOS
+  case macOS
+  public var typeValue: Swift.Int {
+    get
+  }
+  public static func == (a: NautilusCoreSDK.NautilusDeviceSystemType, b: NautilusCoreSDK.NautilusDeviceSystemType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol Response {
+}
+public protocol RawBodyResponse : NautilusCoreSDK.Response {
+  var rawBodyResponse: Foundation.Data { get set }
+}
+public protocol ResponseDecoder {
+  static var `default`: any NautilusCoreSDK.ResponseDecoder { get }
+  func decode<T>(_ type: T.Type, from data: Foundation.Data) throws -> T where T : Swift.Decodable
+}
+extension Foundation.JSONDecoder : NautilusCoreSDK.ResponseDecoder {
+  public static var `default`: any NautilusCoreSDK.ResponseDecoder {
+    get
+  }
+}
+extension Foundation.PropertyListDecoder : NautilusCoreSDK.ResponseDecoder {
+  public static var `default`: any NautilusCoreSDK.ResponseDecoder {
+    get
+  }
+}
+extension Foundation.URLSession {
+  public enum NautilusApp {
+    public static var `default`: Foundation.URLSession {
+      get
+    }
+  }
+}
+public protocol NautilusRequestParameter : NautilusCoreSDK.RequestParameter {
+  var queryParameters: [Swift.String : Any]? { get }
+  var data: Foundation.Data? { get }
+}
+@objc public enum NautilusInitializationFailureReason : Swift.Int, Swift.Error {
+  case cancelled = -10
+  case unknown = -1
+  case noConnection
+  case invalidSettings
+  case failToIssuePID
+  case failOnServer
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusPushDeviceRegistraionFailureReason : Swift.Int, Swift.Error {
+  case none = 0
+  case alreadyRegistered
+  case invalidCID
+  case networkError
+  case invalidInstance
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@propertyWrapper public struct NautilusKeyChain<T> where T : NautilusCoreSDK.KeyChainConvertible {
+  public init(key: Swift.String, defaultValue: T)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+public protocol KeyChainConvertible {
+  init?(with value: Any)
+  func convertDataArray() -> [Foundation.Data]?
+}
+extension Swift.String : NautilusCoreSDK.KeyChainConvertible {
+  public func convertDataArray() -> [Foundation.Data]?
+}
+extension Swift.Array : NautilusCoreSDK.KeyChainConvertible {
+  public init?(with value: Any)
+  public func convertDataArray() -> [Foundation.Data]?
+}
+final public class NautilusConcurrencyService : NautilusCoreSDK.NetworkService {
+  public static let `default`: any NautilusCoreSDK.NetworkService
+  final public var loggers: [any NautilusCoreSDK.NetworkServiceLogger] {
+    get
+  }
+  public init(session: Foundation.URLSession)
+  final public func addLogger(_ logger: any NautilusCoreSDK.NetworkServiceLogger)
+  final public func removeLogger(_ logger: any NautilusCoreSDK.NetworkServiceLogger)
+  final public func send<R>(request: R, completion: @escaping (Swift.Result<R.Object, NautilusCoreSDK.NetworkServiceError>) -> Swift.Void) where R : NautilusCoreSDK.Request
+  final public func send<R>(request: R, callbackQueue: Foundation.OperationQueue?, completion: @escaping (Swift.Result<R.Object, NautilusCoreSDK.NetworkServiceError>) -> Swift.Void) where R : NautilusCoreSDK.Request
+  final public func cancelAll()
+  final public func cancel(uuid: Foundation.UUID)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class NautilusNetworkListener : ObjectiveC.NSObject {
+  @objc public static let shared: NautilusCoreSDK.NautilusNetworkListener
+  @objc public static let notificationCenter: Foundation.NotificationCenter
+  @objc final public var isListening: Swift.Bool {
+    get
+  }
+  @discardableResult
+  @objc final public func listenerStart() -> Swift.Bool
+  @objc final public func listenerStop()
+  @objc public static func isOnline() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Foundation.NSNotification.Name {
+  public static let networkListenerNotification: Foundation.Notification.Name
+}
+@_inheritsConvenienceInitializers @objc final public class NautilusAppConfigBuilder : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc final public func build() -> NautilusCoreSDK.NautilusAppConfig
+  @objc final public func setEnvironment(_ environment: NautilusCoreSDK.NautilusDeploymentEnvironment)
+  @objc deinit
+}
+extension Foundation.Date {
+  public static func iso8601Date(from string: Swift.String) -> Foundation.Date?
+  public static func iso8601String(from date: Foundation.Date) -> Swift.String
+  public static func slashDateTime(from date: Foundation.Date) -> Swift.String
+  public static func japaneseDateTime(from date: Foundation.Date) -> Swift.String
+  public static func slashDateOnly(from date: Foundation.Date) -> Swift.String
+  public static func convertTemplateDateTime(from date: Foundation.Date, template: Swift.String) -> Swift.String
+  public static func formatDate(string: Swift.String, format: Swift.String) -> Foundation.Date
+}
+@objc public enum NautilusErrorCode : Swift.Int, Swift.Error, Swift.Decodable {
+  case unknown = -1
+  case invalidParameters = 100
+  case missingRequiredParameter = 101
+  case unexpectedParameterFormat = 102
+  case serverError = 200
+  case serviceMaintenance = 901
+  case unknownAPIService = 903
+  case invalidUserPID = 905
+  case developerError = 906
+  case requiresLoginStatus = 907
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class NautilusLocation : ObjectiveC.NSObject {
+  final public let latitude: Swift.Double
+  final public let longitude: Swift.Double
+  public var latitudeString: Swift.String {
+    get
+  }
+  public var longitudeString: Swift.String {
+    get
+  }
+  public init(latitude: Swift.Double, longitude: Swift.Double)
+  @objc deinit
+}
+public typealias NautilusUserLocationUpdateCompletionHandler = ((NautilusCoreSDK.NautilusLocation?) -> Swift.Void)
+public typealias NautilusLocationPermissionCompletionHandler = ((Swift.Bool) -> Swift.Void)
+@objc public protocol NautilusLocationProvider {
+  @objc var canTrackUserLocation: Swift.Bool { get }
+  @objc var latestUserLocation: NautilusCoreSDK.NautilusLocation? { get }
+  @objc func requestUpdateUserLocation(completion: @escaping NautilusCoreSDK.NautilusUserLocationUpdateCompletionHandler)
+  @objc func requestLocationPermission(completion: @escaping NautilusCoreSDK.NautilusLocationPermissionCompletionHandler)
+}
+public typealias NautilusCameraPermissionCompletionHandler = ((Swift.Bool) -> Swift.Void)
+@objc public protocol NautilusCameraPermissionProvider {
+  @objc var shouldCloseScreenWhenDenied: Swift.Bool { get }
+  @objc func requestCameraPermission(completion: @escaping NautilusCoreSDK.NautilusCameraPermissionCompletionHandler)
+}
+@_hasMissingDesignatedInitializers final public class LifeCycleNotificationCenter {
+  public static let shared: NautilusCoreSDK.LifeCycleNotificationCenter
+  final public func setup()
+  @objc deinit
+}
+public enum NautilusAppInfo {
+  public static var appBundleIdentifier: Swift.String {
+    get
+  }
+  public static var appName: Swift.String {
+    get
+  }
+  public static var appVersion: Swift.String {
+    get
+  }
+  public static var localeDescription: Swift.String {
+    get
+  }
+  public static var shopAccountID: Swift.Int {
+    get
+  }
+  public static var userAgent: Swift.String {
+    get
+  }
+}
+public enum NautilusKeychain {
+  public static func loadString(for key: Swift.String) -> Swift.String?
+  public static func loadString(for key: Swift.String, defaultValue: Swift.String) -> Swift.String
+  @discardableResult
+  public static func storeString(value: Swift.String, for key: Swift.String, access: CoreFoundation.CFString = kSecAttrAccessibleWhenUnlockedThisDeviceOnly) -> Swift.Bool
+  @discardableResult
+  public static func deleteString(for key: Swift.String) -> Swift.Bool
+}
+public enum NetworkServiceError : Swift.Error {
+  case unknown
+  case connection(errorCode: Swift.Int, message: Swift.String)
+  case timedout(errorCode: Swift.Int, message: Swift.String)
+  case apiProcessError(httpStatusCode: Swift.Int, error: NautilusCoreSDK.ErrorResponse)
+  case httpConnection(statusCode: Swift.Int, url: Foundation.URL?)
+  case parseFailure
+  case userCancelled
+  case illegalConfiguration
+}
+public protocol NetworkService {
+  var loggers: [any NautilusCoreSDK.NetworkServiceLogger] { get }
+  init(session: Foundation.URLSession)
+  func addLogger(_ logger: any NautilusCoreSDK.NetworkServiceLogger)
+  func removeLogger(_ logger: any NautilusCoreSDK.NetworkServiceLogger)
+  func send<R>(request: R, completion: @escaping (Swift.Result<R.Object, NautilusCoreSDK.NetworkServiceError>) -> Swift.Void) where R : NautilusCoreSDK.Request
+  func send<R>(request: R, callbackQueue: Foundation.OperationQueue?, completion: @escaping (Swift.Result<R.Object, NautilusCoreSDK.NetworkServiceError>) -> Swift.Void) where R : NautilusCoreSDK.Request
+  func cancelAll()
+  func cancel(uuid: Foundation.UUID)
+}
+final public class NautilusNetworkService : NautilusCoreSDK.NetworkService {
+  public static let `default`: any NautilusCoreSDK.NetworkService
+  final public var loggers: [any NautilusCoreSDK.NetworkServiceLogger] {
+    get
+  }
+  public init(session: Foundation.URLSession)
+  final public func addLogger(_ logger: any NautilusCoreSDK.NetworkServiceLogger)
+  final public func removeLogger(_ logger: any NautilusCoreSDK.NetworkServiceLogger)
+  final public func send<R>(request: R, completion: @escaping (Swift.Result<R.Object, NautilusCoreSDK.NetworkServiceError>) -> Swift.Void) where R : NautilusCoreSDK.Request
+  final public func send<R>(request: R, callbackQueue: Foundation.OperationQueue?, completion: @escaping (Swift.Result<R.Object, NautilusCoreSDK.NetworkServiceError>) -> Swift.Void) where R : NautilusCoreSDK.Request
+  final public func cancelAll()
+  final public func cancel(uuid: Foundation.UUID)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusApp : ObjectiveC.NSObject {
+  final public var deployEnvironment: NautilusCoreSDK.NautilusDeploymentEnvironment {
+    get
+  }
+  weak final public var delegate: (any NautilusCoreSDK.NautilusAppDelegate)?
+  final public let name: Swift.String
+  final public let notificationCenter: Foundation.NotificationCenter
+  public static let maintenanceKey: Swift.String
+  final public var locationProvider: (any NautilusCoreSDK.NautilusLocationProvider)?
+  final public var cameraPermissionProvider: (any NautilusCoreSDK.NautilusCameraPermissionProvider)?
+  final public var isInitialized: Swift.Bool {
+    get
+  }
+  final public var canManageNautilusSecretData: Swift.Bool {
+    get
+  }
+  final public var isSecureDataAvailable: Swift.Bool {
+    get
+  }
+  final public var isMaintenance: Swift.Bool {
+    get
+  }
+  @objc public static func app() -> NautilusCoreSDK.NautilusApp
+  @objc(appNamed:) public static func app(name: Swift.String) -> NautilusCoreSDK.NautilusApp
+  @objc public static func initialzie(apiKey: Swift.String, config: NautilusCoreSDK.NautilusAppConfig)
+  @objc public static func initialize(name: Swift.String, apiKey: Swift.String, config: NautilusCoreSDK.NautilusAppConfig)
+  @objc public static func initialize(apiKey: Swift.String, config: NautilusCoreSDK.NautilusAppConfig, delegate: (any NautilusCoreSDK.NautilusAppDelegate)?)
+  @objc public static func initialize(name: Swift.String, apiKey: Swift.String, config: NautilusCoreSDK.NautilusAppConfig, delegate: (any NautilusCoreSDK.NautilusAppDelegate)?)
+  final public func register(feature: any NautilusCoreSDK.NautilusFeature)
+  final public func getFeature<T>(featureType: T.Type) -> T? where T : NautilusCoreSDK.NautilusFeature
+  final public func getAvailableFeatures() -> [any NautilusCoreSDK.NautilusFeature.Type]
+  final public func getAllFeatures() -> [any NautilusCoreSDK.NautilusFeature.Type]
+  @objc deinit
+}
+extension NautilusCoreSDK.NautilusApp {
+  @objc public static var sdkVersionString: Swift.String {
+    @objc get
+  }
+  @objc public static var sdkBuildVersionString: Swift.String {
+    @objc get
+  }
+}
+@propertyWrapper public struct NautilusUserDefaults<T> where T : NautilusCoreSDK.UserDefaultConvertible {
+  public init(key: Swift.String, defaultValue: T)
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+public protocol UserDefaultConvertible {
+  init?(with object: Any)
+  func object() -> Any?
+}
+extension Swift.String : NautilusCoreSDK.UserDefaultConvertible {
+  public init?(with object: Any)
+  public func object() -> Any?
+}
+extension Swift.Array : NautilusCoreSDK.UserDefaultConvertible {
+  public func object() -> Any?
+}
+extension Swift.Int : NautilusCoreSDK.UserDefaultConvertible {
+  public init?(with object: Any)
+  public func object() -> Any?
+}
+extension Swift.Int64 : NautilusCoreSDK.UserDefaultConvertible {
+  public init?(with object: Any)
+  public func object() -> Any?
+}
+extension Swift.Bool : NautilusCoreSDK.UserDefaultConvertible {
+  public init?(with object: Any)
+  public func object() -> Any?
+}
+@objc public enum NautilusDeploymentEnvironment : Swift.Int {
+  case sandboxStaging
+  case sandboxProduction
+  case publicStaging
+  case publicProduction
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class ErrorResponse : NautilusCoreSDK.Response, Swift.Decodable {
+  final public let date: Foundation.Date
+  final public let errorMessage: Swift.String
+  final public let errorCode: NautilusCoreSDK.NautilusErrorCode
+  final public let pid: Swift.String?
+  final public let deviceID: Swift.String?
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+public enum NautilusAppSettings {
+  public static var preferredUserInterfaceStyle: UIKit.UIUserInterfaceStyle {
+    get
+  }
+  @NautilusCoreSDK.NautilusUserDefaults public static var bootDate: Swift.String {
+    get
+    set
+    _modify
+  }
+  @NautilusCoreSDK.NautilusUserDefaults public static var appVersion: Swift.String {
+    get
+    set
+    _modify
+  }
+  public static var apiKey: Swift.String!
+  public static var logLevel: NautilusLoggingSDK.LogLevel {
+    get
+    set
+  }
+}
+public enum RequestScheme {
+  case http
+  case https
+  public static func == (a: NautilusCoreSDK.RequestScheme, b: NautilusCoreSDK.RequestScheme) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum RequestMethod {
+  case post
+  case get
+  case put
+  case delete
+  public static func == (a: NautilusCoreSDK.RequestMethod, b: NautilusCoreSDK.RequestMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol DataConvertible {
+  var data: Foundation.Data? { get }
+}
+public protocol RequestParameter : NautilusCoreSDK.DataConvertible {
+}
+public protocol RequestPolicy {
+  var cachePolicy: Foundation.URLRequest.CachePolicy { get }
+  var timeoutInterval: Foundation.TimeInterval { get }
+}
+public protocol Request {
+  associatedtype Parameter : NautilusCoreSDK.RequestParameter
+  associatedtype Object : NautilusCoreSDK.Response, Swift.Decodable
+  associatedtype ObjectDecoder : NautilusCoreSDK.ResponseDecoder
+  var uuid: Foundation.UUID { get }
+  var scheme: NautilusCoreSDK.RequestScheme { get }
+  var hostname: Swift.String { get }
+  var path: Swift.String { get }
+  var method: NautilusCoreSDK.RequestMethod { get }
+  var headerFields: [Swift.String : Swift.String]? { get }
+  var queryParameters: [Swift.String : Any]? { get }
+  var body: (any NautilusCoreSDK.DataConvertible)? { get }
+  var requestParameter: Self.Parameter? { get }
+  var requestPolicy: any NautilusCoreSDK.RequestPolicy { get }
+  var url: Foundation.URL { get }
+  func makeRequest() -> Foundation.URLRequest
+}
+extension NautilusCoreSDK.Request {
+  public var scheme: NautilusCoreSDK.RequestScheme {
+    get
+  }
+  public var method: NautilusCoreSDK.RequestMethod {
+    get
+  }
+  public var headerFields: [Swift.String : Swift.String]? {
+    get
+  }
+  public var queryParameters: [Swift.String : Any]? {
+    get
+  }
+  public var body: (any NautilusCoreSDK.DataConvertible)? {
+    get
+  }
+  public var url: Foundation.URL {
+    get
+  }
+  public var queryItems: [Foundation.URLQueryItem]? {
+    get
+  }
+  public func makeRequest() -> Foundation.URLRequest
+}
+open class NautilusAPICommonRequest<P, T, TD> where P : NautilusCoreSDK.RequestParameter, T : NautilusCoreSDK.Response, T : Swift.Decodable, TD : NautilusCoreSDK.ResponseDecoder {
+  public typealias Parameter = P
+  public typealias Object = T
+  public typealias ObjectDecoder = TD
+  final public let uuid: Foundation.UUID
+  final public let app: NautilusCoreSDK.NautilusApp
+  final public let requestParameter: NautilusCoreSDK.NautilusAPICommonRequest<P, T, TD>.Parameter?
+  final public let requestPolicy: any NautilusCoreSDK.RequestPolicy
+  open var scheme: NautilusCoreSDK.RequestScheme {
+    get
+  }
+  open var hostname: Swift.String {
+    get
+  }
+  open var path: Swift.String {
+    get
+  }
+  open var method: NautilusCoreSDK.RequestMethod {
+    get
+  }
+  public init(app: NautilusCoreSDK.NautilusApp, requestParameter: NautilusCoreSDK.NautilusAPICommonRequest<P, T, TD>.Parameter?, requestPolicy: any NautilusCoreSDK.RequestPolicy = NautilusRequestPolicy.Preset.default)
+  @objc deinit
+}
+@objc public protocol NautilusAppDelegate {
+  @objc func onSuccessNautilusAppInitialization(_ app: NautilusCoreSDK.NautilusApp)
+  @objc func onFailureNautilusAppInitialization(_ app: NautilusCoreSDK.NautilusApp, error: NautilusCoreSDK.NautilusAppInitializationError)
+}
+@objc public enum NautilusAppInitializationError : Swift.Int {
+  case cryptoMalfunction
+  case deviceLockedState
+  case featureUnavailable
+  case maintenance
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class NautilusAPIClient : ObjectiveC.NSObject, NautilusCoreSDK.APIClient {
+  @objc open class func instantiate() -> Self
+  open class func instantiate(service: any NautilusCoreSDK.NetworkService) -> Self
+  open class func instantiate(service: any NautilusCoreSDK.NetworkService, callbackQueue: Foundation.OperationQueue) -> Self
+  open class func instantiate(app: NautilusCoreSDK.NautilusApp) -> Self
+  open class func instantiate(app: NautilusCoreSDK.NautilusApp, service: any NautilusCoreSDK.NetworkService) -> Self
+  open class func instantiate(app: NautilusCoreSDK.NautilusApp, service: any NautilusCoreSDK.NetworkService, callbackQueue: Foundation.OperationQueue) -> Self
+  final public let service: any NautilusCoreSDK.NetworkService
+  final public let app: NautilusCoreSDK.NautilusApp
+  required convenience public init(service: any NautilusCoreSDK.NetworkService)
+  required convenience public init(service: any NautilusCoreSDK.NetworkService, callbackQueue: Foundation.OperationQueue?)
+  required public init(app: NautilusCoreSDK.NautilusApp, service: any NautilusCoreSDK.NetworkService, callbackQueue: Foundation.OperationQueue?)
+  public func send<R>(request: R, completion: @escaping (Swift.Result<R.Object, NautilusCoreSDK.NetworkServiceError>) -> Swift.Void) where R : NautilusCoreSDK.Request
+  @objc public func cancel()
+  @objc deinit
+}
+extension NautilusCoreSDK.NautilusFeatureStatus : Swift.Equatable {}
+extension NautilusCoreSDK.NautilusFeatureStatus : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusFeatureStatus : Swift.RawRepresentable {}
+extension NautilusCoreSDK.NautilusStatusErrorKey : Swift.Equatable {}
+extension NautilusCoreSDK.NautilusStatusErrorKey : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusStatusErrorKey : Swift.RawRepresentable {}
+extension NautilusCoreSDK.NautilusDeviceSystemType : Swift.Equatable {}
+extension NautilusCoreSDK.NautilusDeviceSystemType : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusInitializationFailureReason : Swift.Equatable {}
+extension NautilusCoreSDK.NautilusInitializationFailureReason : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusInitializationFailureReason : Swift.RawRepresentable {}
+extension NautilusCoreSDK.NautilusPushDeviceRegistraionFailureReason : Swift.Equatable {}
+extension NautilusCoreSDK.NautilusPushDeviceRegistraionFailureReason : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusPushDeviceRegistraionFailureReason : Swift.RawRepresentable {}
+extension NautilusCoreSDK.NautilusErrorCode : Swift.Equatable {}
+extension NautilusCoreSDK.NautilusErrorCode : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusErrorCode : Swift.RawRepresentable {}
+extension NautilusCoreSDK.NautilusDeploymentEnvironment : Swift.Equatable {}
+extension NautilusCoreSDK.NautilusDeploymentEnvironment : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusDeploymentEnvironment : Swift.RawRepresentable {}
+extension NautilusCoreSDK.RequestScheme : Swift.Equatable {}
+extension NautilusCoreSDK.RequestScheme : Swift.Hashable {}
+extension NautilusCoreSDK.RequestMethod : Swift.Equatable {}
+extension NautilusCoreSDK.RequestMethod : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusAPICommonRequest : NautilusCoreSDK.Request {}
+extension NautilusCoreSDK.NautilusAppInitializationError : Swift.Equatable {}
+extension NautilusCoreSDK.NautilusAppInitializationError : Swift.Hashable {}
+extension NautilusCoreSDK.NautilusAppInitializationError : Swift.RawRepresentable {}

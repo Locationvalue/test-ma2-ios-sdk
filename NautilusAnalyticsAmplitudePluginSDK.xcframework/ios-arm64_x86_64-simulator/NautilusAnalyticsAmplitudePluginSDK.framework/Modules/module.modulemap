@@ -1,0 +1,4 @@
+framework module NautilusAnalyticsAmplitudePluginSDK {
+  header "NautilusAnalyticsAmplitudePluginSDK-Swift.h"
+  requires objc
+}

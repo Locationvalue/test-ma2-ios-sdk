@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-notification",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_notification_network_timeout_time",
+      "integer_value": 60
+    },
+    {
+      "config_value_name": "ma_notification_device_token_retry_time_interval",
+      "integer_value": 60
+    }
+  ]
+}

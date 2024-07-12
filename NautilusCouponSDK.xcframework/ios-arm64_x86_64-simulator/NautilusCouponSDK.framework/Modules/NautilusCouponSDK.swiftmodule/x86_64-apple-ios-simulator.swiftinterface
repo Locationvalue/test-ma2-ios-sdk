@@ -1,0 +1,459 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusCouponSDK
+import DeveloperToolsSupport
+import Foundation
+import NautilusAnalyticsSDK
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusIdentifySDK
+import NautilusImagingSDK
+import NautilusLoggingSDK
+import NautilusServerTimeSDK
+import NautilusUISDK
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public protocol NautilusCouponListInstantiatable {
+  @objc static func instantiate(app: NautilusCoreSDK.NautilusApp, category: NautilusCouponSDK.NautilusCouponCategoryInfo?) -> UIKit.UIViewController
+  @objc var couponCategory: NautilusCouponSDK.NautilusCouponCategoryInfo? { get }
+}
+@objc public protocol NautilusFavoriteCouponListInstantiatable {
+  @objc static func instantiate(app: NautilusCoreSDK.NautilusApp) -> UIKit.UIViewController
+}
+@objc public class NautilusCouponUseInfo : ObjectiveC.NSObject {
+  final public let coupon: NautilusCouponSDK.NautilusCouponInfo
+  final public let exchangeID: Swift.Int?
+  convenience public init(coupon: NautilusCouponSDK.NautilusCouponInfo)
+  public init(coupon: NautilusCouponSDK.NautilusCouponInfo, exchangeID: Swift.Int?)
+  @objc deinit
+}
+@objc public protocol NautilusCouponDelegate {
+  @objc func coupon(_ coupon: NautilusCouponSDK.NautilusCoupon, handleCouponCode couponCode: Swift.String, in viewController: UIKit.UIViewController)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusCouponInfo : ObjectiveC.NSObject {
+  final public let couponID: Swift.Int
+  final public let couponManageTitle: Swift.String
+  final public let couponTitle: Swift.String?
+  final public let couponText: Swift.String
+  final public let noticeText: Swift.String?
+  final public let publishStartDate: Foundation.Date
+  final public let publishEndDate: Foundation.Date?
+  final public let useStartDate: Foundation.Date?
+  final public let useEndDate: Foundation.Date?
+  final public let barcode: Swift.String?
+  final public let barcodeImageURL: Foundation.URL?
+  final public let couponCode: Swift.String?
+  final public let maxSheet: Swift.Int?
+  final public let useType: NautilusCouponSDK.NautilusCouponExchangeType?
+  final public let useLimitHour: Swift.Int?
+  final public let categoryIDs: [Swift.Int]?
+  final public let sortNo: Swift.Int?
+  final public let searchWord: Swift.String?
+  final public let couponImages: [NautilusCouponSDK.NautilusCouponImageInfo]?
+  final public let useDate: Foundation.Date?
+  final public let couponType: NautilusCouponSDK.NautilusCouponPublishType?
+  final public let isFavorited: Swift.Bool?
+  final public let useCount: Swift.Int?
+  final public let exchangeID: Swift.Int?
+  final public let alias: Swift.String?
+  final public let requirePoint: Swift.Int?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusCouponImageInfo : ObjectiveC.NSObject {
+  final public let url: Foundation.URL
+  final public let aspectRatio: Swift.Double
+  final public let sortNo: Swift.Int
+  @objc deinit
+}
+@objc public protocol NautilusCouponTabListInstantiatable {
+  @objc static func instantiate(app: NautilusCoreSDK.NautilusApp, category: NautilusCouponSDK.NautilusCouponCategoryInfo?) -> UIKit.UIViewController
+}
+@objc public protocol NautilusCouponUseValidObserver {
+  @objc var hash: Swift.Int { get }
+  @objc func onCouponInvalid(coupon: NautilusCouponSDK.NautilusCouponInfo)
+}
+@objc public class NautilusCouponPublishTrigger : ObjectiveC.NSObject {
+  final public let publishTriggerType: NautilusCouponSDK.NautilusCouponPublishTriggerType
+  final public let codeText: Swift.String?
+  final public let cardNumber: Swift.String?
+  final public let cardType: Swift.Int?
+  final public let couponIDs: [Swift.Int]?
+  public init(publishTriggerType: NautilusCouponSDK.NautilusCouponPublishTriggerType, codeText: Swift.String?, cardNumber: Swift.String?, cardType: Swift.Int?, couponIDs: [Swift.Int]?)
+  @objc deinit
+}
+@objc public enum NautilusCouponPublishTriggerType : Swift.Int {
+  case initialMemberRegistration
+  case appDownload
+  case memberCardRegistration
+  case couponCode
+  case prize
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusCouponCategoryInfo : ObjectiveC.NSObject {
+  final public let categoryID: Swift.Int
+  final public let parentCategoryID: Swift.Int
+  final public let categoryName: Swift.String
+  final public let sortNumber: Swift.Int
+  final public let alias: Swift.String
+  @objc deinit
+}
+public let NautilusCouponErrorDomain: Swift.String
+@objc public enum NautilusCouponError : Swift.Int, Swift.Error {
+  case unknown
+  case connection
+  case timedout
+  case apiProcessError
+  case httpConnection
+  case parseFailure
+  case userCancelled
+  case invalidParamater
+  case invalidInstance
+  case illegalConfiguration
+  case invalidParameters = 100
+  case missingRequiredParameter = 101
+  case unexpectedParameterFormat = 102
+  case serverError = 200
+  case serviceMaintenance = 901
+  case unknownAPIService = 903
+  case invalidUserPID = 905
+  case developerError = 906
+  case requiresLoginStatus = 907
+  public var nautilusCouponErrorCode: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusCoupon : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc final public let app: NautilusCoreSDK.NautilusApp
+  @objc final public let name: Swift.String?
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc weak final public var delegate: (any NautilusCouponSDK.NautilusCouponDelegate)?
+  @objc final public let router: NautilusCouponSDK.NautilusCouponRouter
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func coupon() -> NautilusCouponSDK.NautilusCoupon
+  @objc(couponAppNamed:) public static func coupon(appName: Swift.String) -> NautilusCouponSDK.NautilusCoupon
+  @available(*, deprecated, message: "Use NautilusCouponRouter function.")
+  @objc final public func instantiateCouponListViewController() -> UIKit.UIViewController
+  @available(*, deprecated, message: "Use NautilusCouponRouter function.")
+  @objc final public func instantiateCouponListViewController(category: NautilusCouponSDK.NautilusCouponCategoryInfo?, useCategoryTab: Swift.Bool) -> UIKit.UIViewController
+  @available(*, deprecated, message: "Use NautilusCouponRouter function.")
+  final public func instantiateCouponListViewController(categoryID: Swift.Int?, useCategoryTab: Swift.Bool) -> UIKit.UIViewController
+  @available(*, deprecated, message: "Use NautilusCouponRouter function.")
+  @objc final public func instantiateCouponListViewController(categoryID: Swift.Int, useCategoryTab: Swift.Bool) -> UIKit.UIViewController
+  @available(*, deprecated, message: "Use NautilusCouponRouter function.")
+  @objc final public func instantiateCouponListViewController(categoryAlias: Swift.String?, useCategoryTab: Swift.Bool) -> UIKit.UIViewController
+  @available(*, deprecated, message: "Use NautilusCouponRouter function.")
+  @objc final public func instantiateFavoriteCouponListViewController() -> UIKit.UIViewController
+  @available(*, deprecated, message: "Use NautilusCouponRouter function.")
+  final public func instantiateCouponDetailViewController(couponID: Swift.Int, exchangeID: Swift.Int? = nil, couponType: NautilusCouponSDK.NautilusCouponPublishType) -> UIKit.UIViewController
+  @available(*, deprecated, message: "Use NautilusCouponRouter function.")
+  @objc final public func instantiateCouponDetailViewController(couponID: Swift.Int, exchangeID: Swift.Int, couponType: NautilusCouponSDK.NautilusCouponPublishType) -> UIKit.UIViewController
+  @objc deinit
+}
+extension NautilusCouponSDK.NautilusCoupon {
+  @available(*, deprecated, renamed: "getCommonCouponList(offset:limit:useCache:couponIDs:categoryIDs:searchWord:sortKeys:checkDateTime:completion:)")
+  final public func getCommonCouponList(offset: Swift.Int?, limit: Swift.Int?, useCache: Swift.Bool?, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  final public func getCommonCouponList(offset: Swift.Int?, limit: Swift.Int?, useCache: Swift.Bool?, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, searchWord: Swift.String?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @available(*, deprecated, renamed: "getCommonCouponList(offset:limit:useCache:couponIDs:categoryIDs:searchWord:sortKeys:checkDateTime:completion:)")
+  @objc final public func getCommonCouponList(offset: Swift.Int, limit: Swift.Int, useCache: Swift.Bool, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  @objc final public func getCommonCouponList(offset: Swift.Int, limit: Swift.Int, useCache: Swift.Bool, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, searchWord: Swift.String?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getCommonCouponCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<Swift.Int, NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func getCommonCouponCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  @available(*, deprecated, renamed: "getPrivateCouponList(offset:limit:useCache:couponIDs:categoryIDs:searchWord:sortKeys:checkDateTime:completion:)")
+  final public func getPrivateCouponList(offset: Swift.Int?, limit: Swift.Int?, useCache: Swift.Bool?, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  final public func getPrivateCouponList(offset: Swift.Int?, limit: Swift.Int?, useCache: Swift.Bool?, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, searchWord: Swift.String?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @available(*, deprecated, renamed: "getPrivateCouponList(offset:limit:useCache:couponIDs:categoryIDs:searchWord:sortKeys:checkDateTime:completion:)")
+  @objc final public func getPrivateCouponList(offset: Swift.Int, limit: Swift.Int, useCache: Swift.Bool, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  @objc final public func getPrivateCouponList(offset: Swift.Int, limit: Swift.Int, useCache: Swift.Bool, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, searchWord: Swift.String?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getPrivateCouponCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<Swift.Int, NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func getPrivateCouponCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  @available(*, deprecated, renamed: "getFavoriteShopCouponList(offset:limit:useCache:couponIDs:categoryIDs:searchWord:sortKeys:checkDateTime:completion:)")
+  final public func getFavoriteShopCouponList(offset: Swift.Int?, limit: Swift.Int?, useCache: Swift.Bool?, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  final public func getFavoriteShopCouponList(offset: Swift.Int?, limit: Swift.Int?, useCache: Swift.Bool?, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, searchWord: Swift.String?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @available(*, deprecated, renamed: "getFavoriteShopCouponList(offset:limit:useCache:couponIDs:categoryIDs:searchWord:sortKeys:checkDateTime:completion:)")
+  @objc final public func getFavoriteShopCouponList(offset: Swift.Int, limit: Swift.Int, useCache: Swift.Bool, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  @objc final public func getFavoriteShopCouponList(offset: Swift.Int, limit: Swift.Int, useCache: Swift.Bool, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, searchWord: Swift.String?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getFavoriteShopCouponCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Result<Swift.Int, NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func getFavoriteShopCouponCount(checkDateTime: Foundation.Date?, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  @available(*, deprecated, renamed: "getPrizeCouponList(offset:limit:useCache:couponIDs:categoryIDs:searchWord:sortKeys:checkDateTime:prizeCouponList:completion:)", message: "検索ワードを指定できるメソッドの方へ移行してください。また景品クーポンを絞り込むためにはクーポンID・発行IDの組み合わせが必要であり、このメソッドは仕様に則っていないため廃止予定です。prizeCouponListを利用する方へ変更してください。なお現在は代替メソッドを呼ぶように実装変更してあるためexchangeIDでの絞り込みは無効です。")
+  final public func getPrizeCouponList(offset: Swift.Int?, limit: Swift.Int?, useCache: Swift.Bool?, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, exchangeID: Swift.Int?, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  final public func getPrizeCouponList(offset: Swift.Int?, limit: Swift.Int?, useCache: Swift.Bool?, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, searchWord: Swift.String?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, prizeCouponList: [NautilusCouponSDK.NautilusCouponIDInfo]?, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @available(*, deprecated, renamed: "getPrizeCouponList(offset:limit:useCache:couponIDs:categoryIDs:searchWord:sortKeys:checkDateTime:prizeCouponList:completion:)", message: "検索ワードを指定できるメソッドの方へ移行してください。また景品クーポンを絞り込むためにはクーポンID・発行IDの組み合わせが必要であり、このメソッドは仕様に則っていないため廃止予定です。prizeCouponListを利用する方へ変更してください。なお現在は代替メソッドを呼ぶように実装変更してあるためexchangeIDでの絞り込みは無効です。")
+  @objc final public func getPrizeCouponList(offset: Swift.Int, limit: Swift.Int, useCache: Swift.Bool, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, exchangeID: Swift.Int, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  @objc final public func getPrizeCouponList(offset: Swift.Int, limit: Swift.Int, useCache: Swift.Bool, couponIDs: [Swift.Int]?, categoryIDs: [Swift.Int]?, searchWord: Swift.String?, sortKeys: [NautilusCouponSDK.NautilusCouponSortKey]?, checkDateTime: Foundation.Date?, prizeCouponList: [NautilusCouponSDK.NautilusCouponIDInfo]?, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getPrizeCouponCount(checkDateTime: Foundation.Date?, prizeCouponIDList: [NautilusCouponSDK.NautilusCouponIDInfo]? = nil, completion: @escaping (Swift.Result<Swift.Int, NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func getPrizeCouponCount(checkDateTime: Foundation.Date?, prizeCouponIDList: [NautilusCouponSDK.NautilusCouponIDInfo]? = nil, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  final public func useCoupon(targetCouponInfo: NautilusCouponSDK.NautilusCouponUseInfo, optionalParameters: [Swift.String : Swift.String]?, exchangeCode: Swift.String? = nil, completion: @escaping (Swift.Result<Swift.Void, NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func useCoupon(targetCouponInfo: NautilusCouponSDK.NautilusCouponUseInfo, optionalParameters: [Swift.String : Swift.String]?, exchangeCode: Swift.String? = nil, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  final public func useCoupons(couponUseInfoList: [NautilusCouponSDK.NautilusCouponUseInfo], optionalParameters: [Swift.String : Swift.String]?, exchangeCode: Swift.String? = nil, completion: @escaping (Swift.Result<Swift.Void, NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func useCoupons(couponUseInfoList: [NautilusCouponSDK.NautilusCouponUseInfo], optionalParameters: [Swift.String : Swift.String]?, exchangeCode: Swift.String? = nil, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  final public func updateFavorite(addFavoriteCoupons: [NautilusCouponSDK.NautilusCouponIDInfo]?, removeFavoriteCoupons: [NautilusCouponSDK.NautilusCouponIDInfo]?, completion: @escaping (Swift.Result<Swift.Void, NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func updateFavorite(addFavoriteCoupons: [NautilusCouponSDK.NautilusCouponIDInfo]?, removeFavoriteCoupons: [NautilusCouponSDK.NautilusCouponIDInfo]?, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  final public func getFavoriteCouponList(completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func getFavoriteCouponList(completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getCouponCategoryList(completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponCategoryInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func getCouponCategoryList(completion: @escaping ([NautilusCouponSDK.NautilusCouponCategoryInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func publishPrizeCoupon(trigger: NautilusCouponSDK.NautilusCouponPublishTrigger, completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func publishPrizeCoupon(trigger: NautilusCouponSDK.NautilusCouponPublishTrigger, completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func sendCouponLog(couponLogs: [NautilusCouponSDK.NautilusCouponLog], completion: @escaping (Swift.Result<Swift.Void, NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func sendCouponLog(couponLogs: [NautilusCouponSDK.NautilusCouponLog], completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  @objc final public func calculateUsedCouponValidEndDate(of coupon: NautilusCouponSDK.NautilusCouponInfo) -> Foundation.Date?
+  @objc final public func isValidUsedCoupon(_ coupon: NautilusCouponSDK.NautilusCouponInfo) -> Swift.Bool
+  @objc final public func calculateUsedCouponValidDurationFromNow(of coupon: NautilusCouponSDK.NautilusCouponInfo) -> Swift.Int
+  @objc final public func registerCouponUseValidObserver(_ observer: any NautilusCouponSDK.NautilusCouponUseValidObserver, for coupon: NautilusCouponSDK.NautilusCouponInfo) -> Swift.Bool
+  @discardableResult
+  @objc final public func unregisterCouponUseValidObserver(_ observer: any NautilusCouponSDK.NautilusCouponUseValidObserver, for coupon: NautilusCouponSDK.NautilusCouponInfo) -> Swift.Bool
+  @discardableResult
+  @objc final public func unregisterCouponUseValidObserver(for coupon: NautilusCouponSDK.NautilusCouponInfo) -> Swift.Bool
+  final public func getPointPrizeCouponList(completion: @escaping (Swift.Result<[NautilusCouponSDK.NautilusCouponInfo], NautilusCouponSDK.NautilusCouponError>) -> Swift.Void)
+  @objc final public func getPointPrizeCouponList(completion: @escaping ([NautilusCouponSDK.NautilusCouponInfo]?, Foundation.NSError?) -> Swift.Void)
+}
+@objc public class NautilusCouponLog : ObjectiveC.NSObject {
+  final public let coupon: NautilusCouponSDK.NautilusCouponInfo
+  final public let logDate: Foundation.Date
+  final public let logType: NautilusCouponSDK.NautilusCouponLogType
+  public init(coupon: NautilusCouponSDK.NautilusCouponInfo, logType: NautilusCouponSDK.NautilusCouponLogType)
+  @objc deinit
+}
+@objc public enum NautilusCouponLogType : Swift.Int {
+  case viewCoupon
+  case tapCouponURL
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusCouponRouter : ObjectiveC.NSObject {
+  @objc final public func register(screen: NautilusCouponSDK.NautilusCouponRoutableScreen, viewControllerClass: UIKit.UIViewController.Type)
+  @objc final public func unregister(screen: NautilusCouponSDK.NautilusCouponRoutableScreen)
+  @objc final public func instantiateCouponTabList(category: NautilusCouponSDK.NautilusCouponCategoryInfo?) -> UIKit.UIViewController
+  @objc final public func instantiateCouponList(category: NautilusCouponSDK.NautilusCouponCategoryInfo?) -> UIKit.UIViewController
+  @objc final public func instantiateCouponDetail(coupon: NautilusCouponSDK.NautilusCouponInfo) -> UIKit.UIViewController
+  @objc final public func instantiateCouponDetail(couponIDInfo: NautilusCouponSDK.NautilusCouponIDInfo, couponType: NautilusCouponSDK.NautilusCouponPublishType) -> UIKit.UIViewController
+  @objc final public func instantiateFavoriteCouponList() -> UIKit.UIViewController
+  @objc final public func routeCouponTabList(category: NautilusCouponSDK.NautilusCouponCategoryInfo?, in viewController: UIKit.UIViewController)
+  @objc final public func routeCouponList(category: NautilusCouponSDK.NautilusCouponCategoryInfo?, in viewController: UIKit.UIViewController)
+  @objc final public func routeCouponDetail(coupon: NautilusCouponSDK.NautilusCouponInfo, in viewController: UIKit.UIViewController)
+  @objc final public func routeFavoriteCouponList(in viewController: UIKit.UIViewController)
+  @objc deinit
+}
+@objc public protocol NautilusCouponDetailInstantiatable {
+  @objc static func instantiate(app: NautilusCoreSDK.NautilusApp, coupon: NautilusCouponSDK.NautilusCouponInfo) -> UIKit.UIViewController
+  @objc static func instantiate(app: NautilusCoreSDK.NautilusApp, couponIDInfo: NautilusCouponSDK.NautilusCouponIDInfo, couponType: NautilusCouponSDK.NautilusCouponPublishType) -> UIKit.UIViewController
+}
+@objc public class NautilusCouponIDInfo : ObjectiveC.NSObject {
+  final public let couponID: Swift.Int
+  final public let exchangeID: Swift.Int?
+  public init(couponID: Swift.Int, exchangeID: Swift.Int?)
+  @objc deinit
+}
+@objc public class NautilusCouponSortKey : ObjectiveC.NSObject {
+  final public let keyName: NautilusCouponSDK.NautilusCouponSortKeyName
+  final public let order: NautilusCouponSDK.NautilusCouponSortKeyOrder
+  public init(keyName: NautilusCouponSDK.NautilusCouponSortKeyName, order: NautilusCouponSDK.NautilusCouponSortKeyOrder)
+  @objc deinit
+}
+@objc public enum NautilusCouponSortKeyName : Swift.Int {
+  case publishStartDateTime
+  case publishEndDateTime
+  case useStartDateTime
+  case useEndDateTime
+  case sortNumber
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusCouponSortKeyOrder : Swift.Int {
+  case ascending
+  case descending
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class NautilusCouponBaseCell : UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor(unsafe) open class var defaultCellIdentifier: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open class var nib: UIKit.UINib {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open class func register(to collectionView: UIKit.UICollectionView)
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var couponCoverImageView: UIKit.UIImageView!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var couponTitleLabel: UIKit.UILabel!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var couponExpirePeriodLabel: UIKit.UILabel!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var couponFavoriteButton: UIKit.UIButton!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var couponCoverImageOverlayView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var couponCoverImageOverlayImageView: UIKit.UIImageView!
+  @_Concurrency.MainActor(unsafe) weak public var actionHandler: (any NautilusCouponSDK.NautilusCouponCellActionHandler)?
+  @_Concurrency.MainActor(unsafe) final public let imageDownloader: NautilusImagingSDK.NautilusImageDownloader
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public protocol NautilusCouponCellActionHandler {
+  @objc func addFavorite(coupon: NautilusCouponSDK.NautilusCouponInfo)
+  @objc func removeFavorite(coupon: NautilusCouponSDK.NautilusCouponInfo)
+  @objc func showCouponUseCondition(couponIDInfo: NautilusCouponSDK.NautilusCouponIDInfo)
+  @objc func useCoupon(couponID: Swift.Int, type: NautilusCouponSDK.NautilusCouponPublishType, exchangeID: Foundation.NSNumber?)
+  @objc func toggleCouponUseView(cell: NautilusCouponSDK.NautilusCouponBaseCell, couponID: Swift.Int)
+}
+@objc public class NautilusCouponData : ObjectiveC.NSObject {
+  final public let couponID: Swift.Int
+  final public let couponManageTitle: Swift.String
+  final public let couponTitle: Swift.String?
+  final public let couponText: Swift.String
+  final public let noticeText: Swift.String?
+  final public let publishStartDatetime: Swift.String
+  final public let publishEndDatetime: Swift.String?
+  final public let useStartDatetime: Swift.String?
+  final public let useEndDatetime: Swift.String?
+  final public let barcode: Swift.String?
+  final public let barcodeImagePath: Swift.String?
+  final public let couponCode: Swift.String?
+  final public let maxSheet: Swift.Int?
+  final public let useType: NautilusCouponSDK.NautilusAppExchangeType?
+  final public let useLimit: Swift.Int?
+  final public let categoryIDs: [Swift.Int]?
+  final public let sortNo: Swift.Int?
+  final public let searchword: Swift.String?
+  final public let couponImageList: [NautilusCouponSDK.CustomCellCouponImageList]?
+  final public let useDatetime: Swift.String?
+  final public let couponType: Swift.Int?
+  final public let favorite: Swift.Bool?
+  final public let useCount: Swift.Int?
+  public init(couponID: Swift.Int, couponManageTitle: Swift.String, couponTitle: Swift.String?, couponText: Swift.String, noticeText: Swift.String?, publishStartDatetime: Swift.String, publishEndDatetime: Swift.String?, useStartDatetime: Swift.String?, useEndDatetime: Swift.String?, barcode: Swift.String?, barcodeImagePath: Swift.String?, couponCode: Swift.String?, maxSheet: Swift.Int?, useType: NautilusCouponSDK.NautilusAppExchangeType?, useLimit: Swift.Int?, categoryIDs: [Swift.Int]?, sortNo: Swift.Int?, searchword: Swift.String?, couponImageList: [NautilusCouponSDK.CustomCellCouponImageList]?, useDatetime: Swift.String?, couponType: Swift.Int?, favorite: Swift.Bool?, useCount: Swift.Int?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class CustomCellCouponImageList : ObjectiveC.NSObject {
+  final public let imagePath: Swift.String
+  final public let aspectRatio: Swift.Double
+  final public let sortNo: Swift.Int
+  @objc deinit
+}
+@objc public enum NautilusCouponPublishType : Swift.Int {
+  case common = 1
+  case `private` = 2
+  case shop = 3
+  case prize = 4
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum PublishTiming : Swift.Int {
+  case firstRegister = 1
+  case firstDownload = 2
+  case cardPublication = 3
+  case codePublication = 4
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class CardType : ObjectiveC.NSObject {
+  @objc deinit
+}
+@objc public enum SectionType : Swift.Int {
+  case useStatus
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class NautilusAppExchangeType : ObjectiveC.NSObject {
+  final public let notExchange: Swift.Int?
+  final public let exchange: Swift.Int?
+  final public let useExchangeCode: Swift.Int?
+  @objc deinit
+}
+@objc public enum NautilusCouponExchangeType : Swift.Int {
+  case exchange = 1
+  case useExchangeCode = 2
+  case notExchange = 0
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusCouponRoutableScreen : Swift.Int, Swift.CaseIterable {
+  case couponTabList
+  case couponList
+  case couponDetail
+  case favoriteCouponList
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [NautilusCouponSDK.NautilusCouponRoutableScreen]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [NautilusCouponSDK.NautilusCouponRoutableScreen] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension NautilusCouponSDK.NautilusCouponPublishTriggerType : Swift.Equatable {}
+extension NautilusCouponSDK.NautilusCouponPublishTriggerType : Swift.Hashable {}
+extension NautilusCouponSDK.NautilusCouponPublishTriggerType : Swift.RawRepresentable {}
+extension NautilusCouponSDK.NautilusCouponError : Swift.Equatable {}
+extension NautilusCouponSDK.NautilusCouponError : Swift.Hashable {}
+extension NautilusCouponSDK.NautilusCouponError : Swift.RawRepresentable {}
+extension NautilusCouponSDK.NautilusCouponLogType : Swift.Equatable {}
+extension NautilusCouponSDK.NautilusCouponLogType : Swift.Hashable {}
+extension NautilusCouponSDK.NautilusCouponLogType : Swift.RawRepresentable {}
+extension NautilusCouponSDK.NautilusCouponSortKeyName : Swift.Equatable {}
+extension NautilusCouponSDK.NautilusCouponSortKeyName : Swift.Hashable {}
+extension NautilusCouponSDK.NautilusCouponSortKeyName : Swift.RawRepresentable {}
+extension NautilusCouponSDK.NautilusCouponSortKeyOrder : Swift.Equatable {}
+extension NautilusCouponSDK.NautilusCouponSortKeyOrder : Swift.Hashable {}
+extension NautilusCouponSDK.NautilusCouponSortKeyOrder : Swift.RawRepresentable {}
+extension NautilusCouponSDK.NautilusCouponPublishType : Swift.Equatable {}
+extension NautilusCouponSDK.NautilusCouponPublishType : Swift.Hashable {}
+extension NautilusCouponSDK.NautilusCouponPublishType : Swift.RawRepresentable {}
+extension NautilusCouponSDK.PublishTiming : Swift.Equatable {}
+extension NautilusCouponSDK.PublishTiming : Swift.Hashable {}
+extension NautilusCouponSDK.PublishTiming : Swift.RawRepresentable {}
+extension NautilusCouponSDK.SectionType : Swift.Equatable {}
+extension NautilusCouponSDK.SectionType : Swift.Hashable {}
+extension NautilusCouponSDK.SectionType : Swift.RawRepresentable {}
+extension NautilusCouponSDK.NautilusCouponExchangeType : Swift.Equatable {}
+extension NautilusCouponSDK.NautilusCouponExchangeType : Swift.Hashable {}
+extension NautilusCouponSDK.NautilusCouponExchangeType : Swift.RawRepresentable {}
+extension NautilusCouponSDK.NautilusCouponRoutableScreen : Swift.Equatable {}
+extension NautilusCouponSDK.NautilusCouponRoutableScreen : Swift.Hashable {}
+extension NautilusCouponSDK.NautilusCouponRoutableScreen : Swift.RawRepresentable {}

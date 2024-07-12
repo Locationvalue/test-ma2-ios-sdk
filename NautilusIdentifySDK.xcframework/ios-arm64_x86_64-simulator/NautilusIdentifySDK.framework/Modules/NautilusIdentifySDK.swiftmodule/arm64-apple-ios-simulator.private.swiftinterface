@@ -1,0 +1,160 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusIdentifySDK
+import Foundation
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusLoggingSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc final public class NautilusAppOptionalAttribute : ObjectiveC.NSObject {
+  final public func put(_ key: NautilusIdentifySDK.NautilusAppOptionalAttributeKey, value: Swift.String?)
+  final public subscript(key: NautilusIdentifySDK.NautilusAppOptionalAttributeKey) -> Swift.String? {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol NautilusUser {
+  @objc var userID: Swift.String { get }
+  @objc var pid: Swift.String { get }
+  @objc var manageCode: Swift.String? { get }
+  @objc var externalID: Swift.String? { get }
+  @objc var externalIDType: Swift.Int { get }
+  @objc var isAnonymous: Swift.Bool { get }
+}
+public let NautilusUserExternalIDTypeNone: Swift.Int
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class NautilusUserInfoView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) open class var nibFilename: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open class func instantiate() -> NautilusIdentifySDK.NautilusUserInfoView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func setCodeImage(_ codeImage: UIKit.UIImage?)
+  @_Concurrency.MainActor(unsafe) open func setCodeString(_ codeString: Swift.String?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusUserInfoViewProvider : ObjectiveC.NSObject {
+  @objc final public func setCodeImageProvider(_ codeImageProvider: (any NautilusIdentifySDK.NautilusUserInfoCodeImageProvider)?)
+  @objc final public func setCodeImageSize(_ codeImageSize: CoreFoundation.CGSize)
+  @objc final public func provideUserInfoView() -> UIKit.UIView
+  @objc final public func provideUserInfoView(user: any NautilusIdentifySDK.NautilusUser) -> UIKit.UIView
+  @objc final public func provideUserInfoView(viewType: NautilusIdentifySDK.NautilusUserInfoView.Type) -> UIKit.UIView
+  @objc final public func provideUserInfoView(user: any NautilusIdentifySDK.NautilusUser, viewType: NautilusIdentifySDK.NautilusUserInfoView.Type) -> UIKit.UIView
+  @objc deinit
+}
+public typealias SetManageCodeCompletion = (Swift.Result<Swift.Bool, NautilusIdentifySDK.NautilusIdentifyError>) -> Swift.Void
+@_hasMissingDesignatedInitializers @objc final public class NautilusIdentify : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc final public let app: NautilusCoreSDK.NautilusApp
+  @objc final public let name: Swift.String?
+  final public var cid: Swift.String {
+    get
+  }
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func identify() -> NautilusIdentifySDK.NautilusIdentify
+  @objc(identifyAppNamed:) public static func identify(appName: Swift.String) -> NautilusIdentifySDK.NautilusIdentify
+  @objc final public func changeUser(userID: Swift.String?)
+  @objc final public func getCurrentUser() -> any NautilusIdentifySDK.NautilusUser
+  final public func setManageCode(userID: Swift.String, manageCode: Swift.String, completion: @escaping NautilusIdentifySDK.SetManageCodeCompletion)
+  final public func setExternalID(userID: Swift.String, externalID: Swift.String, externalIDType: Swift.Int, completion: @escaping NautilusIdentifySDK.SetManageCodeCompletion)
+  final public func setManageCodeAndExternalID(userID: Swift.String, manageCode: Swift.String?, externalID: Swift.String, externalIDType: Swift.Int, completion: @escaping NautilusIdentifySDK.SetManageCodeCompletion)
+  @objc final public func setManageCode(userID: Swift.String, manageCode: Swift.String, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  @objc final public func setExternalID(userID: Swift.String, externalID: Swift.String, externalIDType: Swift.Int, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  @objc final public func setManageCodeAndExternalID(userID: Swift.String, manageCode: Swift.String?, externalID: Swift.String, externalIDType: Swift.Int, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  final public func setServerStatusToLogin(manageCode: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, NautilusIdentifySDK.NautilusIdentifyError>) -> Swift.Void)
+  @objc final public func setServerStatusToLogin(manageCode: Swift.String, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  final public func setServerStatusToLogout(completion: @escaping (Swift.Result<Swift.Bool, NautilusIdentifySDK.NautilusIdentifyError>) -> Swift.Void)
+  @objc final public func setServerStatusToLogout(completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  final public func setAppAttributeOpt(opt: NautilusIdentifySDK.NautilusAppOptionalAttribute, completion: @escaping (Swift.Result<Swift.Bool, NautilusIdentifySDK.NautilusIdentifyError>) -> Swift.Void)
+  @objc final public func setAppAttributeOpt(opt: NautilusIdentifySDK.NautilusAppOptionalAttribute, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  @objc final public func getUserInfoView() -> UIKit.UIView
+  @objc final public func getUserInfoView(viewType: NautilusIdentifySDK.NautilusUserInfoView.Type) -> UIKit.UIView
+  @objc final public func setCodeImageProvider(_ codeImageProvider: (any NautilusIdentifySDK.NautilusUserInfoCodeImageProvider)?)
+  @objc final public func setCodeImageSize(_ codeImageSize: CoreFoundation.CGSize)
+  @objc final public func removeCID()
+  @objc final public func removeReferenceNumber()
+  final public func getReferenceNumber(completion: @escaping (Swift.Result<Swift.String, NautilusIdentifySDK.NautilusIdentifyError>) -> Swift.Void)
+  @objc deinit
+}
+@objc public enum NautilusAppOptionalAttributeKey : Swift.Int {
+  case option1
+  case option2
+  case option3
+  case option4
+  case option5
+  case option6
+  case option7
+  case option8
+  case option9
+  case option10
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public let NautilusIdentifyErrorDomain: Swift.String
+@objc public enum NautilusIdentifyError : Swift.Int, Swift.Error {
+  case unknown
+  case connection
+  case timedout
+  case apiProcessError
+  case httpConnection
+  case parseFailure
+  case userCancelled
+  case invalidParamater
+  case invalidInstance
+  case invalidParameters = 100
+  case missingRequiredParameter = 101
+  case unexpectedParameterFormat = 102
+  case serverError = 200
+  case serviceMaintenance = 901
+  case unknownAPIService = 903
+  case invalidUserPID = 905
+  case developerError = 906
+  case requiresLoginStatus = 907
+  public var nautilusIdentifyErrorCode: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol NautilusUserInfoCodeImageProvider {
+  @objc func provideCodeImage(for codeString: Swift.String, size: CoreFoundation.CGSize) -> UIKit.UIImage?
+}
+extension Foundation.Notification.NautilusApp {
+  public static let identifyUpdateCID: Foundation.Notification.Name
+  public static let identifyChangeCurrentUser: Foundation.Notification.Name
+}
+extension Foundation.Notification.NautilusApp.UserInfoKey {
+  public static let newCID: Swift.String
+}
+extension NautilusIdentifySDK.NautilusAppOptionalAttributeKey : Swift.Equatable {}
+extension NautilusIdentifySDK.NautilusAppOptionalAttributeKey : Swift.Hashable {}
+extension NautilusIdentifySDK.NautilusAppOptionalAttributeKey : Swift.RawRepresentable {}
+extension NautilusIdentifySDK.NautilusIdentifyError : Swift.Equatable {}
+extension NautilusIdentifySDK.NautilusIdentifyError : Swift.Hashable {}
+extension NautilusIdentifySDK.NautilusIdentifyError : Swift.RawRepresentable {}

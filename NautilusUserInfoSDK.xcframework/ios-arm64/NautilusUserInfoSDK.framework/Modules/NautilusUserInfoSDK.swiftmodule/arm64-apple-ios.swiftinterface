@@ -1,0 +1,240 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusUserInfoSDK
+import Foundation
+import NautilusAnalyticsSDK
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusGeoUtilSDK
+import NautilusIdentifySDK
+import NautilusLoggingSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @objc final public class NautilusUserAttribute : ObjectiveC.NSObject {
+  final public let gender: NautilusUserInfoSDK.NautilusUserGenderType?
+  final public let birthday: Foundation.DateComponents?
+  final public let prefecture: NautilusGeoUtilSDK.NautilusPrefectureCode?
+  final public let municipalityID: Swift.String?
+  final public let zipCode: Swift.String?
+  final public let brandID: Swift.Int?
+  final public let manageCode: Swift.String?
+  final public let options: NautilusUserInfoSDK.NautilusUserOptionalAttribute?
+  @objc deinit
+}
+@objc public enum NautilusUserGenderType : Swift.Int {
+  case male = 1
+  case female = 2
+  case other = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusUserEnqueteItem : ObjectiveC.NSObject {
+  final public let enqueteItemID: Swift.Int
+  final public let enqueteItemTitle: Swift.String
+  final public let enqueteItemDescription: Swift.String?
+  final public let isRequired: Swift.Bool
+  final public let isUpdatable: Swift.Bool
+  final public let enqueteAnswerType: NautilusUserInfoSDK.NautilusUserEnqueteAnswerType
+  final public let displayIndex: Swift.Int
+  final public let selectionItems: [NautilusUserInfoSDK.NautilusUserEnqueteSelectionItem]?
+  final public var selectedItems: [Swift.Int]? {
+    get
+  }
+  final public var inputText: Swift.String? {
+    get
+  }
+  @objc deinit
+}
+@objc public enum NautilusUserEnqueteAnswerType : Swift.Int {
+  case singleSelection = 1
+  case multipleSelection = 2
+  case freeText = 3
+  case unknown = -1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusUserEnqueteSelectionItem : ObjectiveC.NSObject {
+  final public let id: Swift.Int
+  final public let name: Swift.String
+  @objc deinit
+}
+@objc public class NautilusUserAttributeUpdater : ObjectiveC.NSObject {
+  public init(userAttribute: NautilusUserInfoSDK.NautilusUserAttribute)
+  @objc public func setGender(gender: NautilusUserInfoSDK.NautilusUserGenderType)
+  @objc public func setBirthday(birthday: Foundation.DateComponents)
+  @objc public func setPrefecture(prefecture: NautilusGeoUtilSDK.NautilusPrefectureCode)
+  @objc public func setMunicipalityID(municipalityID: Swift.String)
+  @objc public func setZipCode(zipCode: Swift.String)
+  @objc public func setBrandID(brandID: Swift.Int)
+  @objc public func setManageCode(manageCode: Swift.String)
+  @objc public func setOptions(key: NautilusUserInfoSDK.NautilusUserOptionalAttributeKey, value: Swift.String)
+  @objc public func removeGender()
+  @objc public func removeBirthday()
+  @objc public func removePrefecture()
+  @objc public func removeMunicipalityID()
+  @objc public func removeZipCode()
+  @objc public func removeBrandID()
+  @objc public func removeManageCode()
+  @objc public func removeOptions(key: NautilusUserInfoSDK.NautilusUserOptionalAttributeKey)
+  @objc public func build() -> NautilusUserInfoSDK.NautilusUserAttribute?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusUserOptionalAttribute : ObjectiveC.NSObject {
+  final public var option1: Swift.String? {
+    get
+  }
+  final public var option2: Swift.String? {
+    get
+  }
+  final public var option3: Swift.String? {
+    get
+  }
+  final public var option4: Swift.String? {
+    get
+  }
+  final public var option5: Swift.String? {
+    get
+  }
+  final public var option6: Swift.String? {
+    get
+  }
+  final public var option7: Swift.String? {
+    get
+  }
+  final public var option8: Swift.String? {
+    get
+  }
+  final public var option9: Swift.String? {
+    get
+  }
+  final public var option10: Swift.String? {
+    get
+  }
+  @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusUserInfo : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc final public let app: NautilusCoreSDK.NautilusApp
+  @objc final public let name: Swift.String?
+  public static let userInfoErrorDomain: Swift.String
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func userInfo() -> NautilusUserInfoSDK.NautilusUserInfo
+  @objc(userInfoAppNamed:) public static func userInfo(appName: Swift.String) -> NautilusUserInfoSDK.NautilusUserInfo
+  @objc final public func loadUserAttribute(completion: @escaping (NautilusUserInfoSDK.NautilusUserAttribute?, Foundation.NSError?) -> Swift.Void)
+  @objc final public func uploadUserAttribute(userAttribute: NautilusUserInfoSDK.NautilusUserAttribute, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  @objc final public func loadUserEnquetes(completion: @escaping ([NautilusUserInfoSDK.NautilusUserEnquete]?, Foundation.NSError?) -> Swift.Void)
+  @objc final public func uploadUserEnquete(enqueteAnswer: NautilusUserInfoSDK.NautilusUserEnqueteAnswer, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  @objc deinit
+}
+@objc public enum UserInfoNetworkServiceError : Swift.Int, Swift.Error {
+  case unknown
+  case connection
+  case timedout
+  case apiProcessError
+  case httpConnection
+  case parseFailure
+  case userCancelled
+  case invalidInstance
+  case invalidParameters = 100
+  case missingRequiredParameter = 101
+  case unexpectedParameterFormat = 102
+  case serverError = 200
+  case serviceMaintenance = 901
+  case unknownAPIService = 903
+  case invalidUserPID = 905
+  case developerError = 906
+  case requiresLoginStatus = 907
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusUserOptionalAttributeKey : Swift.Int {
+  case option1
+  case option2
+  case option3
+  case option4
+  case option5
+  case option6
+  case option7
+  case option8
+  case option9
+  case option10
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusUserEnquete : ObjectiveC.NSObject {
+  final public let enqueteID: Swift.Int
+  final public let enqueteTitle: Swift.String
+  final public let alias: Swift.String
+  final public let publishDateComponents: Foundation.DateComponents
+  final public let expireDateComponents: Foundation.DateComponents?
+  final public let displayIndex: Swift.Int
+  final public let items: [NautilusUserInfoSDK.NautilusUserEnqueteItem]
+  @objc deinit
+}
+@objc public class NautilusUserEnqueteUpdater : ObjectiveC.NSObject {
+  public init(userEnquete: NautilusUserInfoSDK.NautilusUserEnquete)
+  @objc public func selectItem(enqueteItem: NautilusUserInfoSDK.NautilusUserEnqueteItem, selectedOption: Swift.Int)
+  @objc public func selectItems(enqueteItem: NautilusUserInfoSDK.NautilusUserEnqueteItem, selectedOption: [Swift.Int]?)
+  @objc public func setInputText(enqueteItem: NautilusUserInfoSDK.NautilusUserEnqueteItem, inputText: Swift.String?)
+  @objc public func deselectItem(enqueteItem: NautilusUserInfoSDK.NautilusUserEnqueteItem)
+  @objc public func deselectItems(enqueteItem: NautilusUserInfoSDK.NautilusUserEnqueteItem)
+  @objc public func removeInputText(enqueteItem: NautilusUserInfoSDK.NautilusUserEnqueteItem)
+  @objc public func build() -> NautilusUserInfoSDK.NautilusUserEnqueteAnswer?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusUserEnqueteAnswer : ObjectiveC.NSObject {
+  final public let enqueteID: Swift.Int
+  final public let enqueteTitle: Swift.String
+  final public let alias: Swift.String
+  final public let items: [NautilusUserInfoSDK.NautilusUserEnqueteAnswerItem]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusUserEnqueteAnswerItem : ObjectiveC.NSObject {
+  final public let enqueteItemID: Swift.Int
+  final public let selectedOptionID: Swift.Int?
+  final public let selectedOptionIDs: [Swift.Int]?
+  final public let inputText: Swift.String?
+  @objc deinit
+}
+extension NautilusUserInfoSDK.NautilusUserGenderType : Swift.Equatable {}
+extension NautilusUserInfoSDK.NautilusUserGenderType : Swift.Hashable {}
+extension NautilusUserInfoSDK.NautilusUserGenderType : Swift.RawRepresentable {}
+extension NautilusUserInfoSDK.NautilusUserEnqueteAnswerType : Swift.Equatable {}
+extension NautilusUserInfoSDK.NautilusUserEnqueteAnswerType : Swift.Hashable {}
+extension NautilusUserInfoSDK.NautilusUserEnqueteAnswerType : Swift.RawRepresentable {}
+extension NautilusUserInfoSDK.UserInfoNetworkServiceError : Swift.Equatable {}
+extension NautilusUserInfoSDK.UserInfoNetworkServiceError : Swift.Hashable {}
+extension NautilusUserInfoSDK.UserInfoNetworkServiceError : Swift.RawRepresentable {}
+extension NautilusUserInfoSDK.NautilusUserOptionalAttributeKey : Swift.Equatable {}
+extension NautilusUserInfoSDK.NautilusUserOptionalAttributeKey : Swift.Hashable {}
+extension NautilusUserInfoSDK.NautilusUserOptionalAttributeKey : Swift.RawRepresentable {}

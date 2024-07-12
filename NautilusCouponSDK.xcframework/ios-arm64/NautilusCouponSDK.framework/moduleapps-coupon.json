@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-coupon",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_coupon_network_timeout_time",
+      "integer_value": 60
+    },
+    {
+      "config_value_name": "ma_coupon_use_favorite",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_coupon_list_number_of_columns",
+      "integer_value": 1
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_number_of_columns",
+      "integer_value": 1
+    },
+    {
+      "config_value_name": "ma_coupon_list_detail_screen_style",
+      "string_value": "fullscreen"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_detail_screen_style",
+      "string_value": "fullscreen"
+    },
+    {
+      "config_value_name": "ma_coupon_default_use_limit_type",
+      "string_value": "fixed_hour"
+    },
+    {
+      "config_value_name": "ma_coupon_default_use_limit",
+      "integer_value": 24
+    },
+    {
+      "config_value_name": "ma_coupon_default_fixed_period_use_limit",
+      "integer_value": 1800
+    },
+    {
+      "config_value_name": "ma_coupon_use_coupon_confirm_dialog_title",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_coupon_use_coupon_confirm_dialog_message",
+      "string_value": "このクーポンを使用しますか？\nクーポンの使用を取り消すことはできませんので、利用条件をご確認の上、クーポンの使用をしてください。"
+    },
+    {
+      "config_value_name": "ma_coupon_use_coupon_confirm_dialog_use_button_text",
+      "string_value": "使用する"
+    },
+    {
+      "config_value_name": "ma_coupon_use_coupon_confirm_dialog_cancel_button_text",
+      "string_value": "キャンセル"
+    },
+    {
+      "config_value_name": "ma_coupon_default_web_browser_type",
+      "string_value": "external"
+    },
+    {
+      "config_value_name": "ma_coupon_list_screen_title",
+      "string_value": "クーポン"
+    },
+    {
+      "config_value_name": "ma_coupon_list_coupon_sort_key_name",
+      "string_value": "publish_start_datetime"
+    },
+    {
+      "config_value_name": "ma_coupon_list_coupon_sort_order",
+      "string_value": "descending"
+    },
+    {
+      "config_value_name": "ma_coupon_list_number_of_coupons_per_load",
+      "integer_value": 30
+    },
+    {
+      "config_value_name": "ma_coupon_list_show_open_favorite_button_on_top_bar",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_coupon_list_overall_coupon_category_name",
+      "string_value": "すべて"
+    },
+    {
+      "config_value_name": "ma_coupon_list_show_overall_coupon_category_tab",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_coupon_list_available_coupons_header_text",
+      "string_value": "利用可能クーポン"
+    },
+    {
+      "config_value_name": "ma_coupon_list_before_available_coupons_header_text",
+      "string_value": "利用開始前"
+    },
+    {
+      "config_value_name": "ma_coupon_list_expired_coupons_header_text",
+      "string_value": "利用期間終了"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_available_period_text_format",
+      "string_value": "yyyy/MM/dd HH:mm まで有効"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_show_use_condition_button_text",
+      "string_value": "利用条件"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_unlimit_use_button_text",
+      "string_value": "使用する（期間中何度でも）"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_use_button_text",
+      "string_value": "使用する"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_show_coupon_usage_text",
+      "string_value": "お会計時にスタッフにご提示ください"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_coupon_use_limit_text_format",
+      "string_value": "yyyy/MM/dd HH:mmまで"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_coupon_usable_text",
+      "string_value": "利用可能"
+    },
+    {
+      "config_value_name": "ma_coupon_list_cell_coupon_use_expired_text",
+      "string_value": "クーポンの利用期限が過ぎました"
+    },
+    {
+      "config_value_name": "ma_coupon_list_loading_text",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_coupon_list_empty_state_title",
+      "string_value": "該当するクーポンはありません"
+    },
+    {
+      "config_value_name": "ma_coupon_list_empty_state_message",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_coupon_list_empty_state_show_reload_button",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_coupon_list_load_error_title",
+      "string_value": "通信エラー"
+    },
+    {
+      "config_value_name": "ma_coupon_list_load_error_message",
+      "string_value": "エラーが発生しました"
+    },
+    {
+      "config_value_name": "ma_coupon_list_invalid_category_error_title",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_coupon_list_invalid_category_error_message",
+      "string_value": "該当するカテゴリーが存在しませんでした"
+    },
+    {
+      "config_value_name": "ma_coupon_list_reload_button_text",
+      "string_value": "再読み込み"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_screen_title",
+      "string_value": "クーポン詳細"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_auto_brightness_increase",
+      "string_value": "disabled"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_show_coupon_code_action_button",
+      "boolean_value": false
+    },
+    {
+      "config_value_name": "ma_coupon_detail_coupon_code_action_button_title",
+      "string_value": "特典コードはこちら"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_available_period_text_format",
+      "string_value": "yyyy/MM/dd HH:mm まで有効"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_use_condition_header_text",
+      "string_value": "利用条件"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_unlimit_use_button_text",
+      "string_value": "使用する（期間中何度でも）"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_use_button_text",
+      "string_value": "使用する"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_show_coupon_usage_text",
+      "string_value": "お会計時にスタッフにご提示ください"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_coupon_use_limit_text_format",
+      "string_value": "yyyy/MM/dd HH:mmまで"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_coupon_usable_text",
+      "string_value": "利用可能"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_coupon_use_expired_text",
+      "string_value": "クーポンの利用期限が過ぎました"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_screen_title",
+      "string_value": "お気に入り"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_number_of_coupons_per_load",
+      "integer_value": 30
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_available_period_text_format",
+      "string_value": "yyyy/MM/dd HH:mm まで有効"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_show_use_condition_button_text",
+      "string_value": "利用条件"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_unlimit_use_button_text",
+      "string_value": "使用する（期間中何度でも）"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_use_button_text",
+      "string_value": "使用する"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_show_coupon_usage_text",
+      "string_value": "お会計時にスタッフにご提示ください"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_coupon_use_limit_text_format",
+      "string_value": "yyyy/MM/dd HH:mmまで"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_coupon_usable_text",
+      "string_value": "利用可能"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_cell_coupon_use_expired_text",
+      "string_value": "クーポンの利用期限が過ぎました"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_loading_text",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_empty_state_title",
+      "string_value": "該当するクーポンはありません"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_empty_state_message",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_empty_state_show_reload_button",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_load_error_title",
+      "string_value": "通信エラー"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_load_error_message",
+      "string_value": "エラーが発生しました"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_reload_button_text",
+      "string_value": "再読み込み"
+    },
+    {
+      "config_value_name": "ma_coupon_use_condition_dialog_title",
+      "string_value": "利用条件"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_error_dialog_title",
+      "string_value": "エラー"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_error_dialog_no_content_message",
+      "string_value": "該当するクーポンは、現在、配信されていません"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_error_dialog_load_error_message",
+      "string_value": "クーポンが取得できませんでした。お手数ですが、電波環境をご確認いただき、再表示をしてください。"
+    },
+    {
+      "config_value_name": "ma_coupon_detail_error_dialog_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_coupon_error_dialog_use_coupon_general_title",
+      "string_value": "エラー"
+    },
+    {
+      "config_value_name": "ma_coupon_error_dialog_use_coupon_general_message",
+      "string_value": "クーポンの使用時にエラーが発生しました。お手数ですが、電波環境をご確認いただき、クーポンを使用してください。"
+    },
+    {
+      "config_value_name": "ma_coupon_error_dialog_use_coupon_general_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_unavailable_error_title",
+      "string_value": "構成エラー"
+    },
+    {
+      "config_value_name": "ma_coupon_favorite_list_unavailable_error_message",
+      "string_value": "表示対象となるコンテンツが登録されていません"
+    },
+    {
+        "config_value_name": "ma_coupon_detail_coupon_barcode_height",
+        "double_value": 100.0
+    },
+    {
+        "config_value_name": "ma_coupon_list_cell_coupon_barcode_height",
+        "double_value": 100.0
+    },
+    {
+        "config_value_name": "ma_coupon_favorite_list_cell_coupon_barcode_height",
+        "double_value": 100.0
+    },
+    {
+        "config_value_name": "ma_coupon_code_button_color",
+        "string_value": "#1A73E8"
+    },
+    {
+        "config_value_name": "ma_coupon_list_cell_show_coupon_use_expired_text",
+        "boolean_value": true
+    },
+    {
+        "config_value_name": "ma_coupon_detail_show_coupon_use_expired_text",
+        "boolean_value": true
+    },
+    {
+        "config_value_name": "ma_coupon_favorite_list_cell_show_coupon_use_expired_text",
+        "boolean_value": true
+    }
+  ]
+}

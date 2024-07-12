@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "config_version": 1,
+  "app_name": "moduleapps-contents",
+  "shop_account_app_id": 0,
+  "config_values": [
+    {
+      "config_value_name": "ma_contents_network_timeout_time",
+      "integer_value": 60
+    },
+    {
+      "config_value_name": "ma_contents_use_favorite",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_contents_list_screen_title",
+      "string_value": "お知らせ"
+    },
+    {
+      "config_value_name": "ma_contents_list_content_sort_key_name",
+      "string_value": "publish_start_datetime"
+    },
+    {
+      "config_value_name": "ma_contents_list_content_sort_order",
+      "string_value": "descending"
+    },
+    {
+      "config_value_name": "ma_contents_list_number_of_coupons_per_load",
+      "integer_value": 30
+    },
+    {
+      "config_value_name": "ma_contents_list_show_favorite_list_button",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_contents_list_overall_content_category_name",
+      "string_value": "すべて"
+    },
+    {
+      "config_value_name": "ma_contents_list_show_overall_content_category_tab",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_contents_list_loading_text",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_contents_list_empty_state_title",
+      "string_value": "コンテンツがありませんでした"
+    },
+    {
+      "config_value_name": "ma_contents_list_empty_state_message",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_contents_list_empty_state_show_reload_button",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_contents_list_load_error_title",
+      "string_value": "通信エラー"
+    },
+    {
+      "config_value_name": "ma_contents_list_load_error_message",
+      "string_value": "読み込み中にエラーが発生しました"
+    },
+    {
+      "config_value_name": "ma_contents_list_invalid_category_error_title",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_contents_list_invalid_category_error_message",
+      "string_value": "該当するカテゴリーが存在しませんでした"
+    },
+    {
+      "config_value_name": "ma_contents_list_reload_button_text",
+      "string_value": "再読み込み"
+    },
+    {
+      "config_value_name": "ma_contents_list_cell_publish_datetime_format",
+      "string_value": "yyyy/MM/dd HH:mm"
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_screen_title",
+      "string_value": "クリップしたお知らせ"
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_number_of_coupons_per_load",
+      "integer_value": 30
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_cell_publish_datetime_format",
+      "string_value": "yyyy/MM/dd HH:mm"
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_loading_text",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_empty_state_title",
+      "string_value": "コンテンツがありませんでした"
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_empty_state_message",
+      "string_value": ""
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_empty_state_show_reload_button",
+      "boolean_value": true
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_load_error_title",
+      "string_value": "通信エラー"
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_load_error_message",
+      "string_value": "読み込み中にエラーが発生しました"
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_reload_button_text",
+      "string_value": "再読み込み"
+    },
+    {
+      "config_value_name": "ma_contents_detail_screen_title",
+      "string_value": "お知らせ"
+    },
+    {
+      "config_value_name": "ma_contents_detail_publish_datetime_format",
+      "string_value": "yyyy/MM/dd HH:mm"
+    },
+    {
+      "config_value_name": "ma_contents_add_favorite_fail_error_dialog_title",
+      "string_value": "クリップエラー"
+    },
+    {
+      "config_value_name": "ma_contents_add_favorite_fail_error_dialog_message",
+      "string_value": "コンテンツをクリップできませんでした"
+    },
+    {
+      "config_value_name": "ma_contents_remove_favorite_fail_error_dialog_title",
+      "string_value": "クリップエラー"
+    },
+    {
+      "config_value_name": "ma_contents_remove_favorite_fail_error_dialog_message",
+      "string_value": "コンテンツをクリップから削除できませんでした"
+    },
+    {
+      "config_value_name": "ma_contents_detail_error_dialog_title",
+      "string_value": "エラー"
+    },
+    {
+      "config_value_name": "ma_contents_detail_error_dialog_no_content_message",
+      "string_value": "該当するコンテンツは、現在、配信されていません"
+    },
+    {
+      "config_value_name": "ma_contents_detail_error_dialog_load_error_message",
+      "string_value": "コンテンツが取得できませんでした。お手数ですが、電波環境をご確認いただき、再表示をしてください。"
+    },
+    {
+      "config_value_name": "ma_contents_detail_error_dialog_close_button_text",
+      "string_value": "閉じる"
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_unavailable_error_title",
+      "string_value": "構成エラー"
+    },
+    {
+      "config_value_name": "ma_contents_favorite_list_unavailable_error_message",
+      "string_value": "表示対象となるコンテンツが登録されていません"
+    }
+  ]
+}

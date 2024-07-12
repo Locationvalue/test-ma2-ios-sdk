@@ -1,0 +1,4 @@
+framework module NautilusGeoUtilSDK {
+  header "NautilusGeoUtilSDK-Swift.h"
+  requires objc
+}
