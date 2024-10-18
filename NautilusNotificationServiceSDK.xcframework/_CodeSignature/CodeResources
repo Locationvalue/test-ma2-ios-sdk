@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Headers/NautilusNotificationServiceSDK-Swift.h</key>
 		<data>
-		XLIJFgbFNYLZef6B/ToaVJaluJU=
+		xdcct31x4u7GrGo50Y5ACMHA+Co=
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Info.plist</key>
 		<data>
-		cWCDAj97IJoCuC4umZ4XfETTd7M=
+		Jwy0u/ojM+z4wInZIynK84SWHJs=
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		jA3UJCyR/9Lj7ptSxn6nfhUJe1g=
+		Shtij50pf81G1xGsN3sX7M2v8+A=
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		f6XhCmNjwMGDc9iwIuLqYKFtPyQ=
+		wGmxDxMcOtevrG9E8F2ESn/omAU=
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		0yAFAMU/dYADhkzVB1RFJQggn2Q=
+		fL+XpzL5THw+4ONTz1r9G5F/q0w=
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		f6XhCmNjwMGDc9iwIuLqYKFtPyQ=
+		wGmxDxMcOtevrG9E8F2ESn/omAU=
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,23 @@
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/NautilusNotificationServiceSDK</key>
 		<data>
-		1qoZLlMBnBR4ABOqmIP/5mYl66U=
+		DHQTGscxN1AK+UYRpy8VYWImJFo=
 		</data>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		ucg9pita0v8d353x3NuGfxweQYU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		V/DU5QZjc9Yey3fYkkozbaXTshU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/DWARF/NautilusNotificationServiceSDK</key>
+		<data>
+		5/YpTqoh+loNtxaXvkcSlHH+Vq4=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusNotificationServiceSDK.yml</key>
+		<data>
+		oaygRPHQEynknjcyI0IpIVDF/ds=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Headers/NautilusNotificationService.h</key>
 		<data>
@@ -50,43 +62,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Headers/NautilusNotificationServiceSDK-Swift.h</key>
 		<data>
-		8gcGbn65HDummC1ixvAE+QWnlBI=
+		pRFXaspZpgCdivK6vccszjB0Rb8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Info.plist</key>
 		<data>
-		JFb1fPXt3TcoBKTLYiG3z3J1B4k=
+		2inKTP5ufN3HFEl7n2NA3vtKGbI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jA3UJCyR/9Lj7ptSxn6nfhUJe1g=
+		Shtij50pf81G1xGsN3sX7M2v8+A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9NblXeTxe5DPyBm2DEEeHXb0SRw=
+		52wwqnwMSgvDoxRDKqvgRwdpnmA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ROMM7z9UaFSp5mVQWQbldKrf2uE=
+		rWGlxAtVaX4ORizVz4IWbClDvpo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9NblXeTxe5DPyBm2DEEeHXb0SRw=
+		52wwqnwMSgvDoxRDKqvgRwdpnmA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jA3UJCyR/9Lj7ptSxn6nfhUJe1g=
+		Shtij50pf81G1xGsN3sX7M2v8+A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ji7UXU7/aXbunsDXz0NmU7RMWRk=
+		w0GogcrSuOWjdHA34rs1nLDzsmA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Mlz1nIz9llcOvc2d7qYMiyvzgzs=
+		hueXARAfTKcXG+wbP+Resr/7kHU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ji7UXU7/aXbunsDXz0NmU7RMWRk=
+		w0GogcrSuOWjdHA34rs1nLDzsmA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -94,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/NautilusNotificationServiceSDK</key>
 		<data>
-		JIp6naLdPRyl4Z1B5zBrwIJhN/E=
+		b96QDUNJW8dWjloqbqxkqNE9BOo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -102,7 +114,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		DYy6rDHULDqe1f0KDcJAkByD3e8=
+		v93AV2n4hxdxY476JNahZocJpco=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		V/DU5QZjc9Yey3fYkkozbaXTshU=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/DWARF/NautilusNotificationServiceSDK</key>
+		<data>
+		ekPWgkFa+kyMGxy5stabsQU3XTE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusNotificationServiceSDK.yml</key>
+		<data>
+		gM09mHop8Krpg+++N3xYRr0dxz8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusNotificationServiceSDK.yml</key>
+		<data>
+		okgU/R73R6IhDQ8q1DbJl5yAp7Q=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,66 +150,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XLIJFgbFNYLZef6B/ToaVJaluJU=
+			xdcct31x4u7GrGo50Y5ACMHA+Co=
 			</data>
 			<key>hash2</key>
 			<data>
-			dzRNBrHi8jdlgnfmNtcITCPNrzqSY+sxjk8ccXtGtUQ=
+			4UI+/9no0GCJlcuKEL9k8IPgMfWPWfDl/1qdAGalQQ8=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cWCDAj97IJoCuC4umZ4XfETTd7M=
+			Jwy0u/ojM+z4wInZIynK84SWHJs=
 			</data>
 			<key>hash2</key>
 			<data>
-			6gRLexqMQ6/wstmfzPEt1EMWzo/Nua3oyLeZ88tO89k=
+			AyhMl/B/NxWbB23Bik4ElRpwjUhaZLHuTkopng5vBm8=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jA3UJCyR/9Lj7ptSxn6nfhUJe1g=
+			Shtij50pf81G1xGsN3sX7M2v8+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			T++gijuKzLT0UT/8gNHDC1vqRXyv2pKk+NfScocFz+k=
+			BJ9ug7ErZBrddf13A3OPPJoepxC9I67zfr1tL1rpJs8=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f6XhCmNjwMGDc9iwIuLqYKFtPyQ=
+			wGmxDxMcOtevrG9E8F2ESn/omAU=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Sw+/Ha1Xzj8rWpXVmV22czqshqHnmRz7x3Szsd9/zI=
+			vExuugawc7TmxONxEaODFZcnovQe13BYK3PdqCydc9w=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0yAFAMU/dYADhkzVB1RFJQggn2Q=
+			fL+XpzL5THw+4ONTz1r9G5F/q0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			RK/Qj9JQhMi8JGybWkS1nPwMGSqP7s1u7xQA3q1Fvo0=
+			Gd2SJmLPDYBStwbEZOYoI2e2p/6gftrpk9YqEPFgwWA=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f6XhCmNjwMGDc9iwIuLqYKFtPyQ=
+			wGmxDxMcOtevrG9E8F2ESn/omAU=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Sw+/Ha1Xzj8rWpXVmV22czqshqHnmRz7x3Szsd9/zI=
+			vExuugawc7TmxONxEaODFZcnovQe13BYK3PdqCydc9w=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/Modules/module.modulemap</key>
@@ -199,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1qoZLlMBnBR4ABOqmIP/5mYl66U=
+			DHQTGscxN1AK+UYRpy8VYWImJFo=
 			</data>
 			<key>hash2</key>
 			<data>
-			k2NRc9i8daXG6W0t0MdjyKdIGRX6gqCM0r/f3zbqNhE=
+			WpZ8ZUU+vt54r670VOxyiN8xx7WwdP2ahDkO1gNPl0g=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusNotificationServiceSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -215,6 +243,39 @@
 			<key>hash2</key>
 			<data>
 			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V/DU5QZjc9Yey3fYkkozbaXTshU=
+			</data>
+			<key>hash2</key>
+			<data>
+			bFYuDV4DpXzxTCx0T57r30B5SfH3n8DFpZC0+G8EVBA=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/DWARF/NautilusNotificationServiceSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5/YpTqoh+loNtxaXvkcSlHH+Vq4=
+			</data>
+			<key>hash2</key>
+			<data>
+			+DZDpNFVodUiUuJBjWdnSxhq18pz9Rk7sPo2cfgV9h8=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusNotificationServiceSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oaygRPHQEynknjcyI0IpIVDF/ds=
+			</data>
+			<key>hash2</key>
+			<data>
+			SQddXlLTQ/NCHdZfoUNt/PKiFfvhTxbwF/GztPm/nEU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Headers/NautilusNotificationService.h</key>
@@ -232,110 +293,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8gcGbn65HDummC1ixvAE+QWnlBI=
+			pRFXaspZpgCdivK6vccszjB0Rb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			AIWiEDvdyOx1AD+V2+B86NnKXUZOVLBIoUnOetIBroc=
+			+/sUHwoEsujnirKIl0TYD5aeps6ewF8OF5ttRnhu6e8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JFb1fPXt3TcoBKTLYiG3z3J1B4k=
+			2inKTP5ufN3HFEl7n2NA3vtKGbI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tvpraGZpUHvrtWTdTn5Tr236gJ+6YeMveh96La8gVAc=
+			jO2ayolOJuyj1pC3Q6Y6f24rzbtiJEuASVx9AwJklJM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jA3UJCyR/9Lj7ptSxn6nfhUJe1g=
+			Shtij50pf81G1xGsN3sX7M2v8+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			T++gijuKzLT0UT/8gNHDC1vqRXyv2pKk+NfScocFz+k=
+			BJ9ug7ErZBrddf13A3OPPJoepxC9I67zfr1tL1rpJs8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9NblXeTxe5DPyBm2DEEeHXb0SRw=
+			52wwqnwMSgvDoxRDKqvgRwdpnmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ou/WsO2ntRojrW7FZkmj6digAhw1LXQcbvf6L2ItPs=
+			xG+kLi3Ketr99nSqEOEiuUJLs3MT4MlQtWYORmP71To=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ROMM7z9UaFSp5mVQWQbldKrf2uE=
+			rWGlxAtVaX4ORizVz4IWbClDvpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ubziWUvlBrTRjktufqbKaJivOi3ktfIyf+IEalgP+U0=
+			RLe9tO3XiU7nlYC8FWngLvvBt4H2qD00z2yDFpZ5nlE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9NblXeTxe5DPyBm2DEEeHXb0SRw=
+			52wwqnwMSgvDoxRDKqvgRwdpnmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ou/WsO2ntRojrW7FZkmj6digAhw1LXQcbvf6L2ItPs=
+			xG+kLi3Ketr99nSqEOEiuUJLs3MT4MlQtWYORmP71To=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jA3UJCyR/9Lj7ptSxn6nfhUJe1g=
+			Shtij50pf81G1xGsN3sX7M2v8+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			T++gijuKzLT0UT/8gNHDC1vqRXyv2pKk+NfScocFz+k=
+			BJ9ug7ErZBrddf13A3OPPJoepxC9I67zfr1tL1rpJs8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ji7UXU7/aXbunsDXz0NmU7RMWRk=
+			w0GogcrSuOWjdHA34rs1nLDzsmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7A7xI/NZ5dtvQGXWjt5WW4P/opyVOAdLiT24wJwdX7Q=
+			N4VApjiCVXmdNDNJf17657yXU4c39/5uDjvUzqld1Qc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mlz1nIz9llcOvc2d7qYMiyvzgzs=
+			hueXARAfTKcXG+wbP+Resr/7kHU=
 			</data>
 			<key>hash2</key>
 			<data>
-			iO0BQApTme5TIhL7hJUANvdPnyPH0oH/XhhM2JJM8oE=
+			21AvtM0H/QrLWYp6PzhrQOZ4yvLU4Bc5nnHUWcNOb5A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ji7UXU7/aXbunsDXz0NmU7RMWRk=
+			w0GogcrSuOWjdHA34rs1nLDzsmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7A7xI/NZ5dtvQGXWjt5WW4P/opyVOAdLiT24wJwdX7Q=
+			N4VApjiCVXmdNDNJf17657yXU4c39/5uDjvUzqld1Qc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/Modules/module.modulemap</key>
@@ -353,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JIp6naLdPRyl4Z1B5zBrwIJhN/E=
+			b96QDUNJW8dWjloqbqxkqNE9BOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			KMiaROQptUb5yfXxCgOI8+cig7mgXWVr+3AFs1OR7Ro=
+			Pjb22Jrjn4Jo3YceJ6VbN7QO7fzYh4Gw4Ygy2v1l0H0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusNotificationServiceSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -375,11 +436,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DYy6rDHULDqe1f0KDcJAkByD3e8=
+			v93AV2n4hxdxY476JNahZocJpco=
 			</data>
 			<key>hash2</key>
 			<data>
-			EyK1wvJzIzT3b8S9T5b21w+U0/Uw/zZwZwia4/cETJk=
+			qLbk9h8Ew/v14VGGvMZcAHFRGCfMC5EhYVi2pkVwNgc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V/DU5QZjc9Yey3fYkkozbaXTshU=
+			</data>
+			<key>hash2</key>
+			<data>
+			bFYuDV4DpXzxTCx0T57r30B5SfH3n8DFpZC0+G8EVBA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/DWARF/NautilusNotificationServiceSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ekPWgkFa+kyMGxy5stabsQU3XTE=
+			</data>
+			<key>hash2</key>
+			<data>
+			gL+aM9aK4KBZeaMmAGH0yW4L7PygFKnQ4uaJXHVJkis=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusNotificationServiceSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gM09mHop8Krpg+++N3xYRr0dxz8=
+			</data>
+			<key>hash2</key>
+			<data>
+			3mPQacLrC8Yrl4fRhOkQ/+ZRon1YX2NedwBFzyFNwG4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusNotificationServiceSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusNotificationServiceSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			okgU/R73R6IhDQ8q1DbJl5yAp7Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPIaZn5VWqgEHmfYInsWRdZ3Gk1OX8ykc6w/uxkkNz8=
 			</data>
 		</dict>
 	</dict>

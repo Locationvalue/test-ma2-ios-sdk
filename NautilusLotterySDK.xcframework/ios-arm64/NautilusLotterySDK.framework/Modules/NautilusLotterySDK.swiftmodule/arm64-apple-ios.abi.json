@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusLotterySDK",
+    "printedName": "NautilusLotterySDK",
     "children": [
       {
         "kind": "Import",
@@ -1038,6 +1038,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2456,6 +2470,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2793,6 +2821,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3126,6 +3168,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3350,6 +3406,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3473,6 +3543,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3611,6 +3695,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3856,6 +3954,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4562,6 +4674,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4786,6 +4912,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4854,763 +4994,413 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 543,
       "length": 14,
       "value": "\"check_result\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 578,
       "length": 6,
       "value": "\"rank\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 610,
       "length": 12,
       "value": "\"prize_data\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 484,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 543,
-      "length": 14,
-      "value": "\"check_result\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 6,
-      "value": "\"rank\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 610,
-      "length": 12,
-      "value": "\"prize_data\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 1329,
       "length": 10,
       "value": "\"prize_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 1365,
       "length": 12,
       "value": "\"prize_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 1404,
       "length": 13,
       "value": "\"coupon_data\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 1443,
       "length": 12,
       "value": "\"point_data\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1329,
-      "length": 10,
-      "value": "\"prize_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1365,
-      "length": 12,
-      "value": "\"prize_type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1404,
-      "length": 13,
-      "value": "\"coupon_data\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1443,
-      "length": 12,
-      "value": "\"point_data\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 2056,
       "length": 13,
       "value": "\"exchange_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2056,
-      "length": 13,
-      "value": "\"exchange_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
       "kind": "StringLiteral",
       "offset": 2427,
       "length": 11,
       "value": "\"add_point\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/CheckLotteryIntervalEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2427,
-      "length": 11,
-      "value": "\"add_point\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 28,
       "value": "\"NautilusLotteryErrorDomain\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 560,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 605,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 664,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 733,
       "length": 12,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 821,
       "length": 13,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 877,
       "length": 16,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 939,
       "length": 15,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1037,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1122,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1211,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1268,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1332,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1407,
       "length": 3,
       "value": "903"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1461,
       "length": 3,
       "value": "905"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1516,
       "length": 3,
       "value": "906"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
       "kind": "IntegerLiteral",
       "offset": 1596,
       "length": 3,
       "value": "907"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 513,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 560,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 605,
-      "length": 15,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 664,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 733,
-      "length": 12,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 821,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 877,
-      "length": 16,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 939,
-      "length": 15,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1037,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1122,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1211,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1268,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1332,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1407,
-      "length": 3,
-      "value": "903"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1461,
-      "length": 3,
-      "value": "905"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1516,
-      "length": 3,
-      "value": "906"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1596,
-      "length": 3,
-      "value": "907"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Config\/NautilusLotteryConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Config\/NautilusLotteryConfig.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 33,
       "value": "\"ma_lottery_network_timeout_time\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Config\/NautilusLotteryConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLottery.swift",
       "kind": "StringLiteral",
-      "offset": 318,
-      "length": 33,
-      "value": "\"ma_lottery_network_timeout_time\""
+      "offset": 509,
+      "length": 25,
+      "value": "\"moduleapps-lottery.json\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLottery.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLottery.swift",
+      "kind": "BooleanLiteral",
+      "offset": 825,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLottery.swift",
+      "kind": "BooleanLiteral",
+      "offset": 915,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLottery.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLottery.swift",
       "kind": "BooleanLiteral",
       "offset": 1297,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLottery.swift",
-      "kind": "StringLiteral",
-      "offset": 403,
-      "length": 15,
-      "value": "\"NautilusLotterySDK.NautilusLottery\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
       "kind": "StringLiteral",
       "offset": 442,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
       "kind": "StringLiteral",
       "offset": 494,
       "length": 6,
       "value": "\"rank\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
       "kind": "StringLiteral",
       "offset": 526,
       "length": 12,
       "value": "\"prize_data\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 442,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 468,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 494,
-      "length": 6,
-      "value": "\"rank\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/ApplyLotteryEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 526,
-      "length": 12,
-      "value": "\"prize_data\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryIntervalCheckResult.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryIntervalCheckResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2600,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryIntervalCheckResult.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryIntervalCheckResult.swift",
       "kind": "IntegerLiteral",
       "offset": 2640,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryIntervalCheckResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2600,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryIntervalCheckResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2640,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
       "kind": "StringLiteral",
       "offset": 435,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
       "kind": "StringLiteral",
       "offset": 462,
       "length": 7,
       "value": "\"count\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
-      "kind": "StringLiteral",
-      "offset": 409,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
-      "kind": "StringLiteral",
-      "offset": 435,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/LotteryCount.swift",
-      "kind": "StringLiteral",
-      "offset": 462,
-      "length": 7,
-      "value": "\"count\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 451,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 478,
       "length": 7,
       "value": "\"items\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 425,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 478,
-      "length": 7,
-      "value": "\"items\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1659,
       "length": 12,
       "value": "\"lottery_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1700,
       "length": 15,
       "value": "\"lottery_title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1737,
       "length": 7,
       "value": "\"alias\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1770,
       "length": 12,
       "value": "\"image_path\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1815,
       "length": 20,
       "value": "\"image_aspect_ratio\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1874,
       "length": 24,
       "value": "\"publish_start_datetime\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1935,
       "length": 22,
       "value": "\"publish_end_datetime\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1985,
       "length": 14,
       "value": "\"lottery_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 2024,
       "length": 12,
       "value": "\"flg_repeat\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
       "kind": "StringLiteral",
       "offset": 2064,
       "length": 23,
       "value": "\"flg_lottery_completed\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1659,
-      "length": 12,
-      "value": "\"lottery_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1700,
-      "length": 15,
-      "value": "\"lottery_title\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1737,
-      "length": 7,
-      "value": "\"alias\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1770,
-      "length": 12,
-      "value": "\"image_path\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1815,
-      "length": 20,
-      "value": "\"image_aspect_ratio\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1874,
-      "length": 24,
-      "value": "\"publish_start_datetime\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1935,
-      "length": 22,
-      "value": "\"publish_end_datetime\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1985,
-      "length": 14,
-      "value": "\"lottery_type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2024,
-      "length": 12,
-      "value": "\"flg_repeat\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/API\/Entity\/GetLotteryListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2064,
-      "length": 23,
-      "value": "\"flg_lottery_completed\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 1836,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1875,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1836,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Lottery\/Sources\/Base\/NautilusLotteryInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 1875,
       "length": 1,

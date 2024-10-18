@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusCodeReaderSDK",
+    "printedName": "NautilusCodeReaderSDK",
     "children": [
       {
         "kind": "TypeDecl",
@@ -341,6 +341,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -489,6 +503,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -588,6 +616,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -639,6 +668,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -671,6 +701,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -703,6 +734,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -754,6 +786,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -809,6 +842,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -850,6 +884,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -894,6 +929,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -906,6 +942,7 @@
         "mangledName": "$s21NautilusCodeReaderSDK0abC14ViewControllerC",
         "moduleName": "NautilusCodeReaderSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -919,6 +956,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1045,6 +1096,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1149,6 +1216,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1404,6 +1487,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1586,6 +1683,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1627,130 +1738,95 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 255,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 255,
-      "length": 13,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 278,
-      "length": 13,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 301,
-      "length": 15,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 326,
-      "length": 7,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "StringLiteral",
       "offset": 1163,
       "length": 39,
       "value": "\"com.locationvalue.nautilus.codereader\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9389,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9444,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "FloatLiteral",
       "offset": 9525,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9581,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9644,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9694,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9751,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/UI\/NautilusCodeReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9810,
       "length": 1,
       "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/CodeReader\/Sources\/Base\/NautilusCodeReaderSetting.swift",
-      "kind": "StringLiteral",
-      "offset": 284,
-      "length": 25,
-      "value": "\"NautilusCodeReaderSDK.NautilusCodeReaderSetting\""
     }
   ]
 }

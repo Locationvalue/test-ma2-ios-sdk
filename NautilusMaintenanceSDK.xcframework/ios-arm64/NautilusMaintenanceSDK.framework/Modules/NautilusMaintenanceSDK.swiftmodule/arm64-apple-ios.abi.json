@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusMaintenanceSDK",
+    "printedName": "NautilusMaintenanceSDK",
     "children": [
       {
         "kind": "Import",
@@ -824,6 +824,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -951,6 +965,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1136,6 +1166,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2200,6 +2244,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2598,6 +2656,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2922,6 +2994,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3198,6 +3284,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3276,406 +3376,217 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
+      "kind": "Array",
+      "offset": 667,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
       "kind": "BooleanLiteral",
       "offset": 936,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
       "kind": "BooleanLiteral",
       "offset": 1165,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenance.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 19,
-      "value": "\"NautilusMaintenanceSDK.NautilusMaintenance\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceStatus.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 21,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 388,
-      "length": 21,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 32,
       "value": "\"NautilusMaintenanceErrorDomain\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 490,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 546,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 591,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 650,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 719,
       "length": 12,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 807,
       "length": 13,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 863,
       "length": 16,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 928,
       "length": 15,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 998,
       "length": 20,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1101,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1186,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1275,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1332,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1396,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1471,
       "length": 3,
       "value": "903"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1525,
       "length": 3,
       "value": "905"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1580,
       "length": 3,
       "value": "906"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
       "kind": "IntegerLiteral",
       "offset": 1660,
       "length": 3,
       "value": "907"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 490,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 546,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 591,
-      "length": 15,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 650,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 719,
-      "length": 12,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 807,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 863,
-      "length": 16,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 928,
-      "length": 15,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 998,
-      "length": 20,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1101,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1186,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1275,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1332,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1396,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1471,
-      "length": 3,
-      "value": "903"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1525,
-      "length": 3,
-      "value": "905"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1580,
-      "length": 3,
-      "value": "906"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/Base\/NautilusMaintenanceError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1660,
-      "length": 3,
-      "value": "907"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
       "kind": "IntegerLiteral",
       "offset": 2633,
       "length": 17,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
       "kind": "IntegerLiteral",
       "offset": 2710,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
       "kind": "IntegerLiteral",
       "offset": 2788,
       "length": 16,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2633,
-      "length": 17,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2710,
-      "length": 12,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/NautilusMaintenanceEndpoints.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2788,
-      "length": 16,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
       "kind": "StringLiteral",
       "offset": 504,
       "length": 6,
       "value": "\"from\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 4,
       "value": "\"to\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
       "kind": "StringLiteral",
       "offset": 574,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
       "kind": "StringLiteral",
       "offset": 616,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 649,
-      "length": 10,
-      "value": "\"ext_data\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 6,
-      "value": "\"from\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 537,
-      "length": 4,
-      "value": "\"to\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 574,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 616,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Maintenance\/Sources\/API\/MaintenanceEntity.swift",
       "kind": "StringLiteral",
       "offset": 649,
       "length": 10,

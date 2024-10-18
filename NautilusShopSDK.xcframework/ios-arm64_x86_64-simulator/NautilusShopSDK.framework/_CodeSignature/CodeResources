@@ -6,55 +6,55 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		13AqvmI1k8LKdckHbss0sW6ZIYE=
+		Cz+sqSgHaU/3Nj7jPy3kOpp3w7Y=
 		</data>
 		<key>Headers/NautilusShopSDK-Swift.h</key>
 		<data>
-		WdJhbIKXVIMsfeG0Cm42pd/6Aao=
+		N9hngeh0mbKmj251D3SFjy06t/c=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nVmCLO9Kn0/wQaLks2w7xxgkK/U=
+		ymdDjftbiHFEhp3h9Qxs3IdEw1o=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6ereiZCl3hEL6/P04HSvRPtssiU=
+		JLYaYx+GJAQtyY+gQFeJPqx+CXI=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		M9ht9o7u4U8ESif80U5hqOEYQQQ=
+		W2vcRxd14xkLP/9w7iucAaHsbI4=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		iaDvu32Kow+vjvzGdLk1z1Wde34=
+		dUhgyTWDsHspxKd8mY53S13RJa8=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		M9ht9o7u4U8ESif80U5hqOEYQQQ=
+		W2vcRxd14xkLP/9w7iucAaHsbI4=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		54d3AfR2UuvmdRQL1Nsz6BIQlsI=
+		NAh74+nG0kNNcV9cox0vbSY7GMQ=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6ereiZCl3hEL6/P04HSvRPtssiU=
+		JLYaYx+GJAQtyY+gQFeJPqx+CXI=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bFjDV7aXpPwaDcmReSK46Qide38=
+		llOA97DAvw9YYXSRsK5S/K1q0sM=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FWpshreCntjn78zmMcG0zYq1ljQ=
+		s83Ng9j633MKcP3uvzMUJDyppOw=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bFjDV7aXpPwaDcmReSK46Qide38=
+		llOA97DAvw9YYXSRsK5S/K1q0sM=
 		</data>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HA3npgnaWNrlXFQAArW7PCUfLQk=
+		EyOfCo4iowT+2IwBu635JQSJ7Bs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>NautilusShop.momd/NautilusShop.mom</key>
 		<data>
-		j+AQ9QH+lrzPYwN9hPNJxB15WRk=
+		We6dEST5+GUutRzcLiqvtAURrlg=
 		</data>
 		<key>NautilusShop.momd/VersionInfo.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>moduleapps-shop.json</key>
 		<data>
-		cCBJ7XGwVG6Ha8GE7La7oyr2Svc=
+		4eWenLi/XLQoFnXxch1UW60Ifn0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,84 +83,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cQTvdBYql33RZngK43Bmh+jX2Np6LVTGR9avra47PHs=
+			LJ4bff0NAQl3kLTwxkyb/RGh2nhwQNoydk9QZh3W5lc=
 			</data>
 		</dict>
 		<key>Headers/NautilusShopSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lEUXyqHLZT1DA6HhF9yAU/KnmCNcekCSmdpJijRPW/U=
+			C7fYi8xkrdQdKEuCOaIlfyG+5p8v11KQKMtiv568AN8=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qErpSkWXjIjWnxebWkDTV+K2vNs/cRlXPC7p6ZkjsSY=
+			FiquKLKW5fAg5EhgPo3kfaz/Bro9/ZCqRa/xDlhLDi0=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VsmYlBRAizdWzeInA1gM7z9Bu/nX77L+EhUb1szbies=
+			dxdMjfgW8HH1dgzPZ2k8a/8UbHmRfO0rn4MqxSAqkoo=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0V+Oe8mc18SvVWd8Gz/AePiVeqQC6U5uQXBqIzHj7ao=
+			CoYQVo158utEtrYWXHQmMjyVpknr+/Uvm7gqwG+l1z4=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VsmYlBRAizdWzeInA1gM7z9Bu/nX77L+EhUb1szbies=
+			dxdMjfgW8HH1dgzPZ2k8a/8UbHmRfO0rn4MqxSAqkoo=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jfc8prAiktWExJvRuFG32IjTH0ByEB89TZMGQT58VE0=
+			EuDq7oR255Sy/yVxm+aWBAl76oaBGLAZBoMUSLLK8+0=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qErpSkWXjIjWnxebWkDTV+K2vNs/cRlXPC7p6ZkjsSY=
+			FiquKLKW5fAg5EhgPo3kfaz/Bro9/ZCqRa/xDlhLDi0=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Upg9zR1pYlTEYScaF5Ygzm8ku/d+Ufb7HfgZqpluTyg=
+			PmEyoFLuNIvray1JBI1k+RZGjNDvIK90dJb3QjVjLoc=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eNKUaZW/jTqsjLRLXrP64GVdbCuK+j445+iaZbdIOiE=
+			XMoyvNaPQhoCita9s11zgqvdhC7f4O14nbe/lVUoPbk=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Upg9zR1pYlTEYScaF5Ygzm8ku/d+Ufb7HfgZqpluTyg=
+			PmEyoFLuNIvray1JBI1k+RZGjNDvIK90dJb3QjVjLoc=
 			</data>
 		</dict>
 		<key>Modules/NautilusShopSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kozaCvRTKxenafRN5eRT4CZ+ImB9gbQouqB3kNXYgl0=
+			vtB/ySUEl+31UUotVfhAjtpsE5xvRjZT1m+3R/vbYzc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			97G5cIFTpMfI2Ik3yDVfjFu5/1SHoa+8P0asqrdZ83E=
+			0c74A4oEzwDhtyvq149SfGze8zaMDdTtRjSqbKr4R3M=
 			</data>
 		</dict>
 		<key>NautilusShop.momd/VersionInfo.plist</key>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FkPyIzkr9epBXYNP/ZvQfpR7nsfZQr7Up6HmVrJAt4c=
+			fAoYYKGE8W6Xn8bn9cO9HtExem8lYv+0UjT33dzpjFM=
 			</data>
 		</dict>
 	</dict>

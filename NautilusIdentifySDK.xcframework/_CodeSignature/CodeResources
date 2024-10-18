@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Headers/NautilusIdentifySDK-Swift.h</key>
 		<data>
-		wt3jLHkkBLw06qRYMg6y/bTiULM=
+		Mz4S+hvVZYrdEaSSGyohzPHPeP4=
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Info.plist</key>
 		<data>
-		VmWcMf7N7C/CaKlnZ+ifpZjHU8Y=
+		44tlhrif4BjzcvLGjcfUSxw22Dg=
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		VUOFQysrmrszIYcQF5k8NgkqnDQ=
+		1MS+Z3JAEHSkHofdvMEbVUHkCe0=
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		pFW7bgcW9RuYWkVqCfcVX448gDg=
+		GzSOWUEwO9LhJFiTiek7m1M1B5I=
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Jt7jsX5Hw96ARTEdLj+Ol6NasR4=
+		IiO1dtSDKkur95xWWfG2M6hLXH4=
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		pFW7bgcW9RuYWkVqCfcVX448gDg=
+		GzSOWUEwO9LhJFiTiek7m1M1B5I=
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/NautilusIdentifySDK</key>
 		<data>
-		ebTM3TW1ODCHzONGtqBM+6wkSs8=
+		FEd4LXz9O/2nYhJ/vAowrfF2C7Y=
 		</data>
 		<key>ios-arm64/NautilusIdentifySDK.framework/NautilusUserInfoView.nib</key>
 		<data>
@@ -52,49 +52,61 @@
 		<data>
 		Cux/adYaWSw1qijXR4FfOrK9eXY=
 		</data>
+		<key>ios-arm64/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		jHZxX76LKIa2DO9gGKen/t3phlU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/DWARF/NautilusIdentifySDK</key>
+		<data>
+		EOuu3rIg8fYAlElJ8jjLlm/T8EE=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusIdentifySDK.yml</key>
+		<data>
+		GNdgzQBiZEnrr9lTyeQ1YaXre2s=
+		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Headers/Identify.h</key>
 		<data>
 		UTKwpttJFeoYAUbYentPT9shl7k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Headers/NautilusIdentifySDK-Swift.h</key>
 		<data>
-		YxvWvTblBQZ8tHOAO3HP1PewCsc=
+		l+5Dvp0EhLNSoImQMir+yBx+wKA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Info.plist</key>
 		<data>
-		2qPAhy46l9yofI9gSQZ9KvPAMaw=
+		OZPsIclrfRRw7ye3dvMW7s3QfI4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VUOFQysrmrszIYcQF5k8NgkqnDQ=
+		1MS+Z3JAEHSkHofdvMEbVUHkCe0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7DF8GSP3/cbWERB4P4fNgYX0Q4g=
+		oVfDS8TKbZGgZ/OCG6mdfUcyOpk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zXM3OmNvHnNi5OucGn23miHff9k=
+		5bGn+v4pFoAU1A/Thv4ZYkEWJ1U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7DF8GSP3/cbWERB4P4fNgYX0Q4g=
+		oVfDS8TKbZGgZ/OCG6mdfUcyOpk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VUOFQysrmrszIYcQF5k8NgkqnDQ=
+		1MS+Z3JAEHSkHofdvMEbVUHkCe0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+F2qgxnxy2f1Z2LahS0Jz0egB68=
+		h2tU3nwXqktcBjHEqPWIzF0pMZw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5hVtn00vaTFAORqQIeHbwGhll34=
+		nyh2iRvump9604gunMH6Tu49fhc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+F2qgxnxy2f1Z2LahS0Jz0egB68=
+		h2tU3nwXqktcBjHEqPWIzF0pMZw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -102,7 +114,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/NautilusIdentifySDK</key>
 		<data>
-		6YMrHj2vF9A84sdCuxPSC7C2X9A=
+		y2XkbYkPZERo3D8mOSeQ3Ll4DnM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/NautilusUserInfoView.nib</key>
 		<data>
@@ -114,11 +126,27 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		1vyhqDLnkboR3c7uXAvYPu2g+fI=
+		oe7W47acEd3DvO07x/BxtXPlAyg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/moduleapps-identify.json</key>
 		<data>
 		Cux/adYaWSw1qijXR4FfOrK9eXY=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		jHZxX76LKIa2DO9gGKen/t3phlU=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/DWARF/NautilusIdentifySDK</key>
+		<data>
+		aJbkdAcHkFScGbW8p+FUWR9jPtY=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusIdentifySDK.yml</key>
+		<data>
+		oD4tVwy0eXRDOG1SsGPCFqaL5nc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusIdentifySDK.yml</key>
+		<data>
+		a1q2cPqsy1Wff4GJKJxxs93Iels=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -138,66 +166,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wt3jLHkkBLw06qRYMg6y/bTiULM=
+			Mz4S+hvVZYrdEaSSGyohzPHPeP4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ReVHnT1x65qFJSHCD2TZEav0QhYgFJErfWAos8sgHBg=
+			o7h4dwvvXQGJYEOuDjKZh4266REBtAnW/J2OoYJHG+U=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VmWcMf7N7C/CaKlnZ+ifpZjHU8Y=
+			44tlhrif4BjzcvLGjcfUSxw22Dg=
 			</data>
 			<key>hash2</key>
 			<data>
-			v+HXr7nyp2CtZcVbQKH2DajlUvDgpxHefepRofoe9LI=
+			4bAphCHoqNLfToxShHSPiet8ZxR8UMWd+dkxdtr2+Jc=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VUOFQysrmrszIYcQF5k8NgkqnDQ=
+			1MS+Z3JAEHSkHofdvMEbVUHkCe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bvKD5Khp95kzx6eBHVZAka95U+tRGj8Sn6miTa4+CJY=
+			N0J2WZ89qzkVoWoAK9C2tqd+n+c1AuAbVBXyZ8qSq0A=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pFW7bgcW9RuYWkVqCfcVX448gDg=
+			GzSOWUEwO9LhJFiTiek7m1M1B5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			4b6ht+W27YK7sMU6OntlbJrOeZYjvXQsXFCGefgWFGE=
+			DpAxHLMEsc9tSlaD1g/aKxah/CmXu3nbgGGIWqI7B94=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jt7jsX5Hw96ARTEdLj+Ol6NasR4=
+			IiO1dtSDKkur95xWWfG2M6hLXH4=
 			</data>
 			<key>hash2</key>
 			<data>
-			C8yDwOcmr0xb6dvdIDEnbR/Op2dk7tWWO5+ehJa5bcI=
+			zF42Neh/JzzIpbBFTiHRnFVcL0E/yr/vhLv12NMu9Fc=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pFW7bgcW9RuYWkVqCfcVX448gDg=
+			GzSOWUEwO9LhJFiTiek7m1M1B5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			4b6ht+W27YK7sMU6OntlbJrOeZYjvXQsXFCGefgWFGE=
+			DpAxHLMEsc9tSlaD1g/aKxah/CmXu3nbgGGIWqI7B94=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusIdentifySDK.framework/Modules/module.modulemap</key>
@@ -215,11 +243,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ebTM3TW1ODCHzONGtqBM+6wkSs8=
+			FEd4LXz9O/2nYhJ/vAowrfF2C7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			0vIkzaRM1B2fyqp2atoy8pdlDBO9lzluQZPmz61fNZU=
+			3Mxu9+1ei681A5S9AtI94EIykKNAUjj8KyxaRbnghDY=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusIdentifySDK.framework/NautilusUserInfoView.nib</key>
@@ -255,6 +283,39 @@
 			Q8kvnHCA1BG+TfVnPS1gcBMTaBm54xFaC3AGKssSfEs=
 			</data>
 		</dict>
+		<key>ios-arm64/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jHZxX76LKIa2DO9gGKen/t3phlU=
+			</data>
+			<key>hash2</key>
+			<data>
+			INerY6nQdIBkJ8/zH/4/70pRgoI7t2XPM16HpIaG7C0=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/DWARF/NautilusIdentifySDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EOuu3rIg8fYAlElJ8jjLlm/T8EE=
+			</data>
+			<key>hash2</key>
+			<data>
+			VeXq6Cszw6ERbrY1eJt/bO2rvyMwVdBeTPso14j40qM=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusIdentifySDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GNdgzQBiZEnrr9lTyeQ1YaXre2s=
+			</data>
+			<key>hash2</key>
+			<data>
+			bUU6wTINRMVx9W+9J7+xwqbqWjMuxC52xquHDXeNDFE=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Headers/Identify.h</key>
 		<dict>
 			<key>hash</key>
@@ -270,110 +331,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YxvWvTblBQZ8tHOAO3HP1PewCsc=
+			l+5Dvp0EhLNSoImQMir+yBx+wKA=
 			</data>
 			<key>hash2</key>
 			<data>
-			p5SWIGLuVCWohzCveiZZclrvvZNM4DUPfIkeqEfbmp4=
+			tUV6yhOsIi0B9cWZclYcGaK2AfK5UvLoaTD8GEU/E6c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2qPAhy46l9yofI9gSQZ9KvPAMaw=
+			OZPsIclrfRRw7ye3dvMW7s3QfI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			SF7onqrcvW2gaKogKrbyXgWlT/gnYqFu1K3srN6H+EQ=
+			XHl57fmZhcXnn9GCB5RGPZUKe7ZG2izPYcJxdx9sHqc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VUOFQysrmrszIYcQF5k8NgkqnDQ=
+			1MS+Z3JAEHSkHofdvMEbVUHkCe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bvKD5Khp95kzx6eBHVZAka95U+tRGj8Sn6miTa4+CJY=
+			N0J2WZ89qzkVoWoAK9C2tqd+n+c1AuAbVBXyZ8qSq0A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7DF8GSP3/cbWERB4P4fNgYX0Q4g=
+			oVfDS8TKbZGgZ/OCG6mdfUcyOpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			SMdkc2LVo9GyZxLh5NFay/o0iyoB2Rh2xZ02NJglOXw=
+			+2jmTJCm16K9GpweX+88Cn9BHFjkJ12ljMKTMkNWLWQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zXM3OmNvHnNi5OucGn23miHff9k=
+			5bGn+v4pFoAU1A/Thv4ZYkEWJ1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			xUs4aTYwrIjAVgb5rlN/2/llRPKsaUjBmE62zgM9pz0=
+			zq3WIYCXEknMhsoRtK2FnRy/352FO3zsTQVwyPNziAo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7DF8GSP3/cbWERB4P4fNgYX0Q4g=
+			oVfDS8TKbZGgZ/OCG6mdfUcyOpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			SMdkc2LVo9GyZxLh5NFay/o0iyoB2Rh2xZ02NJglOXw=
+			+2jmTJCm16K9GpweX+88Cn9BHFjkJ12ljMKTMkNWLWQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VUOFQysrmrszIYcQF5k8NgkqnDQ=
+			1MS+Z3JAEHSkHofdvMEbVUHkCe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bvKD5Khp95kzx6eBHVZAka95U+tRGj8Sn6miTa4+CJY=
+			N0J2WZ89qzkVoWoAK9C2tqd+n+c1AuAbVBXyZ8qSq0A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+F2qgxnxy2f1Z2LahS0Jz0egB68=
+			h2tU3nwXqktcBjHEqPWIzF0pMZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			k8yELyYCTZbkv9FSJF5/atAd9UUtfyAr6Rri7zfhlTo=
+			hNNBFbOeMgpMVlLxVjSzX+gEL3E840Tlk8vcP+i46S0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5hVtn00vaTFAORqQIeHbwGhll34=
+			nyh2iRvump9604gunMH6Tu49fhc=
 			</data>
 			<key>hash2</key>
 			<data>
-			O7hSOJVQmGxOfTXWLATdlcYKuCOd2pwHibAQyEoEx2E=
+			1rm39ItGxwI3dHBw6u88zQK2T5uwNpQd0q3obzPcZfg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/NautilusIdentifySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+F2qgxnxy2f1Z2LahS0Jz0egB68=
+			h2tU3nwXqktcBjHEqPWIzF0pMZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			k8yELyYCTZbkv9FSJF5/atAd9UUtfyAr6Rri7zfhlTo=
+			hNNBFbOeMgpMVlLxVjSzX+gEL3E840Tlk8vcP+i46S0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/Modules/module.modulemap</key>
@@ -391,11 +452,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6YMrHj2vF9A84sdCuxPSC7C2X9A=
+			y2XkbYkPZERo3D8mOSeQ3Ll4DnM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6xLSqFWTsg1MzD0SraljEMcI7k55vXFuYMmg0EmTHO4=
+			PFljgo+Q4La+knCdxT5eS8c+2U9yFlhNkQF3Y4De1a8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/NautilusUserInfoView.nib</key>
@@ -424,11 +485,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1vyhqDLnkboR3c7uXAvYPu2g+fI=
+			oe7W47acEd3DvO07x/BxtXPlAyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			cCgX+KVhD2iyAw1pc7cArLE5B4nbVJpQC8rhQXlKQDc=
+			+jYdyeRbSUzuJc0jCNR+LVPHmauIkuATtazwLZaYh8w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusIdentifySDK.framework/moduleapps-identify.json</key>
@@ -440,6 +501,50 @@
 			<key>hash2</key>
 			<data>
 			Q8kvnHCA1BG+TfVnPS1gcBMTaBm54xFaC3AGKssSfEs=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jHZxX76LKIa2DO9gGKen/t3phlU=
+			</data>
+			<key>hash2</key>
+			<data>
+			INerY6nQdIBkJ8/zH/4/70pRgoI7t2XPM16HpIaG7C0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/DWARF/NautilusIdentifySDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aJbkdAcHkFScGbW8p+FUWR9jPtY=
+			</data>
+			<key>hash2</key>
+			<data>
+			6A8H1IH5lIG//12d3ApFqUQw/MFHuWa/dcwaJjXEL3U=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusIdentifySDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oD4tVwy0eXRDOG1SsGPCFqaL5nc=
+			</data>
+			<key>hash2</key>
+			<data>
+			co6OGSV5umM/LbbNjbEsYzu4dSXL4VxxJzKOPYfZesk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusIdentifySDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusIdentifySDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a1q2cPqsy1Wff4GJKJxxs93Iels=
+			</data>
+			<key>hash2</key>
+			<data>
+			BDLy5k2RLvj1/DP3AZ1mkaoKTitcfYPVo7cbVG3Mj4A=
 			</data>
 		</dict>
 	</dict>

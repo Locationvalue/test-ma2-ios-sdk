@@ -1,0 +1,39 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/masuno/Library/Developer/Xcode/DerivedData/Nautilus-ios-sdk-byhzfjnfuanwpgbutbsrwxixhdis/Build/Intermediates.noindex/ArchiveIntermediates/NautilusLoggingSDK/InstallationBuildProductsLocation/Library/Frameworks/NautilusLoggingSDK.framework/NautilusLoggingSDK'
+relocations:
+  - { offset: 0x36220, size: 0x8, addend: 0x0, symName: _NautilusLoggingSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x2B30, symSize: 0x0 }
+  - { offset: 0x36254, size: 0x8, addend: 0x0, symName: _NautilusLoggingSDKVersionNumber, symObjAddr: 0x40, symBinAddr: 0x2B70, symSize: 0x0 }
+  - { offset: 0x36294, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelO7defaultACvgZ', symObjAddr: 0x0, symBinAddr: 0x1210, symSize: 0x10 }
+  - { offset: 0x362B6, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO8logLevelAA03LogF0OvpZ', symObjAddr: 0xA50, symBinAddr: 0x4008, symSize: 0x0 }
+  - { offset: 0x364E5, size: 0x8, addend: 0x0, symName: '_$sSo9OS_os_logCMa', symObjAddr: 0x940, symBinAddr: 0x1B50, symSize: 0x30 }
+  - { offset: 0x364F9, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x970, symBinAddr: 0x1B80, symSize: 0x40 }
+  - { offset: 0x3650D, size: 0x8, addend: 0x0, symName: '_$sS2Ss7CVarArg10FoundationWl', symObjAddr: 0x9B0, symBinAddr: 0x1BC0, symSize: 0x30 }
+  - { offset: 0x36521, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSHAASQWb', symObjAddr: 0x9E0, symBinAddr: 0x1BF0, symSize: 0x10 }
+  - { offset: 0x36535, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOACSQAAWl', symObjAddr: 0x9F0, symBinAddr: 0x1C00, symSize: 0x30 }
+  - { offset: 0x36549, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOMa', symObjAddr: 0xA30, symBinAddr: 0x1C30, symSize: 0x10 }
+  - { offset: 0x3655D, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerOMa', symObjAddr: 0xA40, symBinAddr: 0x1C40, symSize: 0xA }
+  - { offset: 0x3657E, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelO7defaultACvgZ', symObjAddr: 0x0, symBinAddr: 0x1210, symSize: 0x10 }
+  - { offset: 0x365D0, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x40, symBinAddr: 0x1250, symSize: 0x10 }
+  - { offset: 0x36661, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSHAASH9hashValueSivgTW', symObjAddr: 0x50, symBinAddr: 0x1260, symSize: 0x40 }
+  - { offset: 0x366FB, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x90, symBinAddr: 0x12A0, symSize: 0x20 }
+  - { offset: 0x36739, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xB0, symBinAddr: 0x12C0, symSize: 0x40 }
+  - { offset: 0x367B0, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSLAASL2leoiySbx_xtFZTW', symObjAddr: 0x140, symBinAddr: 0x1350, symSize: 0x10 }
+  - { offset: 0x36824, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSLAASL2geoiySbx_xtFZTW', symObjAddr: 0x150, symBinAddr: 0x1360, symSize: 0x10 }
+  - { offset: 0x36898, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSLAASL1goiySbx_xtFZTW', symObjAddr: 0x160, symBinAddr: 0x1370, symSize: 0x10 }
+  - { offset: 0x3693A, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelO1loiySbAC_ACtFZ', symObjAddr: 0x10, symBinAddr: 0x1220, symSize: 0x10 }
+  - { offset: 0x36966, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelO8rawValueSivg', symObjAddr: 0x20, symBinAddr: 0x1230, symSize: 0x10 }
+  - { offset: 0x36989, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelO8rawValueACSgSi_tcfC', symObjAddr: 0x30, symBinAddr: 0x1240, symSize: 0x10 }
+  - { offset: 0x369B0, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSYAASY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0xF0, symBinAddr: 0x1300, symSize: 0x30 }
+  - { offset: 0x369D9, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x120, symBinAddr: 0x1330, symSize: 0x10 }
+  - { offset: 0x36A23, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelOSLAASL1loiySbx_xtFZTW', symObjAddr: 0x130, symBinAddr: 0x1340, symSize: 0x10 }
+  - { offset: 0x36A69, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO8logLevelAA03LogF0OvgZ', symObjAddr: 0x170, symBinAddr: 0x1380, symSize: 0x10 }
+  - { offset: 0x36A8B, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO11setLogLevel03logG0yAA0fG0O_tFZ', symObjAddr: 0x180, symBinAddr: 0x1390, symSize: 0x10 }
+  - { offset: 0x36BAA, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO7verboseyySSFZ', symObjAddr: 0x190, symBinAddr: 0x13A0, symSize: 0x140 }
+  - { offset: 0x36CF6, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO5debugyySSFZ', symObjAddr: 0x2D0, symBinAddr: 0x14E0, symSize: 0x140 }
+  - { offset: 0x36E42, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO4infoyySSFZ', symObjAddr: 0x410, symBinAddr: 0x1620, symSize: 0x140 }
+  - { offset: 0x36F8E, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO4warnyySSFZ', symObjAddr: 0x550, symBinAddr: 0x1760, symSize: 0x140 }
+  - { offset: 0x370DA, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO5erroryySSFZ', symObjAddr: 0x690, symBinAddr: 0x18A0, symSize: 0x140 }
+  - { offset: 0x37226, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK6LoggerO5fatalyySSFZ', symObjAddr: 0x7D0, symBinAddr: 0x19E0, symSize: 0x140 }
+  - { offset: 0x37372, size: 0x8, addend: 0x0, symName: '_$s18NautilusLoggingSDK8LogLevelO8rawValueACSgSi_tcfCTf4nd_n', symObjAddr: 0x910, symBinAddr: 0x1B20, symSize: 0x30 }
+...

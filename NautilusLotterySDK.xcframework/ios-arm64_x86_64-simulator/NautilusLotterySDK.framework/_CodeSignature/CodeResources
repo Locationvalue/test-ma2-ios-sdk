@@ -10,51 +10,51 @@
 		</data>
 		<key>Headers/NautilusLotterySDK-Swift.h</key>
 		<data>
-		fTQTlZaBm4ymIt1RmmnnBC3P1ac=
+		1AkX2MBcOk5BDfMraqNajGTGnjw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lGFZPeIA3htS+8d7+R6KZ9v3Dwk=
+		44TldycyIQwi9zEUIIQM7jLmGdo=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		AEB8VnxuF7aH/NOI4kT7gKbRoFM=
+		3Z0ZogQVxrqWxZbxqc6Ias8CnrY=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pnzVZrxqpeSEAREGrT7m+TUOixE=
+		Ius4QQHuDK5JzEI3+qsAn+J4vHo=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IOINWDp984HrS7hO6gNG2k4o64Y=
+		T47GUC93mxYpYBxZaSoOftNaLGQ=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pnzVZrxqpeSEAREGrT7m+TUOixE=
+		Ius4QQHuDK5JzEI3+qsAn+J4vHo=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Q8EkNYsNP/HqhKWs2xSJ4PN6+sg=
+		WAaU08J4KIW2NMO5VFeiTFosDPA=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		AEB8VnxuF7aH/NOI4kT7gKbRoFM=
+		3Z0ZogQVxrqWxZbxqc6Ias8CnrY=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LVRmeZ+mYNLFlm0Ay8gRghid3tY=
+		2yKk3VQpHn05M4Te2Y8cfIeQyxQ=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hz9/daoxh/6O+NjcrUrKvx3NbMo=
+		aWpqY28JAFW7cytJLvJcDPLljf8=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LVRmeZ+mYNLFlm0Ay8gRghid3tY=
+		2yKk3VQpHn05M4Te2Y8cfIeQyxQ=
 		</data>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QK+fBATmOw21l5pFHm+CYql6Q4s=
+		Ya0T9YfAJ8+hSeb8tqSv311lFi8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,77 +82,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPmEpn9NMzvUs78nal+IgeUxg4nJqd82dTfhe5qfZVQ=
+			caJ90Lt8aS+2Wg+od79C2WFexSnrLy5dI4F12yYhoTw=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1LZx1FGpzJ7IS9uJkmgetoYYSezfp8s4XAoaBJTg0KI=
+			x4IF15gZ4zY0+lohUj+UnPnFJcPYkCQoEmW+lBesQu4=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8dE88VCkcm6kr4tbLFvAyaTJErGgloN6Tp6HgFpEEYg=
+			qd5O5Z3oZhlZYH9VsDFjAlo7q4MlriHkeQXTb7hsKy8=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k0nS14YqChMCuBgmxA8JkxFlPaiCw3z4IoUfXp4DHrI=
+			kAEJzzqSWphwR7cKpSb9x5/k2vXXPQQT31D/pIuQ0NI=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8dE88VCkcm6kr4tbLFvAyaTJErGgloN6Tp6HgFpEEYg=
+			qd5O5Z3oZhlZYH9VsDFjAlo7q4MlriHkeQXTb7hsKy8=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XyRmifRNB18chy388y2ry9uJSeU7e9VRE24HQsT9n4M=
+			TfdK6ZA4SoNu/LCuXljH/nKVANa4RGR6nx6J8ZubBwU=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1LZx1FGpzJ7IS9uJkmgetoYYSezfp8s4XAoaBJTg0KI=
+			x4IF15gZ4zY0+lohUj+UnPnFJcPYkCQoEmW+lBesQu4=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQcvBZ6Kn2c6yRSAvJTg+xHnA34TcntI+2Qy5XzJhaY=
+			ype2coYr7K6intDxI/odH+EB3xLF3JF8UVWHyYy1qeo=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2CtNd90ve4KF6ildXIcHkk4Vfb8AUsYNNYQMZnWEb2Q=
+			UoAJm6MvPNhKVSE95t7lQ6l6nDe5wkJmGIBWbguxWHc=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQcvBZ6Kn2c6yRSAvJTg+xHnA34TcntI+2Qy5XzJhaY=
+			ype2coYr7K6intDxI/odH+EB3xLF3JF8UVWHyYy1qeo=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotterySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wSQK+BMYquWvTUiBSLVopPc6KiwgNKjPd5zpC3qmZjo=
+			JDxHtNJn1PEd46V+naAsYxoGwbQsqouiV1zdjOvo0X0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

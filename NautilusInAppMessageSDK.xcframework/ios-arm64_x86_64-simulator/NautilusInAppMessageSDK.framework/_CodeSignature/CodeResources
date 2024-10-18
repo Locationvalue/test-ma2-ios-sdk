@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		soOJQibUqA2yyCvcKFkogBOLd4w=
+		nz0z7+m8VrwlE/Qg9npJSYb8HLc=
 		</data>
 		<key>Headers/InAppMessage.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Headers/NautilusInAppMessageSDK-Swift.h</key>
 		<data>
-		eHC0NZDsRyNhF4EGO/w3NMjle3k=
+		d0bMKIWVUBuUHlm8nE9YmNpGiuU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1iggmmf0IT3gzkXheUbO3ywkIpg=
+		r7XDNhARmxZ8KZudYBxWFsFwS60=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Pj1s5E0tziT3YsvUCmQJND65sNQ=
+		ZnSisTCVxW06qmxdyEgSNmvEbds=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hzcWNu1pjG6iSY6PCds/RS/w9pQ=
+		XBRj3ldk7nciMyL+szWlwGQzT9s=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dy74ziAWQaxOSIx0yzR+8nbjrIE=
+		fyA+Af6s3TgykZKNZwrOpogUP+g=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hzcWNu1pjG6iSY6PCds/RS/w9pQ=
+		XBRj3ldk7nciMyL+szWlwGQzT9s=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bG85lxgdIABkNvqZvuXLeUuZqn8=
+		rsf0KFcth7m/OGf+DNGyYo72mEs=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Pj1s5E0tziT3YsvUCmQJND65sNQ=
+		ZnSisTCVxW06qmxdyEgSNmvEbds=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		57S0JTvPsHXxubIRaGM5rrP+DBs=
+		3VXEsAb8oOpyhVfwuFCBTbugEek=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hCvF3PfC2xdOoLNr5ZbWPciNB0k=
+		4T9mOu8cpJ4mK/xgzc6qqJ8dPuk=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		57S0JTvPsHXxubIRaGM5rrP+DBs=
+		3VXEsAb8oOpyhVfwuFCBTbugEek=
 		</data>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0OFmS/PupNllLW51cGyJX0jE7Kc=
+		2c+uqHI9xwAoBU8pPGupbxqvHRc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>NautilusInAppMessage.momd/NautilusInAppMessage.mom</key>
 		<data>
-		ZvkdmyMBQwplj+LS90WkWaCYnZc=
+		LBEJP4zz8ibAU6O2XJ8X/RIMaUc=
 		</data>
 		<key>NautilusInAppMessage.momd/NautilusInAppMessage_2.0.mom</key>
 		<data>
-		jQ7rMBHCusYDbAhxPs42UlPwobA=
+		cwqNOA9rBL72/MZeI49489+bvp0=
 		</data>
 		<key>NautilusInAppMessage.momd/NautilusInAppMessage_2.0.omo</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6+KQE+76yRFZDczA+z77PtIcuGuhalRxhPIW3jDlkxs=
+			Q3sNLX9g8JZFULtlSEeNGUEfQJws4FCYGkP2BhxMsV8=
 			</data>
 		</dict>
 		<key>Headers/InAppMessage.h</key>
@@ -117,77 +117,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ts0XFnIc/HvruMDnPG2yZmkRbzJOTQOXRcZT+sZzzrU=
+			jH9Z12O1m/CEu6GHvQclRgySpq5u2NWGh4nIX0aZ7vo=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HrAFfd/Nsh8m4sCNgy5Wo/kT94RPJJXaz873RNVhizg=
+			nP/WQE9MwigTtyVz3/VBRXYJCDcEnOFzpwZO7ParoT4=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O8IqWEa8h0aPpnmjs6cZUCew/yIPy2GeYmNW99wcWUw=
+			CAj90nYdOxAw8PphgZB+LZYPAM6B2+1/PSd3ZFCtUdU=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t0W5N8tXcIZ/VT6ThW53E89Va/YRjaEo0kA8GRoorvQ=
+			cCDw2BSjRnKH6iNMaH3zY+/0x+vVh+2Z0Qj57g4vtl4=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O8IqWEa8h0aPpnmjs6cZUCew/yIPy2GeYmNW99wcWUw=
+			CAj90nYdOxAw8PphgZB+LZYPAM6B2+1/PSd3ZFCtUdU=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ADl+jhK0WnDMVeocaL5+q/2ZsjMO6n7euffYqzvuI0U=
+			oB46+WF5ejKNAciElgKWVPyod1wbojsl0s9AAT3S+No=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HrAFfd/Nsh8m4sCNgy5Wo/kT94RPJJXaz873RNVhizg=
+			nP/WQE9MwigTtyVz3/VBRXYJCDcEnOFzpwZO7ParoT4=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IY/w2C+/mQInuhK4IhzjWusVZI/RybRWksg9G7fasug=
+			2azoZfEBZE6TeP4CxZKzgOV5JSkowGHkaNfZftISWBQ=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m508dw1nMJ0a/DrKwIekX8bIaGwdzBXZr41LZ34Nrao=
+			dqXjb16fCMt/ln/6mFb6N5H3HtMvUW8DEthy3agNK/k=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IY/w2C+/mQInuhK4IhzjWusVZI/RybRWksg9G7fasug=
+			2azoZfEBZE6TeP4CxZKzgOV5JSkowGHkaNfZftISWBQ=
 			</data>
 		</dict>
 		<key>Modules/NautilusInAppMessageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z4J2a6e/l47SWdA3UA/+ixXYmmyPKu9qpiWI9e68oPI=
+			y4xWFOOujuD3H0UxnVvNaDT6AgON/1hAszIX4VLN96A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -201,14 +201,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FJTJpjvVpjdD6vcH70jG1R/PY3f6LDF3D/lS0hrj5BY=
+			mOezzyOqtukWnc3OulR4hJocaCCWPbC3gVSKRLR8ogo=
 			</data>
 		</dict>
 		<key>NautilusInAppMessage.momd/NautilusInAppMessage_2.0.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			44wyeWnbTjl4EFsza+2DmiqtpsdrdrBlXhRIFwoB6e8=
+			k11dv+13h/p1+ON8ZHjptiiqbdnAGZWiHB5dAQ2csvk=
 			</data>
 		</dict>
 		<key>NautilusInAppMessage.momd/NautilusInAppMessage_2.0.omo</key>

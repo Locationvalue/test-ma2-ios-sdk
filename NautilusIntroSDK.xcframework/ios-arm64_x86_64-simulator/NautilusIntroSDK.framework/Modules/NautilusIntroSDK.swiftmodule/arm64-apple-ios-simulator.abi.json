@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusIntroSDK",
+    "printedName": "NautilusIntroSDK",
     "children": [
       {
         "kind": "Import",
@@ -91,6 +91,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -787,6 +803,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -987,6 +1017,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1207,6 +1251,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1356,6 +1414,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1518,6 +1590,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1575,6 +1648,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -1621,6 +1695,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -1667,6 +1742,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1722,6 +1798,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1763,6 +1840,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -1774,6 +1852,7 @@
         "mangledName": "$s16NautilusIntroSDK0A26IntroductionViewControllerC",
         "moduleName": "NautilusIntroSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -1787,6 +1866,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1857,154 +1950,112 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 30,
+      "value": "\"moduleapps-introduction.json\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 961,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1054,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1148,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1235,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
       "kind": "BooleanLiteral",
       "offset": 1541,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Base\/NautilusIntroduction.swift",
-      "kind": "StringLiteral",
-      "offset": 420,
-      "length": 20,
-      "value": "\"NautilusIntroSDK.NautilusIntroduction\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Entities\/NautilusIntroductionListItem.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 28,
-      "value": "\"NautilusIntroSDK.NautilusIntroductionListItem\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Entities\/NautilusIntroductionList.swift",
-      "kind": "StringLiteral",
-      "offset": 261,
-      "length": 24,
-      "value": "\"NautilusIntroSDK.NautilusIntroductionList\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Entities\/NautilusIntroductionList.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Entities\/NautilusIntroductionList.swift",
       "kind": "Array",
       "offset": 952,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 32,
       "value": "\"ma_intro_default_button_action\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
       "kind": "StringLiteral",
       "offset": 412,
       "length": 37,
       "value": "\"ma_intro_default_action_button_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 39,
       "value": "\"ma_intro_last_page_action_button_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
       "kind": "StringLiteral",
       "offset": 567,
       "length": 35,
       "value": "\"ma_intro_action_button_text_color\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
       "kind": "StringLiteral",
       "offset": 646,
       "length": 41,
       "value": "\"ma_intro_action_button_background_color\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 31,
       "value": "\"ma_intro_page_indicator_color\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
       "kind": "StringLiteral",
       "offset": 795,
       "length": 39,
       "value": "\"ma_intro_current_page_indicator_color\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 46,
       "value": "\"ma_intro_show_page_indicator_for_single_page\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 340,
-      "length": 32,
-      "value": "\"ma_intro_default_button_action\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 412,
-      "length": 37,
-      "value": "\"ma_intro_default_action_button_text\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 490,
-      "length": 39,
-      "value": "\"ma_intro_last_page_action_button_text\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 567,
-      "length": 35,
-      "value": "\"ma_intro_action_button_text_color\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 646,
-      "length": 41,
-      "value": "\"ma_intro_action_button_background_color\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 722,
-      "length": 31,
-      "value": "\"ma_intro_page_indicator_color\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 795,
-      "length": 39,
-      "value": "\"ma_intro_current_page_indicator_color\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/Config\/NautilusIntroductionConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 881,
-      "length": 46,
-      "value": "\"ma_intro_show_page_indicator_for_single_page\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/View\/NautilusIntroductionViewController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Intro\/Sources\/View\/NautilusIntroductionViewController.swift",
       "kind": "Dictionary",
       "offset": 1643,
       "length": 3,

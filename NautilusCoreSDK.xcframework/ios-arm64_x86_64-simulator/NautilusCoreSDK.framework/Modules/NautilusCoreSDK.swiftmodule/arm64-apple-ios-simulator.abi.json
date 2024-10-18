@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusCoreSDK",
+    "printedName": "NautilusCoreSDK",
     "children": [
       {
         "kind": "Import",
@@ -176,6 +176,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -349,6 +365,22 @@
             "moduleName": "NautilusCoreSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -495,6 +527,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "RequestPolicy",
             "printedName": "RequestPolicy",
             "usr": "s:15NautilusCoreSDK13RequestPolicyP",
@@ -583,6 +629,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -899,6 +959,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1200,6 +1276,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1324,6 +1414,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1632,6 +1736,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1964,6 +2082,22 @@
         "moduleName": "NautilusCoreSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2340,6 +2474,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2656,6 +2806,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2690,6 +2854,22 @@
         "moduleName": "NautilusCoreSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2801,6 +2981,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Response",
             "printedName": "Response",
             "usr": "s:15NautilusCoreSDK8ResponseP",
@@ -2904,6 +3098,22 @@
         "moduleName": "NautilusCoreSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3086,6 +3296,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "RequestParameter",
@@ -3504,6 +3728,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3910,6 +4148,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4131,6 +4383,22 @@
         "declAttributes": [
           "AccessControl",
           "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4217,6 +4485,22 @@
         "moduleName": "NautilusCoreSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4625,6 +4909,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "NetworkService",
             "printedName": "NetworkService",
             "usr": "s:15NautilusCoreSDK14NetworkServiceP",
@@ -4939,6 +5237,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5096,6 +5408,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5719,6 +6045,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6061,6 +6401,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6334,6 +6688,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6454,106 +6824,23 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NautilusCoreSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LifeCycleNotificationCenter",
-        "printedName": "LifeCycleNotificationCenter",
-        "children": [
+        ],
+        "conformances": [
           {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LifeCycleNotificationCenter",
-                "printedName": "NautilusCoreSDK.LifeCycleNotificationCenter",
-                "usr": "s:15NautilusCoreSDK27LifeCycleNotificationCenterC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NautilusCoreSDK27LifeCycleNotificationCenterC6sharedACvpZ",
-            "mangledName": "$s15NautilusCoreSDK27LifeCycleNotificationCenterC6sharedACvpZ",
-            "moduleName": "NautilusCoreSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LifeCycleNotificationCenter",
-                    "printedName": "NautilusCoreSDK.LifeCycleNotificationCenter",
-                    "usr": "s:15NautilusCoreSDK27LifeCycleNotificationCenterC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NautilusCoreSDK27LifeCycleNotificationCenterC6sharedACvgZ",
-                "mangledName": "$s15NautilusCoreSDK27LifeCycleNotificationCenterC6sharedACvgZ",
-                "moduleName": "NautilusCoreSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
-            "kind": "Function",
-            "name": "setup",
-            "printedName": "setup()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NautilusCoreSDK27LifeCycleNotificationCenterC5setupyyF",
-            "mangledName": "$s15NautilusCoreSDK27LifeCycleNotificationCenterC5setupyyF",
-            "moduleName": "NautilusCoreSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
-        ],
-        "declKind": "Class",
-        "usr": "s:15NautilusCoreSDK27LifeCycleNotificationCenterC",
-        "mangledName": "$s15NautilusCoreSDK27LifeCycleNotificationCenterC",
-        "moduleName": "NautilusCoreSDK",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
@@ -6852,6 +7139,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7024,6 +7327,22 @@
         "moduleName": "NautilusCoreSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7495,6 +7814,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -7861,6 +8194,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8267,6 +8616,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "NetworkService",
@@ -9555,6 +9918,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9761,6 +10138,22 @@
         "declAttributes": [
           "AccessControl",
           "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -9838,6 +10231,22 @@
         "moduleName": "NautilusCoreSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10107,6 +10516,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10476,6 +10899,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Response",
@@ -10939,6 +11376,22 @@
         "moduleName": "NautilusCoreSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -11142,6 +11595,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11431,6 +11898,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11519,6 +12000,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -11536,6 +12033,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "DataConvertible",
@@ -11648,6 +12159,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12782,6 +13309,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -13270,6 +13813,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Request",
             "printedName": "Request",
             "children": [
@@ -13409,6 +13966,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -13678,6 +14251,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14238,6 +14825,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14317,6 +14918,22 @@
                 "moduleName": "NautilusCoreSDK",
                 "declAttributes": [
                   "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
                 ]
               }
             ],
@@ -14324,7 +14941,23 @@
             "usr": "s:10Foundation12NotificationV15NautilusCoreSDKE0C3AppO",
             "mangledName": "$s10Foundation12NotificationV15NautilusCoreSDKE0C3AppO",
             "moduleName": "NautilusCoreSDK",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -14392,6 +15025,20 @@
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -14504,6 +15151,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ResponseDecoder",
             "printedName": "ResponseDecoder",
             "usr": "s:15NautilusCoreSDK15ResponseDecoderP",
@@ -14613,17 +15274,24 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ResponseDecoder",
             "printedName": "ResponseDecoder",
             "usr": "s:15NautilusCoreSDK15ResponseDecoderP",
             "mangledName": "$s15NautilusCoreSDK15ResponseDecoderP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -14646,6 +15314,13 @@
             ],
             "usr": "s:7Combine15TopLevelDecoderP",
             "mangledName": "$s7Combine15TopLevelDecoderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -14706,7 +15381,23 @@
             "usr": "s:So12NSURLSessionC15NautilusCoreSDKE0B3AppO",
             "mangledName": "$sSo12NSURLSessionC15NautilusCoreSDKE0B3AppO",
             "moduleName": "NautilusCoreSDK",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -14732,10 +15423,38 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -14906,6 +15625,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "KeyChainConvertible",
@@ -15583,6 +16316,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "KeyChainConvertible",
             "printedName": "KeyChainConvertible",
             "usr": "s:15NautilusCoreSDK19KeyChainConvertibleP",
@@ -15594,13 +16341,6 @@
             "printedName": "UserDefaultConvertible",
             "usr": "s:15NautilusCoreSDK22UserDefaultConvertibleP",
             "mangledName": "$s15NautilusCoreSDK22UserDefaultConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -16060,6 +16800,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -16295,6 +17042,20 @@
         "isFromExtension": true,
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
@@ -16656,6 +17417,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -16989,6 +17764,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UserDefaultConvertible",
             "printedName": "UserDefaultConvertible",
             "usr": "s:15NautilusCoreSDK22UserDefaultConvertibleP",
@@ -17170,6 +17959,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -17442,6 +18238,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UserDefaultConvertible",
             "printedName": "UserDefaultConvertible",
             "usr": "s:15NautilusCoreSDK22UserDefaultConvertibleP",
@@ -17619,6 +18429,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -17751,17 +18568,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UserDefaultConvertible",
             "printedName": "UserDefaultConvertible",
             "usr": "s:15NautilusCoreSDK22UserDefaultConvertibleP",
             "mangledName": "$s15NautilusCoreSDK22UserDefaultConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -17798,6 +18622,13 @@
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -17850,6 +18681,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -17877,805 +18715,518 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusRequestPolicy.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusRequestPolicy.swift",
       "kind": "FloatLiteral",
       "offset": 702,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusRequestPolicy.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusRequestPolicy.swift",
       "kind": "FloatLiteral",
       "offset": 917,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusRequestPolicy.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusRequestPolicy.swift",
       "kind": "FloatLiteral",
       "offset": 1168,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
       "kind": "IntegerLiteral",
       "offset": 1978,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
       "kind": "IntegerLiteral",
       "offset": 2020,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
       "kind": "IntegerLiteral",
       "offset": 2075,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1978,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2020,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2075,
-      "length": 10,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
       "kind": "IntegerLiteral",
       "offset": 1759,
       "length": 25,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
       "kind": "IntegerLiteral",
       "offset": 1908,
       "length": 21,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
       "kind": "IntegerLiteral",
       "offset": 2056,
       "length": 23,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1759,
-      "length": 25,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1908,
-      "length": 21,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusStatusErrorStrings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2056,
-      "length": 23,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 3,
       "value": "-10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 357,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 426,
       "length": 12,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 574,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 635,
       "length": 14,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 701,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 334,
-      "length": 1,
-      "value": "-10"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 357,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 426,
-      "length": 12,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 574,
-      "length": 15,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 635,
-      "length": 14,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 701,
-      "length": 12,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 914,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 988,
       "length": 17,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 1057,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 1146,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
       "kind": "IntegerLiteral",
       "offset": 1207,
       "length": 15,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 914,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 988,
-      "length": 17,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1057,
-      "length": 10,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1146,
-      "length": 12,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusInitializationFailureReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1207,
-      "length": 15,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
       "kind": "StringLiteral",
       "offset": 5405,
       "length": 21,
       "value": "\"CopyMatching error.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
       "kind": "StringLiteral",
       "offset": 5454,
       "length": 15,
       "value": "\"cast failure.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
       "kind": "StringLiteral",
       "offset": 5497,
       "length": 19,
       "value": "\"value is nothing.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
       "kind": "StringLiteral",
       "offset": 5543,
       "length": 19,
       "value": "\"Keychain's error.\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 5405,
-      "length": 21,
-      "value": "\"CopyMatching error.\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 5454,
-      "length": 15,
-      "value": "\"cast failure.\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 5497,
-      "length": 19,
-      "value": "\"value is nothing.\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/PropertyWrapper\/KeyChainPropertyWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 5543,
-      "length": 19,
-      "value": "\"Keychain's error.\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusConcurrencyService.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusConcurrencyService.swift",
       "kind": "Array",
       "offset": 551,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusConcurrencyService.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusConcurrencyService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusConcurrencyService.swift",
       "kind": "BooleanLiteral",
       "offset": 3643,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusConcurrencyService.swift",
-      "kind": "StringLiteral",
-      "offset": 2888,
-      "length": 18,
-      "value": "\"NautilusCoreSDK.MANetworkOperation\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NetworkListener.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NetworkListener.swift",
       "kind": "BooleanLiteral",
       "offset": 1211,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NetworkListener.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NetworkListener.swift",
       "kind": "StringLiteral",
       "offset": 2971,
       "length": 29,
       "value": "\"networkListenerNotification\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 371,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 545,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 602,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 666,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 741,
       "length": 3,
       "value": "903"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 795,
       "length": 3,
       "value": "905"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 850,
       "length": 3,
       "value": "906"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
       "kind": "IntegerLiteral",
       "offset": 930,
       "length": 3,
       "value": "907"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 309,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 371,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 456,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 545,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 602,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 666,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 741,
-      "length": 3,
-      "value": "903"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 795,
-      "length": 3,
-      "value": "905"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 850,
-      "length": 3,
-      "value": "906"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/NautilusErrorCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 930,
-      "length": 3,
-      "value": "907"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusLocationProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 257,
-      "length": 16,
-      "value": "\"NautilusCoreSDK.NautilusLocation\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Utility\/NautilusKeychain.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Utility\/NautilusKeychain.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 23,
       "value": "\"nautilus-core-service\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeatureContainer.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusFeatureContainer.swift",
       "kind": "Array",
       "offset": 327,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusNetworkService.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusNetworkService.swift",
       "kind": "Array",
       "offset": 528,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusNetworkService.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusNetworkService.swift",
       "kind": "BooleanLiteral",
       "offset": 3535,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Service\/NautilusNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 2756,
-      "length": 18,
-      "value": "\"NautilusCoreSDK.MANetworkOperation\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
       "kind": "Dictionary",
       "offset": 427,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
       "kind": "StringLiteral",
       "offset": 929,
       "length": 17,
       "value": "\"ma2_maintenance\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
       "kind": "BooleanLiteral",
       "offset": 1422,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
       "kind": "BooleanLiteral",
       "offset": 1544,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
       "kind": "BooleanLiteral",
       "offset": 1663,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
       "kind": "BooleanLiteral",
       "offset": 1724,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
       "kind": "Array",
       "offset": 1995,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "kind": "StringLiteral",
+      "offset": 15194,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusApp.swift",
+      "kind": "StringLiteral",
+      "offset": 15419,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 563,
       "length": 17,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 664,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 744,
       "length": 16,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
-      "kind": "IntegerLiteral",
-      "offset": 563,
-      "length": 17,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
-      "kind": "IntegerLiteral",
-      "offset": 664,
-      "length": 13,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/DeploymentEnvironment.swift",
-      "kind": "IntegerLiteral",
-      "offset": 744,
-      "length": 16,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 11,
       "value": "\"error_msg\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
       "kind": "StringLiteral",
       "offset": 479,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 345,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 11,
-      "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 417,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 449,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Network\/ErrorResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 479,
-      "length": 11,
-      "value": "\"device_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppSettings.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppSettings.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 24,
       "value": "\"__nautilus_boot_date__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppSettings.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppSettings.swift",
       "kind": "StringLiteral",
       "offset": 526,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppSettings.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppSettings.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 26,
       "value": "\"__nautilus_app_version__\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppSettings.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppSettings.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
       "kind": "IntegerLiteral",
       "offset": 451,
       "length": 17,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
       "kind": "IntegerLiteral",
       "offset": 511,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
       "kind": "IntegerLiteral",
       "offset": 569,
       "length": 11,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 451,
-      "length": 17,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 511,
-      "length": 18,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Base\/NautilusAppInitializationError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 569,
-      "length": 11,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Client\/NautilusAPIClient.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Client\/NautilusAPIClient.swift",
       "kind": "Array",
       "offset": 1688,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 20,
       "value": "\"CFBundleIdentifier\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 10,
       "value": "\"Nautilus\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Core\/Sources\/Info\/Bundle+Keys.swift",
       "kind": "StringLiteral",
       "offset": 467,
       "length": 7,

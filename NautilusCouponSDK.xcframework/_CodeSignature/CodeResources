@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/Assets.car</key>
 		<data>
-		7MpIQeeAV+fDgzZ2zpP8qWiPpCs=
+		Khbo8x2G74m3ycVOh0NYbrJTMm8=
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/Headers/Coupon.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/Headers/NautilusCouponSDK-Swift.h</key>
 		<data>
-		SypPgvgcaEdDqWWvL0Gf/WgOpe4=
+		5uW2ZWHFRvdYX6EbgTrwuHQFIwU=
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/Info.plist</key>
 		<data>
-		PNWKcti+kN4QJINH1kZHtLQueI8=
+		ySzwxP7gqV8peLpcG7g6LMPUSEI=
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4MtBwCPTqs9p+dU5K7FxeTvUA2I=
+		hiWLPpV9MktfyETy7kyGmE/7kdc=
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fXkOhQz1MgBs6H7QU7pdMY9KWjg=
+		vJlk7IjT3e8sPwHNf0e7nTEJciU=
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		SQy9lsy/cnOMahx/UK17PZFIXAk=
+		GVQQKeFGSJJllc+AJIbaZL/Vd5g=
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fXkOhQz1MgBs6H7QU7pdMY9KWjg=
+		vJlk7IjT3e8sPwHNf0e7nTEJciU=
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/NautilusCouponSDK</key>
 		<data>
-		kAln2OrLTqRN7Cg8OUQAkwuDl/4=
+		IVuHhmaPIjL+R0ZY+bhuRjOyZlw=
 		</data>
 		<key>ios-arm64/NautilusCouponSDK.framework/NautilusDetailCouponCell.nib</key>
 		<data>
@@ -68,9 +68,21 @@
 		<data>
 		gWQZfEbt1dupsQiVbwOT2JuqD54=
 		</data>
+		<key>ios-arm64/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		D/mkP3jBAtON0lfpGyPzItPILZ4=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCouponSDK</key>
+		<data>
+		tHCyK8gd2wMJklTjtoTZnr6ayNk=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCouponSDK.yml</key>
+		<data>
+		6jbnH13nrikppCzOWnh4IW+dYOo=
+		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Assets.car</key>
 		<data>
-		7MpIQeeAV+fDgzZ2zpP8qWiPpCs=
+		Khbo8x2G74m3ycVOh0NYbrJTMm8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Headers/Coupon.h</key>
 		<data>
@@ -78,43 +90,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Headers/NautilusCouponSDK-Swift.h</key>
 		<data>
-		XuHjgIqc9oeOyK8WsKzqgzBCiY0=
+		5k9Gh7mEIpzCZ/+GWXUVyyshml4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Info.plist</key>
 		<data>
-		juvFDPHAQnXsMpvWmbCTdOst+Xs=
+		Qjnf3cuV6kThVAyDrtqL5iu+P1U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wiX2JmpHBwLrg4oavXFyKq9ofYM=
+		ddC1GNFippFiQ60raOCsBqft11I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wTvH6/9Mvucd0SoVRQ/1zJ7PLEw=
+		ki2VG9vogbpf3mepvV0F8g0aoe0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KE4Ai06EnQE3KuN9hiLcFaeLjYg=
+		PzklvgI/I1OIdgC4mOzaui4sSLk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wTvH6/9Mvucd0SoVRQ/1zJ7PLEw=
+		ki2VG9vogbpf3mepvV0F8g0aoe0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wiX2JmpHBwLrg4oavXFyKq9ofYM=
+		ddC1GNFippFiQ60raOCsBqft11I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aqz/kq4vLQFDMAQ6xKHoGhv7CAY=
+		vn7RZOu/sDGSQotkOf9MNKu8+wo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rlYY+a8D6URdleFKLMZdLpMHcDY=
+		eXmnt6gt1MwWiPsBH0BfEYydEVg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aqz/kq4vLQFDMAQ6xKHoGhv7CAY=
+		vn7RZOu/sDGSQotkOf9MNKu8+wo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -126,7 +138,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/NautilusCouponSDK</key>
 		<data>
-		KkGblRsqmSgcYy3G9mbjGzwYAnk=
+		Wp/h48vyrqXuFRhKnm4bLW6cecQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/NautilusDetailCouponCell.nib</key>
 		<data>
@@ -146,11 +158,27 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		oCk1dbPSKQjDHk403J4KFMcw6HA=
+		xKbmemJ8psctCnibqts8GXhdv1o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/moduleapps-coupon.json</key>
 		<data>
 		gWQZfEbt1dupsQiVbwOT2JuqD54=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		D/mkP3jBAtON0lfpGyPzItPILZ4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCouponSDK</key>
+		<data>
+		VJbHsjYA67V+sNouytu5IGBdXhk=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCouponSDK.yml</key>
+		<data>
+		KCHI513wbsXHaLv1aWxbHwk6iLo=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusCouponSDK.yml</key>
+		<data>
+		a44E7idwiLqZQjKIfRV4MhMiC6A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -159,11 +187,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7MpIQeeAV+fDgzZ2zpP8qWiPpCs=
+			Khbo8x2G74m3ycVOh0NYbrJTMm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			A8KB9l4M//U0ObTqKlAGKbmhm6Wk3XGcsnP81IJH0LI=
+			qKIyqezSJZTD6G+OINEDJFvJ3lpEVhHBExwWhrm0lXo=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/Headers/Coupon.h</key>
@@ -181,66 +209,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SypPgvgcaEdDqWWvL0Gf/WgOpe4=
+			5uW2ZWHFRvdYX6EbgTrwuHQFIwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			WwdbTDm8SDhwvFG1rMNgBepAUseSKhEDATdgWegPzw4=
+			ngBR8IopUwlbMxayDKK9+Lx0Cw1c9vHGZMA5EntfvLw=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PNWKcti+kN4QJINH1kZHtLQueI8=
+			ySzwxP7gqV8peLpcG7g6LMPUSEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			QFrZI55dQGrc/Cg5WbSkbVSoDJw+DzhxnjUYNAL/18I=
+			pBJ6NzX0peXZtxDyyTH9FHhtRoJjdCcv6d5uIqIj7Gw=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4MtBwCPTqs9p+dU5K7FxeTvUA2I=
+			hiWLPpV9MktfyETy7kyGmE/7kdc=
 			</data>
 			<key>hash2</key>
 			<data>
-			xK1dJSYVVJk1VawxLrKYDvM74igsEIsPLHmtypVZ72A=
+			mQFe5yIFJosWWZEGn9LtOVtfrw1WoF7cJbZGJh+mfyI=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fXkOhQz1MgBs6H7QU7pdMY9KWjg=
+			vJlk7IjT3e8sPwHNf0e7nTEJciU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2QIPZO5qFpeOoo0FCekK/NM24DkDgTKXWzg5kJWMYxI=
+			aIs46I/icZA0T0OHlsGn461Yllx6V2GcPm/1WG3o30I=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SQy9lsy/cnOMahx/UK17PZFIXAk=
+			GVQQKeFGSJJllc+AJIbaZL/Vd5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			agjKVFVcmOISlxc2VxvKZ//zH7YOwIzlYRknNB7uHhU=
+			RNh+UJRJCBvqXu8DbdSeAW6PG14TDyzX9XzeJA3GH2Q=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fXkOhQz1MgBs6H7QU7pdMY9KWjg=
+			vJlk7IjT3e8sPwHNf0e7nTEJciU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2QIPZO5qFpeOoo0FCekK/NM24DkDgTKXWzg5kJWMYxI=
+			aIs46I/icZA0T0OHlsGn461Yllx6V2GcPm/1WG3o30I=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/Modules/module.modulemap</key>
@@ -269,11 +297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kAln2OrLTqRN7Cg8OUQAkwuDl/4=
+			IVuHhmaPIjL+R0ZY+bhuRjOyZlw=
 			</data>
 			<key>hash2</key>
 			<data>
-			pZiAtXNhYd6UQpTdZXt3Erh5/fJ08WoD5LgpGQWhO4s=
+			KtIyrappj0hZCSSIyxs3vJufd6qSxo1g6LrmZheAbGQ=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCouponSDK.framework/NautilusDetailCouponCell.nib</key>
@@ -331,15 +359,48 @@
 			ABc+oJGHTjy6+14UciGAQcH07EkYxuXJ+QJKJSO+20o=
 			</data>
 		</dict>
+		<key>ios-arm64/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D/mkP3jBAtON0lfpGyPzItPILZ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			cFhUxTtOk2UCCDCV/vugGIGl3ET7mPHX52OZlGbr2Ic=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCouponSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tHCyK8gd2wMJklTjtoTZnr6ayNk=
+			</data>
+			<key>hash2</key>
+			<data>
+			PRptiCdAso5c+NyuNJ2WiIKE54xOwgwMjS4WsvNgPdQ=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCouponSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6jbnH13nrikppCzOWnh4IW+dYOo=
+			</data>
+			<key>hash2</key>
+			<data>
+			ha7yNy0n+HoE9iyrNGeaAMWQLP/qKSlWAPrd2++tWeQ=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7MpIQeeAV+fDgzZ2zpP8qWiPpCs=
+			Khbo8x2G74m3ycVOh0NYbrJTMm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			A8KB9l4M//U0ObTqKlAGKbmhm6Wk3XGcsnP81IJH0LI=
+			qKIyqezSJZTD6G+OINEDJFvJ3lpEVhHBExwWhrm0lXo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Headers/Coupon.h</key>
@@ -357,110 +418,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XuHjgIqc9oeOyK8WsKzqgzBCiY0=
+			5k9Gh7mEIpzCZ/+GWXUVyyshml4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FNPgvRySzszlDKgPloK4aufy3iDtNmc+4q5KKVwUTJ0=
+			WjZmuegafkCuwQgOIQgbC1njWXVxb9O3A+1mTGHzQxg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			juvFDPHAQnXsMpvWmbCTdOst+Xs=
+			Qjnf3cuV6kThVAyDrtqL5iu+P1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			XKvEyfZAewzaItybD+ByCnU503LT/OjMt4XDJ65lAFc=
+			L4Fdt7X4YaDUZn7udZSmaamkT2e1DAxdrdnIeny90rw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wiX2JmpHBwLrg4oavXFyKq9ofYM=
+			ddC1GNFippFiQ60raOCsBqft11I=
 			</data>
 			<key>hash2</key>
 			<data>
-			mUyfZqR8pC88GSB8g0YP14GMt3hXW78LQP+WIM3ScGE=
+			5TRhdId/KI68XQ9g9EYdEWJQjfd8itBcTkudEtfe4Jk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wTvH6/9Mvucd0SoVRQ/1zJ7PLEw=
+			ki2VG9vogbpf3mepvV0F8g0aoe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cwmOktEH68D3O8W/v6MiiwjvFlhCOykjkYe0fGArQFM=
+			6hM0KZCgFytXTBhgsE2rDcnZK8n/5AKe+02L89tUk/U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KE4Ai06EnQE3KuN9hiLcFaeLjYg=
+			PzklvgI/I1OIdgC4mOzaui4sSLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			XHbYeWnTM/s+G5+tOspwWxHd3x2+FiNzmEwCZQifzl8=
+			NJn+FyiQqnwdIdJlPdfbSYiMhnmeMKhUymCmiIk3NLA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wTvH6/9Mvucd0SoVRQ/1zJ7PLEw=
+			ki2VG9vogbpf3mepvV0F8g0aoe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cwmOktEH68D3O8W/v6MiiwjvFlhCOykjkYe0fGArQFM=
+			6hM0KZCgFytXTBhgsE2rDcnZK8n/5AKe+02L89tUk/U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wiX2JmpHBwLrg4oavXFyKq9ofYM=
+			ddC1GNFippFiQ60raOCsBqft11I=
 			</data>
 			<key>hash2</key>
 			<data>
-			mUyfZqR8pC88GSB8g0YP14GMt3hXW78LQP+WIM3ScGE=
+			5TRhdId/KI68XQ9g9EYdEWJQjfd8itBcTkudEtfe4Jk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aqz/kq4vLQFDMAQ6xKHoGhv7CAY=
+			vn7RZOu/sDGSQotkOf9MNKu8+wo=
 			</data>
 			<key>hash2</key>
 			<data>
-			9aoaDNpFMulVP/+bKnFd9erN/B9p2nKiA/kDxQT/gGc=
+			cPYxUZnbiH6sL1B2eZvbRFVxJAPBji2ffDu4c6NaQbo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rlYY+a8D6URdleFKLMZdLpMHcDY=
+			eXmnt6gt1MwWiPsBH0BfEYydEVg=
 			</data>
 			<key>hash2</key>
 			<data>
-			zohFm6sT1Aj/5ut4eoJADHQ0pzan+M0nryloCQXs2do=
+			Ty8s7YVht3CHPgz3t0JiBvM9Pek2c2Q6eF8mifmTGHk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/NautilusCouponSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aqz/kq4vLQFDMAQ6xKHoGhv7CAY=
+			vn7RZOu/sDGSQotkOf9MNKu8+wo=
 			</data>
 			<key>hash2</key>
 			<data>
-			9aoaDNpFMulVP/+bKnFd9erN/B9p2nKiA/kDxQT/gGc=
+			cPYxUZnbiH6sL1B2eZvbRFVxJAPBji2ffDu4c6NaQbo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/Modules/module.modulemap</key>
@@ -489,11 +550,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KkGblRsqmSgcYy3G9mbjGzwYAnk=
+			Wp/h48vyrqXuFRhKnm4bLW6cecQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			BSrP1pJfcm2CBFxUV7juFVfteGLGUUlnJe+jcJHdCgg=
+			NrnvHuBHG/Fx82F37z+edISdFUtB1nMTPyrm9DERjvE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/NautilusDetailCouponCell.nib</key>
@@ -544,11 +605,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oCk1dbPSKQjDHk403J4KFMcw6HA=
+			xKbmemJ8psctCnibqts8GXhdv1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			SBKHBcwHmvgFn1pWR2uGOuPaolcFciKPsByWevXpKFI=
+			blQ8HRXXi3hfsdsPf1an9+tsBpcCdJT4Bcecky86vT4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCouponSDK.framework/moduleapps-coupon.json</key>
@@ -560,6 +621,50 @@
 			<key>hash2</key>
 			<data>
 			ABc+oJGHTjy6+14UciGAQcH07EkYxuXJ+QJKJSO+20o=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D/mkP3jBAtON0lfpGyPzItPILZ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			cFhUxTtOk2UCCDCV/vugGIGl3ET7mPHX52OZlGbr2Ic=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCouponSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VJbHsjYA67V+sNouytu5IGBdXhk=
+			</data>
+			<key>hash2</key>
+			<data>
+			a7vc6/pq0RL/3nr4DK6kVTNFyZCvaHA6hpMbaeS7U2w=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCouponSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KCHI513wbsXHaLv1aWxbHwk6iLo=
+			</data>
+			<key>hash2</key>
+			<data>
+			yya7eZPmQEzvsFK85LMMAJ39F9aSqqN2SKEIJ8IL/30=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCouponSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusCouponSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a44E7idwiLqZQjKIfRV4MhMiC6A=
+			</data>
+			<key>hash2</key>
+			<data>
+			ChufZkjZhAb0tpqP1skBcZf73yNQqrA6rybMmOFiqTQ=
 			</data>
 		</dict>
 	</dict>

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NYvGDUCx3/lCXYjEwesHLLtrdYY=
+		qwVmybLgm4l4u01cGlzkUinv3cs=
 		</data>
 		<key>Headers/NautilusLotteryUI.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Headers/NautilusLotteryUISDK-Swift.h</key>
 		<data>
-		X4VSvqwQ9zKU7rjpGfw3cQqAf3k=
+		M8UxGzGMe5uRHEjO7oPoFcqez5w=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EDfeZbYWuUVLf7/t3zqTTwl+9Qg=
+		p71+7g2hRkwCyqfpQNWU9SDDmxk=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5FldLBTattpVbpd6YOl/zVgxHOE=
+		qWbevzJWGI74YvOpdjNSeTWnMcI=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nUNhhf1OegD9AMyITspuIbHHZBc=
+		c2eog/P+0MxtgKSJIVulIDITgGY=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3oVrls3WCidr6dfs+D2sX75ILrw=
+		1Kv5iXWDHFpaFC961UTEX45K838=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nUNhhf1OegD9AMyITspuIbHHZBc=
+		c2eog/P+0MxtgKSJIVulIDITgGY=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qtWcLzTZtCtilUq9U0CHzyaBek8=
+		mQ9CeyKWrmUojSg1xHMIHUxAS+E=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5FldLBTattpVbpd6YOl/zVgxHOE=
+		qWbevzJWGI74YvOpdjNSeTWnMcI=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kT5tsqbifeDFPzKoegxKU9BUD3k=
+		T8q+M8v8HCCk/f8YyUNYWnim6Rg=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XZ28HorC1Y8yFeSrh5EfHU792sQ=
+		NMEkxbfpot/0NHNk8zIexe3QH4A=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kT5tsqbifeDFPzKoegxKU9BUD3k=
+		T8q+M8v8HCCk/f8YyUNYWnim6Rg=
 		</data>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DzBVJnaVDowpXOR/GXMPdZXHEk4=
+		5zVbmfqEGtQXk1Wd5zDiHlUQZtg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>NautilusLotteryListCell.nib</key>
 		<data>
-		jOSNDaGGp43QNvFHp2BvW8coDrk=
+		EwKpjIIW+v6XBikUk6IknAvDOOo=
 		</data>
 		<key>NautilusLotteryResultView.nib</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>moduleapps-lottery-ui.json</key>
 		<data>
-		G+0FMT4HONVYTtTtVNFPQYbQl5k=
+		IqklskkRIe7SY6dbydfmkPvjQdk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6wZpXuiAKNCKwm6UMLg3J8Fv2Kw2ASJdpTeo4mMI1UU=
+			vGZTimSe4eLgYcfqtcf5Duihoth3FKOBro+zlADY2NU=
 			</data>
 		</dict>
 		<key>Headers/NautilusLotteryUI.h</key>
@@ -117,77 +117,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+rVjCs2QRtsakfyMXlBCWB/TV1WdKAJLXKzHaqz32qs=
+			+hn/QIrb45F5vmQDcLWbZP01hJK27D68r/DW4DyXiHE=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LnxScQa74bxZGv//Xmua2up3+p8WXXEvWCEKuKHfg+s=
+			KTm5f4HK5MSzYlyeqRPDqML11wrDa4Y4MLF1OSI4KGc=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WlP9gtmIKBKPxyljerD4YpD6m50UnDfLLR9l6v234Ww=
+			vEG/oFQac6LT0S2IaB+78LtF8lkQ7V8k4KzGfdXQ9Zw=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A9CC+58EbmgvrDxzvAFzWFHjw5jeoNOMXIsPbAt6Cpo=
+			V7kmKmkgTL5TODWiZeimIbMB3D+JAOfxKPBNIAg0+Ds=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WlP9gtmIKBKPxyljerD4YpD6m50UnDfLLR9l6v234Ww=
+			vEG/oFQac6LT0S2IaB+78LtF8lkQ7V8k4KzGfdXQ9Zw=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QViSt9LHPKBOD1eKhaBL25HcMVzc956ylOLSDeGSJuo=
+			Yp1fC36iquOXIIOyH4Acwxh1/8iB8JKciy81g+aKxGo=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LnxScQa74bxZGv//Xmua2up3+p8WXXEvWCEKuKHfg+s=
+			KTm5f4HK5MSzYlyeqRPDqML11wrDa4Y4MLF1OSI4KGc=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c71n8ee6ocBO7mPmBc/fvdtRRmA59k+4UlMsaeugzuE=
+			SFUbywKCV1gjsKGHzA2WZSgD4ilxCDy9j+PtIDwkGQw=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b5OwuuIudBWU7spF8JzU1dXYxUnqunKxdzl4wXHAz3s=
+			CQhOOpzjDYU+WktwuHHX2Ye5ZVCJh9mVVUD9qgxHjs0=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c71n8ee6ocBO7mPmBc/fvdtRRmA59k+4UlMsaeugzuE=
+			SFUbywKCV1gjsKGHzA2WZSgD4ilxCDy9j+PtIDwkGQw=
 			</data>
 		</dict>
 		<key>Modules/NautilusLotteryUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yEhjA/8QLiBC8ggyIXIXw0yCeTjqi8xGHewgiQegTAk=
+			d4R3Q/i4JYVAE3Gr3D9NipI8EijzVQTA6EJEfrVIbgc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -222,7 +222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+mzC/Ou3RwUJ9CooOzqCSsYIwRNEFWulY10EIeEepQ=
+			wKPR0DEbHCRilkK98n3w4xk1jQN6oHvK1o+FY47tG2M=
 			</data>
 		</dict>
 		<key>NautilusLotteryResultView.nib</key>
@@ -250,7 +250,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJGa0iFuh1CDplrqeq7Pc/xyOQvMmSRprRdj+MCE7/Y=
+			UOsvvvbsWqP8Wj1s1UMNl344Ll9B6QmqDwg8FdLU9d4=
 			</data>
 		</dict>
 	</dict>

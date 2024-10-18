@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusCodeImageProvidersSDK",
+    "printedName": "NautilusCodeImageProvidersSDK",
     "children": [
       {
         "kind": "Import",
@@ -125,6 +125,20 @@
             "printedName": "NautilusUserInfoCodeImageProvider",
             "usr": "c:@M@NautilusIdentifySDK@objc(pl)NautilusUserInfoCodeImageProvider",
             "mangledName": "$s19NautilusIdentifySDK0A25UserInfoCodeImageProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -301,6 +315,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -471,6 +499,20 @@
             "printedName": "NautilusUserInfoCodeImageProvider",
             "usr": "c:@M@NautilusIdentifySDK@objc(pl)NautilusUserInfoCodeImageProvider",
             "mangledName": "$s19NautilusIdentifySDK0A25UserInfoCodeImageProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",

@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/Headers/NautilusImagingSDK-Swift.h</key>
 		<data>
-		rpm0HgCKwNpI/+uqeHCua66mWUc=
+		Cc//niAfpv5CTW7FSKHiK5ewVFk=
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/Info.plist</key>
 		<data>
-		f2H4gXewRiZ0eQmDPi89zoOuuGw=
+		1ZgEtaCaaQkZQO22QWjNur4SY3k=
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GuqIhO3CKkyY8cqA4W9yA03Rf6c=
+		RXFjU/MK7IvVt1gweDmnWAwaMC8=
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		M8NQCRym1AGKBH8fTUjFQEpAPNA=
+		6SmqRk2mCnSoaKwtetYjdVmi7f4=
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		64mGJAoge7JJ7NFHgPUKrreQHUE=
+		taSbheyAK7HSrEePyqCkRYBKv3c=
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		M8NQCRym1AGKBH8fTUjFQEpAPNA=
+		6SmqRk2mCnSoaKwtetYjdVmi7f4=
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,23 @@
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/NautilusImagingSDK</key>
 		<data>
-		eJebC/Q6QAFMIn/KefnxYoI5rW8=
+		Wr86+0vudoIAzEO9LLNYqi0+YYU=
 		</data>
 		<key>ios-arm64/NautilusImagingSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		ucg9pita0v8d353x3NuGfxweQYU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		0YuqNZBE6/1N7nMxv9MCrO97Gj0=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/DWARF/NautilusImagingSDK</key>
+		<data>
+		f5ABzCdVMX8/EmzMPiyimjdXv8c=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusImagingSDK.yml</key>
+		<data>
+		zLxeVVL7aKu204KQ5qt2gpRH/O8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Headers/Imaging.h</key>
 		<data>
@@ -54,43 +66,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Headers/NautilusImagingSDK-Swift.h</key>
 		<data>
-		cb7LuajPPxsJtZgGoqH1hg3xwc0=
+		9MhuhSt+fBombenYE9uA5Az+TZ8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Info.plist</key>
 		<data>
-		3/6Ir3lJrOOb1FLpE4wH5PcQkiY=
+		BplzH9GvDTZGu8B46FrhTaB2Y2Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GuqIhO3CKkyY8cqA4W9yA03Rf6c=
+		RXFjU/MK7IvVt1gweDmnWAwaMC8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kARO4Ijml0sqqLoXgrQGqTvNNzc=
+		X/QxKGoIXXPTEM9cH1sMVAXpz4c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zaNv+p9L7elpvh79gORbHYtzcy4=
+		AoxczyYk9jMzkhTR58iu3R/sfE0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kARO4Ijml0sqqLoXgrQGqTvNNzc=
+		X/QxKGoIXXPTEM9cH1sMVAXpz4c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GuqIhO3CKkyY8cqA4W9yA03Rf6c=
+		RXFjU/MK7IvVt1gweDmnWAwaMC8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9FLur3U9umRKXmBfPs2dqiBtyFE=
+		DQMaXziMfCQpXjKlgnYI7KQDUnc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		H69cnj6c2fFn6fh/R7/VsxCF1d4=
+		HisNWEW+n2rCLWmJD2EItxmfb/M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9FLur3U9umRKXmBfPs2dqiBtyFE=
+		DQMaXziMfCQpXjKlgnYI7KQDUnc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -102,7 +114,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/NautilusImagingSDK</key>
 		<data>
-		cC8fNyxrWDm9Q7AMcffhk6nYpKU=
+		hFbZU0vQqVF7eGO7zmuBXG8/eRY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -110,7 +122,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		scXFe9LcqRaJ7VqxFGXpabDH/0w=
+		KjK+/op65I7bD292yu/YBOQo6Fw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		0YuqNZBE6/1N7nMxv9MCrO97Gj0=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/DWARF/NautilusImagingSDK</key>
+		<data>
+		6yUYstSkxWECIVCoWzJHaLmfP44=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusImagingSDK.yml</key>
+		<data>
+		NCZbJtaabj8xfKiuKi00wqvBQgA=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusImagingSDK.yml</key>
+		<data>
+		QNC7fsh2jd1YjS1J9GOaCf2eSls=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -130,66 +158,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rpm0HgCKwNpI/+uqeHCua66mWUc=
+			Cc//niAfpv5CTW7FSKHiK5ewVFk=
 			</data>
 			<key>hash2</key>
 			<data>
-			a6Gbn9fpULoWdl+kQ+FN2dANxQZvpEogTl+7TWeuSxQ=
+			72ihZbA2VZi5ilORj6pTs4YQPbrajSIAg2aJxHdEFNY=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusImagingSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f2H4gXewRiZ0eQmDPi89zoOuuGw=
+			1ZgEtaCaaQkZQO22QWjNur4SY3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			wQJw+0GnCBrzrP+2GzmUaCElDBPP3SB07adUsfMr6vg=
+			wXnlWqVOAjUcMyKUShb7s6kX1QrQvuYrAF3bWpQYYJ8=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GuqIhO3CKkyY8cqA4W9yA03Rf6c=
+			RXFjU/MK7IvVt1gweDmnWAwaMC8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/073YZEwD7XE59vlSDx1PJ+aOPLQNVbNZZOYKB9eEN8=
+			4Q5X0qDstrSFQ73Wiv8jVlFyu85wzPsvKdqHzdrN3DE=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M8NQCRym1AGKBH8fTUjFQEpAPNA=
+			6SmqRk2mCnSoaKwtetYjdVmi7f4=
 			</data>
 			<key>hash2</key>
 			<data>
-			P9pf1hXCAGn2eRVzqLKRq4g88LhpWo/1NGjPI3RmU9U=
+			4BigLxksJit6Ehw18cSxvNsHlNHOF7BGUbmTnmDZYV8=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			64mGJAoge7JJ7NFHgPUKrreQHUE=
+			taSbheyAK7HSrEePyqCkRYBKv3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			FQnhiW3ucK81INBaFaeCe1+wUPbyFRDxAQVDnnKN4Sk=
+			7sA/dg+/rBKCmDwzzJjytooJobNbW43wg1tNoyGW1sE=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M8NQCRym1AGKBH8fTUjFQEpAPNA=
+			6SmqRk2mCnSoaKwtetYjdVmi7f4=
 			</data>
 			<key>hash2</key>
 			<data>
-			P9pf1hXCAGn2eRVzqLKRq4g88LhpWo/1NGjPI3RmU9U=
+			4BigLxksJit6Ehw18cSxvNsHlNHOF7BGUbmTnmDZYV8=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusImagingSDK.framework/Modules/module.modulemap</key>
@@ -218,11 +246,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eJebC/Q6QAFMIn/KefnxYoI5rW8=
+			Wr86+0vudoIAzEO9LLNYqi0+YYU=
 			</data>
 			<key>hash2</key>
 			<data>
-			kp0c6tI36QqPAbLhJDxBgdA5ugl1QBUwpeXRFCapVl0=
+			w/mIbbORu4nVdsozwTKxoTXMqyIxu/OwhzGLJilhviY=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusImagingSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -234,6 +262,39 @@
 			<key>hash2</key>
 			<data>
 			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0YuqNZBE6/1N7nMxv9MCrO97Gj0=
+			</data>
+			<key>hash2</key>
+			<data>
+			b2YuZOQIX3Q8vY1B/P/qMCrZ8Bi+2P3ZyGa/VMnUi9A=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/DWARF/NautilusImagingSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f5ABzCdVMX8/EmzMPiyimjdXv8c=
+			</data>
+			<key>hash2</key>
+			<data>
+			73cN+nvNfD32mUt0V4PKLpqneWtb6Nk4WWSlSF1AI7A=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusImagingSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zLxeVVL7aKu204KQ5qt2gpRH/O8=
+			</data>
+			<key>hash2</key>
+			<data>
+			dDoFccypVYC1dDtpsNU1WwthEqkEAsp/dNh9so1JB80=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Headers/Imaging.h</key>
@@ -251,110 +312,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cb7LuajPPxsJtZgGoqH1hg3xwc0=
+			9MhuhSt+fBombenYE9uA5Az+TZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			kXVEHtwbDHVA+MfOuTBx99cyolNUgcyPkrGPYbxzN4I=
+			KUSqguEEOUhGfInfIdOredPuyD4RGJUJAl2G9d3UhsE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3/6Ir3lJrOOb1FLpE4wH5PcQkiY=
+			BplzH9GvDTZGu8B46FrhTaB2Y2Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			uHYEtbYS+MN9hx4+mtIVhILi8oFsDEetJDjf5M5R5V8=
+			KX5qi8oGIT30IufIaYbbgDWedqIN/ePTRrTq1nVWJhI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GuqIhO3CKkyY8cqA4W9yA03Rf6c=
+			RXFjU/MK7IvVt1gweDmnWAwaMC8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/073YZEwD7XE59vlSDx1PJ+aOPLQNVbNZZOYKB9eEN8=
+			4Q5X0qDstrSFQ73Wiv8jVlFyu85wzPsvKdqHzdrN3DE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kARO4Ijml0sqqLoXgrQGqTvNNzc=
+			X/QxKGoIXXPTEM9cH1sMVAXpz4c=
 			</data>
 			<key>hash2</key>
 			<data>
-			OO5WPRk9tZ4LuybvL4RiydhL3he+XR1WI4UI6SRNHrI=
+			sdxJdHIManZHIxkCPA2hAOgwpEvSBklJyj/itNPfu8s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zaNv+p9L7elpvh79gORbHYtzcy4=
+			AoxczyYk9jMzkhTR58iu3R/sfE0=
 			</data>
 			<key>hash2</key>
 			<data>
-			X/0JyIjuvfg0yoPldsZeyxP4rg7EIe4TYcM0WlQ1iVk=
+			GyU+XobWDQjE8/c+q2OIrNTe2BoRVwT0UoyFamS5d0w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kARO4Ijml0sqqLoXgrQGqTvNNzc=
+			X/QxKGoIXXPTEM9cH1sMVAXpz4c=
 			</data>
 			<key>hash2</key>
 			<data>
-			OO5WPRk9tZ4LuybvL4RiydhL3he+XR1WI4UI6SRNHrI=
+			sdxJdHIManZHIxkCPA2hAOgwpEvSBklJyj/itNPfu8s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GuqIhO3CKkyY8cqA4W9yA03Rf6c=
+			RXFjU/MK7IvVt1gweDmnWAwaMC8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/073YZEwD7XE59vlSDx1PJ+aOPLQNVbNZZOYKB9eEN8=
+			4Q5X0qDstrSFQ73Wiv8jVlFyu85wzPsvKdqHzdrN3DE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9FLur3U9umRKXmBfPs2dqiBtyFE=
+			DQMaXziMfCQpXjKlgnYI7KQDUnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9wG8KQV1P92rmhD17rsBZ9BIq5xXkNATiIGSfqhAOeA=
+			4MCIwMmDM2AAJlnpaLoUfduysUwtaUTz1IjkaVdpl7A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H69cnj6c2fFn6fh/R7/VsxCF1d4=
+			HisNWEW+n2rCLWmJD2EItxmfb/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			yPx1ZAss91QgOPTZhAo62Y2eyyrkxtmNrBh2380PBvE=
+			iopfX68qx8uqqEsflePpqDpPHcrIOd1wbmc8CGstm0g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/NautilusImagingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9FLur3U9umRKXmBfPs2dqiBtyFE=
+			DQMaXziMfCQpXjKlgnYI7KQDUnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9wG8KQV1P92rmhD17rsBZ9BIq5xXkNATiIGSfqhAOeA=
+			4MCIwMmDM2AAJlnpaLoUfduysUwtaUTz1IjkaVdpl7A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/Modules/module.modulemap</key>
@@ -383,11 +444,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cC8fNyxrWDm9Q7AMcffhk6nYpKU=
+			hFbZU0vQqVF7eGO7zmuBXG8/eRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			D19lzQeBmSU6mnwNai6CAG41O677X7+MPfFJDP1xIP0=
+			8M47E0aR1B81b0RcCNKLywCcIACvK6CYMPmjNjeHA9E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusImagingSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -405,11 +466,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			scXFe9LcqRaJ7VqxFGXpabDH/0w=
+			KjK+/op65I7bD292yu/YBOQo6Fw=
 			</data>
 			<key>hash2</key>
 			<data>
-			4yRE+fiDMO8VCafbC9Xye8q7/aNVbl89SnltdkrKImg=
+			5ylGX2ljJxkFZT8+3bTkp9VZ/2DYGUcgUL8wPbXYoFk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0YuqNZBE6/1N7nMxv9MCrO97Gj0=
+			</data>
+			<key>hash2</key>
+			<data>
+			b2YuZOQIX3Q8vY1B/P/qMCrZ8Bi+2P3ZyGa/VMnUi9A=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/DWARF/NautilusImagingSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6yUYstSkxWECIVCoWzJHaLmfP44=
+			</data>
+			<key>hash2</key>
+			<data>
+			SO6/mntJ3o2I4uMsFUHGwosXQogZsapu7ENHlsBQDdk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusImagingSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NCZbJtaabj8xfKiuKi00wqvBQgA=
+			</data>
+			<key>hash2</key>
+			<data>
+			CV3eMc+xwyM+/n5GlYvwUpQbP1cJ741L3I9CtPLxUvc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusImagingSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusImagingSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QNC7fsh2jd1YjS1J9GOaCf2eSls=
+			</data>
+			<key>hash2</key>
+			<data>
+			dVufhJJEl/dXljWMbdy5e8uO7+4FTLi5Y6Vfnj6V2YM=
 			</data>
 		</dict>
 	</dict>

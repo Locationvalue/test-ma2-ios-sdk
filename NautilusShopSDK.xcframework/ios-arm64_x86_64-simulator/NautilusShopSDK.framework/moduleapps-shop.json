@@ -770,6 +770,18 @@
         "boolean_value": false
     },
     {
+        "config_value_name": "ma_shop_search_search_window_background_color",
+        "string_value": "#F2F2F2"
+    },
+    {
+        "config_value_name": "ma_shop_search_search_window_placeholder_color",
+        "string_value": "#8C000000"
+    },
+    {
+        "config_value_name": "ma_shop_search_search_window_text_color",
+        "string_value": "#FF000000"
+    },
+    {
         "config_value_name": "ma_shop_search_map_sort_name",
         "string_value": ""
     },

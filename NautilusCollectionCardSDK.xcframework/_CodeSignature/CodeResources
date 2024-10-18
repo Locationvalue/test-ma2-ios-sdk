@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Headers/NautilusCollectionCardSDK-Swift.h</key>
 		<data>
-		2JktEw6vxiQxNmIpSddOrYDCbvc=
+		BPm3SK0xFFFMrd7u8Al9/LpEkdo=
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Info.plist</key>
 		<data>
-		INk62tKgS6cIOTFC1oDyleeTZMc=
+		YDo18qHuOUm8tyFDj1dU3QBIY1k=
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bZwRYMrBOdPsmKoPnIFCd9YHr7I=
+		AfDEhbdSJgiX93VCaMTGcSZK3Iw=
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		b1Y8wwT1NxNCYhdwsMtiXrIe+YE=
+		gE0Y4P2YZqvB1MGPbbb/xvQLq8o=
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		fR4WE8M/YzvVJex8lM/00RcMZAU=
+		3wHVXikaSasYhVJ96XZC0VFexkc=
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		b1Y8wwT1NxNCYhdwsMtiXrIe+YE=
+		gE0Y4P2YZqvB1MGPbbb/xvQLq8o=
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,15 +38,27 @@
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/NautilusCollectionCardSDK</key>
 		<data>
-		DC8QvX95yeAsqXrk7TT3QKCgkW0=
+		0RFVla3SDR2da9p0G6afCgrhtZ8=
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		varhoID5mdbsk3Yw+md5eGuLaJs=
+		vmmuNZR1WdxLU1sBzEkPGfgq3t0=
 		</data>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/moduleapps-collectioncard.json</key>
 		<data>
 		46m/rneLiD5IQkaba2supqxkOow=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		LS2Irjw4M1C5UFEV6fKEqp2eLzc=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCollectionCardSDK</key>
+		<data>
+		UsCM3dYa8HQt0Xgn1Z9Gn2RW+mg=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCollectionCardSDK.yml</key>
+		<data>
+		5ZQv3EY22Z9Uu0Ci3Pk9v+QAi/k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Headers/NautilusCollectionCard.h</key>
 		<data>
@@ -54,43 +66,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Headers/NautilusCollectionCardSDK-Swift.h</key>
 		<data>
-		jllz/SL0je4TWJewAI0+rAWhpE0=
+		mhBVkYbUE4ULSzqdInOBQatSpyE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Info.plist</key>
 		<data>
-		z9GubA6rDtIRoDJVvtrQ1RaSpMU=
+		OrbsqPHDfjkOV1TlLRt3cHTjrw4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bZwRYMrBOdPsmKoPnIFCd9YHr7I=
+		AfDEhbdSJgiX93VCaMTGcSZK3Iw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1X6sUn+orgpuuyGQ9V1svuT44/M=
+		RvtE5corvnI4eN4JbnQ+tWV8FoI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bWneWDKyq8lFC/KaTTK+crH4qwE=
+		LJqoceAigW1+j8IxKPfoNXoOQ5Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1X6sUn+orgpuuyGQ9V1svuT44/M=
+		RvtE5corvnI4eN4JbnQ+tWV8FoI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bZwRYMrBOdPsmKoPnIFCd9YHr7I=
+		AfDEhbdSJgiX93VCaMTGcSZK3Iw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qOAUu18jNxghZ7iPNjyU5hGguxg=
+		FzmEG0aMTmHg7rfyGaaxAXxIRTw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0ZDVfzRQYSk5bZ+bmcq/ze+BKQM=
+		62p2f75YWbTAGHmZxGoTTiKbFIM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qOAUu18jNxghZ7iPNjyU5hGguxg=
+		FzmEG0aMTmHg7rfyGaaxAXxIRTw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -98,19 +110,35 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/NautilusCollectionCardSDK</key>
 		<data>
-		sxaBz1bGSR6e58G2Ug3oLxXvcS0=
+		s3zQzDtYRL/tnLRZsCrDkEhUOXU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		varhoID5mdbsk3Yw+md5eGuLaJs=
+		vmmuNZR1WdxLU1sBzEkPGfgq3t0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		WtH1+NFJ0PX7PiExgbXF9mubJzE=
+		/GffRmQbPJ0KfWyD1jNn/upkUaY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/moduleapps-collectioncard.json</key>
 		<data>
 		46m/rneLiD5IQkaba2supqxkOow=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		LS2Irjw4M1C5UFEV6fKEqp2eLzc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCollectionCardSDK</key>
+		<data>
+		ZEzj54aXXQ0Ai35BdXuQKqs91O4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCollectionCardSDK.yml</key>
+		<data>
+		4unegF8T75kL1sAApuc1uaaO+ys=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusCollectionCardSDK.yml</key>
+		<data>
+		EkhMjbcW5AElZmUyGQs2AfrbwFs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -130,66 +158,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2JktEw6vxiQxNmIpSddOrYDCbvc=
+			BPm3SK0xFFFMrd7u8Al9/LpEkdo=
 			</data>
 			<key>hash2</key>
 			<data>
-			utzsXzTCDNHWilwU84tVVWqVItbShFheNFXsmGTWh7Q=
+			nu2pyxjbERp720TsBFP7t2rd3xHkwOYU/7/rY9/Zml4=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			INk62tKgS6cIOTFC1oDyleeTZMc=
+			YDo18qHuOUm8tyFDj1dU3QBIY1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			vKPT0MP1/dOqJq7ZowRck/qBlEX/RIVd8rF0ba1ln1I=
+			FetnHPiPqVQKpjwmq0cyprJ4kkW1ml85BYXDx22d97Y=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bZwRYMrBOdPsmKoPnIFCd9YHr7I=
+			AfDEhbdSJgiX93VCaMTGcSZK3Iw=
 			</data>
 			<key>hash2</key>
 			<data>
-			hFdYIh58JnuvC8VLodQShzH7WUbjbvTiIYrNaexqE/A=
+			EIWzxnMVGZVjpP5/laCpUJoQQiTuWziNCYG/Ehwsm+Q=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b1Y8wwT1NxNCYhdwsMtiXrIe+YE=
+			gE0Y4P2YZqvB1MGPbbb/xvQLq8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			ty0b8ZcNyilLHEWzYjLIAVpsX+usU9ccmfCYoOf2kG4=
+			cgErD7CNnUOn8TuKZFqQoQkHXzCcCKRr1i30nbh080A=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fR4WE8M/YzvVJex8lM/00RcMZAU=
+			3wHVXikaSasYhVJ96XZC0VFexkc=
 			</data>
 			<key>hash2</key>
 			<data>
-			M123grS3THGQfd7gUAaDViXikcAITbxM1n7YoSbd0r4=
+			yLZHER6dDsbgBCqzr7h4H6A0BW1uIMNTDzcaPrgMpJQ=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b1Y8wwT1NxNCYhdwsMtiXrIe+YE=
+			gE0Y4P2YZqvB1MGPbbb/xvQLq8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			ty0b8ZcNyilLHEWzYjLIAVpsX+usU9ccmfCYoOf2kG4=
+			cgErD7CNnUOn8TuKZFqQoQkHXzCcCKRr1i30nbh080A=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/Modules/module.modulemap</key>
@@ -207,22 +235,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DC8QvX95yeAsqXrk7TT3QKCgkW0=
+			0RFVla3SDR2da9p0G6afCgrhtZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gG1zksZEXbpe+BFyxck4ghO6pLNW6pCMeQA6+VsEt6Y=
+			VQUoagcSL6/DlBB0m0U2Xl5XkPi2u3bT6ZTVKigLGSo=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			varhoID5mdbsk3Yw+md5eGuLaJs=
+			vmmuNZR1WdxLU1sBzEkPGfgq3t0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6nM3zb1vtfzxy5TuFmsrjPyp9cb2mRr6TCtBL7Qu5mQ=
+			HgbA/RBFE/IIE+d63o/glPsAPrQIvabp03OfhotKtV8=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCollectionCardSDK.framework/moduleapps-collectioncard.json</key>
@@ -234,6 +262,39 @@
 			<key>hash2</key>
 			<data>
 			BKOodK2E5tycRBplVzB4yIfBYY2IjKdv8xTIWn/ux6Q=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LS2Irjw4M1C5UFEV6fKEqp2eLzc=
+			</data>
+			<key>hash2</key>
+			<data>
+			zMPs6l+EI6SViusqK+IgWj4Bsa37QxlFtChBjQnJ3Qk=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCollectionCardSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UsCM3dYa8HQt0Xgn1Z9Gn2RW+mg=
+			</data>
+			<key>hash2</key>
+			<data>
+			2YcmiXruSmmwWJkiSothu9TZnusH5NvAg171KxJwLzk=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCollectionCardSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5ZQv3EY22Z9Uu0Ci3Pk9v+QAi/k=
+			</data>
+			<key>hash2</key>
+			<data>
+			62/tithmywu41IOOAPJ7HHfGxsZT9+5cJTjT1Pcygak=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Headers/NautilusCollectionCard.h</key>
@@ -251,110 +312,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jllz/SL0je4TWJewAI0+rAWhpE0=
+			mhBVkYbUE4ULSzqdInOBQatSpyE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lf7oXQOglTdgfwlIEvzSWL4rmM4QkNf1TU+HCNee9k0=
+			vO46KTSlCRAdtNIH0naIA57h2srlnc5ru+UC675zMbg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z9GubA6rDtIRoDJVvtrQ1RaSpMU=
+			OrbsqPHDfjkOV1TlLRt3cHTjrw4=
 			</data>
 			<key>hash2</key>
 			<data>
-			TYHLc3+ifNs2WJC5biBX79rjX+appdHr/w4LtbQbiW4=
+			xxF/M1sGGJ+/GEpUKte4yMEMwYZGy0oApCAHcgmLdfA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bZwRYMrBOdPsmKoPnIFCd9YHr7I=
+			AfDEhbdSJgiX93VCaMTGcSZK3Iw=
 			</data>
 			<key>hash2</key>
 			<data>
-			hFdYIh58JnuvC8VLodQShzH7WUbjbvTiIYrNaexqE/A=
+			EIWzxnMVGZVjpP5/laCpUJoQQiTuWziNCYG/Ehwsm+Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1X6sUn+orgpuuyGQ9V1svuT44/M=
+			RvtE5corvnI4eN4JbnQ+tWV8FoI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UdZ9kZcsr0n74MbaFHyFB4EybGy8/xVaNZ2nrFGUXKU=
+			8F2jKoDa7eq4GFSvrdim4jHfymnHJ7jNf1GaGICznrI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bWneWDKyq8lFC/KaTTK+crH4qwE=
+			LJqoceAigW1+j8IxKPfoNXoOQ5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			YjmJmeiz6S8kDk4OsSds5V2GcyflemPgU8M2RFBJBDY=
+			vOHL2Q8lJ30YfZwRn2cxL+oGllj01Z/DMJMB9gna/x0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1X6sUn+orgpuuyGQ9V1svuT44/M=
+			RvtE5corvnI4eN4JbnQ+tWV8FoI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UdZ9kZcsr0n74MbaFHyFB4EybGy8/xVaNZ2nrFGUXKU=
+			8F2jKoDa7eq4GFSvrdim4jHfymnHJ7jNf1GaGICznrI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bZwRYMrBOdPsmKoPnIFCd9YHr7I=
+			AfDEhbdSJgiX93VCaMTGcSZK3Iw=
 			</data>
 			<key>hash2</key>
 			<data>
-			hFdYIh58JnuvC8VLodQShzH7WUbjbvTiIYrNaexqE/A=
+			EIWzxnMVGZVjpP5/laCpUJoQQiTuWziNCYG/Ehwsm+Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qOAUu18jNxghZ7iPNjyU5hGguxg=
+			FzmEG0aMTmHg7rfyGaaxAXxIRTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fxoMmydIA4V1gQezghjSJGkDxYEHBTuKAK4hT61E4Os=
+			aIgAycoRN2NQsEdZ1jEX/ZXGvo5ytjZgMJSE+PfWAJw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0ZDVfzRQYSk5bZ+bmcq/ze+BKQM=
+			62p2f75YWbTAGHmZxGoTTiKbFIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2iqfpjPp7BvTJxH0SWpfb5us5CnPf0vJ/fShhqiBEDI=
+			/FkGIKUxvT3iEjFwVQNIQLnIeb3uheQ9ID9ffgtwVO8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/NautilusCollectionCardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qOAUu18jNxghZ7iPNjyU5hGguxg=
+			FzmEG0aMTmHg7rfyGaaxAXxIRTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fxoMmydIA4V1gQezghjSJGkDxYEHBTuKAK4hT61E4Os=
+			aIgAycoRN2NQsEdZ1jEX/ZXGvo5ytjZgMJSE+PfWAJw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/Modules/module.modulemap</key>
@@ -372,33 +433,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sxaBz1bGSR6e58G2Ug3oLxXvcS0=
+			s3zQzDtYRL/tnLRZsCrDkEhUOXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			22fCBkVzQujy5Hk5OLFhcpdt9J5c0bn6PMUkmOBZ1zQ=
+			V71LM17NcgGJ2NqTxBXZ4W5mQ9HOkK6SAjemXgI4JwI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			varhoID5mdbsk3Yw+md5eGuLaJs=
+			vmmuNZR1WdxLU1sBzEkPGfgq3t0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6nM3zb1vtfzxy5TuFmsrjPyp9cb2mRr6TCtBL7Qu5mQ=
+			HgbA/RBFE/IIE+d63o/glPsAPrQIvabp03OfhotKtV8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WtH1+NFJ0PX7PiExgbXF9mubJzE=
+			/GffRmQbPJ0KfWyD1jNn/upkUaY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xbT0tkhrQ/o0zAdNUH6VhYr4tqlkAyjmKhW5Y/ojzkc=
+			AfL1Edera66p8ngtgONImcD4vsgShbh6S+MEvML9W3s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCollectionCardSDK.framework/moduleapps-collectioncard.json</key>
@@ -410,6 +471,50 @@
 			<key>hash2</key>
 			<data>
 			BKOodK2E5tycRBplVzB4yIfBYY2IjKdv8xTIWn/ux6Q=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LS2Irjw4M1C5UFEV6fKEqp2eLzc=
+			</data>
+			<key>hash2</key>
+			<data>
+			zMPs6l+EI6SViusqK+IgWj4Bsa37QxlFtChBjQnJ3Qk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCollectionCardSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZEzj54aXXQ0Ai35BdXuQKqs91O4=
+			</data>
+			<key>hash2</key>
+			<data>
+			yRqr0LZ6JLqGXw2/iQAaMER2OFgLiK4oVSxiVm3ntQg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCollectionCardSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4unegF8T75kL1sAApuc1uaaO+ys=
+			</data>
+			<key>hash2</key>
+			<data>
+			3UIrchb7oKyfZm/5AG4Puxn9itQ38Bq+sau1bgRFJXo=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCollectionCardSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusCollectionCardSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EkhMjbcW5AElZmUyGQs2AfrbwFs=
+			</data>
+			<key>hash2</key>
+			<data>
+			D2YzsPbGBB5ogd5ZONG0gnObmcQs6WSbz06txilYASc=
 			</data>
 		</dict>
 	</dict>

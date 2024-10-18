@@ -119,6 +119,26 @@
         {
             "config_value_name": "ma_lottery_detail_available_period_text_color",
             "string_value": "#FFFFFFFF"
+        },
+        {
+          "config_value_name": "ma_lottery_winning_result_text_color",
+          "string_value": "#FFFFFF"
+        },
+        {
+          "config_value_name": "ma_lottery_winning_result_button_color",
+          "string_value": "#FF4C5C"
+        },
+        {
+          "config_value_name": "ma_lottery_winning_result_button_text_color",
+          "string_value": "#FFFFFF"
+        },
+        {
+          "config_value_name": "ma_lottery_losing_result_text_color",
+          "string_value": "#FFFFFF"
+        },
+        {
+          "config_value_name": "ma_lottery_losing_result_button_text_color",
+          "string_value": "#FFFFFF"
         }
     ]
 }

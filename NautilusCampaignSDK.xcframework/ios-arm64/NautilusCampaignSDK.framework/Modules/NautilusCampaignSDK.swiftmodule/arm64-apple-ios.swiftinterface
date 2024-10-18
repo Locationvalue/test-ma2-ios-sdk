@@ -1,0 +1,174 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusCampaignSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import NautilusConfigSDK
+import NautilusContainerSDK
+import NautilusCoreSDK
+import NautilusIdentifySDK
+import NautilusLoggingSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public let NautilusCampaignErrorDomain: Swift.String
+@objc public enum NautilusCampaignError : Swift.Int, Swift.Error {
+  case unknown
+  case connection
+  case timedout
+  case apiProcessError
+  case httpConnection
+  case parseFailure
+  case userCancelled
+  case invalidParamater
+  case invalidInstance
+  case illegalConfiguration
+  case invalidParameters = 100
+  case missingRequiredParameter = 101
+  case unexpectedParameterFormat = 102
+  case serverError = 200
+  case serviceMaintenance = 901
+  case unknownAPIService = 903
+  case invalidUserPID = 905
+  case developerError = 906
+  case requiresLoginStatus = 907
+  public var nautilusCampaignErrorCode: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusCampaignInfo : ObjectiveC.NSObject {
+  final public let campaignID: Swift.Int
+  final public let campaignManageTitle: Swift.String
+  final public let campaignTitle: Swift.String?
+  final public let campaignText: Swift.String
+  final public let noticeText: Swift.String?
+  final public let publishStartDatetime: Foundation.Date
+  final public let publishEndDatetime: Foundation.Date?
+  final public let useStartDatetime: Foundation.Date?
+  final public let useEndDatetime: Foundation.Date?
+  final public let categoryIDList: [Swift.Int]?
+  final public let sortNo: Swift.Int?
+  final public let searchWord: Swift.String?
+  final public let campaignImageList: [NautilusCampaignSDK.NautilusCampaignImage]?
+  final public let entryDatetime: Foundation.Date?
+  final public let campaignType: NautilusCampaignSDK.NautilusCampaignType
+  final public let entryCount: Swift.Int?
+  final public let alias: Swift.String?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class NautilusCampaignImage : ObjectiveC.NSObject {
+  final public let imagePath: Swift.String?
+  final public let aspectRatio: Swift.Double?
+  final public let sortNo: Swift.Int?
+  @objc deinit
+}
+@objc public enum NautilusCampaignType : Swift.Int {
+  case common = 1
+  case `private` = 2
+  case favoriteShop = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class NautilusCampaignSort : ObjectiveC.NSObject {
+  final public let keyName: NautilusCampaignSDK.NautilusCampaignSortKeyName
+  final public let type: NautilusCampaignSDK.NautilusCampaignSortType
+  public init(keyName: NautilusCampaignSDK.NautilusCampaignSortKeyName, type: NautilusCampaignSDK.NautilusCampaignSortType)
+  @objc deinit
+}
+@objc public enum NautilusCampaignSortKeyName : Swift.Int {
+  case releaseDatetime
+  case closeDatetime
+  case useStartDatetime
+  case useEndDatetime
+  case sortNumber
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NautilusCampaignSortType : Swift.Int {
+  case ascending
+  case descending
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NautilusCampaignCategory : ObjectiveC.NSObject {
+  final public let hierarchy: Swift.Int
+  final public let parentCategoryID: Swift.Int?
+  final public let categoryID: Swift.Int
+  final public let categoryName: Swift.String
+  final public let sortNo: Swift.Int
+  final public let alias: Swift.String
+  @objc deinit
+}
+@objc public class NautilusCampaignOptionalParam : ObjectiveC.NSObject {
+  final public let optionKey: Swift.String?
+  final public let optionValue: Swift.String?
+  public init(optionKey: Swift.String?, optionValue: Swift.String?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc final public class NautilusCampaign : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
+  @objc public static var configFilename: Swift.String? {
+    @objc get
+  }
+  @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
+    @objc get
+  }
+  @objc public static var dependencies: [NautilusContainerSDK.NautilusComponentDependency] {
+    @objc get
+  }
+  @objc final public let app: NautilusCoreSDK.NautilusApp
+  @objc final public let name: Swift.String?
+  @objc final public var featureStatus: NautilusCoreSDK.NautilusFeatureStatus {
+    @objc get
+  }
+  @objc public static func initialize(application: NautilusCoreSDK.NautilusApp, completion: @escaping NautilusCoreSDK.NautilusFeatureInitializationCompletion)
+  @objc public static func campaign() -> NautilusCampaignSDK.NautilusCampaign
+  @objc(campaignAppNamed:) public static func campaign(appName: Swift.String) -> NautilusCampaignSDK.NautilusCampaign
+  final public func getCommonCampaignList(campaignIdList: [Swift.Int]?, lastCheckDatetime: Foundation.Date?, keyword: Swift.String?, categoryIdList: [Swift.Int]?, limit: Swift.Int?, offset: Swift.Int?, useCache: Swift.Bool?, sort: NautilusCampaignSDK.NautilusCampaignSort?, completion: @escaping (Swift.Result<[NautilusCampaignSDK.NautilusCampaignInfo], NautilusCampaignSDK.NautilusCampaignError>) -> Swift.Void)
+  final public func getCommonCampaignList(campaignIdList: [Swift.Int]?, lastCheckDatetime: Foundation.Date?, keyword: Swift.String?, categoryIdList: [Swift.Int]?, limit: Swift.Int?, offset: Swift.Int?, useCache: Swift.Bool?, sort: NautilusCampaignSDK.NautilusCampaignSort?, completion: @escaping ([NautilusCampaignSDK.NautilusCampaignInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getCommonCampaignCount(lastCheckDatetime: Foundation.Date?, completion: @escaping (Swift.Result<Swift.Int, NautilusCampaignSDK.NautilusCampaignError>) -> Swift.Void)
+  final public func getCommonCampaignCount(lastCheckDatetime: Foundation.Date?, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  final public func getPrivateCampaignList(campaignIdList: [Swift.Int]?, lastCheckDatetime: Foundation.Date?, keyword: Swift.String?, categoryIdList: [Swift.Int]?, limit: Swift.Int?, offset: Swift.Int?, useCache: Swift.Bool?, sort: NautilusCampaignSDK.NautilusCampaignSort?, completion: @escaping (Swift.Result<[NautilusCampaignSDK.NautilusCampaignInfo], NautilusCampaignSDK.NautilusCampaignError>) -> Swift.Void)
+  final public func getPrivateCampaignList(campaignIdList: [Swift.Int]?, lastCheckDatetime: Foundation.Date?, keyword: Swift.String?, categoryIdList: [Swift.Int]?, limit: Swift.Int?, offset: Swift.Int?, useCache: Swift.Bool?, sort: NautilusCampaignSDK.NautilusCampaignSort?, completion: @escaping ([NautilusCampaignSDK.NautilusCampaignInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getPrivateCampaignCount(lastCheckDatetime: Foundation.Date?, completion: @escaping (Swift.Result<Swift.Int, NautilusCampaignSDK.NautilusCampaignError>) -> Swift.Void)
+  final public func getPrivateCampaignCount(lastCheckDatetime: Foundation.Date?, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  final public func getFavoriteShopCampaignList(campaignIdList: [Swift.Int]?, lastCheckDatetime: Foundation.Date?, keyword: Swift.String?, categoryIdList: [Swift.Int]?, limit: Swift.Int?, offset: Swift.Int?, useCache: Swift.Bool?, sort: NautilusCampaignSDK.NautilusCampaignSort?, completion: @escaping (Swift.Result<[NautilusCampaignSDK.NautilusCampaignInfo], NautilusCampaignSDK.NautilusCampaignError>) -> Swift.Void)
+  final public func getFavoriteShopCampaignList(campaignIdList: [Swift.Int]?, lastCheckDatetime: Foundation.Date?, keyword: Swift.String?, categoryIdList: [Swift.Int]?, limit: Swift.Int?, offset: Swift.Int?, useCache: Swift.Bool?, sort: NautilusCampaignSDK.NautilusCampaignSort?, completion: @escaping ([NautilusCampaignSDK.NautilusCampaignInfo]?, Foundation.NSError?) -> Swift.Void)
+  final public func getFavoriteShopCampaignCount(lastCheckDatetime: Foundation.Date?, completion: @escaping (Swift.Result<Swift.Int, NautilusCampaignSDK.NautilusCampaignError>) -> Swift.Void)
+  final public func getFavoriteShopCampaignCount(lastCheckDatetime: Foundation.Date?, completion: @escaping (Swift.Int, Foundation.NSError?) -> Swift.Void)
+  final public func registerCampaign(campaignID: Swift.Int, optionalParamList: [NautilusCampaignSDK.NautilusCampaignOptionalParam]?, campaignType: NautilusCampaignSDK.NautilusCampaignType, completion: @escaping (Swift.Result<Swift.Void, NautilusCampaignSDK.NautilusCampaignError>) -> Swift.Void)
+  final public func registerCampaign(campaignID: Swift.Int, optionalParamList: [NautilusCampaignSDK.NautilusCampaignOptionalParam]?, campaignType: NautilusCampaignSDK.NautilusCampaignType, completion: @escaping (Swift.Bool, Foundation.NSError?) -> Swift.Void)
+  final public func getCampaignCategoryList(completion: @escaping (Swift.Result<[NautilusCampaignSDK.NautilusCampaignCategory], NautilusCampaignSDK.NautilusCampaignError>) -> Swift.Void)
+  final public func getCampaignCategoryList(completion: @escaping ([NautilusCampaignSDK.NautilusCampaignCategory]?, Foundation.NSError?) -> Swift.Void)
+  @objc deinit
+}
+extension NautilusCampaignSDK.NautilusCampaignError : Swift.Equatable {}
+extension NautilusCampaignSDK.NautilusCampaignError : Swift.Hashable {}
+extension NautilusCampaignSDK.NautilusCampaignError : Swift.RawRepresentable {}
+extension NautilusCampaignSDK.NautilusCampaignType : Swift.Equatable {}
+extension NautilusCampaignSDK.NautilusCampaignType : Swift.Hashable {}
+extension NautilusCampaignSDK.NautilusCampaignType : Swift.RawRepresentable {}
+extension NautilusCampaignSDK.NautilusCampaignSortKeyName : Swift.Equatable {}
+extension NautilusCampaignSDK.NautilusCampaignSortKeyName : Swift.Hashable {}
+extension NautilusCampaignSDK.NautilusCampaignSortKeyName : Swift.RawRepresentable {}
+extension NautilusCampaignSDK.NautilusCampaignSortType : Swift.Equatable {}
+extension NautilusCampaignSDK.NautilusCampaignSortType : Swift.Hashable {}
+extension NautilusCampaignSDK.NautilusCampaignSortType : Swift.RawRepresentable {}

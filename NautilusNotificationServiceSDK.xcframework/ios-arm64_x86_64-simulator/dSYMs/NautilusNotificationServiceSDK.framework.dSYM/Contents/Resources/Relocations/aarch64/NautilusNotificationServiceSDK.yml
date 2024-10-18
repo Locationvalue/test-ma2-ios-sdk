@@ -1,0 +1,65 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/masuno/Library/Developer/Xcode/DerivedData/Nautilus-ios-sdk-byhzfjnfuanwpgbutbsrwxixhdis/Build/Intermediates.noindex/ArchiveIntermediates/NautilusNotificationServiceSDK/InstallationBuildProductsLocation/Library/Frameworks/NautilusNotificationServiceSDK.framework/NautilusNotificationServiceSDK'
+relocations:
+  - { offset: 0x33C41, size: 0x8, addend: 0x0, symName: _NautilusNotificationServiceSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x7320, symSize: 0x0 }
+  - { offset: 0x33C75, size: 0x8, addend: 0x0, symName: _NautilusNotificationServiceSDKVersionNumber, symObjAddr: 0x50, symBinAddr: 0x7370, symSize: 0x0 }
+  - { offset: 0x33D92, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoCfETo', symObjAddr: 0x144, symBinAddr: 0x280C, symSize: 0x54 }
+  - { offset: 0x3401A, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgSo13NSURLResponseCSgs5Error_pSgIeghngg_So5NSURLCSgAGSo7NSErrorCSgIeyBhyyy_TR', symObjAddr: 0x12C0, symBinAddr: 0x386C, symSize: 0x120 }
+  - { offset: 0x34046, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x16F0, symBinAddr: 0x3C98, symSize: 0x64 }
+  - { offset: 0x3407D, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x1754, symBinAddr: 0x3CFC, symSize: 0x30 }
+  - { offset: 0x34104, size: 0x8, addend: 0x0, symName: '_$ss13_parseInteger5ascii5radixq_Sgx_SitSyRzs010FixedWidthB0R_r0_lFSS_SiTg5', symObjAddr: 0x1784, symBinAddr: 0x3D2C, symSize: 0xE4 }
+  - { offset: 0x3417D, size: 0x8, addend: 0x0, symName: '_$sSS8_copyingyS2SFZ', symObjAddr: 0x1AE4, symBinAddr: 0x408C, symSize: 0x50 }
+  - { offset: 0x34195, size: 0x8, addend: 0x0, symName: '_$sSlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluigSS_s16PartialRangeFromVySSAEVGTgq5', symObjAddr: 0x1B34, symBinAddr: 0x40DC, symSize: 0x4C }
+  - { offset: 0x341E8, size: 0x8, addend: 0x0, symName: '_$sSS8_copyingySSSsFZ', symObjAddr: 0x1B80, symBinAddr: 0x4128, symSize: 0x144 }
+  - { offset: 0x34256, size: 0x8, addend: 0x0, symName: '_$sSlsE5countSivgSs8UTF8ViewV_Tgq5', symObjAddr: 0x1CC4, symBinAddr: 0x426C, symSize: 0xEC }
+  - { offset: 0x3427B, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5', symObjAddr: 0x1DB0, symBinAddr: 0x4358, symSize: 0x64 }
+  - { offset: 0x342B1, size: 0x8, addend: 0x0, symName: '_$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSs8UTF8ViewV_Tgq5', symObjAddr: 0x1E14, symBinAddr: 0x43BC, symSize: 0x210 }
+  - { offset: 0x342EA, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF', symObjAddr: 0x2024, symBinAddr: 0x45CC, symSize: 0x78 }
+  - { offset: 0x34316, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x209C, symBinAddr: 0x4644, symSize: 0xE0 }
+  - { offset: 0x34398, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x217C, symBinAddr: 0x4724, symSize: 0xC4 }
+  - { offset: 0x343CF, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo24UNNotificationAttachmentC_Tgm5', symObjAddr: 0x2240, symBinAddr: 0x47E8, symSize: 0x64 }
+  - { offset: 0x34482, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC04PushB4Info33_E475C395288ABEDBE3356AEAEC95BEFCLLVWOs', symObjAddr: 0x2D64, symBinAddr: 0x530C, symSize: 0x48 }
+  - { offset: 0x34496, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x2DAC, symBinAddr: 0x5354, symSize: 0x40 }
+  - { offset: 0x344AA, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x2DEC, symBinAddr: 0x5394, symSize: 0x34 }
+  - { offset: 0x344BE, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x2E64, symBinAddr: 0x540C, symSize: 0x10 }
+  - { offset: 0x344D2, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x2E74, symBinAddr: 0x541C, symSize: 0x8 }
+  - { offset: 0x344E6, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x2E7C, symBinAddr: 0x5424, symSize: 0x3C }
+  - { offset: 0x344FA, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoCMa', symObjAddr: 0x2EB8, symBinAddr: 0x5460, symSize: 0x20 }
+  - { offset: 0x3450E, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerCMa', symObjAddr: 0x2EE4, symBinAddr: 0x548C, symSize: 0x20 }
+  - { offset: 0x3452D, size: 0x8, addend: 0x0, symName: '_$s10ObjectiveC8ObjCBoolVIeyBy_SbIegy_TRTA', symObjAddr: 0x3464, symBinAddr: 0x5A0C, symSize: 0x14 }
+  - { offset: 0x34556, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoCIegg_SgWOe', symObjAddr: 0x3564, symBinAddr: 0x5B08, symSize: 0x10 }
+  - { offset: 0x34575, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoCIeyBy_ACIegg_TRTA', symObjAddr: 0x3598, symBinAddr: 0x5B3C, symSize: 0x10 }
+  - { offset: 0x3459E, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgWOc', symObjAddr: 0x35A8, symBinAddr: 0x5B4C, symSize: 0x48 }
+  - { offset: 0x345B2, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x35F0, symBinAddr: 0x5B94, symSize: 0x3C }
+  - { offset: 0x345C6, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC04PushB4Info33_E475C395288ABEDBE3356AEAEC95BEFCLLV10ParseErrorVAHs0N0AAWl', symObjAddr: 0x362C, symBinAddr: 0x5BD0, symSize: 0x44 }
+  - { offset: 0x345DA, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC04PushB4Info33_E475C395288ABEDBE3356AEAEC95BEFCLLV10ParseErrorVMa', symObjAddr: 0x36A8, symBinAddr: 0x5C4C, symSize: 0x10 }
+  - { offset: 0x34616, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC04PushB4Info33_E475C395288ABEDBE3356AEAEC95BEFCLLV10ParseErrorVs0N0AAsAIP7_domainSSvgTW', symObjAddr: 0x208, symBinAddr: 0x28D0, symSize: 0x4 }
+  - { offset: 0x34632, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC04PushB4Info33_E475C395288ABEDBE3356AEAEC95BEFCLLV10ParseErrorVs0N0AAsAIP5_codeSivgTW', symObjAddr: 0x20C, symBinAddr: 0x28D4, symSize: 0x4 }
+  - { offset: 0x3464E, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC04PushB4Info33_E475C395288ABEDBE3356AEAEC95BEFCLLV10ParseErrorVs0N0AAsAIP05_userG0yXlSgvgTW', symObjAddr: 0x210, symBinAddr: 0x28D8, symSize: 0x4 }
+  - { offset: 0x3466A, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC04PushB4Info33_E475C395288ABEDBE3356AEAEC95BEFCLLV10ParseErrorVs0N0AAsAIP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x214, symBinAddr: 0x28DC, symSize: 0x4 }
+  - { offset: 0x34816, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoC14pushIdentifierSivg', symObjAddr: 0x0, symBinAddr: 0x26C8, symSize: 0x10 }
+  - { offset: 0x34839, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoC8pushTypeSivg', symObjAddr: 0x10, symBinAddr: 0x26D8, symSize: 0x10 }
+  - { offset: 0x3485C, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoC17transitionCommandSSSgvg', symObjAddr: 0x20, symBinAddr: 0x26E8, symSize: 0x38 }
+  - { offset: 0x34881, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoC5titleSSvg', symObjAddr: 0x58, symBinAddr: 0x2720, symSize: 0x38 }
+  - { offset: 0x348A6, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoC7messageSSvg', symObjAddr: 0x90, symBinAddr: 0x2758, symSize: 0x38 }
+  - { offset: 0x348D1, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoCACycfC', symObjAddr: 0xC8, symBinAddr: 0x2790, symSize: 0x20 }
+  - { offset: 0x348EB, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoCACycfc', symObjAddr: 0xE8, symBinAddr: 0x27B0, symSize: 0x2C }
+  - { offset: 0x34949, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0a4PushB4InfoCACycfcTo', symObjAddr: 0x114, symBinAddr: 0x27DC, symSize: 0x2C }
+  - { offset: 0x3499E, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerCACycfc', symObjAddr: 0x198, symBinAddr: 0x2860, symSize: 0x34 }
+  - { offset: 0x349D6, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerCACycfcTo', symObjAddr: 0x1CC, symBinAddr: 0x2894, symSize: 0x3C }
+  - { offset: 0x34AE6, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC012handleRemoteB07request6actionSbSo21UNNotificationRequestC_yAA0a4PushB4InfoCcSgtF', symObjAddr: 0x218, symBinAddr: 0x28E0, symSize: 0xCC }
+  - { offset: 0x34B4E, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC012handleRemoteB08userInfo6actionSbSDys11AnyHashableVypG_yAA0a4PushbI0CcSgtF', symObjAddr: 0x2E4, symBinAddr: 0x29AC, symSize: 0x50 }
+  - { offset: 0x34BDF, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC012handleRemoteB07request6actionSbSo21UNNotificationRequestC_yAA0a4PushB4InfoCcSgtFTo', symObjAddr: 0x334, symBinAddr: 0x29FC, symSize: 0x15C }
+  - { offset: 0x34C94, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC012handleRemoteB08userInfo6actionSbSDys11AnyHashableVypG_yAA0a4PushbI0CcSgtFTo', symObjAddr: 0x4E0, symBinAddr: 0x2B58, symSize: 0x100 }
+  - { offset: 0x34D10, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC015canHandleRemoteB07requestSbSo21UNNotificationRequestC_tFTo', symObjAddr: 0x6AC, symBinAddr: 0x2C58, symSize: 0x108 }
+  - { offset: 0x34D58, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC015canHandleRemoteB08userInfoSbSDys11AnyHashableVypG_tFTo', symObjAddr: 0x7B4, symBinAddr: 0x2D60, symSize: 0xAC }
+  - { offset: 0x34D9E, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC10didReceive7request18bestAttemptContent10completionySo21UNNotificationRequestC_So09UNMutablebK0CySbctF', symObjAddr: 0x860, symBinAddr: 0x2E0C, symSize: 0x510 }
+  - { offset: 0x34E9E, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC10didReceive7request18bestAttemptContent10completionySo21UNNotificationRequestC_So09UNMutablebK0CySbctFy10Foundation3URLVSg_So13NSURLResponseCSgs5Error_pSgtYbcfU_', symObjAddr: 0xD70, symBinAddr: 0x331C, symSize: 0x3B8 }
+  - { offset: 0x34FEB, size: 0x8, addend: 0x0, symName: '_$sSo24UNNotificationAttachmentC10identifier3url7optionsABSS_10Foundation3URLVSDys11AnyHashableVypGSgtKcfCTO', symObjAddr: 0x1128, symBinAddr: 0x36D4, symSize: 0x198 }
+  - { offset: 0x3500C, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC10didReceive7request18bestAttemptContent10completionySo21UNNotificationRequestC_So09UNMutablebK0CySbctFTo', symObjAddr: 0x13E0, symBinAddr: 0x398C, symSize: 0x94 }
+  - { offset: 0x35042, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC30serviceExtensionTimeWillExpire7request18bestAttemptContent07contentE0ySo21UNNotificationRequestC_So09UNMutablebN0CySo0pN0CXEtF', symObjAddr: 0x1474, symBinAddr: 0x3A20, symSize: 0xF8 }
+  - { offset: 0x3510E, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC30serviceExtensionTimeWillExpire7request18bestAttemptContent07contentE0ySo21UNNotificationRequestC_So09UNMutablebN0CySo0pN0CXEtFTo', symObjAddr: 0x156C, symBinAddr: 0x3B18, symSize: 0x14C }
+  - { offset: 0x351C3, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC04PushB4Info33_E475C395288ABEDBE3356AEAEC95BEFCLLV4fromAFSDys11AnyHashableVypG_tKcfCTf4nd_n', symObjAddr: 0x22A4, symBinAddr: 0x484C, symSize: 0xAC0 }
+  - { offset: 0x355B6, size: 0x8, addend: 0x0, symName: '_$s30NautilusNotificationServiceSDK0aB7HandlerC10didReceive7request18bestAttemptContent10completionySo21UNNotificationRequestC_So09UNMutablebK0CySbctF39$s10ObjectiveC8ObjCBoolVIeyBy_SbIegy_TR0Q1C0sT0VIeyBy_Tf1nncn_nTf4nndg_n', symObjAddr: 0x2F04, symBinAddr: 0x54AC, symSize: 0x560 }
+...

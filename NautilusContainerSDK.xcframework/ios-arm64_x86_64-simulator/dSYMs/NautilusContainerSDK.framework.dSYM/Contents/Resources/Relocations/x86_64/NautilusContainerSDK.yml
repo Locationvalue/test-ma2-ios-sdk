@@ -1,0 +1,28 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/masuno/Library/Developer/Xcode/DerivedData/Nautilus-ios-sdk-byhzfjnfuanwpgbutbsrwxixhdis/Build/Intermediates.noindex/ArchiveIntermediates/NautilusContainerSDK/InstallationBuildProductsLocation/Library/Frameworks/NautilusContainerSDK.framework/NautilusContainerSDK'
+relocations:
+  - { offset: 0x33F90, size: 0x8, addend: 0x0, symName: _NautilusContainerSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x1C80, symSize: 0x0 }
+  - { offset: 0x33FC4, size: 0x8, addend: 0x0, symName: _NautilusContainerSDKVersionNumber, symObjAddr: 0x40, symBinAddr: 0x1CC0, symSize: 0x0 }
+  - { offset: 0x34000, size: 0x8, addend: 0x0, symName: '+[NautilusComponentContainer registerComponent:name:]', symObjAddr: 0x0, symBinAddr: 0x140F, symSize: 0x68 }
+  - { offset: 0x3400D, size: 0x8, addend: 0x0, symName: '+[NautilusComponentContainer registerComponent:name:]', symObjAddr: 0x0, symBinAddr: 0x140F, symSize: 0x68 }
+  - { offset: 0x34032, size: 0x8, addend: 0x0, symName: '_registerComponent:name:.onceToken', symObjAddr: 0x2BC0, symBinAddr: 0x3430, symSize: 0x0 }
+  - { offset: 0x340CF, size: 0x8, addend: 0x0, symName: _componentLibrary, symObjAddr: 0x2BC8, symBinAddr: 0x3438, symSize: 0x0 }
+  - { offset: 0x3412D, size: 0x8, addend: 0x0, symName: '___53+[NautilusComponentContainer registerComponent:name:]_block_invoke', symObjAddr: 0x68, symBinAddr: 0x1477, symSize: 0x25 }
+  - { offset: 0x3415E, size: 0x8, addend: 0x0, symName: '+[NautilusComponentContainer unregisterComponentName:]', symObjAddr: 0x8D, symBinAddr: 0x149C, symSize: 0x19 }
+  - { offset: 0x341AD, size: 0x8, addend: 0x0, symName: '+[NautilusComponentContainer allComponents]', symObjAddr: 0xA6, symBinAddr: 0x14B5, symSize: 0x4F }
+  - { offset: 0x34208, size: 0x8, addend: 0x0, symName: '+[NautilusComponentContainer eagerComponents]', symObjAddr: 0xF5, symBinAddr: 0x1504, symSize: 0x1AA }
+  - { offset: 0x342E7, size: 0x8, addend: 0x0, symName: '+[NautilusComponentContainer eagerInAppComponents]', symObjAddr: 0x29F, symBinAddr: 0x16AE, symSize: 0x1AB }
+  - { offset: 0x343C6, size: 0x8, addend: 0x0, symName: '+[NautilusComponentContainer lazyComponents]', symObjAddr: 0x44A, symBinAddr: 0x1859, symSize: 0x1AB }
+  - { offset: 0x344A5, size: 0x8, addend: 0x0, symName: '+[NautilusComponentContainer componentWithName:]', symObjAddr: 0x5F5, symBinAddr: 0x1A04, symSize: 0x19 }
+  - { offset: 0x345D2, size: 0x8, addend: 0x0, symName: '+[NautilusComponentLoader componentClass]', symObjAddr: 0x0, symBinAddr: 0x1A1D, symSize: 0x11 }
+  - { offset: 0x345EF, size: 0x8, addend: 0x0, symName: '+[NautilusComponentLoader componentClass]', symObjAddr: 0x0, symBinAddr: 0x1A1D, symSize: 0x11 }
+  - { offset: 0x34620, size: 0x8, addend: 0x0, symName: '+[NautilusComponentLoader registrantName]', symObjAddr: 0x11, symBinAddr: 0x1A2E, symSize: 0x1A }
+  - { offset: 0x34692, size: 0x8, addend: 0x0, symName: '+[NautilusComponentLoader registerToContainer]', symObjAddr: 0x2B, symBinAddr: 0x1A48, symSize: 0x65 }
+  - { offset: 0x3474B, size: 0x8, addend: 0x0, symName: '-[NautilusComponentDependency initWithComponent:isRequired:]', symObjAddr: 0x0, symBinAddr: 0x1AAD, symSize: 0x5C }
+  - { offset: 0x347AF, size: 0x8, addend: 0x0, symName: '-[NautilusComponentDependency initWithComponent:isRequired:]', symObjAddr: 0x0, symBinAddr: 0x1AAD, symSize: 0x5C }
+  - { offset: 0x34804, size: 0x8, addend: 0x0, symName: '+[NautilusComponentDependency dependencyWithComponent:isRequired:]', symObjAddr: 0x5C, symBinAddr: 0x1B09, symSize: 0x32 }
+  - { offset: 0x34871, size: 0x8, addend: 0x0, symName: '-[NautilusComponentDependency component]', symObjAddr: 0x8E, symBinAddr: 0x1B3B, symSize: 0xA }
+  - { offset: 0x348A5, size: 0x8, addend: 0x0, symName: '-[NautilusComponentDependency isRequired]', symObjAddr: 0x98, symBinAddr: 0x1B45, symSize: 0x9 }
+  - { offset: 0x348D9, size: 0x8, addend: 0x0, symName: '-[NautilusComponentDependency .cxx_destruct]', symObjAddr: 0xA1, symBinAddr: 0x1B4E, symSize: 0x10 }
+...

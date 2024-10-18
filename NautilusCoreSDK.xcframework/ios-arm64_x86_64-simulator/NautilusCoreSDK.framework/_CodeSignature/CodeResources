@@ -10,51 +10,51 @@
 		</data>
 		<key>Headers/NautilusCoreSDK-Swift.h</key>
 		<data>
-		8qo/IXHdzAU+vLGQlKZ/oVvxl1w=
+		Pos98DcIZmLLuNfEeIZudjnlVrw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lbjABJB+NGTGAWiDbCuEdJsn5Po=
+		4kAaQ7T7EKvGrlFk1NCf1D+9c18=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SvBeTOpoB9nGWewUlkhkH4ASO24=
+		TUeTf9T4ruxjQRLCZ/QTdsjSzb8=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PrXs4ve64lGid/N0xNwLo+8zSzA=
+		DqPx4khXmxLRbD3f22O19MENdvg=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TDNA8bdP3teuTiMlz4Wk6Wa22+c=
+		t1yyNHQNM6LdHmEbqat75GAC54o=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PrXs4ve64lGid/N0xNwLo+8zSzA=
+		DqPx4khXmxLRbD3f22O19MENdvg=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TU5W4FLoc2oTKOUXQj38/whHLeg=
+		JR9DkBKVz+wxPJs1U35WyF7DYQU=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SvBeTOpoB9nGWewUlkhkH4ASO24=
+		TUeTf9T4ruxjQRLCZ/QTdsjSzb8=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4/nUYbyxHLDUYPG9q3slY+Bh514=
+		kXBGHMy8ExCDerwiHPBDfXdBuwc=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fYWWJPyGPlyvWIbfsp/+1gZlTMw=
+		CqaLruzs+ZizGVx0EjvLJdYTjps=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4/nUYbyxHLDUYPG9q3slY+Bh514=
+		kXBGHMy8ExCDerwiHPBDfXdBuwc=
 		</data>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VEAN5Tbi4eGrgSFm3IA5FjCOJEY=
+		nV0mz0D1oRGRm7k30WsTxXkRgQU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,77 +82,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OsHOQ5E0hzLull8iPA1cc1yO0Dyx2gPXUJRjomSAAOY=
+			+8XpdhDGkidFlC5bgHy2Ye6YBNM9ALXiFJj6pCDQ8hg=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RcTOCniKLU0nb5EB9h83S5YFOWtafn/iSkzO5ODdfRQ=
+			Z/5DrL6NfmW8m3mPQfNHvjcvfGvneBUWSaXT/imzr5o=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ck1YgqL5XiulD2HMvEMAdgEnvIQMGgN+X0rFkuvd47g=
+			XLA45dWESxywpgiIBPWAKO/0Von12weNm6Zs3s+oa8U=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kKmDHto8bs0YFHAUDWaHCBhmfJyTjxYgI+ij1uOrvvY=
+			XkgcvInVFJf6yDiIBJ7LAcWKtnTMHWGOv3r/tVWuOqU=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ck1YgqL5XiulD2HMvEMAdgEnvIQMGgN+X0rFkuvd47g=
+			XLA45dWESxywpgiIBPWAKO/0Von12weNm6Zs3s+oa8U=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			awfBeqoHK8z7L8/Rhx7wvAtoCkOvcB/nvKNjCzsmpaY=
+			Vus4LoPaxVFX/nOSgG+2JHt8pKdNyaP0vkB0+2KtCDg=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RcTOCniKLU0nb5EB9h83S5YFOWtafn/iSkzO5ODdfRQ=
+			Z/5DrL6NfmW8m3mPQfNHvjcvfGvneBUWSaXT/imzr5o=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8vSuQr5x/RC0i0cm/2WJt7ua1bu6HgigicVawHZE+eg=
+			SENStSa+mg59Mmmexmqd1IslsNbXBpAwkkEARN/8q94=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ov7sf/jevPqvxdruqS7xKUg/EBw1p20r6/4QcPXB4H0=
+			0Ua+X1kmRHQdFKjXhuJD25JrUmUOV+qSyL3G42L7PRo=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8vSuQr5x/RC0i0cm/2WJt7ua1bu6HgigicVawHZE+eg=
+			SENStSa+mg59Mmmexmqd1IslsNbXBpAwkkEARN/8q94=
 			</data>
 		</dict>
 		<key>Modules/NautilusCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wJ+QskoF+mB2aKPZn+PQSGy4pN4UeGBgs+R1krwQnMs=
+			GzWoV0WJPdTaQKVK2UByjvKyjqCYKbcinPq5LIgEYtk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

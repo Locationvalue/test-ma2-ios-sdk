@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusCoreSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreTelephony
 import Foundation
 import NautilusContainerSDK
@@ -293,11 +294,6 @@ public typealias NautilusCameraPermissionCompletionHandler = ((Swift.Bool) -> Sw
 @objc public protocol NautilusCameraPermissionProvider {
   @objc var shouldCloseScreenWhenDenied: Swift.Bool { get }
   @objc func requestCameraPermission(completion: @escaping NautilusCoreSDK.NautilusCameraPermissionCompletionHandler)
-}
-@_hasMissingDesignatedInitializers final public class LifeCycleNotificationCenter {
-  public static let shared: NautilusCoreSDK.LifeCycleNotificationCenter
-  final public func setup()
-  @objc deinit
 }
 public enum NautilusAppInfo {
   public static var appBundleIdentifier: Swift.String {

@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/NautilusUISDK.framework/Assets.car</key>
 		<data>
-		qeeRUxgFKo/VbDNCa5i/ZENh3Gs=
+		fZXu9ovlH2ZTRWMK3nxNoMshesg=
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/Headers/NautilusUI.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/Headers/NautilusUISDK-Swift.h</key>
 		<data>
-		bX0EjLRBmjyLyC7rihdM+Lyvhgw=
+		1MSFnlt3EZ5lBFC3kq59C6jTXFg=
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/Info.plist</key>
 		<data>
-		a1LxAYHpPPRSPYiaK7/6uV2pYPk=
+		eWEFGWc8NOaPCW1bGVGA+tGTsdw=
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Iuuyu+Z0phEPwurqRY8+Iq80W0w=
+		11j9i1VZtf0bVFeq2cyv18hpvQg=
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		n2PjrW9Te1GgKHwSM5t1k9BFF4Y=
+		crPFtEBEQ62uCDmx9Q9QVp03woQ=
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		KsLyogC+VLTds8HpThNVMJboXOs=
+		K8YqYofKHbhRw+xhAnDLWYj9uUc=
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		n2PjrW9Te1GgKHwSM5t1k9BFF4Y=
+		crPFtEBEQ62uCDmx9Q9QVp03woQ=
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/NautilusUISDK</key>
 		<data>
-		tv863L7nCATo9IyjFx9l4hjbrrI=
+		QjS/kJmtvb+Vw2kfUvmw+mk+4L8=
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/NautilusYearMonthDatePickerView.nib</key>
 		<data>
@@ -70,11 +70,23 @@
 		</data>
 		<key>ios-arm64/NautilusUISDK.framework/moduleapps-ui-components.json</key>
 		<data>
-		gerV6XeAmDbcX3R/wXi3IvD6Kyw=
+		NgJkF65OHVf6KCOVwdfUaUFzNSc=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusUISDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		JfWatapIA8pDM9lC3mQbCRYuSOs=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/DWARF/NautilusUISDK</key>
+		<data>
+		d3UD8pc09iH5XsU8GLQo4iKnwPo=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusUISDK.yml</key>
+		<data>
+		81CJU0UyKS+uiSmtN9HMI5NUCSA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Assets.car</key>
 		<data>
-		qeeRUxgFKo/VbDNCa5i/ZENh3Gs=
+		fZXu9ovlH2ZTRWMK3nxNoMshesg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Headers/NautilusUI.h</key>
 		<data>
@@ -82,43 +94,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Headers/NautilusUISDK-Swift.h</key>
 		<data>
-		CjoBNjA0ZPoRebvzxTEH0/I/Pi8=
+		RQK6vzM5EQn5PHXXcdj7istm3vg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Info.plist</key>
 		<data>
-		/x+gLWCU6OgeNtQ+/QpxmubAUgU=
+		RVsE6jaJgfOO/rE3jwD3ybRc/8Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rCmqbs6LMD/HCMXPATVb44yr2N8=
+		0Iu4hUG0Zn+VeEhfWJHpmv1jeK0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DiNm0MBVZLucxyUxJcVdcNW9gec=
+		EXWvNV9acxR2oylVp/ioh6Tn04E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EjyB4o28P0awLHZkXvyum+/Vozg=
+		wm/ZkspJp4D4bZClnUQOjdEgE44=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DiNm0MBVZLucxyUxJcVdcNW9gec=
+		EXWvNV9acxR2oylVp/ioh6Tn04E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rCmqbs6LMD/HCMXPATVb44yr2N8=
+		0Iu4hUG0Zn+VeEhfWJHpmv1jeK0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cZYCdnOim66I9ZNK77O8N8KHMc8=
+		0YyC1N0coxKiUAP02ARKSAGVCqs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CgCeJraeuQq+NtwKn4bE7HAUGLM=
+		zaBgA7morxv+lb4j1zkj1BzT06M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cZYCdnOim66I9ZNK77O8N8KHMc8=
+		0YyC1N0coxKiUAP02ARKSAGVCqs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -142,7 +154,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/NautilusUISDK</key>
 		<data>
-		PdlCZUkFQC6PAmyft+HU+2vOtN4=
+		D562sq2b/Z4jicLTs1vLBDD27Yo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/NautilusYearMonthDatePickerView.nib</key>
 		<data>
@@ -154,11 +166,27 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		PWnIODH7hjRsA7FBmkkcLNNQzXQ=
+		TSlTzMio0X34+p9h84xOmCtV7Q0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/moduleapps-ui-components.json</key>
 		<data>
-		gerV6XeAmDbcX3R/wXi3IvD6Kyw=
+		NgJkF65OHVf6KCOVwdfUaUFzNSc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusUISDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		JfWatapIA8pDM9lC3mQbCRYuSOs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/DWARF/NautilusUISDK</key>
+		<data>
+		u2yz0WF7z44dqKXcFJAh5+Hlfag=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusUISDK.yml</key>
+		<data>
+		JSXwfsX4CeOykA8h921qIgpJK6Y=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusUISDK.yml</key>
+		<data>
+		56QzkvCL+WQvek1gYf0n6UD3nqY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -167,11 +195,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qeeRUxgFKo/VbDNCa5i/ZENh3Gs=
+			fZXu9ovlH2ZTRWMK3nxNoMshesg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MMBJHnXTch4kIOscHJ8SJH44rasiR1HmroONe9A7g8Y=
+			yziHoL1rHdcTUbb8kjmvVBC4ZN7L3ZMZvMXSjDBsswY=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusUISDK.framework/Headers/NautilusUI.h</key>
@@ -189,66 +217,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bX0EjLRBmjyLyC7rihdM+Lyvhgw=
+			1MSFnlt3EZ5lBFC3kq59C6jTXFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8dLeAxu24JIEAKEF1Oe8vN3SDlWptlHoETlwK3OYNs8=
+			9D/mcVIcg8VPugnB+fijIUvkdu9I77o5MKJHOZ+ZIz0=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusUISDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a1LxAYHpPPRSPYiaK7/6uV2pYPk=
+			eWEFGWc8NOaPCW1bGVGA+tGTsdw=
 			</data>
 			<key>hash2</key>
 			<data>
-			tgfqs/WsD9sJeS5bw+20Jtkv1kLhu7cGnTRBVZ9VnaY=
+			xwJSs8bwGcXZbQQBpQKvDHVkbzL9220Pwut1YtRKH9c=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Iuuyu+Z0phEPwurqRY8+Iq80W0w=
+			11j9i1VZtf0bVFeq2cyv18hpvQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gue/TwjRaguJvh80KZUZUc6tUNVB+f2RF3QM2/nuAjU=
+			OZt+K6Wfgfk3VdTHVqFXbY7ETAteXdtfAUO2EFOV6NE=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n2PjrW9Te1GgKHwSM5t1k9BFF4Y=
+			crPFtEBEQ62uCDmx9Q9QVp03woQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			QO9nBTbiIF2M2zC8TgYqXp3RGdCq62b0niBkj5Aqn/U=
+			rOxM/Gw5MZRxO58+qDvkk1NepIWnacuaQBWxeXyWg78=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KsLyogC+VLTds8HpThNVMJboXOs=
+			K8YqYofKHbhRw+xhAnDLWYj9uUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			KBOgp5AIFFPxB/oktUgkqykqpYNWflqYXzTxr+mvmac=
+			s+WgUBfzUnjREyfRmXiguWjR4tmoXSdgjeJtoV680jg=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n2PjrW9Te1GgKHwSM5t1k9BFF4Y=
+			crPFtEBEQ62uCDmx9Q9QVp03woQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			QO9nBTbiIF2M2zC8TgYqXp3RGdCq62b0niBkj5Aqn/U=
+			rOxM/Gw5MZRxO58+qDvkk1NepIWnacuaQBWxeXyWg78=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusUISDK.framework/Modules/module.modulemap</key>
@@ -310,11 +338,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tv863L7nCATo9IyjFx9l4hjbrrI=
+			QjS/kJmtvb+Vw2kfUvmw+mk+4L8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IgNC8lyWJHCJmVy/NVFMExIltBobqAkE3pRb+lvxRHQ=
+			9jZgVxXk0vLFwdtnKs98p+Im0NJyOssxakr9fckZkBU=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusUISDK.framework/NautilusYearMonthDatePickerView.nib</key>
@@ -343,22 +371,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gerV6XeAmDbcX3R/wXi3IvD6Kyw=
+			NgJkF65OHVf6KCOVwdfUaUFzNSc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HchSnqH/Pe5sKo0S/yBte2Tjsb9MfKKFri00Yh+spwI=
+			1HUvGW/ijB5sB3j9E0TQGxvAWgjMvKcOzWdnOvNcoiQ=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusUISDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JfWatapIA8pDM9lC3mQbCRYuSOs=
+			</data>
+			<key>hash2</key>
+			<data>
+			hcncBGbgqVbamIkw8Yfh15WddxtRfvLryprmBWb5sZg=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/DWARF/NautilusUISDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			d3UD8pc09iH5XsU8GLQo4iKnwPo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mm4Fuui22+Mi4gBgz/8cqWsqih2lmXu/R9OFY5CdPa0=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusUISDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			81CJU0UyKS+uiSmtN9HMI5NUCSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			FALEbs1idpSy7rjzdXREFSnhj2/i9EGAhYhQDF4Gnuc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qeeRUxgFKo/VbDNCa5i/ZENh3Gs=
+			fZXu9ovlH2ZTRWMK3nxNoMshesg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MMBJHnXTch4kIOscHJ8SJH44rasiR1HmroONe9A7g8Y=
+			yziHoL1rHdcTUbb8kjmvVBC4ZN7L3ZMZvMXSjDBsswY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Headers/NautilusUI.h</key>
@@ -376,110 +437,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CjoBNjA0ZPoRebvzxTEH0/I/Pi8=
+			RQK6vzM5EQn5PHXXcdj7istm3vg=
 			</data>
 			<key>hash2</key>
 			<data>
-			XwtL0AAxNuxU5iBEIu28xTGJRiBzCeEixbNI+eSMAvY=
+			geEmRO7piAMoNQgBjLOE48UqWkKJQweddCToWCH/EhA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/x+gLWCU6OgeNtQ+/QpxmubAUgU=
+			RVsE6jaJgfOO/rE3jwD3ybRc/8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			sTEBmqniFh4J2n17XHoMgGx9b38WNYxG13rh5IC92vg=
+			IPWoClE6EVvQzbZSc2ZHD6kTVK2ovITkrOUGldzPySw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rCmqbs6LMD/HCMXPATVb44yr2N8=
+			0Iu4hUG0Zn+VeEhfWJHpmv1jeK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			xbRyCNgb2Z/cm3yisGdM8Q1uCH8WMFbGOnvbvwsgIZ8=
+			b7dZxQjl/SFYGDYYVO9gRRLQzT9ZKzjZoOKrH0S7oEM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DiNm0MBVZLucxyUxJcVdcNW9gec=
+			EXWvNV9acxR2oylVp/ioh6Tn04E=
 			</data>
 			<key>hash2</key>
 			<data>
-			L3/KBdv8aV6MY9j5sZSmF42EZ0CRf7OIgbWAHDSe7pI=
+			cLBU6ZUxAdJOg9UwRDxczptrYm2H76XCx8L3zdBk5PA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EjyB4o28P0awLHZkXvyum+/Vozg=
+			wm/ZkspJp4D4bZClnUQOjdEgE44=
 			</data>
 			<key>hash2</key>
 			<data>
-			5pr3lL2hBm0t2PYG2zptSlRBEM8V9ljagaEM16OBVgg=
+			VYFHOO/tdkE1LQNJqL4vwlVFGQiIIgASeuKHlnWHvmM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DiNm0MBVZLucxyUxJcVdcNW9gec=
+			EXWvNV9acxR2oylVp/ioh6Tn04E=
 			</data>
 			<key>hash2</key>
 			<data>
-			L3/KBdv8aV6MY9j5sZSmF42EZ0CRf7OIgbWAHDSe7pI=
+			cLBU6ZUxAdJOg9UwRDxczptrYm2H76XCx8L3zdBk5PA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rCmqbs6LMD/HCMXPATVb44yr2N8=
+			0Iu4hUG0Zn+VeEhfWJHpmv1jeK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			xbRyCNgb2Z/cm3yisGdM8Q1uCH8WMFbGOnvbvwsgIZ8=
+			b7dZxQjl/SFYGDYYVO9gRRLQzT9ZKzjZoOKrH0S7oEM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cZYCdnOim66I9ZNK77O8N8KHMc8=
+			0YyC1N0coxKiUAP02ARKSAGVCqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			XdnV5gOBfGtV4qkZmOXCN3C5ml0TSVtM19JCjxZyWrA=
+			g2/iPfDFLOvgLMIwrGaTIZj3jOEJi4Ym6oEtdTXWIag=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CgCeJraeuQq+NtwKn4bE7HAUGLM=
+			zaBgA7morxv+lb4j1zkj1BzT06M=
 			</data>
 			<key>hash2</key>
 			<data>
-			D7E+Dtfk9oyFubYYVHzC6XU3ENpzKXt9PzQz/8NdP1s=
+			y0uMrqanSq9cBBiPehsSOMMxONDGprpbVJvZLGNL1kY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/NautilusUISDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cZYCdnOim66I9ZNK77O8N8KHMc8=
+			0YyC1N0coxKiUAP02ARKSAGVCqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			XdnV5gOBfGtV4qkZmOXCN3C5ml0TSVtM19JCjxZyWrA=
+			g2/iPfDFLOvgLMIwrGaTIZj3jOEJi4Ym6oEtdTXWIag=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/Modules/module.modulemap</key>
@@ -541,11 +602,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PdlCZUkFQC6PAmyft+HU+2vOtN4=
+			D562sq2b/Z4jicLTs1vLBDD27Yo=
 			</data>
 			<key>hash2</key>
 			<data>
-			U0qNsvbNDprFjv1n/V1KeGzMAbqccEyN0ayLTMxOYOE=
+			F6QIwTqhPrAFDJ+VqGwS07uCHAY4pr2SCq/bw6FcQng=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/NautilusYearMonthDatePickerView.nib</key>
@@ -574,22 +635,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PWnIODH7hjRsA7FBmkkcLNNQzXQ=
+			TSlTzMio0X34+p9h84xOmCtV7Q0=
 			</data>
 			<key>hash2</key>
 			<data>
-			EQr4M4fbdUa+F8lz8RqaBFFBccTLjMsBNh14fqra77I=
+			S0q3Ie0TVLvgdXZF3H16L0YtA4P0iRFs91k+RwBWSsg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusUISDK.framework/moduleapps-ui-components.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gerV6XeAmDbcX3R/wXi3IvD6Kyw=
+			NgJkF65OHVf6KCOVwdfUaUFzNSc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HchSnqH/Pe5sKo0S/yBte2Tjsb9MfKKFri00Yh+spwI=
+			1HUvGW/ijB5sB3j9E0TQGxvAWgjMvKcOzWdnOvNcoiQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusUISDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JfWatapIA8pDM9lC3mQbCRYuSOs=
+			</data>
+			<key>hash2</key>
+			<data>
+			hcncBGbgqVbamIkw8Yfh15WddxtRfvLryprmBWb5sZg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/DWARF/NautilusUISDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u2yz0WF7z44dqKXcFJAh5+Hlfag=
+			</data>
+			<key>hash2</key>
+			<data>
+			c19dKzBMLi1U+ULAm03S+l9g5WDASDne8/rR0P7OUn4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusUISDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JSXwfsX4CeOykA8h921qIgpJK6Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			sahmaVeSeelHOoUSJnL180NcINwQK24C348S4emno9Q=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusUISDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusUISDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			56QzkvCL+WQvek1gYf0n6UD3nqY=
+			</data>
+			<key>hash2</key>
+			<data>
+			02lmtjESyJ0w9NTR0GvLlvfgS3kXflyNhRJpEaGfusk=
 			</data>
 		</dict>
 	</dict>

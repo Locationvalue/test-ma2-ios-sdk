@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/Headers/NautilusStampSDK-Swift.h</key>
 		<data>
-		mWMfMCuoJqpamtKDQY+tG+5s/jo=
+		GJAwk0CM88QfxklVioVIO8g2/Lo=
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/Info.plist</key>
 		<data>
-		f7SePIQUeWHDdvcv5/aDLKRe7h8=
+		4SbdlFvwuMcv5gPThO4xDBEk100=
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5g7olKwNfnO0Ksjisd7bh5IWsRs=
+		g1ICvDQkLChciAvxpwBitO48jWY=
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		HZwK9bTXU2EAf1tJt2FU1Gi13WI=
+		y3Leh5a2Aygw+zT3doRTHsLRUXI=
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		11AaN5s80ypDICOrYdEOO8eWHZ8=
+		0sqKpmM8d+i9P1QPVbwk5hyakS8=
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HZwK9bTXU2EAf1tJt2FU1Gi13WI=
+		y3Leh5a2Aygw+zT3doRTHsLRUXI=
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/NautilusStampSDK</key>
 		<data>
-		AmhB38+7YvtMhT2jst34trRqKGI=
+		H+SQVF6bA3Fi7VqJdfC8pB/OOZ8=
 		</data>
 		<key>ios-arm64/NautilusStampSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -48,49 +48,61 @@
 		<data>
 		OnA6x4xRE/uS+L8JPW1ma52yVOY=
 		</data>
+		<key>ios-arm64/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		VEjnCO4eiALV0YVvUELSr+d9iVE=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/DWARF/NautilusStampSDK</key>
+		<data>
+		LHXWF8oKEWgzasiXIvpr1QNogro=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusStampSDK.yml</key>
+		<data>
+		YHwBwNb7jWp6nPQndct5ZlItT+I=
+		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Headers/NautilusStamp.h</key>
 		<data>
 		sY2gdi51yWalf9KRC7TNXXD7VT4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Headers/NautilusStampSDK-Swift.h</key>
 		<data>
-		LvXNC1YGnTi2mR8PiLuyBqFIplM=
+		E4yHoLP3U/BNCZxsJv+s+0x1CYs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Info.plist</key>
 		<data>
-		7SZ+1dvqSRD5ERb8BVk6qsK5Wvs=
+		HIbGiUCEoNHAJvE5GX8akP8gv3A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5g7olKwNfnO0Ksjisd7bh5IWsRs=
+		g1ICvDQkLChciAvxpwBitO48jWY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CimzKmkw8yylhe00Z0T/c56s5GA=
+		Fy3oNqdhxxzNEPKfq0l1uFTcxcY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gQdyZNO5Jk8zt2XjYb0wn4UHS3A=
+		tZeYqqLHEHAll9Qwg/DHQWMf3BA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CimzKmkw8yylhe00Z0T/c56s5GA=
+		Fy3oNqdhxxzNEPKfq0l1uFTcxcY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5g7olKwNfnO0Ksjisd7bh5IWsRs=
+		g1ICvDQkLChciAvxpwBitO48jWY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Kl078Fll5VLMCbTjDpmIMSTL4+I=
+		21x4/Vfl4mg3Mekwat5NBmdmIp4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JXnsCHuxcqBu8tjoNE9f0+MdKdY=
+		CyEDOVuDaM9AowEpW+CyBIpeSmo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Kl078Fll5VLMCbTjDpmIMSTL4+I=
+		21x4/Vfl4mg3Mekwat5NBmdmIp4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -98,7 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/NautilusStampSDK</key>
 		<data>
-		eT99P4xHjWYjLL/bFSFFal4jLuw=
+		t1c5MV1Ac+orA50I+jcHadFvi6A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -106,11 +118,27 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		wmMQT8sUO+qeHHCRI0I5CwzuZ0o=
+		3SHE5RUAg4wRpoXn+oMr2pSNbGA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/moduleapps-stamp.json</key>
 		<data>
 		OnA6x4xRE/uS+L8JPW1ma52yVOY=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		VEjnCO4eiALV0YVvUELSr+d9iVE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/DWARF/NautilusStampSDK</key>
+		<data>
+		KZfoX54ANFJ/5U+Jz7wI0QBroJM=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusStampSDK.yml</key>
+		<data>
+		ssyidYlKkhPxun6vAj9iYCXmusc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusStampSDK.yml</key>
+		<data>
+		KtLoVpq/1d1lRHvlpGv30Pwe9rE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -130,66 +158,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mWMfMCuoJqpamtKDQY+tG+5s/jo=
+			GJAwk0CM88QfxklVioVIO8g2/Lo=
 			</data>
 			<key>hash2</key>
 			<data>
-			UWpU470j0QgR3pOXX9D+a2jVL6NihowPrECGAsBhR6w=
+			IP6b5OPjD6Gl1YBhYZl0nVRYkWIfY+8DM+wVfvaJt+U=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusStampSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f7SePIQUeWHDdvcv5/aDLKRe7h8=
+			4SbdlFvwuMcv5gPThO4xDBEk100=
 			</data>
 			<key>hash2</key>
 			<data>
-			k6SpL69G0rRIG+lpU571m889nsK588miu1YYkG5vbzg=
+			5fPKlxDSOZtON+9RmDmGxviXWncW5SLEf4XcyADhyTk=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5g7olKwNfnO0Ksjisd7bh5IWsRs=
+			g1ICvDQkLChciAvxpwBitO48jWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			24u+jZBHCHcFNYXP0SIu27RFB/wLBhQ8aePp4RgEACY=
+			1FrgtToXxm+O2yFoBUCGnl6bDpq2qh3S5qeca9Yi8Fs=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HZwK9bTXU2EAf1tJt2FU1Gi13WI=
+			y3Leh5a2Aygw+zT3doRTHsLRUXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AXxplM6wJWUdmDKebDouhD18SsiUF4yOObtu5uDiX3s=
+			C76zIv4VgkenkUAZjSvpuztRMkWLII8ZXTA5M4Pl6lg=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			11AaN5s80ypDICOrYdEOO8eWHZ8=
+			0sqKpmM8d+i9P1QPVbwk5hyakS8=
 			</data>
 			<key>hash2</key>
 			<data>
-			b3WwAepVaA8b3DtkbgdbOOkewAFkFZQJUnsUR9HdoVc=
+			tQcLTC2r6/MBEmK5uTIaPrH8tbEpCZYhKkTXZw5Q0+k=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HZwK9bTXU2EAf1tJt2FU1Gi13WI=
+			y3Leh5a2Aygw+zT3doRTHsLRUXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AXxplM6wJWUdmDKebDouhD18SsiUF4yOObtu5uDiX3s=
+			C76zIv4VgkenkUAZjSvpuztRMkWLII8ZXTA5M4Pl6lg=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusStampSDK.framework/Modules/module.modulemap</key>
@@ -207,11 +235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AmhB38+7YvtMhT2jst34trRqKGI=
+			H+SQVF6bA3Fi7VqJdfC8pB/OOZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			v8dXaF9upzph/s4QbPhxYTyJ+00S7V/Oyxg2tv2tIPM=
+			pfa92e5GyaNqq5eqwUYhHKPbF54vjpKlnXqxO78nOWs=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusStampSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -236,6 +264,39 @@
 			wsll8UDfvDxy6l9qWlco1gzip/AeP5rim5LlRYCXX8M=
 			</data>
 		</dict>
+		<key>ios-arm64/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VEjnCO4eiALV0YVvUELSr+d9iVE=
+			</data>
+			<key>hash2</key>
+			<data>
+			vpFRtBsADFIyDzRP8v7J0HIkt9OG+nvF6BqNkVEi1oU=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/DWARF/NautilusStampSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LHXWF8oKEWgzasiXIvpr1QNogro=
+			</data>
+			<key>hash2</key>
+			<data>
+			/XbMzCs9+OKqTz0G/GV341+SkxtSAlF9DPpyqC/eiog=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusStampSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YHwBwNb7jWp6nPQndct5ZlItT+I=
+			</data>
+			<key>hash2</key>
+			<data>
+			b1HLYKr4XUD+bXzsAE5jY/rMhAQc1JeBaMskfObSfkk=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Headers/NautilusStamp.h</key>
 		<dict>
 			<key>hash</key>
@@ -251,110 +312,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LvXNC1YGnTi2mR8PiLuyBqFIplM=
+			E4yHoLP3U/BNCZxsJv+s+0x1CYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			EL8JVQA8GqIjGIu4tuPHpne7CbbRjbo3TagRvGCCf+4=
+			jvTVVXXgUcMSYY1UPclVIlBe01HrxeiA7BvhqQGqHNI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7SZ+1dvqSRD5ERb8BVk6qsK5Wvs=
+			HIbGiUCEoNHAJvE5GX8akP8gv3A=
 			</data>
 			<key>hash2</key>
 			<data>
-			RA01Ulf2ZW+qX4AtKIOPtDfxz7qgt+zB+miPUscz8aM=
+			a9+qQLvb/fdWrIPLeCmoJFsHemwl+mvfTy3VCvsiBMM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5g7olKwNfnO0Ksjisd7bh5IWsRs=
+			g1ICvDQkLChciAvxpwBitO48jWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			24u+jZBHCHcFNYXP0SIu27RFB/wLBhQ8aePp4RgEACY=
+			1FrgtToXxm+O2yFoBUCGnl6bDpq2qh3S5qeca9Yi8Fs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CimzKmkw8yylhe00Z0T/c56s5GA=
+			Fy3oNqdhxxzNEPKfq0l1uFTcxcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8T7Thvux2gg826dkl7uxo8yEp8pnmwjM7CiWNWJuaDQ=
+			dhX8oJxLtTH5eKC5/WxXMAKFgD8QOJjl9bNOm9lR+gg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gQdyZNO5Jk8zt2XjYb0wn4UHS3A=
+			tZeYqqLHEHAll9Qwg/DHQWMf3BA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUSwsBwCakcqEF4c4fexjhKa2nKjDvf49Kl+vOENrIc=
+			R8s6V8ISWKXpN/TK+Opuaa18kNIQIsKRnvci+QEfs0c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CimzKmkw8yylhe00Z0T/c56s5GA=
+			Fy3oNqdhxxzNEPKfq0l1uFTcxcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8T7Thvux2gg826dkl7uxo8yEp8pnmwjM7CiWNWJuaDQ=
+			dhX8oJxLtTH5eKC5/WxXMAKFgD8QOJjl9bNOm9lR+gg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5g7olKwNfnO0Ksjisd7bh5IWsRs=
+			g1ICvDQkLChciAvxpwBitO48jWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			24u+jZBHCHcFNYXP0SIu27RFB/wLBhQ8aePp4RgEACY=
+			1FrgtToXxm+O2yFoBUCGnl6bDpq2qh3S5qeca9Yi8Fs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kl078Fll5VLMCbTjDpmIMSTL4+I=
+			21x4/Vfl4mg3Mekwat5NBmdmIp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			oePvpcJA5DivAMMyZBjBzVItFuv/sHzhfPYyHfpXf8c=
+			A5LdzjZycAtVtI62L38e3OYBvo8bgAyR8ElLjIY1waY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JXnsCHuxcqBu8tjoNE9f0+MdKdY=
+			CyEDOVuDaM9AowEpW+CyBIpeSmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			TNq+DqDU1MUsou35o2j0etWbh/vLfK/ByFXtoK2Dj1o=
+			r9+ayAyq1z+p1vTJJyuzxvEnIty23ylbMH57nqIjir8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/NautilusStampSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kl078Fll5VLMCbTjDpmIMSTL4+I=
+			21x4/Vfl4mg3Mekwat5NBmdmIp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			oePvpcJA5DivAMMyZBjBzVItFuv/sHzhfPYyHfpXf8c=
+			A5LdzjZycAtVtI62L38e3OYBvo8bgAyR8ElLjIY1waY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/Modules/module.modulemap</key>
@@ -372,11 +433,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eT99P4xHjWYjLL/bFSFFal4jLuw=
+			t1c5MV1Ac+orA50I+jcHadFvi6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			hSA8IZztti3B0cvpY6iP4PVo2WTo8IYbIjuz+83D/cg=
+			j0vjIG+JT/rRf4iebZujQ3VVhIWfe/AL5RaLfkmSYD0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -394,11 +455,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wmMQT8sUO+qeHHCRI0I5CwzuZ0o=
+			3SHE5RUAg4wRpoXn+oMr2pSNbGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			hGX+FkP2PXj4CDFg7wrF6O5a1o2m2/Wy3IdLSd48cDI=
+			MDJBxvdCV9GMU58f4i0OzwMrwVXOr14TsTW1adxJDLg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusStampSDK.framework/moduleapps-stamp.json</key>
@@ -410,6 +471,50 @@
 			<key>hash2</key>
 			<data>
 			wsll8UDfvDxy6l9qWlco1gzip/AeP5rim5LlRYCXX8M=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VEjnCO4eiALV0YVvUELSr+d9iVE=
+			</data>
+			<key>hash2</key>
+			<data>
+			vpFRtBsADFIyDzRP8v7J0HIkt9OG+nvF6BqNkVEi1oU=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/DWARF/NautilusStampSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KZfoX54ANFJ/5U+Jz7wI0QBroJM=
+			</data>
+			<key>hash2</key>
+			<data>
+			H+aWGNem2XJcmf05aQ/sMc2mBi4sxoNt2WJiJnnVbUk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusStampSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ssyidYlKkhPxun6vAj9iYCXmusc=
+			</data>
+			<key>hash2</key>
+			<data>
+			qH8Sv17ZaU7F4hG75S6zeuZXQkackSUTaS8ViZLHZ/I=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusStampSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusStampSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KtLoVpq/1d1lRHvlpGv30Pwe9rE=
+			</data>
+			<key>hash2</key>
+			<data>
+			UoHM+XENKU8rEwma5SFvn/EC6aazG165nBJvP2PXjeE=
 			</data>
 		</dict>
 	</dict>

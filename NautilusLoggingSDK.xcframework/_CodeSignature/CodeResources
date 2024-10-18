@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Headers/NautilusLoggingSDK-Swift.h</key>
 		<data>
-		M1Qdla8qdQIyrwJe/D5WssVTsN0=
+		7z+lorsiBkyZS/eKkQbJTV/rClI=
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Info.plist</key>
 		<data>
-		nC+s/p++8HWl3AfydQkezjMEkac=
+		bUDxbjOgNYkuE44ceYMYnOax3Z0=
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YSwAv5S7g/o3ntJ8ESiW1C2q900=
+		PK1zqBHrxmSLITGLPLBi0UcMoTs=
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		81P482P96UP9L8WeoP1gVdmRSwk=
+		YDDQcmv53aavtvKN24MzYyOGbAE=
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		k9S0dB4PYf18JbFa91dpgIADHK8=
+		vvwxRlKUvZKmEdf+svVMDCBENpw=
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		81P482P96UP9L8WeoP1gVdmRSwk=
+		YDDQcmv53aavtvKN24MzYyOGbAE=
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,23 @@
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/NautilusLoggingSDK</key>
 		<data>
-		HiXw/mAmWoYO3hZJaOGEAa+eO1Q=
+		KhfbmlUb7R0y3qH2DjH9rz3uczc=
 		</data>
 		<key>ios-arm64/NautilusLoggingSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		ucg9pita0v8d353x3NuGfxweQYU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		l9e6Ua0l0mco3CZvWtAFMqu2VEI=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/DWARF/NautilusLoggingSDK</key>
+		<data>
+		i7NAiQKLHAFf1GvMyBUjDO/nVIE=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusLoggingSDK.yml</key>
+		<data>
+		SsR7EaloKGercm3BSExlDyVAwqE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Headers/Logging.h</key>
 		<data>
@@ -50,43 +62,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Headers/NautilusLoggingSDK-Swift.h</key>
 		<data>
-		sRY0U96txQhOOG1QMwzU/tnIydY=
+		1sgaj91QW44+kfyih7ny8d3uLbA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Info.plist</key>
 		<data>
-		fQgSabIHwFUXrqyTGrlQiiTjyLQ=
+		gpUBVDpoTV1Fd35VdBS6O2oD6fQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		YSwAv5S7g/o3ntJ8ESiW1C2q900=
+		PK1zqBHrxmSLITGLPLBi0UcMoTs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/rVoVtCCdbFKFFgC2uOJ1bOHm6Y=
+		Si9yh9Rk/bK5/l6oSuAxBpyWTqE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rW70YxcdxwnIItJoLQYop0ent2g=
+		WEuR1KAKbXcPERBYKReaXMz5l3Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/rVoVtCCdbFKFFgC2uOJ1bOHm6Y=
+		Si9yh9Rk/bK5/l6oSuAxBpyWTqE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YSwAv5S7g/o3ntJ8ESiW1C2q900=
+		PK1zqBHrxmSLITGLPLBi0UcMoTs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		84Ssk1t8EqU3Wt3zD5H2dA35AOg=
+		EGcXdQO83CHcvZtUabaPgplkXs0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UZaZLHIsA2WsWxELwev0y0BphxQ=
+		0cux0xi6SuTihxFAZLjOZ2Ly2/E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		84Ssk1t8EqU3Wt3zD5H2dA35AOg=
+		EGcXdQO83CHcvZtUabaPgplkXs0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -94,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/NautilusLoggingSDK</key>
 		<data>
-		Liy1hDfxcz7ENf/mqR/Dkl4EK20=
+		BPh1c/curF69udzi1Qr3Dk4dQfE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -102,7 +114,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		wQhFYZcE9wYiZm8c5SzEtLyMMZw=
+		rXa8LDwMGdYggGgV6N+zdqYTl+I=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		l9e6Ua0l0mco3CZvWtAFMqu2VEI=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/DWARF/NautilusLoggingSDK</key>
+		<data>
+		1/6Kqu7WdRHacnEQbWFkk/npMb8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusLoggingSDK.yml</key>
+		<data>
+		pc46tHKsq+2rUcgWVlQ3uAsAMzI=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusLoggingSDK.yml</key>
+		<data>
+		tbBcqckoRhdzgHXS3nPw+htZQLU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,66 +150,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M1Qdla8qdQIyrwJe/D5WssVTsN0=
+			7z+lorsiBkyZS/eKkQbJTV/rClI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZSTLj9Hj3dYve9l5EEzMG8xaz6AURFhrwx4hhHCHVak=
+			Ihn7pVxiMdOoaxXMASZsZZtL0UQmLX4cEhnk/XfhOZU=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nC+s/p++8HWl3AfydQkezjMEkac=
+			bUDxbjOgNYkuE44ceYMYnOax3Z0=
 			</data>
 			<key>hash2</key>
 			<data>
-			q56dSgErO1ILboAARTAzDvfH/F+GJcHgRsQPhv0Pa0A=
+			GPdOEfQ1WUyo91D7ERK1lmP/LRd3U1ILA0Y9ETJ8rno=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YSwAv5S7g/o3ntJ8ESiW1C2q900=
+			PK1zqBHrxmSLITGLPLBi0UcMoTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			JyWC57e65MExZ4Y9vZQ5ClGStalco7y0fPdU81i0XJI=
+			D2IQ+pRNuHZOq6/PwyLa5Xw70dzB5P9g0VmH+jXAWR4=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			81P482P96UP9L8WeoP1gVdmRSwk=
+			YDDQcmv53aavtvKN24MzYyOGbAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			iiEdVeBwaIoSJMvukIjtEutJC25rTytvUDPbiEshv0o=
+			bKktcu7hVFaTS+jtq1HUsWtU8Q1oINFPBo0t9hR+hqg=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k9S0dB4PYf18JbFa91dpgIADHK8=
+			vvwxRlKUvZKmEdf+svVMDCBENpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			eJF+lLjv8YzCvU9ufqDFvHuBexlHHbPnv1mW9n5At+E=
+			RiFeK8mKKv/2F+cBG7GVrjK3dmZw2F2qaF4lVtAJOk4=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			81P482P96UP9L8WeoP1gVdmRSwk=
+			YDDQcmv53aavtvKN24MzYyOGbAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			iiEdVeBwaIoSJMvukIjtEutJC25rTytvUDPbiEshv0o=
+			bKktcu7hVFaTS+jtq1HUsWtU8Q1oINFPBo0t9hR+hqg=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusLoggingSDK.framework/Modules/module.modulemap</key>
@@ -199,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HiXw/mAmWoYO3hZJaOGEAa+eO1Q=
+			KhfbmlUb7R0y3qH2DjH9rz3uczc=
 			</data>
 			<key>hash2</key>
 			<data>
-			0/VZ6AImU8IW63xSjwF9yVjZi/TfVoolACke3hFLSV0=
+			dwQaFG/vNqbG17MEEgSa/kqajW2+BU2B82GQqcOzVQE=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusLoggingSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -215,6 +243,39 @@
 			<key>hash2</key>
 			<data>
 			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l9e6Ua0l0mco3CZvWtAFMqu2VEI=
+			</data>
+			<key>hash2</key>
+			<data>
+			3UabZuhoYKf02rjshEbBEm3ua210SsghqAOxUyo+4bA=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/DWARF/NautilusLoggingSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i7NAiQKLHAFf1GvMyBUjDO/nVIE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lk7m9WG1Vee7OP/yOYTR6sHsmRe1mqGOJ5kNu9x/YWI=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusLoggingSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SsR7EaloKGercm3BSExlDyVAwqE=
+			</data>
+			<key>hash2</key>
+			<data>
+			4xbuJEEpKbiLJGtT3crlz4bgIsJU2hn/VN4Kv8oVohU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Headers/Logging.h</key>
@@ -232,110 +293,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sRY0U96txQhOOG1QMwzU/tnIydY=
+			1sgaj91QW44+kfyih7ny8d3uLbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			achFPZlLFBnJWZD0bjOX0/NYvCoON5Im/mvERze+EsY=
+			E+Gm0Qhdp6Ty961FnLAEhWbqi/jXhu2E/BtQ4L95RYg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fQgSabIHwFUXrqyTGrlQiiTjyLQ=
+			gpUBVDpoTV1Fd35VdBS6O2oD6fQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			tIDsfO2YjLPZ4b0tV6wW8kQDk+WCAhP/vmgKzLHlB2o=
+			5EpDFXYjsWIbyUZr/LsjTvMiNv5xhG9lkl5jqYc0ZUU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YSwAv5S7g/o3ntJ8ESiW1C2q900=
+			PK1zqBHrxmSLITGLPLBi0UcMoTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			JyWC57e65MExZ4Y9vZQ5ClGStalco7y0fPdU81i0XJI=
+			D2IQ+pRNuHZOq6/PwyLa5Xw70dzB5P9g0VmH+jXAWR4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/rVoVtCCdbFKFFgC2uOJ1bOHm6Y=
+			Si9yh9Rk/bK5/l6oSuAxBpyWTqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			GvrpJkSZAOy3Yiq5wtGAut17sgISxGGmWeEupKObUP8=
+			FDb/Xmomw2HSHi/kb2p+RNWFjXqo6VFrNvHVhcStpX4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rW70YxcdxwnIItJoLQYop0ent2g=
+			WEuR1KAKbXcPERBYKReaXMz5l3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			zrtnNGrkZiwuO74NppYF8xX+s/8ej4Q1J6xi4KYcCvo=
+			lEs+bz+Qxko0a+i/RgsO6cQr/8dn34vPgq3ljYmpQGQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/rVoVtCCdbFKFFgC2uOJ1bOHm6Y=
+			Si9yh9Rk/bK5/l6oSuAxBpyWTqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			GvrpJkSZAOy3Yiq5wtGAut17sgISxGGmWeEupKObUP8=
+			FDb/Xmomw2HSHi/kb2p+RNWFjXqo6VFrNvHVhcStpX4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YSwAv5S7g/o3ntJ8ESiW1C2q900=
+			PK1zqBHrxmSLITGLPLBi0UcMoTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			JyWC57e65MExZ4Y9vZQ5ClGStalco7y0fPdU81i0XJI=
+			D2IQ+pRNuHZOq6/PwyLa5Xw70dzB5P9g0VmH+jXAWR4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			84Ssk1t8EqU3Wt3zD5H2dA35AOg=
+			EGcXdQO83CHcvZtUabaPgplkXs0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5QGBPrGUcAp/vCroA7nf648ymSCsZDZGEH8i41/OBQI=
+			XSwdgm+I7f9AMamOgnU1qQ/H4N/PUI0mW4JZRpWU3yk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UZaZLHIsA2WsWxELwev0y0BphxQ=
+			0cux0xi6SuTihxFAZLjOZ2Ly2/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			VASqhnn2D/QOWdboxefPVdrqZ8Qi3bnEB6wFztuqXEM=
+			0X9qWZ0ORqoRvx8q0QUaZ1qxWNp0eTsPBQCeBNow87I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/NautilusLoggingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			84Ssk1t8EqU3Wt3zD5H2dA35AOg=
+			EGcXdQO83CHcvZtUabaPgplkXs0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5QGBPrGUcAp/vCroA7nf648ymSCsZDZGEH8i41/OBQI=
+			XSwdgm+I7f9AMamOgnU1qQ/H4N/PUI0mW4JZRpWU3yk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/Modules/module.modulemap</key>
@@ -353,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Liy1hDfxcz7ENf/mqR/Dkl4EK20=
+			BPh1c/curF69udzi1Qr3Dk4dQfE=
 			</data>
 			<key>hash2</key>
 			<data>
-			QchrqZsrv9oA+JKNeWrv8l9iKLjAh6RObv+HM7MDtAE=
+			M4uqgOPCfsEOu5Tz+28QAifm4xHLcOaH9iQTaEwp1a8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusLoggingSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -375,11 +436,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wQhFYZcE9wYiZm8c5SzEtLyMMZw=
+			rXa8LDwMGdYggGgV6N+zdqYTl+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			UEofvmCbr+YiSiPIgUtBDJGuJ6r0//Jehq4Y03yOlyw=
+			y290qLTQZX2PtfpiI6Lq50PrU7MWSAk6HXqw+B83EO0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l9e6Ua0l0mco3CZvWtAFMqu2VEI=
+			</data>
+			<key>hash2</key>
+			<data>
+			3UabZuhoYKf02rjshEbBEm3ua210SsghqAOxUyo+4bA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/DWARF/NautilusLoggingSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1/6Kqu7WdRHacnEQbWFkk/npMb8=
+			</data>
+			<key>hash2</key>
+			<data>
+			CTT3zeU/3XmZmlFuWuCxzH0ZE+5azNoYBzn78DA0/5M=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusLoggingSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pc46tHKsq+2rUcgWVlQ3uAsAMzI=
+			</data>
+			<key>hash2</key>
+			<data>
+			atNHHgA1P1zrD70mTPwPDUcsJBdfRKKk1RFX48ww4tY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusLoggingSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusLoggingSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tbBcqckoRhdzgHXS3nPw+htZQLU=
+			</data>
+			<key>hash2</key>
+			<data>
+			jQa4gu+hBHUzQ1YD6a6qbMN+CTRJkLsHCUkymInCIh4=
 			</data>
 		</dict>
 	</dict>

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusAnalyticsSDK",
+    "printedName": "NautilusAnalyticsSDK",
     "children": [
       {
         "kind": "Import",
@@ -324,6 +324,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -767,102 +781,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isOptOut",
-            "printedName": "isOptOut",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20NautilusAnalyticsSDK0aB0C8isOptOutSbvp",
-            "mangledName": "$s20NautilusAnalyticsSDK0aB0C8isOptOutSbvp",
-            "moduleName": "NautilusAnalyticsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20NautilusAnalyticsSDK0aB0C8isOptOutSbvg",
-                "mangledName": "$s20NautilusAnalyticsSDK0aB0C8isOptOutSbvg",
-                "moduleName": "NautilusAnalyticsSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20NautilusAnalyticsSDK0aB0C8isOptOutSbvs",
-                "mangledName": "$s20NautilusAnalyticsSDK0aB0C8isOptOutSbvs",
-                "moduleName": "NautilusAnalyticsSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20NautilusAnalyticsSDK0aB0C8isOptOutSbvM",
-                "mangledName": "$s20NautilusAnalyticsSDK0aB0C8isOptOutSbvM",
-                "moduleName": "NautilusAnalyticsSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -1715,6 +1633,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2089,6 +2021,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6019,6 +5967,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6279,6 +6241,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10029,6 +10005,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11131,6 +11121,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11226,7 +11230,23 @@
         "mangledName": "$s10Foundation12NotificationV15NautilusCoreSDKE0C3AppO",
         "moduleName": "NautilusCoreSDK",
         "isFromExtension": true,
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -11334,2800 +11354,1444 @@
         "usr": "s:10Foundation12NotificationV15NautilusCoreSDKE0C3AppO11UserInfoKeyO",
         "mangledName": "$s10Foundation12NotificationV15NautilusCoreSDKE0C3AppO11UserInfoKeyO",
         "moduleName": "NautilusCoreSDK",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/Notification+Analytics.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/Notification+Analytics.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 31,
       "value": "\"NautilusAppAnalyticsSendEvent\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/Notification+Analytics.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/Notification+Analytics.swift",
       "kind": "StringLiteral",
       "offset": 437,
       "length": 22,
       "value": "\"analytics-event-type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/Notification+Analytics.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/Notification+Analytics.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 28,
       "value": "\"analytics-event-properties\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 291,
-      "length": 29,
-      "value": "\"NautilusAnalyticsSDK.NautilusAnalyticsEventPayload\""
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 636,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
       "kind": "BooleanLiteral",
       "offset": 1000,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1457,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
       "kind": "Array",
-      "offset": 1677,
+      "offset": 1494,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
       "kind": "BooleanLiteral",
-      "offset": 2143,
+      "offset": 1960,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
       "kind": "Array",
-      "offset": 2386,
+      "offset": 2203,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 309,
-      "length": 17,
-      "value": "\"NautilusAnalyticsSDK.NautilusAnalytics\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 410,
       "length": 17,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 491,
       "length": 17,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 564,
       "length": 17,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 637,
       "length": 17,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 710,
       "length": 17,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 783,
       "length": 17,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 856,
       "length": 17,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 929,
       "length": 17,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1004,
       "length": 20,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1064,
       "length": 14,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1124,
       "length": 15,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1185,
       "length": 19,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1253,
       "length": 26,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1334,
       "length": 24,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1407,
       "length": 10,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1466,
       "length": 15,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1539,
       "length": 15,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1606,
       "length": 12,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1682,
       "length": 18,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1767,
       "length": 17,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1841,
       "length": 17,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1919,
       "length": 22,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1987,
       "length": 16,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2060,
       "length": 20,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2144,
       "length": 23,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2234,
       "length": 22,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2302,
       "length": 12,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2378,
       "length": 12,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2445,
       "length": 19,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2519,
       "length": 16,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2599,
       "length": 15,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2672,
       "length": 17,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2744,
       "length": 18,
       "value": "33"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2814,
       "length": 14,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2895,
       "length": 16,
       "value": "35"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2951,
       "length": 13,
       "value": "36"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3004,
       "length": 15,
       "value": "37"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3077,
       "length": 17,
       "value": "38"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3149,
       "length": 11,
       "value": "39"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3206,
       "length": 9,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3270,
       "length": 19,
       "value": "41"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3350,
       "length": 22,
       "value": "42"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3427,
       "length": 21,
       "value": "43"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3488,
       "length": 15,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3558,
       "length": 29,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3651,
       "length": 34,
       "value": "46"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3743,
       "length": 30,
       "value": "47"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3834,
       "length": 34,
       "value": "48"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 3935,
       "length": 34,
       "value": "49"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4021,
       "length": 25,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4092,
       "length": 9,
       "value": "51"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4161,
       "length": 19,
       "value": "52"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4244,
       "length": 24,
       "value": "53"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4314,
       "length": 18,
       "value": "54"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4390,
       "length": 22,
       "value": "55"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4476,
       "length": 25,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4568,
       "length": 24,
       "value": "57"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4662,
       "length": 14,
       "value": "58"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4722,
       "length": 15,
       "value": "59"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4783,
       "length": 17,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4870,
       "length": 18,
       "value": "61"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 4934,
       "length": 17,
       "value": "62"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5024,
       "length": 16,
       "value": "63"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5098,
       "length": 17,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5170,
       "length": 19,
       "value": "65"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5256,
       "length": 31,
       "value": "66"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5360,
       "length": 25,
       "value": "67"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5446,
       "length": 19,
       "value": "68"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5550,
       "length": 36,
       "value": "69"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5671,
       "length": 27,
       "value": "70"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5783,
       "length": 33,
       "value": "71"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 5886,
       "length": 34,
       "value": "72"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6011,
       "length": 39,
       "value": "73"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6105,
       "length": 18,
       "value": "74"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6178,
       "length": 20,
       "value": "75"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6265,
       "length": 21,
       "value": "76"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6359,
       "length": 26,
       "value": "77"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6446,
       "length": 20,
       "value": "78"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6551,
       "length": 37,
       "value": "79"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6673,
       "length": 28,
       "value": "80"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6774,
       "length": 34,
       "value": "81"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 6887,
       "length": 35,
       "value": "82"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 7019,
       "length": 40,
       "value": "83"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 7126,
       "length": 22,
       "value": "84"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 7212,
       "length": 17,
       "value": "85"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 7317,
       "length": 23,
       "value": "86"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 7413,
       "length": 25,
       "value": "87"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 7496,
       "length": 22,
       "value": "88"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 7627,
       "length": 19,
       "value": "\"show introduction\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 410,
-      "length": 17,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 491,
-      "length": 17,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 564,
-      "length": 17,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 637,
-      "length": 17,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 710,
-      "length": 17,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 783,
-      "length": 17,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 856,
-      "length": 17,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 929,
-      "length": 17,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1004,
-      "length": 20,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1064,
-      "length": 14,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1124,
-      "length": 15,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1185,
-      "length": 19,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1253,
-      "length": 26,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1334,
-      "length": 24,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1407,
-      "length": 10,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1466,
-      "length": 15,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1539,
-      "length": 15,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1606,
-      "length": 12,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1682,
-      "length": 18,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1767,
-      "length": 17,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1841,
-      "length": 17,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1919,
-      "length": 22,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1987,
-      "length": 16,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2060,
-      "length": 20,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2144,
-      "length": 23,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2234,
-      "length": 22,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2302,
-      "length": 12,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2378,
-      "length": 12,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2445,
-      "length": 19,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2519,
-      "length": 16,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2599,
-      "length": 15,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2672,
-      "length": 17,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2744,
-      "length": 18,
-      "value": "33"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2814,
-      "length": 14,
-      "value": "34"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2895,
-      "length": 16,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2951,
-      "length": 13,
-      "value": "36"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3004,
-      "length": 15,
-      "value": "37"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3077,
-      "length": 17,
-      "value": "38"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3149,
-      "length": 11,
-      "value": "39"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3206,
-      "length": 9,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3270,
-      "length": 19,
-      "value": "41"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3350,
-      "length": 22,
-      "value": "42"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3427,
-      "length": 21,
-      "value": "43"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3488,
-      "length": 15,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3558,
-      "length": 29,
-      "value": "45"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3651,
-      "length": 34,
-      "value": "46"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3743,
-      "length": 30,
-      "value": "47"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3834,
-      "length": 34,
-      "value": "48"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3935,
-      "length": 34,
-      "value": "49"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4021,
-      "length": 25,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4092,
-      "length": 9,
-      "value": "51"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4161,
-      "length": 19,
-      "value": "52"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4244,
-      "length": 24,
-      "value": "53"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4314,
-      "length": 18,
-      "value": "54"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4390,
-      "length": 22,
-      "value": "55"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4476,
-      "length": 25,
-      "value": "56"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4568,
-      "length": 24,
-      "value": "57"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4662,
-      "length": 14,
-      "value": "58"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4722,
-      "length": 15,
-      "value": "59"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4783,
-      "length": 17,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4870,
-      "length": 18,
-      "value": "61"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4934,
-      "length": 17,
-      "value": "62"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5024,
-      "length": 16,
-      "value": "63"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5098,
-      "length": 17,
-      "value": "64"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5170,
-      "length": 19,
-      "value": "65"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5256,
-      "length": 31,
-      "value": "66"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5360,
-      "length": 25,
-      "value": "67"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5446,
-      "length": 19,
-      "value": "68"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5550,
-      "length": 36,
-      "value": "69"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5671,
-      "length": 27,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5783,
-      "length": 33,
-      "value": "71"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5886,
-      "length": 34,
-      "value": "72"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6011,
-      "length": 39,
-      "value": "73"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6105,
-      "length": 18,
-      "value": "74"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6178,
-      "length": 20,
-      "value": "75"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6265,
-      "length": 21,
-      "value": "76"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6359,
-      "length": 26,
-      "value": "77"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6446,
-      "length": 20,
-      "value": "78"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6551,
-      "length": 37,
-      "value": "79"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6673,
-      "length": 28,
-      "value": "80"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6774,
-      "length": 34,
-      "value": "81"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6887,
-      "length": 35,
-      "value": "82"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7019,
-      "length": 40,
-      "value": "83"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7126,
-      "length": 22,
-      "value": "84"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7212,
-      "length": 17,
-      "value": "85"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7317,
-      "length": 23,
-      "value": "86"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7413,
-      "length": 25,
-      "value": "87"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7496,
-      "length": 22,
-      "value": "88"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventChannel.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventChannel.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventChannel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 489,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 586,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 636,
       "length": 9,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 685,
       "length": 11,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 769,
       "length": 12,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 815,
       "length": 8,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 854,
       "length": 14,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 918,
       "length": 21,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 998,
       "length": 24,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1089,
       "length": 29,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1164,
       "length": 10,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1220,
       "length": 22,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1267,
       "length": 6,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1307,
       "length": 8,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1349,
       "length": 10,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1393,
       "length": 12,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1438,
       "length": 7,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1485,
       "length": 10,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1527,
       "length": 18,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1577,
       "length": 18,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1627,
       "length": 18,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1677,
       "length": 18,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1727,
       "length": 18,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1777,
       "length": 18,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1827,
       "length": 18,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1877,
       "length": 18,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1927,
       "length": 18,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1978,
       "length": 19,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2028,
       "length": 14,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2083,
       "length": 17,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2128,
       "length": 22,
       "value": "33"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2183,
       "length": 8,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2234,
       "length": 11,
       "value": "35"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2292,
       "length": 14,
       "value": "36"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2343,
       "length": 10,
       "value": "37"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2381,
       "length": 9,
       "value": "38"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2426,
       "length": 14,
       "value": "39"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2480,
       "length": 16,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2524,
       "length": 22,
       "value": "41"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2595,
       "length": 16,
       "value": "42"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2666,
       "length": 23,
       "value": "43"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2720,
       "length": 21,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2768,
       "length": 7,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2803,
       "length": 9,
       "value": "46"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2846,
       "length": 14,
       "value": "47"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2888,
       "length": 8,
       "value": "48"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2930,
       "length": 18,
       "value": "49"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 2976,
       "length": 24,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3043,
       "length": 27,
       "value": "51"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3119,
       "length": 23,
       "value": "52"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3191,
       "length": 28,
       "value": "53"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3249,
       "length": 8,
       "value": "54"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3297,
       "length": 11,
       "value": "55"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3348,
       "length": 14,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3402,
       "length": 11,
       "value": "57"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3453,
       "length": 11,
       "value": "58"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3492,
       "length": 16,
       "value": "59"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3542,
       "length": 23,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3601,
       "length": 9,
       "value": "61"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3656,
       "length": 12,
       "value": "62"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3717,
       "length": 15,
       "value": "63"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3772,
       "length": 11,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3811,
       "length": 10,
       "value": "65"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3848,
       "length": 9,
       "value": "66"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3894,
       "length": 12,
       "value": "67"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3937,
       "length": 11,
       "value": "68"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 3988,
       "length": 16,
       "value": "69"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4031,
       "length": 7,
       "value": "70"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4081,
       "length": 11,
       "value": "71"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4126,
       "length": 9,
       "value": "72"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4174,
       "length": 21,
       "value": "73"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4232,
       "length": 10,
       "value": "74"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4284,
       "length": 11,
       "value": "75"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4347,
       "length": 14,
       "value": "76"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4408,
       "length": 16,
       "value": "77"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4481,
       "length": 19,
       "value": "78"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4542,
       "length": 12,
       "value": "79"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4606,
       "length": 15,
       "value": "80"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4668,
       "length": 17,
       "value": "81"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4742,
       "length": 20,
       "value": "82"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4795,
       "length": 6,
       "value": "83"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 4835,
       "length": 8,
       "value": "84"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 456,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 534,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 586,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 636,
-      "length": 9,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 685,
-      "length": 11,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 769,
-      "length": 12,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 815,
-      "length": 8,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 854,
-      "length": 14,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 918,
-      "length": 21,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 998,
-      "length": 24,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1089,
-      "length": 29,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1164,
-      "length": 10,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1220,
-      "length": 22,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1267,
-      "length": 6,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1307,
-      "length": 8,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1349,
-      "length": 10,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1393,
-      "length": 12,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1438,
-      "length": 7,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1485,
-      "length": 10,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1527,
-      "length": 18,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1577,
-      "length": 18,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1627,
-      "length": 18,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1677,
-      "length": 18,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1727,
-      "length": 18,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1777,
-      "length": 18,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1827,
-      "length": 18,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1877,
-      "length": 18,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1927,
-      "length": 18,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1978,
-      "length": 19,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2028,
-      "length": 14,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2083,
-      "length": 17,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2128,
-      "length": 22,
-      "value": "33"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2183,
-      "length": 8,
-      "value": "34"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2234,
-      "length": 11,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2292,
-      "length": 14,
-      "value": "36"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2343,
-      "length": 10,
-      "value": "37"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2381,
-      "length": 9,
-      "value": "38"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2426,
-      "length": 14,
-      "value": "39"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2480,
-      "length": 16,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2524,
-      "length": 22,
-      "value": "41"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2595,
-      "length": 16,
-      "value": "42"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2666,
-      "length": 23,
-      "value": "43"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2720,
-      "length": 21,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2768,
-      "length": 7,
-      "value": "45"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2803,
-      "length": 9,
-      "value": "46"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2846,
-      "length": 14,
-      "value": "47"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2888,
-      "length": 8,
-      "value": "48"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2930,
-      "length": 18,
-      "value": "49"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2976,
-      "length": 24,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3043,
-      "length": 27,
-      "value": "51"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3119,
-      "length": 23,
-      "value": "52"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3191,
-      "length": 28,
-      "value": "53"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3249,
-      "length": 8,
-      "value": "54"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3297,
-      "length": 11,
-      "value": "55"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3348,
-      "length": 14,
-      "value": "56"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3402,
-      "length": 11,
-      "value": "57"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3453,
-      "length": 11,
-      "value": "58"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3492,
-      "length": 16,
-      "value": "59"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3542,
-      "length": 23,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3601,
-      "length": 9,
-      "value": "61"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3656,
-      "length": 12,
-      "value": "62"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3717,
-      "length": 15,
-      "value": "63"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3772,
-      "length": 11,
-      "value": "64"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3811,
-      "length": 10,
-      "value": "65"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3848,
-      "length": 9,
-      "value": "66"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3894,
-      "length": 12,
-      "value": "67"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3937,
-      "length": 11,
-      "value": "68"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3988,
-      "length": 16,
-      "value": "69"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4031,
-      "length": 7,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4081,
-      "length": 11,
-      "value": "71"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4126,
-      "length": 9,
-      "value": "72"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4174,
-      "length": 21,
-      "value": "73"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4232,
-      "length": 10,
-      "value": "74"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4284,
-      "length": 11,
-      "value": "75"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4347,
-      "length": 14,
-      "value": "76"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4408,
-      "length": 16,
-      "value": "77"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4481,
-      "length": 19,
-      "value": "78"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4542,
-      "length": 12,
-      "value": "79"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4606,
-      "length": 15,
-      "value": "80"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4668,
-      "length": 17,
-      "value": "81"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4742,
-      "length": 20,
-      "value": "82"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4795,
-      "length": 6,
-      "value": "83"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsEventProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4835,
-      "length": 8,
-      "value": "84"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 383,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 428,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 489,
       "length": 20,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 557,
       "length": 20,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 635,
       "length": 22,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 708,
       "length": 21,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 790,
       "length": 23,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 838,
       "length": 6,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 878,
       "length": 8,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 920,
       "length": 10,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 964,
       "length": 12,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1014,
       "length": 18,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1070,
       "length": 18,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1126,
       "length": 18,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1182,
       "length": 18,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1238,
       "length": 18,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1294,
       "length": 18,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1350,
       "length": 18,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1406,
       "length": 18,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1462,
       "length": 18,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1519,
-      "length": 19,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 383,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 428,
-      "length": 18,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 20,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 557,
-      "length": 20,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 635,
-      "length": 22,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 708,
-      "length": 21,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 790,
-      "length": 23,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 838,
-      "length": 6,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 878,
-      "length": 8,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 920,
-      "length": 10,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 964,
-      "length": 12,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1014,
-      "length": 18,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1070,
-      "length": 18,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1126,
-      "length": 18,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1182,
-      "length": 18,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1238,
-      "length": 18,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1294,
-      "length": 18,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1350,
-      "length": 18,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1406,
-      "length": 18,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1462,
-      "length": 18,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/Analytics\/Sources\/Base\/NautilusAnalyticsUserProperty.swift",
       "kind": "IntegerLiteral",
       "offset": 1519,
       "length": 19,

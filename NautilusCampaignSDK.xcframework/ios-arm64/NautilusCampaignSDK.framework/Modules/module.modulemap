@@ -1,0 +1,4 @@
+framework module NautilusCampaignSDK {
+  header "NautilusCampaignSDK-Swift.h"
+  requires objc
+}

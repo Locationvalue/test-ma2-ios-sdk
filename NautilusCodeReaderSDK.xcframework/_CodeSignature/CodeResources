@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Headers/NautilusCodeReaderSDK-Swift.h</key>
 		<data>
-		KGd6VOR7l9hw4o5A1+hQCTXG4l0=
+		euYL/UlLwL7U8LIDHXdJOJacVK0=
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Info.plist</key>
 		<data>
-		e8ArpNb/v9gMX8R4L94SQP0ijJA=
+		bLXdh/VbT3bfHpAELXb+f3nUabI=
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		2xIO8GNV8cNH1PkKPm4rkWvkz0k=
+		W8dcqNp9WU1vKaVFunmu5eCsMXo=
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		iRl0WdT86cwNYLbxsiviVA1ESsU=
+		23fsl1aZZhFtDLbiKNM5yFM3/9k=
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		qCb7wrG0EHAJu9ZNP+Djlde5Nek=
+		YrpDwj/wxR3vaXn0EJZ5zW7gVeE=
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		iRl0WdT86cwNYLbxsiviVA1ESsU=
+		23fsl1aZZhFtDLbiKNM5yFM3/9k=
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,23 @@
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/NautilusCodeReaderSDK</key>
 		<data>
-		tFmBIkBRFY/Ls/irJvomXWXj38I=
+		jgrMbO7AB8+Mr5NPPXt1Ghxi81w=
 		</data>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		ucg9pita0v8d353x3NuGfxweQYU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		M8WREhv5WYyILYoXKSeHOUXBHjA=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCodeReaderSDK</key>
+		<data>
+		ZGmJpKCIiRFPLDKByz6lu8mFmR4=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCodeReaderSDK.yml</key>
+		<data>
+		8+fjTjJusE66alpmgIA/B2OgFQ0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Headers/CodeReader.h</key>
 		<data>
@@ -50,43 +62,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Headers/NautilusCodeReaderSDK-Swift.h</key>
 		<data>
-		wwz8cXZQ5UzJUwLRzMQv73DuYko=
+		OBdIOM11UdB3pOBG5AEGrt5W5SQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Info.plist</key>
 		<data>
-		N0QS607XLVVRwpNVIZ9BDKfuyO0=
+		G5V0wKW1XAidYQizxTj1UjBGdzw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2xIO8GNV8cNH1PkKPm4rkWvkz0k=
+		W8dcqNp9WU1vKaVFunmu5eCsMXo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LF4pr/wgxGcBHqECKlsPVlzYIaQ=
+		V5zbCX+DO65uW9fmPxpFfSUnr94=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		f4bf4UbSJBQ+iqAANhBLN0Pi05Q=
+		aoysLQTpyX4mCaNU8bdFDUb4c7c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LF4pr/wgxGcBHqECKlsPVlzYIaQ=
+		V5zbCX+DO65uW9fmPxpFfSUnr94=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2xIO8GNV8cNH1PkKPm4rkWvkz0k=
+		W8dcqNp9WU1vKaVFunmu5eCsMXo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		H23UtO/bcM1uGaWvVL54yAS+xrc=
+		fLzrKOtRfsQnod9qdEeCVa44f80=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wIXcu/s8g6eGen+Qu5qTXU/qaa0=
+		6dMDRf21pEYoYscB03+gIRujyqA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		H23UtO/bcM1uGaWvVL54yAS+xrc=
+		fLzrKOtRfsQnod9qdEeCVa44f80=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -94,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/NautilusCodeReaderSDK</key>
 		<data>
-		lxx94r2VJDi8DNVzr2DrWtb/ThY=
+		LV/Y95s8qylfq7uwmGQvN8/J8y4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -102,7 +114,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		fD7YSET3feNbzyb9euSRaF/H/X4=
+		Oz0FM93BxIlz1BcVQEwZRLL4G8A=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		M8WREhv5WYyILYoXKSeHOUXBHjA=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCodeReaderSDK</key>
+		<data>
+		u6fRmz5QcI5iEn28F/37+ZpSDTQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCodeReaderSDK.yml</key>
+		<data>
+		3hfF8RReVc3cf2Lxq08OH1VpPwk=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusCodeReaderSDK.yml</key>
+		<data>
+		51QT8QYXM885jruFNb8BfZmpFqc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,66 +150,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KGd6VOR7l9hw4o5A1+hQCTXG4l0=
+			euYL/UlLwL7U8LIDHXdJOJacVK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			aLXTON5NDGgncmQ/I5jUyNmJI2kW91SuSUlvV1DHi/M=
+			tnPjka0pLneiG7swy7A6Eirio9wxbZhd8ZXSAozkQI0=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e8ArpNb/v9gMX8R4L94SQP0ijJA=
+			bLXdh/VbT3bfHpAELXb+f3nUabI=
 			</data>
 			<key>hash2</key>
 			<data>
-			rUQ43Lq56Dof840zNjZVv+ylIRmnw7QB2uzPJqAzbBU=
+			mg+zvJ7EOxWMHtOYXLhAivpzfWi+ARnXyi2TSSIE+YI=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2xIO8GNV8cNH1PkKPm4rkWvkz0k=
+			W8dcqNp9WU1vKaVFunmu5eCsMXo=
 			</data>
 			<key>hash2</key>
 			<data>
-			HPsqcOmqJsHOJqhXxdISjinjyUq5jLmUPLm5vslbJbA=
+			R0nG0GucgA9ooO7zA8sNkG3LouBrACZr/5wsdVmMn/o=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iRl0WdT86cwNYLbxsiviVA1ESsU=
+			23fsl1aZZhFtDLbiKNM5yFM3/9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			vgChO4BEHMsCBXVyZ/GELZvvYbevhkG0oALxptjAzvk=
+			F1AJYnBrOrUTVyafRMsU48jGC0tFV2bJgiq+eiuO43Q=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qCb7wrG0EHAJu9ZNP+Djlde5Nek=
+			YrpDwj/wxR3vaXn0EJZ5zW7gVeE=
 			</data>
 			<key>hash2</key>
 			<data>
-			oNU3mvAa7qfCn8i3piiRyOZXn28TvPQcbZEhWhwm2TA=
+			nUZDegR7RyIh8UeyE+RfbLFUxjsFBOsymTsLMn6RfQ4=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iRl0WdT86cwNYLbxsiviVA1ESsU=
+			23fsl1aZZhFtDLbiKNM5yFM3/9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			vgChO4BEHMsCBXVyZ/GELZvvYbevhkG0oALxptjAzvk=
+			F1AJYnBrOrUTVyafRMsU48jGC0tFV2bJgiq+eiuO43Q=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/Modules/module.modulemap</key>
@@ -199,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tFmBIkBRFY/Ls/irJvomXWXj38I=
+			jgrMbO7AB8+Mr5NPPXt1Ghxi81w=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul99MXWJMskYC94ZGELInBK5kITRxXOfykmmlkGTCRM=
+			1xduqcm7wAVZ4qZ3Eo7qp30bg1d3x7q4/2G5Am9i4UQ=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusCodeReaderSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -215,6 +243,39 @@
 			<key>hash2</key>
 			<data>
 			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M8WREhv5WYyILYoXKSeHOUXBHjA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ytF5bo4+AXM7+Rny6tYrws5ll6IGYsCxEtBfh5U87N4=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCodeReaderSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZGmJpKCIiRFPLDKByz6lu8mFmR4=
+			</data>
+			<key>hash2</key>
+			<data>
+			ltFyKEoeapY/VKGKLdr3gV8knRbLU3WI/siZd8OOCCs=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCodeReaderSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8+fjTjJusE66alpmgIA/B2OgFQ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			NZZIaiMeVlIzjmAsCc7/CXp5LYpW45ovRnxc4oYO5v0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Headers/CodeReader.h</key>
@@ -232,110 +293,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wwz8cXZQ5UzJUwLRzMQv73DuYko=
+			OBdIOM11UdB3pOBG5AEGrt5W5SQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			aNVb/WR0/m5I//z6bCUFjOnhxNPFiQPxbOrF9/rdd2Q=
+			lr0c1d3xiQBfXuNMdTgRE9Otmrj92GTfhcZJf91YBDM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N0QS607XLVVRwpNVIZ9BDKfuyO0=
+			G5V0wKW1XAidYQizxTj1UjBGdzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			tQTRNcdXWvQw42GXDG7GQm6cCmLeS32McLLswwJrXCQ=
+			r4JegHSntmjOLmEKOw4aNE0U/dwMpsle1xv+0CBprzw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2xIO8GNV8cNH1PkKPm4rkWvkz0k=
+			W8dcqNp9WU1vKaVFunmu5eCsMXo=
 			</data>
 			<key>hash2</key>
 			<data>
-			HPsqcOmqJsHOJqhXxdISjinjyUq5jLmUPLm5vslbJbA=
+			R0nG0GucgA9ooO7zA8sNkG3LouBrACZr/5wsdVmMn/o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LF4pr/wgxGcBHqECKlsPVlzYIaQ=
+			V5zbCX+DO65uW9fmPxpFfSUnr94=
 			</data>
 			<key>hash2</key>
 			<data>
-			dbeNnOB8ne9YbeYv+NUJC12yrDhVGxsFtC4Njz259hs=
+			LozLBlh9WcU5MQl99nCLqfwiVEHiRbutkRYoC1Bd20I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f4bf4UbSJBQ+iqAANhBLN0Pi05Q=
+			aoysLQTpyX4mCaNU8bdFDUb4c7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			gj0iExaqn3uD3vUoT9ZdxwPF4xM9bHAczW2oMP3aZG4=
+			ITqg6fsE1GH0fig9R0evwTODjI/5ARAoVGYJrIe2ZrU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LF4pr/wgxGcBHqECKlsPVlzYIaQ=
+			V5zbCX+DO65uW9fmPxpFfSUnr94=
 			</data>
 			<key>hash2</key>
 			<data>
-			dbeNnOB8ne9YbeYv+NUJC12yrDhVGxsFtC4Njz259hs=
+			LozLBlh9WcU5MQl99nCLqfwiVEHiRbutkRYoC1Bd20I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2xIO8GNV8cNH1PkKPm4rkWvkz0k=
+			W8dcqNp9WU1vKaVFunmu5eCsMXo=
 			</data>
 			<key>hash2</key>
 			<data>
-			HPsqcOmqJsHOJqhXxdISjinjyUq5jLmUPLm5vslbJbA=
+			R0nG0GucgA9ooO7zA8sNkG3LouBrACZr/5wsdVmMn/o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H23UtO/bcM1uGaWvVL54yAS+xrc=
+			fLzrKOtRfsQnod9qdEeCVa44f80=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hul2D1+rf0m6iUh3+quAiv8PU9+B+N313x5sWpy24Lw=
+			N9TrfbkS4u6mxpGVhKJ0WYxfFPc7NJL+/niVdddMXOw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wIXcu/s8g6eGen+Qu5qTXU/qaa0=
+			6dMDRf21pEYoYscB03+gIRujyqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			AqWjQc3R5jW1A5VC/khp5o+F9VUKfMXgMe5xsLMaTZM=
+			1KGnz/Nwp0F//zQkCi0cymjWTevFcL42gNRIFAjRkeM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/NautilusCodeReaderSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H23UtO/bcM1uGaWvVL54yAS+xrc=
+			fLzrKOtRfsQnod9qdEeCVa44f80=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hul2D1+rf0m6iUh3+quAiv8PU9+B+N313x5sWpy24Lw=
+			N9TrfbkS4u6mxpGVhKJ0WYxfFPc7NJL+/niVdddMXOw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/Modules/module.modulemap</key>
@@ -353,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lxx94r2VJDi8DNVzr2DrWtb/ThY=
+			LV/Y95s8qylfq7uwmGQvN8/J8y4=
 			</data>
 			<key>hash2</key>
 			<data>
-			BhYbyHUcTfY6yANCeov20KR2OieNh2MtSXu/fyvIq5o=
+			SyszMZqAxRVxvDZ+cE4hLhCk1iR77YoST29SgcT370g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusCodeReaderSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -375,11 +436,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fD7YSET3feNbzyb9euSRaF/H/X4=
+			Oz0FM93BxIlz1BcVQEwZRLL4G8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			uH6RpPYZyyj7sZyzmMnRGKhsF4fwE51jMV4fjexHK/s=
+			nQCE9KCo7LR0U9+FgqF9cCWw8DZYXTgCJoQkdIOVuO0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M8WREhv5WYyILYoXKSeHOUXBHjA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ytF5bo4+AXM7+Rny6tYrws5ll6IGYsCxEtBfh5U87N4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/DWARF/NautilusCodeReaderSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u6fRmz5QcI5iEn28F/37+ZpSDTQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			LD1ShdcyIaXmKLQm94+WoryEvax6HxaVx71+omTvUto=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusCodeReaderSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3hfF8RReVc3cf2Lxq08OH1VpPwk=
+			</data>
+			<key>hash2</key>
+			<data>
+			9aM9l4YPdbigVXu9cIk8eZ65dGvMA8vaGtL+BrRdKHM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusCodeReaderSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusCodeReaderSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			51QT8QYXM885jruFNb8BfZmpFqc=
+			</data>
+			<key>hash2</key>
+			<data>
+			ESP78GX/u+mDaEdkTpD505P/5cI9Ixie6FaaWw5pzSU=
 			</data>
 		</dict>
 	</dict>

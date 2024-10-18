@@ -153,6 +153,10 @@
         "string_value": "#FD5B3C"
     },
     {
+        "config_value_name": "ma_ui_on_accent_color",
+        "string_value": "#FFFFFF"
+    },
+    {
         "config_value_name": "ma_ui_text_link_color",
         "string_value": "#1A73E8"
     },

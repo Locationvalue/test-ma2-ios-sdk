@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusUserInfoSDK",
+    "printedName": "NautilusUserInfoSDK",
     "children": [
       {
         "kind": "Import",
@@ -618,6 +618,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -892,6 +906,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1605,6 +1633,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1913,6 +1955,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2095,6 +2151,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2705,6 +2775,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3513,6 +3597,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4555,6 +4653,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5450,6 +5562,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6025,6 +6151,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6496,6 +6636,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6918,6 +7072,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7288,6 +7456,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7693,6 +7875,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7747,1733 +7943,956 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1401,
       "length": 7,
       "value": "\"a_pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1428,
       "length": 7,
       "value": "\"a_cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1462,
       "length": 15,
       "value": "\"a_app_version\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1504,
       "length": 15,
       "value": "\"n_device_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1545,
       "length": 14,
       "value": "\"a_app_locale\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1585,
       "length": 14,
       "value": "\"a_os_version\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1632,
       "length": 23,
       "value": "\"n_shop_account_app_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1678,
       "length": 10,
       "value": "\"n_gender\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1713,
       "length": 12,
       "value": "\"a_birthday\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1754,
       "length": 11,
       "value": "\"n_pref_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1796,
       "length": 19,
       "value": "\"a_municipality_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1839,
       "length": 11,
       "value": "\"a_zipcode\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1874,
       "length": 12,
       "value": "\"n_brand_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1913,
       "length": 15,
       "value": "\"a_manage_code\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 1952,
       "length": 10,
       "value": "\"arzh_opt\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1401,
-      "length": 7,
-      "value": "\"a_pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1428,
-      "length": 7,
-      "value": "\"a_cid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1462,
-      "length": 15,
-      "value": "\"a_app_version\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1504,
-      "length": 15,
-      "value": "\"n_device_type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1545,
-      "length": 14,
-      "value": "\"a_app_locale\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1585,
-      "length": 14,
-      "value": "\"a_os_version\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1632,
-      "length": 23,
-      "value": "\"n_shop_account_app_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
-      "length": 10,
-      "value": "\"n_gender\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1713,
-      "length": 12,
-      "value": "\"a_birthday\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1754,
-      "length": 11,
-      "value": "\"n_pref_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1796,
-      "length": 19,
-      "value": "\"a_municipality_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1839,
-      "length": 11,
-      "value": "\"a_zipcode\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1874,
-      "length": 12,
-      "value": "\"n_brand_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1913,
-      "length": 15,
-      "value": "\"a_manage_code\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1952,
-      "length": 10,
-      "value": "\"arzh_opt\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 3889,
       "length": 7,
       "value": "\"a_pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 3916,
       "length": 7,
       "value": "\"a_cid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 3950,
       "length": 15,
       "value": "\"a_app_version\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 3992,
       "length": 15,
       "value": "\"n_device_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 4033,
       "length": 14,
       "value": "\"a_app_locale\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 4073,
       "length": 14,
       "value": "\"a_os_version\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 4120,
       "length": 23,
       "value": "\"n_shop_account_app_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 4173,
       "length": 21,
       "value": "\"arzh_enquete_answer\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 3889,
-      "length": 7,
-      "value": "\"a_pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 3916,
-      "length": 7,
-      "value": "\"a_cid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 3950,
-      "length": 15,
-      "value": "\"a_app_version\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 3992,
-      "length": 15,
-      "value": "\"n_device_type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 4033,
-      "length": 14,
-      "value": "\"a_app_locale\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 4073,
-      "length": 14,
-      "value": "\"a_os_version\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 4120,
-      "length": 23,
-      "value": "\"n_shop_account_app_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 4173,
-      "length": 21,
-      "value": "\"arzh_enquete_answer\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 5159,
       "length": 12,
       "value": "\"enquete_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 5206,
       "length": 18,
       "value": "\"select_option_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 5260,
       "length": 19,
       "value": "\"select_option_ids\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
       "kind": "StringLiteral",
       "offset": 5310,
       "length": 13,
       "value": "\"answer_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 5159,
-      "length": 12,
-      "value": "\"enquete_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 5206,
-      "length": 18,
-      "value": "\"select_option_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 5260,
-      "length": 19,
-      "value": "\"select_option_ids\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/RequestBodyJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 5310,
-      "length": 13,
-      "value": "\"answer_text\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttribute.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttribute.swift",
       "kind": "Array",
       "offset": 1447,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttribute.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 21,
-      "value": "\"NautilusUserInfoSDK.NautilusUserAttribute\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
       "kind": "IntegerLiteral",
       "offset": 313,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
       "kind": "IntegerLiteral",
       "offset": 350,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 278,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 313,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserGenderType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 350,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 440,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 7,
       "value": "\"items\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 440,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 466,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 493,
-      "length": 7,
-      "value": "\"items\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 3497,
       "length": 19,
       "value": "\"enquete_manage_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 3538,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 3567,
       "length": 7,
       "value": "\"alias\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 3617,
       "length": 24,
       "value": "\"publish_start_datetime\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 3682,
       "length": 22,
       "value": "\"publish_end_datetime\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 3731,
       "length": 9,
       "value": "\"sort_no\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 3764,
       "length": 9,
       "value": "\"enquete\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3497,
-      "length": 19,
-      "value": "\"enquete_manage_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3538,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3567,
-      "length": 7,
-      "value": "\"alias\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3617,
-      "length": 24,
-      "value": "\"publish_start_datetime\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3682,
-      "length": 22,
-      "value": "\"publish_end_datetime\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3731,
-      "length": 9,
-      "value": "\"sort_no\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3764,
-      "length": 9,
-      "value": "\"enquete\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 4971,
       "length": 12,
       "value": "\"enquete_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5012,
       "length": 15,
       "value": "\"enquete_title\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5062,
       "length": 21,
       "value": "\"enquete_description\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5110,
       "length": 13,
       "value": "\"flg_require\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5151,
       "length": 15,
       "value": "\"flg_updatable\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5194,
       "length": 14,
       "value": "\"enquete_type\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5235,
       "length": 9,
       "value": "\"sort_no\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5274,
       "length": 15,
       "value": "\"select_option\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5315,
       "length": 12,
       "value": "\"answer_ids\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 5354,
       "length": 13,
       "value": "\"answer_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4971,
-      "length": 12,
-      "value": "\"enquete_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5012,
-      "length": 15,
-      "value": "\"enquete_title\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5062,
-      "length": 21,
-      "value": "\"enquete_description\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5110,
-      "length": 13,
-      "value": "\"flg_require\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5151,
-      "length": 15,
-      "value": "\"flg_updatable\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5194,
-      "length": 14,
-      "value": "\"enquete_type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5235,
-      "length": 9,
-      "value": "\"sort_no\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5274,
-      "length": 15,
-      "value": "\"select_option\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5315,
-      "length": 12,
-      "value": "\"answer_ids\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5354,
-      "length": 13,
-      "value": "\"answer_text\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 6431,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
       "kind": "StringLiteral",
       "offset": 6456,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 6431,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/EnqueteDataEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 6456,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
-      "length": 23,
-      "value": "\"NautilusUserInfoSDK.NautilusUserEnqueteItem\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
       "kind": "IntegerLiteral",
       "offset": 2133,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
       "kind": "IntegerLiteral",
       "offset": 2185,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
       "kind": "IntegerLiteral",
       "offset": 2234,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
       "kind": "IntegerLiteral",
       "offset": 2270,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2133,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2185,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2234,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2270,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteItem.swift",
-      "kind": "StringLiteral",
-      "offset": 2337,
-      "length": 32,
-      "value": "\"NautilusUserInfoSDK.NautilusUserEnqueteSelectionItem\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "Array",
       "offset": 901,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 286,
-      "length": 28,
-      "value": "\"NautilusUserInfoSDK.NautilusUserAttributeUpdater\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10262,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10267,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10333,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10338,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10405,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10410,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10481,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10486,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10550,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10555,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10619,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10624,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10691,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10696,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10760,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserAttributeUpdater.swift",
       "kind": "IntegerLiteral",
       "offset": 10765,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttribute.swift",
-      "kind": "StringLiteral",
-      "offset": 253,
-      "length": 29,
-      "value": "\"NautilusUserInfoSDK.NautilusUserOptionalAttribute\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 34,
       "value": "\"ma_userinfo_network_timeout_time\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 50,
       "value": "\"ma_userinfo_upload_user_attribute_retry_interval\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 43,
       "value": "\"ma_userinfo_upload_enquete_retry_interval\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 317,
-      "length": 34,
-      "value": "\"ma_userinfo_network_timeout_time\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 400,
-      "length": 50,
-      "value": "\"ma_userinfo_upload_user_attribute_retry_interval\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Config\/NautilusUserInfoConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 493,
-      "length": 43,
-      "value": "\"ma_userinfo_upload_enquete_retry_interval\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfoModel.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfoModel.swift",
       "kind": "StringLiteral",
       "offset": 650,
       "length": 12,
       "value": "\"yyyy\/MM\/dd\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfoModel.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfoModel.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 12,
       "value": "\"Asia\/Tokyo\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfoModel.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfoModel.swift",
       "kind": "StringLiteral",
       "offset": 851,
       "length": 7,
       "value": "\"ja_JP\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 535,
+      "length": 26,
+      "value": "\"moduleapps-userinfo.json\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 942,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1032,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1123,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1212,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 1393,
       "length": 29,
       "value": "\"NautilusUserInfoErrorDomain\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 1597,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 428,
-      "length": 16,
-      "value": "\"NautilusUserInfoSDK.NautilusUserInfo\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10588,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10635,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10680,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10739,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10808,
       "length": 12,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10896,
       "length": 13,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10955,
       "length": 15,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11053,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11138,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11227,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11284,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11348,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11423,
       "length": 3,
       "value": "903"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11477,
       "length": 3,
       "value": "905"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11532,
       "length": 3,
       "value": "906"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 11612,
       "length": 3,
       "value": "907"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10588,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10635,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10680,
-      "length": 15,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10739,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10808,
-      "length": 12,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10896,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10955,
-      "length": 15,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11053,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11138,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11227,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11284,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11348,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11423,
-      "length": 3,
-      "value": "903"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11477,
-      "length": 3,
-      "value": "905"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11532,
-      "length": 3,
-      "value": "906"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11612,
-      "length": 3,
-      "value": "907"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 347,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 398,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 415,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 432,
       "length": 7,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 449,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 466,
       "length": 7,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
       "kind": "IntegerLiteral",
       "offset": 483,
       "length": 8,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 347,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 364,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 381,
-      "length": 7,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 398,
-      "length": 7,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 415,
-      "length": 7,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 432,
-      "length": 7,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 449,
-      "length": 7,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 466,
-      "length": 7,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserOptionalAttributeKey.swift",
-      "kind": "IntegerLiteral",
-      "offset": 483,
-      "length": 8,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserEnquete.swift",
-      "kind": "StringLiteral",
-      "offset": 224,
-      "length": 19,
-      "value": "\"NautilusUserInfoSDK.NautilusUserEnquete\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 662,
       "length": 12,
       "value": "\"yyyy\/MM\/dd\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 710,
       "length": 12,
       "value": "\"Asia\/Tokyo\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2676,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2702,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2730,
       "length": 8,
       "value": "\"gender\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2769,
       "length": 10,
       "value": "\"birthday\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2808,
       "length": 9,
       "value": "\"pref_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2848,
       "length": 17,
       "value": "\"municipality_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2889,
       "length": 9,
       "value": "\"zipcode\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2922,
       "length": 10,
       "value": "\"brand_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2959,
       "length": 13,
       "value": "\"manage_code\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 2996,
       "length": 5,
       "value": "\"opt\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2676,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2702,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2730,
-      "length": 8,
-      "value": "\"gender\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2769,
-      "length": 10,
-      "value": "\"birthday\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2808,
-      "length": 9,
-      "value": "\"pref_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2848,
-      "length": 17,
-      "value": "\"municipality_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2889,
-      "length": 9,
-      "value": "\"zipcode\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2922,
-      "length": 10,
-      "value": "\"brand_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2959,
-      "length": 13,
-      "value": "\"manage_code\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2996,
-      "length": 5,
-      "value": "\"opt\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4255,
       "length": 6,
       "value": "\"opt1\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4285,
       "length": 6,
       "value": "\"opt2\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4315,
       "length": 6,
       "value": "\"opt3\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4345,
       "length": 6,
       "value": "\"opt4\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4375,
       "length": 6,
       "value": "\"opt5\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4405,
       "length": 6,
       "value": "\"opt6\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4435,
       "length": 6,
       "value": "\"opt7\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4465,
       "length": 6,
       "value": "\"opt8\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4495,
       "length": 6,
       "value": "\"opt9\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
       "kind": "StringLiteral",
       "offset": 4526,
       "length": 7,
       "value": "\"opt10\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4255,
-      "length": 6,
-      "value": "\"opt1\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4285,
-      "length": 6,
-      "value": "\"opt2\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4315,
-      "length": 6,
-      "value": "\"opt3\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4345,
-      "length": 6,
-      "value": "\"opt4\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4375,
-      "length": 6,
-      "value": "\"opt5\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4405,
-      "length": 6,
-      "value": "\"opt6\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4435,
-      "length": 6,
-      "value": "\"opt7\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4465,
-      "length": 6,
-      "value": "\"opt8\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4495,
-      "length": 6,
-      "value": "\"opt9\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/MemberAttributeEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4526,
-      "length": 7,
-      "value": "\"opt10\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/UserInfoCommonEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/UserInfoCommonEntity.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/UserInfoCommonEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/UserInfoCommonEntity.swift",
       "kind": "StringLiteral",
       "offset": 443,
       "length": 5,
       "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/UserInfoCommonEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 417,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Entity\/UserInfoCommonEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 443,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/Base\/NautilusUserEnqueteUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 261,
-      "length": 26,
-      "value": "\"NautilusUserInfoSDK.NautilusUserEnqueteUpdater\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteAnswer.swift",
-      "kind": "StringLiteral",
-      "offset": 236,
-      "length": 25,
-      "value": "\"NautilusUserInfoSDK.NautilusUserEnqueteAnswer\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/UserInfo\/Sources\/API\/Data\/NautilusUserEnqueteAnswerItem.swift",
-      "kind": "StringLiteral",
-      "offset": 236,
-      "length": 29,
-      "value": "\"NautilusUserInfoSDK.NautilusUserEnqueteAnswerItem\""
     }
   ]
 }

@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Headers/NautilusAnalyticsSDK-Swift.h</key>
 		<data>
-		d9jt3kOZgwtSfV8QnXm0OGGjuDw=
+		GTxs3FfLt7eorytVWS+iuYMLdZQ=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Info.plist</key>
 		<data>
-		nBMfSte4UoLa5zYKIRpHvBi/Hsg=
+		RDa7yNE1MQXATMiDwyc4CD0eFCo=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		HJM68Wd7Njy+ZhTXZW0PgSzVpBY=
+		t5dexwjRNML4ZDXzhps+/77z3Vc=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		hH8wosGbju0s1Wu59Q19U+edYBU=
+		8GYU3CawLP9ugudrZRAJ6Z/dzfc=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		wzqKiF1S+llAcfNMkJRFfeAd6KI=
+		HiacePED7g3pILlJCcjJz9m75UU=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hH8wosGbju0s1Wu59Q19U+edYBU=
+		8GYU3CawLP9ugudrZRAJ6Z/dzfc=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,23 @@
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/NautilusAnalyticsSDK</key>
 		<data>
-		szrz6MGWuFedjIj9eWNU+yOZqJw=
+		cxNrS6TIsvtgS9B5LZbv6cy3CGo=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		WeX1nXcKicmjBK9Jcx4/z88Wrao=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		hYBWplvVqi7+FiuC4+cpikXrHyc=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/DWARF/NautilusAnalyticsSDK</key>
+		<data>
+		oBM2HtzvcGyWs2VsPABx3c4RD0s=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusAnalyticsSDK.yml</key>
+		<data>
+		atox8nxY3u55tJRZu8fLbV0ena0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Headers/Analytics.h</key>
 		<data>
@@ -50,43 +62,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Headers/NautilusAnalyticsSDK-Swift.h</key>
 		<data>
-		MAMtGkdPk2HCMI92fI9O8dYT7vM=
+		EFL9i2iWa/dQdxSwe6vGOVgFwa8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Info.plist</key>
 		<data>
-		MqinQHhdDbIG020Dz2qQT/MdPfM=
+		Nz+x8+NGiAlzcMtgSVtyzIK9vVQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		HJM68Wd7Njy+ZhTXZW0PgSzVpBY=
+		t5dexwjRNML4ZDXzhps+/77z3Vc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SQz17S2ndeXDv6IcueiFYmgtp6I=
+		aUcOnclpbMyZKn/LsVek5Dc7PfU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TXl4U1OimBWvMy/foEWdwcZ5/6A=
+		q5XCo+l0dNK/lTP2X0XjX3vQhhE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SQz17S2ndeXDv6IcueiFYmgtp6I=
+		aUcOnclpbMyZKn/LsVek5Dc7PfU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HJM68Wd7Njy+ZhTXZW0PgSzVpBY=
+		t5dexwjRNML4ZDXzhps+/77z3Vc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		65cViRLcw3mliwl1KWoHrdKX/z4=
+		QuavC69PuAcVSTair6I0/PlI+Ss=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0LOaJST1Xzr2659nvJ7+T4ryCm0=
+		x8iu63vuDu+878wWudDJoFQM+0Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		65cViRLcw3mliwl1KWoHrdKX/z4=
+		QuavC69PuAcVSTair6I0/PlI+Ss=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -94,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/NautilusAnalyticsSDK</key>
 		<data>
-		WaCSnVNJDcQfOFKPl6xD/pPOzI4=
+		v56MkE5xaG0ugxnZjMDVMaKr8H4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -102,7 +114,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		vNgrHXZWsaZKHbi9rMssry9H9Lk=
+		FTfeWFMjuZ9bps1LIAYgL7RZ8io=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		hYBWplvVqi7+FiuC4+cpikXrHyc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/DWARF/NautilusAnalyticsSDK</key>
+		<data>
+		c5mpSySuVdtlAwHamLDksDeT9ng=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusAnalyticsSDK.yml</key>
+		<data>
+		beC/s0yDEbbHzwRNg4n/bczBy4Y=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusAnalyticsSDK.yml</key>
+		<data>
+		lfEw1qQ/GosvOBqIINgTVTrnHbs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,66 +150,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d9jt3kOZgwtSfV8QnXm0OGGjuDw=
+			GTxs3FfLt7eorytVWS+iuYMLdZQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			nl3yf+1wTHZ+YrnYbXLp5y75vn8p8VkAuGAe72vlbz4=
+			Pkywl3TOvYXqZ1Lvifefxo5dLYPNpO/bCVTn3OEUlWM=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nBMfSte4UoLa5zYKIRpHvBi/Hsg=
+			RDa7yNE1MQXATMiDwyc4CD0eFCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			My/cZ2/cyE8T1AUy+2A22Zza2WcYukppwUy5GXT0WsM=
+			Lm/CThh1N/w4IPxBcnwoqzCL24/WHtvzFcFsMPSfQiY=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HJM68Wd7Njy+ZhTXZW0PgSzVpBY=
+			t5dexwjRNML4ZDXzhps+/77z3Vc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SWGXMU1h0QrOSHqv7n6lD+4w4obf50S/xXJxIKyOBvM=
+			EpVvbJbug3mXhDifBXRBgY+oTpp9zSFqfofoRVfro3w=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hH8wosGbju0s1Wu59Q19U+edYBU=
+			8GYU3CawLP9ugudrZRAJ6Z/dzfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			w5PReW8f9G2HzJ69gJ0+/V1zPRcLyXZPH7roOaexdbw=
+			KAV5Y/NiMF+aaCNaMuxCcrhrp6E2+9jgY0aalp3Yq0M=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wzqKiF1S+llAcfNMkJRFfeAd6KI=
+			HiacePED7g3pILlJCcjJz9m75UU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ngaaP1xuoF4LkrBhVMevJ9DEHJBXLJ9Lt9zA7DE3EKY=
+			TJ1rf6S+IeB/tvfwZReinUcqCZarWYZReKozEt5MEus=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hH8wosGbju0s1Wu59Q19U+edYBU=
+			8GYU3CawLP9ugudrZRAJ6Z/dzfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			w5PReW8f9G2HzJ69gJ0+/V1zPRcLyXZPH7roOaexdbw=
+			KAV5Y/NiMF+aaCNaMuxCcrhrp6E2+9jgY0aalp3Yq0M=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/Modules/module.modulemap</key>
@@ -199,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			szrz6MGWuFedjIj9eWNU+yOZqJw=
+			cxNrS6TIsvtgS9B5LZbv6cy3CGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7uJcATpd3xTanEvtFWnogK7UwsFBWP2EhYue6dsqD3c=
+			Y/o2klHEYCJGt5NQQJL2LNFUvxsur7WocxAvCSDbQDM=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -215,6 +243,39 @@
 			<key>hash2</key>
 			<data>
 			aJC8JfJkFx99o6cnKmXkVqJdoNXio+q4r2WX85/5tts=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hYBWplvVqi7+FiuC4+cpikXrHyc=
+			</data>
+			<key>hash2</key>
+			<data>
+			QAgiawcp3bnJ9sYGS9/AUX6JdjBa9tieiKWbEHuh8qM=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/DWARF/NautilusAnalyticsSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oBM2HtzvcGyWs2VsPABx3c4RD0s=
+			</data>
+			<key>hash2</key>
+			<data>
+			YXA/WEUjg82UK2JMh9dFIPeGn/uyVGDrgWsOyfrKsTA=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusAnalyticsSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			atox8nxY3u55tJRZu8fLbV0ena0=
+			</data>
+			<key>hash2</key>
+			<data>
+			VFfqutlFAN2yxHFh6nKEY+msoHGKyk16hE40kddop4k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Headers/Analytics.h</key>
@@ -232,110 +293,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MAMtGkdPk2HCMI92fI9O8dYT7vM=
+			EFL9i2iWa/dQdxSwe6vGOVgFwa8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0K5Hqf0wC0bR7CdcmagdrH+L+4jb05N0oOmC5FJ69+k=
+			fih2OIe0bpkgh7jItGhLHQXBovzJ8GkMZj8VW1OR8MA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MqinQHhdDbIG020Dz2qQT/MdPfM=
+			Nz+x8+NGiAlzcMtgSVtyzIK9vVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			3lgyfMBAQNi7iAeKNLq7hZbqrHQDa1wz7ZNGD1Z4Z4g=
+			iazW7RaG1HwW7HAFwmAiUGUOygQ3rumYSNttdgUGvHM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HJM68Wd7Njy+ZhTXZW0PgSzVpBY=
+			t5dexwjRNML4ZDXzhps+/77z3Vc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SWGXMU1h0QrOSHqv7n6lD+4w4obf50S/xXJxIKyOBvM=
+			EpVvbJbug3mXhDifBXRBgY+oTpp9zSFqfofoRVfro3w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SQz17S2ndeXDv6IcueiFYmgtp6I=
+			aUcOnclpbMyZKn/LsVek5Dc7PfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q3Rexl63K+mJSOE63y3G8booNno1fuStxAXpKApEdSA=
+			B97b8Ipi3fuw36KOmCqj4EmRNB57nA9A81aZ8nRQNi4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TXl4U1OimBWvMy/foEWdwcZ5/6A=
+			q5XCo+l0dNK/lTP2X0XjX3vQhhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			yGV5H4gFU6izS2p/cfW9o3uE68pSn+SUU9APa6lwDrM=
+			zCy/WlthWScBcXdlR5jAEjB2AVOfJ2q3b0Y9VM96Dlk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SQz17S2ndeXDv6IcueiFYmgtp6I=
+			aUcOnclpbMyZKn/LsVek5Dc7PfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q3Rexl63K+mJSOE63y3G8booNno1fuStxAXpKApEdSA=
+			B97b8Ipi3fuw36KOmCqj4EmRNB57nA9A81aZ8nRQNi4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HJM68Wd7Njy+ZhTXZW0PgSzVpBY=
+			t5dexwjRNML4ZDXzhps+/77z3Vc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SWGXMU1h0QrOSHqv7n6lD+4w4obf50S/xXJxIKyOBvM=
+			EpVvbJbug3mXhDifBXRBgY+oTpp9zSFqfofoRVfro3w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			65cViRLcw3mliwl1KWoHrdKX/z4=
+			QuavC69PuAcVSTair6I0/PlI+Ss=
 			</data>
 			<key>hash2</key>
 			<data>
-			B25jOXul5gZFPU6YUC47oSeYvQqmftBXVU7on6NAeFI=
+			59Rn5Mv+Fv9wh/zNZPxjzPg58qoMFhvMvXwgwSCzZRY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0LOaJST1Xzr2659nvJ7+T4ryCm0=
+			x8iu63vuDu+878wWudDJoFQM+0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			4EU7UQ361V3LdFeLPP+OmLxCdt2lFNGn/lsHl97Zo94=
+			ba4B6/aJA0DFOC5rXcajr0Omf4RN5DIbI++Uk/k4l7U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/NautilusAnalyticsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			65cViRLcw3mliwl1KWoHrdKX/z4=
+			QuavC69PuAcVSTair6I0/PlI+Ss=
 			</data>
 			<key>hash2</key>
 			<data>
-			B25jOXul5gZFPU6YUC47oSeYvQqmftBXVU7on6NAeFI=
+			59Rn5Mv+Fv9wh/zNZPxjzPg58qoMFhvMvXwgwSCzZRY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/Modules/module.modulemap</key>
@@ -353,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WaCSnVNJDcQfOFKPl6xD/pPOzI4=
+			v56MkE5xaG0ugxnZjMDVMaKr8H4=
 			</data>
 			<key>hash2</key>
 			<data>
-			6nrHcOp54nOrVz7Ds31yrg/gc50IiEyttqh31cnrotU=
+			OGSn8i1iYD57vlKjojic//GvJV1ZntgQwfsdLBkaMAM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -375,11 +436,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vNgrHXZWsaZKHbi9rMssry9H9Lk=
+			FTfeWFMjuZ9bps1LIAYgL7RZ8io=
 			</data>
 			<key>hash2</key>
 			<data>
-			iVifAn8opliznBrrMAiyMMLiolWDcWgcC7gOnBX0upw=
+			99Q1YyDFNpfJTCkxjOIGQua8ZRZgpjXHjiD7O3J2HHE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hYBWplvVqi7+FiuC4+cpikXrHyc=
+			</data>
+			<key>hash2</key>
+			<data>
+			QAgiawcp3bnJ9sYGS9/AUX6JdjBa9tieiKWbEHuh8qM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/DWARF/NautilusAnalyticsSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c5mpSySuVdtlAwHamLDksDeT9ng=
+			</data>
+			<key>hash2</key>
+			<data>
+			uM0anFIKVZR31KU4VDkCaGpMD/NLBwTSVK5SXhkqV24=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusAnalyticsSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			beC/s0yDEbbHzwRNg4n/bczBy4Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			09xgY/I1q9Wc5Wr2UNKZ0K2LZnENEvA1n88PkarSc5s=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusAnalyticsSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lfEw1qQ/GosvOBqIINgTVTrnHbs=
+			</data>
+			<key>hash2</key>
+			<data>
+			tNEK1aaacqvmoaOkOdehrIlbqb5ymg2yj2teNDpIcBk=
 			</data>
 		</dict>
 	</dict>

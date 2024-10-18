@@ -10,51 +10,51 @@
 		</data>
 		<key>Headers/NautilusPointSDK-Swift.h</key>
 		<data>
-		HaJY2Ma2OTR3DgAvaxQjamxrbCk=
+		Q9A+ock2Soo70VHKgSktIWxDYSI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z8kN3bJWioQnSxBA95riXSHIRxw=
+		P17owt6sF5iX0hjqIEj/4CAZ2Sk=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5LvqPOfRt8a2hy8NECL0NTPEQtc=
+		iflQVVQJucbFVCG089cxhOVtMnE=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		reYxloQQ0KqzuFZqMx1mDIIJtO0=
+		VjV968tgjCgsTpFrEiNoXGzN7Co=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+4DfxmmD+2GOe0sww+T/oOZpGsw=
+		tGcA65PEO7qgPHAXjKwIKAN/xOQ=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		reYxloQQ0KqzuFZqMx1mDIIJtO0=
+		VjV968tgjCgsTpFrEiNoXGzN7Co=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		b5OoqQ5ww2AGei5kP3tOo0maKRI=
+		0aptupAevra+uCxqtDd4wGkggeA=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5LvqPOfRt8a2hy8NECL0NTPEQtc=
+		iflQVVQJucbFVCG089cxhOVtMnE=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IXl/pvc04zEi+YOTKCeqtsZDHMs=
+		kzFR1JrPq2pjrrwC7P3zcuz40Jg=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IRtqWCsPc4aVysPDatTz9B/l7P4=
+		cPNi2x3Gad9jnmdl89wUiF5KI4w=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IXl/pvc04zEi+YOTKCeqtsZDHMs=
+		kzFR1JrPq2pjrrwC7P3zcuz40Jg=
 		</data>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PxIZKnX3+KXLAFmt4Hqw2LYoK3s=
+		63DsIksNTmVfdfhpPrmiJ9nJf7E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		varhoID5mdbsk3Yw+md5eGuLaJs=
+		vmmuNZR1WdxLU1sBzEkPGfgq3t0=
 		</data>
 		<key>moduleapps-point.json</key>
 		<data>
@@ -82,77 +82,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cwp2RevGbzJH6YP7CAAyJt/y4DsCV0SNiiVn2GRPH74=
+			nJws/Q8R/4iXcOGR2eg6l3VkyGjya1+Jl/pQIb39Q5o=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DyCU0kkmk8xDamCgIaYVZaozEv/9xlmckbGBj1laA60=
+			5mlMSOFosFUSwbx5wZ5l4GX9LBEVEWy4m837RZQKsSY=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Htr2yDgS+DviwvlXzj0JRTnGhI0+aL51sNPwlHdVVkE=
+			+6Ki/Cr2RNqcgDTEw9Njl4ANKOowH0csvnuzGntbxfI=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ctvvXjczaPQChfTpiumJSYEABzYvBTS014RT138cGmM=
+			kjs1XxcJ8UQ9UbYhhyy/XfdSF6hsXQp6D1HXAepTL6g=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Htr2yDgS+DviwvlXzj0JRTnGhI0+aL51sNPwlHdVVkE=
+			+6Ki/Cr2RNqcgDTEw9Njl4ANKOowH0csvnuzGntbxfI=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gndp2RIOCOEKQUGOn2K8T4S69J+8iAGCycmR8nxaMT8=
+			HltOzfaWYG1l5r0so2LYdiawh2nHVEKinE+z/srMh/M=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DyCU0kkmk8xDamCgIaYVZaozEv/9xlmckbGBj1laA60=
+			5mlMSOFosFUSwbx5wZ5l4GX9LBEVEWy4m837RZQKsSY=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nr9/scMQN/Ny4UfjqIZftXY8nMjWbZPp74AtwYDv24E=
+			7KyVMlAkSljU69R0XxhD6+DFwV4qr2vr3+e4BBW5dPc=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BT5jzGv0AakjKt1YCrDDy95gfOQoWX2T4aTvhwfDsoA=
+			eJbwJjbzDGAbm3aa1K332XDhAPYpudTNJmynwGaEVVk=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nr9/scMQN/Ny4UfjqIZftXY8nMjWbZPp74AtwYDv24E=
+			7KyVMlAkSljU69R0XxhD6+DFwV4qr2vr3+e4BBW5dPc=
 			</data>
 		</dict>
 		<key>Modules/NautilusPointSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PsOnJEoZEpqKyFGuM0x/CFlmE5FmruCnT/d5ztUGNGc=
+			5k96tSPL+Hcb4YGpo8a/t3e8t5XJgBRMqD/FfVTJ5Ns=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6nM3zb1vtfzxy5TuFmsrjPyp9cb2mRr6TCtBL7Qu5mQ=
+			HgbA/RBFE/IIE+d63o/glPsAPrQIvabp03OfhotKtV8=
 			</data>
 		</dict>
 		<key>moduleapps-point.json</key>

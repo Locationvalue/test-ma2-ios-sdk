@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NautilusConfigSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreData
 import Foundation
 import NautilusContainerSDK
@@ -48,6 +49,19 @@ import _SwiftConcurrencyShims
   }
   @objc deinit
 }
+final public class _NautilusConfigValue : NautilusConfigSDK.NautilusConfigValue {
+  @objc final public let keyName: Swift.String
+  @objc final public let boolValue: Swift.Bool
+  @objc final public let integerValue: Swift.Int
+  @objc final public let doubleValue: Swift.Double
+  @objc final public let stringValue: Swift.String
+  @objc final public let boolArrayValue: [Swift.Bool]
+  @objc final public let integerArrayValue: [Swift.Int]
+  @objc final public let doubleArrayValue: [Swift.Double]
+  @objc final public let stringArrayValue: [Swift.String]
+  public init(keyName: Swift.String, boolValue: Swift.Bool = NautilusConfigDefaultValues.boolValue, integerValue: Swift.Int = NautilusConfigDefaultValues.integerValue, doubleValue: Swift.Double = NautilusConfigDefaultValues.doubleValue, stringValue: Swift.String = NautilusConfigDefaultValues.stringValue, boolArrayValue: [Swift.Bool] = NautilusConfigDefaultValues.boolArrayValue, integerArrayValue: [Swift.Int] = NautilusConfigDefaultValues.integerArrayValue, doubleArrayValue: [Swift.Double] = NautilusConfigDefaultValues.doubleArrayValue, stringArrayValue: [Swift.String] = NautilusConfigDefaultValues.stringArrayValue)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @objc final public class NautilusConfig : ObjectiveC.NSObject, NautilusCoreSDK.NautilusFeature {
   @objc public static var componentType: NautilusContainerSDK.NautilusComponentType {
     @objc get
@@ -82,23 +96,8 @@ import _SwiftConcurrencyShims
   @objc(configValueForKey:defaultIntegerArrayValue:) final public func configValue(for key: Swift.String, default: [Swift.Int]) -> any NautilusConfigSDK.NautilusConfigValue
   @objc(configValueForKey:defaultDoubleArrayValue:) final public func configValue(for key: Swift.String, default: [Swift.Double]) -> any NautilusConfigSDK.NautilusConfigValue
   @objc(configValueForKey:defaultStringArrayValue:) final public func configValue(for key: Swift.String, default: [Swift.String]) -> any NautilusConfigSDK.NautilusConfigValue
+  @available(*, deprecated, message: "Do not use in a production environment.")
+  @discardableResult
+  final public func debugConfigUpdate(with newValues: [any NautilusConfigSDK.NautilusConfigValue]) -> Swift.Bool
   @objc deinit
 }
-@objc public protocol NautilusConfigStatus {
-  @objc var configVersion: Swift.Int { get }
-  @objc var lastFetchDate: Foundation.Date? { get }
-  @objc var lastFetchStatus: NautilusConfigSDK.NautilusConfigFetchStatus { get }
-}
-@objc public enum NautilusConfigFetchStatus : Swift.Int {
-  case fetchNotYet = 0
-  case lastFetchSuccess = 1
-  case lastFetchFailure = 2
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-extension NautilusConfigSDK.NautilusConfigFetchStatus : Swift.Equatable {}
-extension NautilusConfigSDK.NautilusConfigFetchStatus : Swift.Hashable {}
-extension NautilusConfigSDK.NautilusConfigFetchStatus : Swift.RawRepresentable {}

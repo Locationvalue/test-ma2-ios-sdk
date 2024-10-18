@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusGeoUtilSDK",
+    "printedName": "NautilusGeoUtilSDK",
     "children": [
       {
         "kind": "Import",
@@ -1014,6 +1014,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3375,6 +3389,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3649,6 +3677,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4594,6 +4636,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4648,1012 +4704,529 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 7,
       "value": "\"items\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 449,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 475,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 502,
-      "length": 7,
-      "value": "\"items\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1047,
       "length": 17,
       "value": "\"municipality_id\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
       "kind": "StringLiteral",
       "offset": 1097,
       "length": 19,
       "value": "\"municipality_name\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1047,
-      "length": 17,
-      "value": "\"municipality_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/API\/MunicipalityListEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 1097,
-      "length": 19,
-      "value": "\"municipality_name\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 28,
       "value": "\"NautilusGeoUtilErrorDomain\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 500,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 547,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 592,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 651,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 720,
       "length": 12,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 808,
       "length": 13,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 864,
       "length": 16,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 926,
       "length": 15,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1024,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1109,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1198,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1255,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1319,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1394,
       "length": 3,
       "value": "903"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1448,
       "length": 3,
       "value": "905"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1503,
       "length": 3,
       "value": "906"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
       "kind": "IntegerLiteral",
       "offset": 1583,
       "length": 3,
       "value": "907"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 500,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 547,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 592,
-      "length": 15,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 651,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 720,
-      "length": 12,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 808,
-      "length": 13,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 864,
-      "length": 16,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 926,
-      "length": 15,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1024,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1109,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1198,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1255,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1319,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1394,
-      "length": 3,
-      "value": "903"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1448,
-      "length": 3,
-      "value": "905"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1503,
-      "length": 3,
-      "value": "906"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/GeoUtilError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1583,
-      "length": 3,
-      "value": "907"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 443,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 477,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 510,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 544,
       "length": 5,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 577,
       "length": 8,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 613,
       "length": 9,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 650,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 685,
       "length": 7,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 720,
       "length": 5,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 753,
       "length": 7,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 788,
       "length": 5,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 821,
       "length": 5,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 857,
       "length": 8,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 893,
       "length": 7,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 928,
       "length": 6,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 962,
       "length": 8,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 998,
       "length": 5,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1031,
       "length": 9,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1068,
       "length": 6,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1102,
       "length": 4,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1134,
       "length": 8,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1170,
       "length": 5,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1203,
       "length": 3,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1234,
       "length": 5,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1267,
       "length": 5,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1300,
       "length": 5,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1333,
       "length": 5,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1366,
       "length": 4,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1401,
       "length": 8,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1437,
       "length": 7,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1472,
       "length": 7,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1507,
       "length": 7,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1542,
       "length": 9,
       "value": "33"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1579,
       "length": 9,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1616,
       "length": 9,
       "value": "35"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1653,
       "length": 6,
       "value": "36"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1687,
       "length": 5,
       "value": "37"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1720,
       "length": 5,
       "value": "38"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1753,
       "length": 7,
       "value": "39"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1788,
       "length": 4,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1820,
       "length": 8,
       "value": "41"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1856,
       "length": 8,
       "value": "42"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1892,
       "length": 4,
       "value": "43"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1924,
       "length": 8,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 1963,
       "length": 9,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 2000,
       "length": 7,
       "value": "46"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
       "kind": "IntegerLiteral",
       "offset": 2198,
       "length": 5,
       "value": "47"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 443,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 477,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 510,
-      "length": 6,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 544,
-      "length": 5,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 577,
-      "length": 8,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 613,
-      "length": 9,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 650,
-      "length": 7,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 685,
-      "length": 7,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 720,
-      "length": 5,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 753,
-      "length": 7,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 788,
-      "length": 5,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 821,
-      "length": 5,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 857,
-      "length": 8,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 893,
-      "length": 7,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 928,
-      "length": 6,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 962,
-      "length": 8,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 998,
-      "length": 5,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1031,
-      "length": 9,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1068,
-      "length": 6,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1102,
-      "length": 4,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1134,
-      "length": 8,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1170,
-      "length": 5,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1203,
-      "length": 3,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1234,
-      "length": 5,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1267,
-      "length": 5,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1300,
-      "length": 5,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1333,
-      "length": 5,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1366,
-      "length": 4,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1401,
-      "length": 8,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1437,
-      "length": 7,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1472,
-      "length": 7,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1507,
-      "length": 7,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1542,
-      "length": 9,
-      "value": "33"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1579,
-      "length": 9,
-      "value": "34"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1616,
-      "length": 9,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1653,
-      "length": 6,
-      "value": "36"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1687,
-      "length": 5,
-      "value": "37"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1720,
-      "length": 5,
-      "value": "38"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1753,
-      "length": 7,
-      "value": "39"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1788,
-      "length": 4,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1820,
-      "length": 8,
-      "value": "41"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1856,
-      "length": 8,
-      "value": "42"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1892,
-      "length": 4,
-      "value": "43"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1924,
-      "length": 8,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1963,
-      "length": 9,
-      "value": "45"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2000,
-      "length": 7,
-      "value": "46"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusPrefectureCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2198,
-      "length": 5,
-      "value": "47"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtilConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtilConfig.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 33,
       "value": "\"ma_geoutil_network_timeout_time\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtilConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtil.swift",
       "kind": "StringLiteral",
-      "offset": 318,
-      "length": 33,
-      "value": "\"ma_geoutil_network_timeout_time\""
+      "offset": 522,
+      "length": 25,
+      "value": "\"moduleapps-geoutil.json\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusMunicipalityCode.swift",
-      "kind": "StringLiteral",
-      "offset": 231,
-      "length": 24,
-      "value": "\"NautilusGeoUtilSDK.NautilusMunicipalityCode\""
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 840,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtil.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 931,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 1115,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/GeoUtil\/Sources\/NautilusGeoUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 420,
-      "length": 15,
-      "value": "\"NautilusGeoUtilSDK.NautilusGeoUtil\""
     }
   ]
 }

@@ -6,27 +6,27 @@
 	<dict>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Headers/NautilusAnalyticsAmplitudePluginSDK-Swift.h</key>
 		<data>
-		hpRN06rwi2G1AgubXDRz8REKpb4=
+		hDFnt9J2AltTkvJSoOsZIwGqO2o=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Info.plist</key>
 		<data>
-		Qpug0cNsZ3IaoT2LnyDt8NynNPM=
+		FPTthJmbaNpwmlXXkTNGljy5sfc=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PbkOQNLOcZsqRaFvQnptbmptEC4=
+		iEJN4/I20IQoWRB/PYy81LQOUAw=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		H30b+1ygWPDG90sXDn+uZt8hjFo=
+		zzz7iXi9Zk5CDmk7xLVBIgyxNEY=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		W90fse6bcWa3P2nnlobRg/wgRGs=
+		nicNFC9aGIyefMK+tXEmm/W/wOg=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		H30b+1ygWPDG90sXDn+uZt8hjFo=
+		zzz7iXi9Zk5CDmk7xLVBIgyxNEY=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -34,51 +34,63 @@
 		</data>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/NautilusAnalyticsAmplitudePluginSDK</key>
 		<data>
-		OKWap1MiaA4dnpyZFL6qdvimQ1Q=
+		LsrsBgSU5GT/oZCwEpEiIzSUWyw=
 		</data>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		ucg9pita0v8d353x3NuGfxweQYU=
 		</data>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		U6neqU+BPsSGrrF4AsdY4Id8RIs=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/DWARF/NautilusAnalyticsAmplitudePluginSDK</key>
+		<data>
+		W2I/StURh67zo5tpFlhHa2Amg3Y=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusAnalyticsAmplitudePluginSDK.yml</key>
+		<data>
+		53yJZ5Loj2SzvSxTnoYUVDPDJVM=
+		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Headers/NautilusAnalyticsAmplitudePluginSDK-Swift.h</key>
 		<data>
-		Gt9EfBOqoZozqx2ljOLIuUEeQH4=
+		vB2mdznFYGBZGq5llYyefLHE+ys=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Info.plist</key>
 		<data>
-		D9bhBiccCtqETs4fC+6HU2L7SIE=
+		ND3bEjGkVRhZ1h/L0Vrg6jcY8Ok=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PbkOQNLOcZsqRaFvQnptbmptEC4=
+		iEJN4/I20IQoWRB/PYy81LQOUAw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4LjUW+WupA2bojZ23lTTO5rgV/4=
+		ZtCJ5Ok/WXHAj2+GRZ+sMdMHbCM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		12N0HRFNh6V10SSI0S2Gpwjgf1w=
+		AkgUCAgmCFUqhrvd4jYgzmT7GyA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4LjUW+WupA2bojZ23lTTO5rgV/4=
+		ZtCJ5Ok/WXHAj2+GRZ+sMdMHbCM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PbkOQNLOcZsqRaFvQnptbmptEC4=
+		iEJN4/I20IQoWRB/PYy81LQOUAw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ohf6PJikSfErN1inndFVgrQ/8MA=
+		3vdv3bMpSlEPzpKeAA/j2431Bxc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		K3qfdI22SLJX4ffaB1cWlQG4AmE=
+		HzzscdYrXnE2SEYvEP5uxhg8UBA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ohf6PJikSfErN1inndFVgrQ/8MA=
+		3vdv3bMpSlEPzpKeAA/j2431Bxc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -86,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/NautilusAnalyticsAmplitudePluginSDK</key>
 		<data>
-		I7cEuwnbCRJVcXCXPdh4eXE545A=
+		nGTcezhALeoaPfKOz9RIL5fXoH4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -94,7 +106,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		+uDAkzspUhcO29ioOHs597+hBo0=
+		ySqoeGuLIz6YLk0nE86mN1n9Pgk=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		U6neqU+BPsSGrrF4AsdY4Id8RIs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/DWARF/NautilusAnalyticsAmplitudePluginSDK</key>
+		<data>
+		mEmd4Ekd8bBuZJ2eS+o3A+z+e+g=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusAnalyticsAmplitudePluginSDK.yml</key>
+		<data>
+		2XawZs6KmYCJwskqu6myelXeBEs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusAnalyticsAmplitudePluginSDK.yml</key>
+		<data>
+		w2gQG07IigpwSvOlGPq+5Yxp+2s=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -103,66 +131,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hpRN06rwi2G1AgubXDRz8REKpb4=
+			hDFnt9J2AltTkvJSoOsZIwGqO2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			WJSYARm6RsIUDmHzHVw2ea0RqdtVEZ6gIRCZ7tqpNhQ=
+			aGyvBzsP/W9fKgtxWSnxAumyciKjAr2ljNXEK6TVptI=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Qpug0cNsZ3IaoT2LnyDt8NynNPM=
+			FPTthJmbaNpwmlXXkTNGljy5sfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			CQhox0mmY9RbbZIM/2bcd2jiSeju07q3vpeJF/8QulI=
+			3Z0O9ARvXg3FlXZlVDVksOZdx1lKumUp+dnVB9ozFBs=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PbkOQNLOcZsqRaFvQnptbmptEC4=
+			iEJN4/I20IQoWRB/PYy81LQOUAw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ez/VYWQgWqb2CWM1oXxu/04pkox8fd8Ci9npzjJA5tw=
+			/7Ll7jXvJGeKWRKLG+ZMAd0y3aoRarQTvVx4LE/PeuA=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H30b+1ygWPDG90sXDn+uZt8hjFo=
+			zzz7iXi9Zk5CDmk7xLVBIgyxNEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			14Kvc1bQ3uExFLbGBy3fFoZzaRWV4v/3/U+cWi2lXT0=
+			SS/S4lrIwq1DghF1Ez65Cagd7j87ZJcnKWIfROQy2H4=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W90fse6bcWa3P2nnlobRg/wgRGs=
+			nicNFC9aGIyefMK+tXEmm/W/wOg=
 			</data>
 			<key>hash2</key>
 			<data>
-			IELAqep+3OiiNRezL9qOkoq5Gt9r55F0Zs6IByi08uA=
+			36FvR8WE6s0HjEzeT8yYI0r4SDmDIOTc5y+ukiRNWWs=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H30b+1ygWPDG90sXDn+uZt8hjFo=
+			zzz7iXi9Zk5CDmk7xLVBIgyxNEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			14Kvc1bQ3uExFLbGBy3fFoZzaRWV4v/3/U+cWi2lXT0=
+			SS/S4lrIwq1DghF1Ez65Cagd7j87ZJcnKWIfROQy2H4=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/module.modulemap</key>
@@ -180,11 +208,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OKWap1MiaA4dnpyZFL6qdvimQ1Q=
+			LsrsBgSU5GT/oZCwEpEiIzSUWyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GwA6NHrQChk6pQbL+vhG+X/CShwIldBH+acE+yu0URc=
+			vGL0l+3xftGMyrEHSRu9SmPGEyQ1ZPjb868u2mIfAPw=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusAnalyticsAmplitudePluginSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -198,114 +226,147 @@
 			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
 			</data>
 		</dict>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U6neqU+BPsSGrrF4AsdY4Id8RIs=
+			</data>
+			<key>hash2</key>
+			<data>
+			3xTt38OaqujRH1X6LQ//DehXc9GdsgvvSaLcqntkgSg=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/DWARF/NautilusAnalyticsAmplitudePluginSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W2I/StURh67zo5tpFlhHa2Amg3Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			cU0yxmlvDFOmIOCVWhNXzF+VG3AVsREwlcDyHt8IcFk=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusAnalyticsAmplitudePluginSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			53yJZ5Loj2SzvSxTnoYUVDPDJVM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ey8vy8aEKMjskJ1fe+ZvN5IPxCURirsxLPrJrMB39Do=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Headers/NautilusAnalyticsAmplitudePluginSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Gt9EfBOqoZozqx2ljOLIuUEeQH4=
+			vB2mdznFYGBZGq5llYyefLHE+ys=
 			</data>
 			<key>hash2</key>
 			<data>
-			2t2kX7e1djIbBD0hzbh3q5vt0jADCCJ8YhBUyfq45hg=
+			0F+eCO8UHwqISGznUnSXftOwpRcOjjbQjZbA36xoGiY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D9bhBiccCtqETs4fC+6HU2L7SIE=
+			ND3bEjGkVRhZ1h/L0Vrg6jcY8Ok=
 			</data>
 			<key>hash2</key>
 			<data>
-			TGKQj7TL3zA+hO3Og1E0594vhZTSh0O3/bo7zuSy3HQ=
+			q6Ln//1a739FUZZ+d4Y0XoEmWe0e4CcWXtw/7qkiQvI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PbkOQNLOcZsqRaFvQnptbmptEC4=
+			iEJN4/I20IQoWRB/PYy81LQOUAw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ez/VYWQgWqb2CWM1oXxu/04pkox8fd8Ci9npzjJA5tw=
+			/7Ll7jXvJGeKWRKLG+ZMAd0y3aoRarQTvVx4LE/PeuA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4LjUW+WupA2bojZ23lTTO5rgV/4=
+			ZtCJ5Ok/WXHAj2+GRZ+sMdMHbCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			jYPfT1+gOVVI4wqKCZTyMHYSr9vv5mLY/zssEKDUKYc=
+			/yqR1HsI+BdtaaPRDMijxW9luRpwnfDXkZnshBEyi08=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			12N0HRFNh6V10SSI0S2Gpwjgf1w=
+			AkgUCAgmCFUqhrvd4jYgzmT7GyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tKxzYEfarY85DcNC6Rn0qwWZO1Pp/vxjuV4WGSNPd7c=
+			VxjgYsmX9hGD0tK/nQAnHcJX5J8ZGik+LGV7syf2cY0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4LjUW+WupA2bojZ23lTTO5rgV/4=
+			ZtCJ5Ok/WXHAj2+GRZ+sMdMHbCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			jYPfT1+gOVVI4wqKCZTyMHYSr9vv5mLY/zssEKDUKYc=
+			/yqR1HsI+BdtaaPRDMijxW9luRpwnfDXkZnshBEyi08=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PbkOQNLOcZsqRaFvQnptbmptEC4=
+			iEJN4/I20IQoWRB/PYy81LQOUAw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ez/VYWQgWqb2CWM1oXxu/04pkox8fd8Ci9npzjJA5tw=
+			/7Ll7jXvJGeKWRKLG+ZMAd0y3aoRarQTvVx4LE/PeuA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ohf6PJikSfErN1inndFVgrQ/8MA=
+			3vdv3bMpSlEPzpKeAA/j2431Bxc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hxm3ssavYnzpR/T7NyIWUYxn/Kp6PAc+bWaAaQI6MiI=
+			awlaCCdxOt3dsVl3YnAvT46LjNsx9IjItVzyDEWQoNc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K3qfdI22SLJX4ffaB1cWlQG4AmE=
+			HzzscdYrXnE2SEYvEP5uxhg8UBA=
 			</data>
 			<key>hash2</key>
 			<data>
-			npIcJku76dJ+2Qh6pJweg55ZDmXR2QuZiG0Nc8SL6Q8=
+			e7HhbHUIDFAyXTFLcs9LHZdvKteukeTP00dn+Qi7Ku0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/NautilusAnalyticsAmplitudePluginSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ohf6PJikSfErN1inndFVgrQ/8MA=
+			3vdv3bMpSlEPzpKeAA/j2431Bxc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hxm3ssavYnzpR/T7NyIWUYxn/Kp6PAc+bWaAaQI6MiI=
+			awlaCCdxOt3dsVl3YnAvT46LjNsx9IjItVzyDEWQoNc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/Modules/module.modulemap</key>
@@ -323,11 +384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I7cEuwnbCRJVcXCXPdh4eXE545A=
+			nGTcezhALeoaPfKOz9RIL5fXoH4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FYe3Vt1KRAPN7N58UbQxn1iVYVb0zFnDL2wFG1DxHsk=
+			JySFZLjgy1/mPqVzfQ9Kn3HAbMe8MQGJR3zYhyGXstM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusAnalyticsAmplitudePluginSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -345,11 +406,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+uDAkzspUhcO29ioOHs597+hBo0=
+			ySqoeGuLIz6YLk0nE86mN1n9Pgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			/c5P7KCMRvUHjJEvVCJW2bJkKz6hqehxtWlpOJO3vy8=
+			VeAd5SAvubV5vjZ6S0QgSU7HVy1xpkxbuomJKIGYt6c=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U6neqU+BPsSGrrF4AsdY4Id8RIs=
+			</data>
+			<key>hash2</key>
+			<data>
+			3xTt38OaqujRH1X6LQ//DehXc9GdsgvvSaLcqntkgSg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/DWARF/NautilusAnalyticsAmplitudePluginSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mEmd4Ekd8bBuZJ2eS+o3A+z+e+g=
+			</data>
+			<key>hash2</key>
+			<data>
+			k9MyTbMBW9JKPZGOMMzkXDa8egYJ33/M2z+hoJqNQC0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusAnalyticsAmplitudePluginSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2XawZs6KmYCJwskqu6myelXeBEs=
+			</data>
+			<key>hash2</key>
+			<data>
+			FlGAWcMCuqT9T9MEOLxYgKf06xbozchOROjT70ArwcE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusAnalyticsAmplitudePluginSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusAnalyticsAmplitudePluginSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w2gQG07IigpwSvOlGPq+5Yxp+2s=
+			</data>
+			<key>hash2</key>
+			<data>
+			qXijBfSwIYwHkhbpcgShisPhkkNd15AJFoC+EKbkK60=
 			</data>
 		</dict>
 	</dict>

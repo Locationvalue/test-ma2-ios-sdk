@@ -10,51 +10,51 @@
 		</data>
 		<key>Headers/NautilusNotificationServiceSDK-Swift.h</key>
 		<data>
-		8gcGbn65HDummC1ixvAE+QWnlBI=
+		pRFXaspZpgCdivK6vccszjB0Rb8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JFb1fPXt3TcoBKTLYiG3z3J1B4k=
+		2inKTP5ufN3HFEl7n2NA3vtKGbI=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jA3UJCyR/9Lj7ptSxn6nfhUJe1g=
+		Shtij50pf81G1xGsN3sX7M2v8+A=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9NblXeTxe5DPyBm2DEEeHXb0SRw=
+		52wwqnwMSgvDoxRDKqvgRwdpnmA=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ROMM7z9UaFSp5mVQWQbldKrf2uE=
+		rWGlxAtVaX4ORizVz4IWbClDvpo=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9NblXeTxe5DPyBm2DEEeHXb0SRw=
+		52wwqnwMSgvDoxRDKqvgRwdpnmA=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Oze4YC1lQFf1z2rGcCglQ9WtQ1o=
+		+DnsxljAfTVYNZZ9sSj3Vk2JpfQ=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jA3UJCyR/9Lj7ptSxn6nfhUJe1g=
+		Shtij50pf81G1xGsN3sX7M2v8+A=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ji7UXU7/aXbunsDXz0NmU7RMWRk=
+		w0GogcrSuOWjdHA34rs1nLDzsmA=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Mlz1nIz9llcOvc2d7qYMiyvzgzs=
+		hueXARAfTKcXG+wbP+Resr/7kHU=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ji7UXU7/aXbunsDXz0NmU7RMWRk=
+		w0GogcrSuOWjdHA34rs1nLDzsmA=
 		</data>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5zr1OhoOjhCaSOFFVoKMXZ0MEBY=
+		exgmEIL5EwhS3wHb2yrsTOJNQto=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,77 +78,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AIWiEDvdyOx1AD+V2+B86NnKXUZOVLBIoUnOetIBroc=
+			+/sUHwoEsujnirKIl0TYD5aeps6ewF8OF5ttRnhu6e8=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T++gijuKzLT0UT/8gNHDC1vqRXyv2pKk+NfScocFz+k=
+			BJ9ug7ErZBrddf13A3OPPJoepxC9I67zfr1tL1rpJs8=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ou/WsO2ntRojrW7FZkmj6digAhw1LXQcbvf6L2ItPs=
+			xG+kLi3Ketr99nSqEOEiuUJLs3MT4MlQtWYORmP71To=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ubziWUvlBrTRjktufqbKaJivOi3ktfIyf+IEalgP+U0=
+			RLe9tO3XiU7nlYC8FWngLvvBt4H2qD00z2yDFpZ5nlE=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ou/WsO2ntRojrW7FZkmj6digAhw1LXQcbvf6L2ItPs=
+			xG+kLi3Ketr99nSqEOEiuUJLs3MT4MlQtWYORmP71To=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lWsnHI+RT3ZMVF+k8T7ZYkG6libNEWrrGgH0AodMlnU=
+			XROGTQbeZwkydce4fqAqzeIu2Z2nr7UafRze3RSa8oo=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T++gijuKzLT0UT/8gNHDC1vqRXyv2pKk+NfScocFz+k=
+			BJ9ug7ErZBrddf13A3OPPJoepxC9I67zfr1tL1rpJs8=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7A7xI/NZ5dtvQGXWjt5WW4P/opyVOAdLiT24wJwdX7Q=
+			N4VApjiCVXmdNDNJf17657yXU4c39/5uDjvUzqld1Qc=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iO0BQApTme5TIhL7hJUANvdPnyPH0oH/XhhM2JJM8oE=
+			21AvtM0H/QrLWYp6PzhrQOZ4yvLU4Bc5nnHUWcNOb5A=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7A7xI/NZ5dtvQGXWjt5WW4P/opyVOAdLiT24wJwdX7Q=
+			N4VApjiCVXmdNDNJf17657yXU4c39/5uDjvUzqld1Qc=
 			</data>
 		</dict>
 		<key>Modules/NautilusNotificationServiceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3HE6CIvN+oMQFCUJOFdpNREUAVXzQuOhkeXtsHQm760=
+			cg4lpVuulke2lvRWzZGQJsC2dnt84+ct67aHaiTK7Nk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

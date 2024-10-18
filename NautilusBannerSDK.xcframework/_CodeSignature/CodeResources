@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/Assets.car</key>
 		<data>
-		cbcSDPIS1UrFFCMxK7B/SpMi0Dk=
+		FsQvmitX7kDrLe5DHRzUya8kIw8=
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/BannerListView.nib</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/Headers/NautilusBannerSDK-Swift.h</key>
 		<data>
-		Xa7KrRsnocYiRsG3H7bAMA0gqzc=
+		9Dqx0XB8aWDlpDV78yo1n7bjbbM=
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/Info.plist</key>
 		<data>
-		iYocHrr551A/w95tmDT02UfIJcg=
+		q4G7FBSxAjHGGGgLzmWaO2DA94c=
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		EkykpG3FZLFytU+Tv7UdCj3RP3M=
+		DnDrjoWL6stp4XmrP2nT/Nvg3iM=
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Fnh6NTvsYN8wrNcCLJ+Wo/Sd3v0=
+		+2HzVLym21SM3sthbFzLx3tI08g=
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		4kJTumDuIZxA/nJ2na4iNQpMahg=
+		c95VoPvNKTtcCeR7TYwA240CrAQ=
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Fnh6NTvsYN8wrNcCLJ+Wo/Sd3v0=
+		+2HzVLym21SM3sthbFzLx3tI08g=
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/NautilusBannerSDK</key>
 		<data>
-		805RNqm2GzgF+yiopnEzI8d0VFA=
+		WMGjx5L6l7EBMDU9noyIEyKGSM0=
 		</data>
 		<key>ios-arm64/NautilusBannerSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -60,9 +60,21 @@
 		<data>
 		nNbun/ZCw1z5UkLTRfsQYXtcEtc=
 		</data>
+		<key>ios-arm64/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		ByqkSZz9ea0WdeH+NJ2Tnb6o9GQ=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/DWARF/NautilusBannerSDK</key>
+		<data>
+		wyLKAo9O1InkkUIxWQ1DRhx6fXg=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusBannerSDK.yml</key>
+		<data>
+		jPsU9VcA9/z1oIsivnU+dkTsffE=
+		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Assets.car</key>
 		<data>
-		cbcSDPIS1UrFFCMxK7B/SpMi0Dk=
+		FsQvmitX7kDrLe5DHRzUya8kIw8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/BannerListView.nib</key>
 		<data>
@@ -78,43 +90,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Headers/NautilusBannerSDK-Swift.h</key>
 		<data>
-		PAxO0QXInYdvyeM5zrPmecEacl0=
+		PUcRxgCTpcgtm+QtcCveogw8i4k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Info.plist</key>
 		<data>
-		mj9i0tTZSqu5OJKZz+n34F56Pz0=
+		JRgejCBQCE5P4eXSNUSx5uevTSs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/T06Zx7rzVaElP8iWL7w+FkROVc=
+		LROMfA3nNKxNYIWH2AFB6Xt89Jo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		07DiXrcYBl+ZJANVzCA0+HyRqzA=
+		WbwxKjxmPAVVS4NupVjXFu3x+Fs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TOpDjAYvyo10Assdy9PPJ7E+UYY=
+		09PZvaoZwkBVahnvK7yP/7Tov80=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		07DiXrcYBl+ZJANVzCA0+HyRqzA=
+		WbwxKjxmPAVVS4NupVjXFu3x+Fs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/T06Zx7rzVaElP8iWL7w+FkROVc=
+		LROMfA3nNKxNYIWH2AFB6Xt89Jo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LBmdH+fRnIbHvnp+ExnGgnMlkpE=
+		Uwvqh5xyeihAB8JXv8IJBym4Uv4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QKkKCri4TmjQBYNobSlEcIoANuE=
+		mRWtPU2I1w46e55vVQtEmVWaEBg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LBmdH+fRnIbHvnp+ExnGgnMlkpE=
+		Uwvqh5xyeihAB8JXv8IJBym4Uv4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -122,7 +134,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/NautilusBannerSDK</key>
 		<data>
-		/33M+dE7MDp5mWRvTZVUpehaT34=
+		sMEMWX1pqOZIFA8b//xGywWah1g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -130,11 +142,27 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		6NAY7zesZkHnZnqlkhAMF4CrFNY=
+		bzv+h5ufdTH752TUw3zn7hDX4N4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/moduleapps-banner.json</key>
 		<data>
 		nNbun/ZCw1z5UkLTRfsQYXtcEtc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		ByqkSZz9ea0WdeH+NJ2Tnb6o9GQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/DWARF/NautilusBannerSDK</key>
+		<data>
+		QFax89byxYfCl+5pHOjrwgz8nVM=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusBannerSDK.yml</key>
+		<data>
+		KxV4tzExnEK2efLi0sti75BZ0G4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusBannerSDK.yml</key>
+		<data>
+		jjh5Z0bNU4j98+MyHaqoxTj4G84=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -143,11 +171,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cbcSDPIS1UrFFCMxK7B/SpMi0Dk=
+			FsQvmitX7kDrLe5DHRzUya8kIw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			L+u6Kaky6ks9L9bPjKj3/qKUW4S9YoiGGrcSBhW4S5w=
+			Oy86lpNmkxh2zpwxszwcnwegKeFYVhAGZE9cPVYVKv0=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/BannerListView.nib</key>
@@ -187,66 +215,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xa7KrRsnocYiRsG3H7bAMA0gqzc=
+			9Dqx0XB8aWDlpDV78yo1n7bjbbM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Unff3GFxWK2c70rc8zop78BYf6L6CeVzgQ2KX5WnHM=
+			XG2xVwNPrTS6Z5Q2HZ9JynooybKDklqI+vcIBcl2ge8=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iYocHrr551A/w95tmDT02UfIJcg=
+			q4G7FBSxAjHGGGgLzmWaO2DA94c=
 			</data>
 			<key>hash2</key>
 			<data>
-			DeP3OzuH4ahuPsC8L3cBA18/ovtHGNx2hv555mj3mRs=
+			LsDRsJmOd7ildz86LJNZ7s+73bAiAduQumWg6Iv77gc=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EkykpG3FZLFytU+Tv7UdCj3RP3M=
+			DnDrjoWL6stp4XmrP2nT/Nvg3iM=
 			</data>
 			<key>hash2</key>
 			<data>
-			uptQiF/EC+wz7Ls1bsZGxD9BvM24VR0ToqomD4ZQRNA=
+			GWNEnF8HMzmrB9QyUUSmqVrlKD17inMsGS0ZbXwhR9w=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fnh6NTvsYN8wrNcCLJ+Wo/Sd3v0=
+			+2HzVLym21SM3sthbFzLx3tI08g=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rg9Hy+khMxac9TF3yt23yzfWWLANNVMjZsJzVy70OVo=
+			Hdnh+++V83TyXYFvYx7U6dY7kwMQnSfExau1wUcSgZc=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4kJTumDuIZxA/nJ2na4iNQpMahg=
+			c95VoPvNKTtcCeR7TYwA240CrAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			w12t+ktpuDB9opn5NxAEd8EjIopNOHunccMRR0Bdizs=
+			F55Nb5Dg/sIF/YvLjRqBdG9CTvny3b3x9XyTdkL8w/I=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fnh6NTvsYN8wrNcCLJ+Wo/Sd3v0=
+			+2HzVLym21SM3sthbFzLx3tI08g=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rg9Hy+khMxac9TF3yt23yzfWWLANNVMjZsJzVy70OVo=
+			Hdnh+++V83TyXYFvYx7U6dY7kwMQnSfExau1wUcSgZc=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/Modules/module.modulemap</key>
@@ -264,11 +292,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			805RNqm2GzgF+yiopnEzI8d0VFA=
+			WMGjx5L6l7EBMDU9noyIEyKGSM0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Gz6HXrUSG9bc0Uwy57VBwEIDzstC7tT5i5B4nuUxSs=
+			VkY/z2aSlLZxDXufoVm4HYRl+AHKLZPoVKt6Ce2hHYI=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusBannerSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -293,15 +321,48 @@
 			m8HI5FL1ZL2cfpB82g+yrPgvP5buPEw/R6WoSE+tKoU=
 			</data>
 		</dict>
+		<key>ios-arm64/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ByqkSZz9ea0WdeH+NJ2Tnb6o9GQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			xIsDAOYv16qe7wavI9AfW7MOa8fSjB3DxO+89QJ1SgE=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/DWARF/NautilusBannerSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wyLKAo9O1InkkUIxWQ1DRhx6fXg=
+			</data>
+			<key>hash2</key>
+			<data>
+			t6rK8p95paATi1rctppjQ6SrJ7Qv1zC0QVETxxMiEA8=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusBannerSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jPsU9VcA9/z1oIsivnU+dkTsffE=
+			</data>
+			<key>hash2</key>
+			<data>
+			6tgngOqmkqFZz4X9YLoSYlyc/tBb2bG0+r15UXTTLVw=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cbcSDPIS1UrFFCMxK7B/SpMi0Dk=
+			FsQvmitX7kDrLe5DHRzUya8kIw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			L+u6Kaky6ks9L9bPjKj3/qKUW4S9YoiGGrcSBhW4S5w=
+			Oy86lpNmkxh2zpwxszwcnwegKeFYVhAGZE9cPVYVKv0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/BannerListView.nib</key>
@@ -341,110 +402,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PAxO0QXInYdvyeM5zrPmecEacl0=
+			PUcRxgCTpcgtm+QtcCveogw8i4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZhYolI4T9VoZX3MqIYxnKcpp+HeQzfigPPTJa+So33A=
+			eQMMfASsnEgVYuG0zUc0jaffa73Wt7v3EYVUtPAGUnk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mj9i0tTZSqu5OJKZz+n34F56Pz0=
+			JRgejCBQCE5P4eXSNUSx5uevTSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			bOT7bUI5sPDE1f1P3kvyY/4axGSU8OgAsXWJhvXg2/4=
+			2FLBbiWFaOAvthIQcXhqQnOfaJfmp+EI746dV9pQR0w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/T06Zx7rzVaElP8iWL7w+FkROVc=
+			LROMfA3nNKxNYIWH2AFB6Xt89Jo=
 			</data>
 			<key>hash2</key>
 			<data>
-			P4tClf6aeXjyF65cWCFaOd2/pfPw4o2jpaG/17bO0hA=
+			3kWsNXl7pbz/r/VFJOFcsBhtdoNEHx7n4FeOwzeUwmE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			07DiXrcYBl+ZJANVzCA0+HyRqzA=
+			WbwxKjxmPAVVS4NupVjXFu3x+Fs=
 			</data>
 			<key>hash2</key>
 			<data>
-			wezVzAgEKq+65ROQKq6QtwsepAt72Qzbveh+YDciv6A=
+			UX/XGUYYXWH6U3bQ1fSXRjM7iVBOMCNmHMJvOi1Tp9Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TOpDjAYvyo10Assdy9PPJ7E+UYY=
+			09PZvaoZwkBVahnvK7yP/7Tov80=
 			</data>
 			<key>hash2</key>
 			<data>
-			g7jTwlzs/Eh0EuzQUcwjuliCwrrHQSz5p9hVU6uh30I=
+			s/gBsY2sOkRwwIbqG5EVp56DEaEU+nCVuuDqIs73Ikk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			07DiXrcYBl+ZJANVzCA0+HyRqzA=
+			WbwxKjxmPAVVS4NupVjXFu3x+Fs=
 			</data>
 			<key>hash2</key>
 			<data>
-			wezVzAgEKq+65ROQKq6QtwsepAt72Qzbveh+YDciv6A=
+			UX/XGUYYXWH6U3bQ1fSXRjM7iVBOMCNmHMJvOi1Tp9Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/T06Zx7rzVaElP8iWL7w+FkROVc=
+			LROMfA3nNKxNYIWH2AFB6Xt89Jo=
 			</data>
 			<key>hash2</key>
 			<data>
-			P4tClf6aeXjyF65cWCFaOd2/pfPw4o2jpaG/17bO0hA=
+			3kWsNXl7pbz/r/VFJOFcsBhtdoNEHx7n4FeOwzeUwmE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LBmdH+fRnIbHvnp+ExnGgnMlkpE=
+			Uwvqh5xyeihAB8JXv8IJBym4Uv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tf1iEdBXv0DFHmb0FY1/i60Wql1OsFWyFHMK+vecvY8=
+			JGyqvShyMORyneHkez2N7ZdDw0Zp+U5euDek3UStaXI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QKkKCri4TmjQBYNobSlEcIoANuE=
+			mRWtPU2I1w46e55vVQtEmVWaEBg=
 			</data>
 			<key>hash2</key>
 			<data>
-			dYD1NrHiOwghAIlMs8c4i4cjhiALj+9Me6sJX7bGFYg=
+			hcPVWV4birAs5V6aRVpcmgyCkVYPUqBzTzFijGPf2D0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/NautilusBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LBmdH+fRnIbHvnp+ExnGgnMlkpE=
+			Uwvqh5xyeihAB8JXv8IJBym4Uv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tf1iEdBXv0DFHmb0FY1/i60Wql1OsFWyFHMK+vecvY8=
+			JGyqvShyMORyneHkez2N7ZdDw0Zp+U5euDek3UStaXI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/Modules/module.modulemap</key>
@@ -462,11 +523,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/33M+dE7MDp5mWRvTZVUpehaT34=
+			sMEMWX1pqOZIFA8b//xGywWah1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jvv7ZOWckQjLooQd31TnDnnRXwHW5KM9MN8IunoUIXM=
+			QgPi2Tmm5QkGfbUh7vTM/3Uufb7t0IzeysvsZ+2mthA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -484,11 +545,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6NAY7zesZkHnZnqlkhAMF4CrFNY=
+			bzv+h5ufdTH752TUw3zn7hDX4N4=
 			</data>
 			<key>hash2</key>
 			<data>
-			u801ZfxDbxy5Te0c7cBcGEG+cBma3qIrkdYwg+x4aVw=
+			v96eTULxwQiujG7L6TVHNyQ2fYVwJqDXfA3nA0Egsio=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusBannerSDK.framework/moduleapps-banner.json</key>
@@ -500,6 +561,50 @@
 			<key>hash2</key>
 			<data>
 			m8HI5FL1ZL2cfpB82g+yrPgvP5buPEw/R6WoSE+tKoU=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ByqkSZz9ea0WdeH+NJ2Tnb6o9GQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			xIsDAOYv16qe7wavI9AfW7MOa8fSjB3DxO+89QJ1SgE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/DWARF/NautilusBannerSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QFax89byxYfCl+5pHOjrwgz8nVM=
+			</data>
+			<key>hash2</key>
+			<data>
+			iP6t7EWlhzEVfwrCT3m+plcfMsBZGCMoAZkIo0o77gU=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusBannerSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KxV4tzExnEK2efLi0sti75BZ0G4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z6OAs6lDEK0vbxfPc6KMJsGPrng0mMHbWw1giSc7VHQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusBannerSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusBannerSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jjh5Z0bNU4j98+MyHaqoxTj4G84=
+			</data>
+			<key>hash2</key>
+			<data>
+			KVKp5ZWp1K9SSviub6atONIgOCoKm7LB2ZW2kVxY+Qo=
 			</data>
 		</dict>
 	</dict>

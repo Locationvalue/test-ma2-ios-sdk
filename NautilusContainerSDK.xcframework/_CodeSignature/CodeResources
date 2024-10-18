@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/NautilusContainerSDK.framework/Info.plist</key>
 		<data>
-		phLbQDqce28pHnIQVAv+g9HyBB0=
+		S/bnke3XmCRGmjDAGtpkhVZ36G0=
 		</data>
 		<key>ios-arm64/NautilusContainerSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -34,11 +34,23 @@
 		</data>
 		<key>ios-arm64/NautilusContainerSDK.framework/NautilusContainerSDK</key>
 		<data>
-		Q3EV+uv+jFf6G3S4P41x6O83cy4=
+		EISav9Bl49wKDtiSojGQOdX2bAQ=
 		</data>
 		<key>ios-arm64/NautilusContainerSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		ucg9pita0v8d353x3NuGfxweQYU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		Li5JKzG3oeEEFhAIaDkIMsFFVbU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/DWARF/NautilusContainerSDK</key>
+		<data>
+		cmWsg22+u5BG7HOr8VGvysoXwvU=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusContainerSDK.yml</key>
+		<data>
+		WBUsKNwLkH7Li6te/nXgDE21H30=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/Headers/Container.h</key>
 		<data>
@@ -62,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/Info.plist</key>
 		<data>
-		jLXREBX9+lb+590vOVD2YLGHH9Y=
+		SmnBilXY2mBhNXCW3H3RUVKPwE0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -70,7 +82,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/NautilusContainerSDK</key>
 		<data>
-		uRUGZJuJgJM4ZJpKrBo1x1zCl4k=
+		SiRtG3CL86DCxLaCvj8WqMtJ6ik=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -78,7 +90,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		lpV747qY42G9Af7Ifmphr6Tq0ho=
+		4/5K7AQPry2O3PpxOXYxfehi4yg=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		Li5JKzG3oeEEFhAIaDkIMsFFVbU=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/DWARF/NautilusContainerSDK</key>
+		<data>
+		ccqeL20VwD3l9rJGisxwScCdius=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusContainerSDK.yml</key>
+		<data>
+		fOtoOxJYwa0Ks/lpFc+avfWgNY0=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusContainerSDK.yml</key>
+		<data>
+		MVPTJpcL5olRzL3KQNLlGwDeyyk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -142,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			phLbQDqce28pHnIQVAv+g9HyBB0=
+			S/bnke3XmCRGmjDAGtpkhVZ36G0=
 			</data>
 			<key>hash2</key>
 			<data>
-			z3cwFfrXw1Kiehe1LEwZ+iCZxKWmPmBAvLpB834NcO0=
+			rRiJ1P2YzlP2rYeqj6sORo0rcE++vjzTUshrfONcBQw=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusContainerSDK.framework/Modules/module.modulemap</key>
@@ -164,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q3EV+uv+jFf6G3S4P41x6O83cy4=
+			EISav9Bl49wKDtiSojGQOdX2bAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			uzeJEM6Shf0UlQwyQfdxNYOj3cCaJ28hTzhvvFIHFAI=
+			kEplUAqD3WFWvUsSIPBOlBq292AqCKxUI7FSjBGMZRg=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusContainerSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -180,6 +208,39 @@
 			<key>hash2</key>
 			<data>
 			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Li5JKzG3oeEEFhAIaDkIMsFFVbU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yh8LEg41QQ2AXLw8LklXXFthHWIDdPWIq+rPisVqCJk=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/DWARF/NautilusContainerSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cmWsg22+u5BG7HOr8VGvysoXwvU=
+			</data>
+			<key>hash2</key>
+			<data>
+			i+s585Fj9hi5thWTy0aK94OyZ4C5nOuKbu9JKBj1oLY=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusContainerSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WBUsKNwLkH7Li6te/nXgDE21H30=
+			</data>
+			<key>hash2</key>
+			<data>
+			tbDXE21dhrN71C0WIh97p4BIRWnjY7GyNzOoaFsIzbg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/Headers/Container.h</key>
@@ -241,11 +302,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jLXREBX9+lb+590vOVD2YLGHH9Y=
+			SmnBilXY2mBhNXCW3H3RUVKPwE0=
 			</data>
 			<key>hash2</key>
 			<data>
-			fh2fZLhe/cHUkzshR5JCBOBH1lpFU4KIrm5y+i3wZ0k=
+			BFwY5/mfWyTqn9vnRemXXeO4eNghycnm/WrmN0/SI4g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/Modules/module.modulemap</key>
@@ -263,11 +324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uRUGZJuJgJM4ZJpKrBo1x1zCl4k=
+			SiRtG3CL86DCxLaCvj8WqMtJ6ik=
 			</data>
 			<key>hash2</key>
 			<data>
-			ID46tLLQufIPl54O97WeIoaFT351ORu3aPhkCCIqdLM=
+			h/8pXFwtFxerDY5MaO896ru8hB6iXyFxqSrkAo5e9Dc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusContainerSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -285,11 +346,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lpV747qY42G9Af7Ifmphr6Tq0ho=
+			4/5K7AQPry2O3PpxOXYxfehi4yg=
 			</data>
 			<key>hash2</key>
 			<data>
-			n3oMnVhuyUU4qSy6agXq5WZMPCJXFjcRhEXHf42q+00=
+			af6LsCavDLnnnuV+L2RvjEGlxNZJyZ11LQGy8orLIZw=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Li5JKzG3oeEEFhAIaDkIMsFFVbU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yh8LEg41QQ2AXLw8LklXXFthHWIDdPWIq+rPisVqCJk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/DWARF/NautilusContainerSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ccqeL20VwD3l9rJGisxwScCdius=
+			</data>
+			<key>hash2</key>
+			<data>
+			Rn4gW9FflrDN6nsLlqXKllvlEMH6U9/Xc6pPfhwLKmk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusContainerSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fOtoOxJYwa0Ks/lpFc+avfWgNY0=
+			</data>
+			<key>hash2</key>
+			<data>
+			KYMZhcIEk+Cjb2uTQ/McIbINIrd2iZkYtlUMewqHx/8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusContainerSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusContainerSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MVPTJpcL5olRzL3KQNLlGwDeyyk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qvj81QSC0SF9BMdfSUa20lfdjFGnx/kETyJWGgQMEmE=
 			</data>
 		</dict>
 	</dict>

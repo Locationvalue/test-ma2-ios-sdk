@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NautilusServerTimeSDK-Swift.h</key>
 		<data>
-		f3pkFug0av/wQkp3Za2gE43vD20=
+		u3mpzxA9kHymookD4mZoPQV+8g0=
 		</data>
 		<key>Headers/ServerTime.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ab0S3YhInT04pn/rCj6hmduqN/k=
+		BY3Ud4rxMJAaVLNGh/IVlLuXQOQ=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mtxXLhYa3QFpwaPCetvdyTJxUYk=
+		JocyQoXZWnS2Yx8TRDIeFZd44mc=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bY6fT49mz7Y1JhAzUgIDEcVzTg4=
+		J4c35KKjPjwstKfEH0YSu6zSaXM=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DmOpNJH6fGSMMoWJ4awNZJEton4=
+		o03Yu3iNvJdi4qdxqC8A5ZXP7a0=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bY6fT49mz7Y1JhAzUgIDEcVzTg4=
+		J4c35KKjPjwstKfEH0YSu6zSaXM=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PBvU/b2nwa1iMCsMs9UR0Xxa62M=
+		+SDXq/hQXP3wd7+fbO4xlZN7Vp4=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mtxXLhYa3QFpwaPCetvdyTJxUYk=
+		JocyQoXZWnS2Yx8TRDIeFZd44mc=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hAxBf14c89dZlb7Ztz2SPJq+OUc=
+		ebAh/mLrfjtfX1qYV1BbEwHsZt8=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		17bzvYpG4hPyajrMnc5ycCmG/nw=
+		oTAm8S6XkD+JW943/cov5GrZcfc=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hAxBf14c89dZlb7Ztz2SPJq+OUc=
+		ebAh/mLrfjtfX1qYV1BbEwHsZt8=
 		</data>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KJxX22Tlczqndx1EcMoW1LI9wx0=
+		B3Wf1WS/cM25kp+gmC2CdShLIzE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Xnffnz8mOtVKmj45QP4o8Sd6MOrnjxqMw7w0ACosf0=
+			xSXVBlR5B+Y0I7kyKo0ypPtqTqFYGJSPzAeF14ieTfA=
 			</data>
 		</dict>
 		<key>Headers/ServerTime.h</key>
@@ -89,70 +89,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			meFMeMscqF9ogqpO+dHZPcdaEh2BylIyWM1Uq+A78JE=
+			ghGf3+u462uUarZlfdXiOEW2BhQRao3JMRbTjda+0xQ=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XVI4AKtw5wGGgUe2LX7Otney/ATovC76Qj4bwHI6azc=
+			jxU5+CiUxuqsb7UITkmmmTPsut6jVLCIIpgHn5mC2Jk=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nfEQzbiz9dltOLeqG6SwZoqPUQy0oxN2/GBiEAxX6ss=
+			h3uoGbv4zAjCKVsTMjStVYd289Skfc3ZAeuffFjDaTw=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XVI4AKtw5wGGgUe2LX7Otney/ATovC76Qj4bwHI6azc=
+			jxU5+CiUxuqsb7UITkmmmTPsut6jVLCIIpgHn5mC2Jk=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/JXwcnUnfM76z63hPWBjg1aIJ1bOulfg1f3fGKuRyI=
+			Mn4MwiQgQdy0+NgQW8+TYjB9ye5M8KGw0NOc4+u3QH8=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			meFMeMscqF9ogqpO+dHZPcdaEh2BylIyWM1Uq+A78JE=
+			ghGf3+u462uUarZlfdXiOEW2BhQRao3JMRbTjda+0xQ=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DpHxGGupbYGI/VSxDd199c6DXeUDGkjYr2qrS0AM6kA=
+			iYCvFEWvWqROrK9Hko1nW9RTSrTjEoMwiE/4GVbyL9Q=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pLicVz2l42d8g54qOHm4IqU772lSpmZ1l4RWIdvdrug=
+			2CoE/BGowQ43GCckvvT9VAIUGuVndVBhvenkeNb7fnI=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DpHxGGupbYGI/VSxDd199c6DXeUDGkjYr2qrS0AM6kA=
+			iYCvFEWvWqROrK9Hko1nW9RTSrTjEoMwiE/4GVbyL9Q=
 			</data>
 		</dict>
 		<key>Modules/NautilusServerTimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EnuMkT0pk3Szxq8F7g9JnsyWHjoYcppEJ3SeOr4Me0g=
+			rww5ZHK4eORrC8XEGR724SBVUYWImZ/pmIz8zM2k61k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

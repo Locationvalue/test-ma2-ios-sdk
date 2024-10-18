@@ -1,0 +1,31 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/masuno/Library/Developer/Xcode/DerivedData/Nautilus-ios-sdk-byhzfjnfuanwpgbutbsrwxixhdis/Build/Intermediates.noindex/ArchiveIntermediates/NautilusCodeImageProvidersSDK/InstallationBuildProductsLocation/Library/Frameworks/NautilusCodeImageProvidersSDK.framework/NautilusCodeImageProvidersSDK'
+relocations:
+  - { offset: 0x77E08, size: 0x8, addend: 0x0, symName: _NautilusCodeImageProvidersSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x5B00, symSize: 0x0 }
+  - { offset: 0x77E3D, size: 0x8, addend: 0x0, symName: _NautilusCodeImageProvidersSDKVersionNumber, symObjAddr: 0x48, symBinAddr: 0x5B48, symSize: 0x0 }
+  - { offset: 0x77E7A, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x4 }
+  - { offset: 0x77F4C, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderCMa', symObjAddr: 0x3A4, symBinAddr: 0x43A4, symSize: 0x20 }
+  - { offset: 0x77FB1, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x4 }
+  - { offset: 0x77FEA, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtFTo', symObjAddr: 0x4, symBinAddr: 0x4004, symSize: 0x7C }
+  - { offset: 0x7801A, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderCACycfC', symObjAddr: 0x80, symBinAddr: 0x4080, symSize: 0x20 }
+  - { offset: 0x7802E, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderCACycfc', symObjAddr: 0xA0, symBinAddr: 0x40A0, symSize: 0x34 }
+  - { offset: 0x78066, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderCACycfcTo', symObjAddr: 0xD4, symBinAddr: 0x40D4, symSize: 0x3C }
+  - { offset: 0x780A1, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderCfD', symObjAddr: 0x110, symBinAddr: 0x4110, symSize: 0x34 }
+  - { offset: 0x781FC, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a11UserInfoNW7bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtFTf4nnd_n', symObjAddr: 0x144, symBinAddr: 0x4144, symSize: 0x260 }
+  - { offset: 0x78406, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF', symObjAddr: 0x0, symBinAddr: 0x43C4, symSize: 0x4 }
+  - { offset: 0x784D8, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderCMa', symObjAddr: 0x3A4, symBinAddr: 0x46E0, symSize: 0x20 }
+  - { offset: 0x78501, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF', symObjAddr: 0x0, symBinAddr: 0x43C4, symSize: 0x4 }
+  - { offset: 0x7853A, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtFTo', symObjAddr: 0x4, symBinAddr: 0x43C8, symSize: 0x7C }
+  - { offset: 0x78583, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderCACycfcTo', symObjAddr: 0xD4, symBinAddr: 0x4444, symSize: 0x3C }
+  - { offset: 0x7864E, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a13UserInfoJAN13bC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtFTf4nnd_n', symObjAddr: 0x144, symBinAddr: 0x4480, symSize: 0x260 }
+  - { offset: 0x7882E, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF', symObjAddr: 0x0, symBinAddr: 0x4700, symSize: 0x4 }
+  - { offset: 0x78900, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderCMa', symObjAddr: 0x3F8, symBinAddr: 0x4A70, symSize: 0x20 }
+  - { offset: 0x78914, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x418, symBinAddr: 0x4A90, symSize: 0x44 }
+  - { offset: 0x78928, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x45C, symBinAddr: 0x4AD4, symSize: 0x14 }
+  - { offset: 0x7893C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x470, symBinAddr: 0x4AE8, symSize: 0x44 }
+  - { offset: 0x7898F, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtF', symObjAddr: 0x0, symBinAddr: 0x4700, symSize: 0x4 }
+  - { offset: 0x789C8, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtFTo', symObjAddr: 0x4, symBinAddr: 0x4704, symSize: 0x7C }
+  - { offset: 0x78A11, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderCACycfcTo', symObjAddr: 0xD4, symBinAddr: 0x4780, symSize: 0x3C }
+  - { offset: 0x78B46, size: 0x8, addend: 0x0, symName: '_$s29NautilusCodeImageProvidersSDK0a14UserInfoQRCodeC8ProviderC07providebC03for4sizeSo7UIImageCSgSS_So6CGSizeVtFTf4nnd_n', symObjAddr: 0x144, symBinAddr: 0x47BC, symSize: 0x2B4 }
+...

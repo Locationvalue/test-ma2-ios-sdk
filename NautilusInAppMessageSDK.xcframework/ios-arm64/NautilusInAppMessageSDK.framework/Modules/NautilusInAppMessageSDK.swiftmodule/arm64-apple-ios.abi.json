@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NautilusInAppMessageSDK",
+    "printedName": "NautilusInAppMessageSDK",
     "children": [
       {
         "kind": "Import",
@@ -163,6 +163,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -305,6 +319,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -475,6 +503,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -541,6 +583,37 @@
         "name": "NautilusInAppMessageControllerDelegate",
         "printedName": "NautilusInAppMessageControllerDelegate",
         "children": [
+          {
+            "kind": "Function",
+            "name": "undisplayedInAppMessage",
+            "printedName": "undisplayedInAppMessage(eventID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NautilusInAppMessageSDK@objc(pl)NautilusInAppMessageControllerDelegate(im)undisplayedInAppMessageWithEventID:",
+            "mangledName": "$s23NautilusInAppMessageSDK0abcD18ControllerDelegateP011undisplayedbcD07eventIDySS_tF",
+            "moduleName": "NautilusInAppMessageSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NautilusInAppMessageSDK.NautilusInAppMessageControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : NautilusInAppMessageSDK.NautilusInAppMessageControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "inAppMessageBeforeDisplay",
@@ -896,6 +969,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1236,6 +1325,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2054,6 +2157,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2334,6 +2451,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2544,6 +2675,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2824,6 +2969,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3740,6 +3899,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4010,6 +4183,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4291,6 +4478,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4468,6 +4669,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -4546,707 +4754,455 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 917,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 975,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
       "kind": "StringLiteral",
       "offset": 1251,
       "length": 29,
       "value": "\"NautilusInAppMessage.sqlite\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
       "kind": "StringLiteral",
       "offset": 1560,
       "length": 22,
       "value": "\"NautilusInAppMessage\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageDatabaseHelper.swift",
       "kind": "StringLiteral",
       "offset": 1599,
       "length": 6,
       "value": "\"momd\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageToastView.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageToastView.swift",
       "kind": "IntegerLiteral",
       "offset": 967,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageToastView.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageToastView.swift",
       "kind": "BooleanLiteral",
       "offset": 1159,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageToastView.swift",
-      "kind": "StringLiteral",
-      "offset": 233,
-      "length": 29,
-      "value": "\"NautilusInAppMessageSDK.NautilusInAppMessageToastView\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Utilities\/UIColor+Extension.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Utilities\/UIColor+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 246,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Utilities\/UIColor+Extension.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Utilities\/UIColor+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 258,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessagePriority.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessagePriority.swift",
       "kind": "IntegerLiteral",
       "offset": 491,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessagePriority.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessagePriority.swift",
       "kind": "IntegerLiteral",
       "offset": 555,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessagePriority.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessagePriority.swift",
       "kind": "IntegerLiteral",
       "offset": 631,
       "length": 2,
       "value": "99"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageBuilder.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageBuilder.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageModalDialogView.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageModalDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 1129,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageModalDialogView.swift",
-      "kind": "StringLiteral",
-      "offset": 239,
-      "length": 35,
-      "value": "\"NautilusInAppMessageSDK.NautilusInAppMessageModalDialogView\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewer.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewer.swift",
       "kind": "BooleanLiteral",
       "offset": 1516,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewer.swift",
-      "kind": "StringLiteral",
-      "offset": 17765,
-      "length": 34,
-      "value": "\"NautilusInAppMessageSDK.NautilusInAppMessageViewController\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/LoggingInAppMessageResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/LoggingInAppMessageResponse.swift",
       "kind": "StringLiteral",
       "offset": 986,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/LoggingInAppMessageResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/LoggingInAppMessageResponse.swift",
       "kind": "StringLiteral",
       "offset": 1012,
       "length": 6,
       "value": "\"date\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/LoggingInAppMessageResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
       "kind": "StringLiteral",
+      "offset": 361,
+      "length": 16,
+      "value": "\"condition_list\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 17,
+      "value": "\"condition_group\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 10,
+      "value": "\"event_id\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 13,
+      "value": "\"event_count\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 14,
+      "value": "\"app_msg_list\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 11,
+      "value": "\"error_msg\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 2733,
+      "length": 11,
+      "value": "\"view_type\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 2770,
+      "length": 12,
+      "value": "\"image_path\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 2806,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 2840,
+      "length": 11,
+      "value": "\"trans_url\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 2878,
+      "length": 13,
+      "value": "\"trans_param\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 2916,
+      "length": 10,
+      "value": "\"deeplink\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 2952,
+      "length": 8,
+      "value": "\"repeat\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 2985,
+      "length": 12,
+      "value": "\"app_msg_id\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 3027,
+      "length": 17,
+      "value": "\"view_trigger_id\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 3067,
+      "length": 9,
+      "value": "\"sort_no\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 3104,
+      "length": 14,
+      "value": "\"release_date\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 3144,
+      "length": 12,
+      "value": "\"close_date\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 3186,
+      "length": 16,
+      "value": "\"condition_list\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 3227,
+      "length": 10,
+      "value": "\"interval\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 4641,
+      "length": 17,
+      "value": "\"condition_group\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 5054,
+      "length": 10,
+      "value": "\"event_id\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 5091,
+      "length": 13,
+      "value": "\"event_count\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 5928,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 5956,
+      "length": 7,
+      "value": "\"count\""
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Base\/NautilusInAppMessageFeature.swift",
+      "kind": "BooleanLiteral",
+      "offset": 799,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Base\/NautilusInAppMessageFeature.swift",
+      "kind": "BooleanLiteral",
+      "offset": 892,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Base\/NautilusInAppMessageFeature.swift",
+      "kind": "BooleanLiteral",
       "offset": 986,
-      "length": 5,
-      "value": "\"pid\""
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/LoggingInAppMessageResponse.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Base\/NautilusInAppMessageFeature.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1073,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Base\/NautilusInAppMessageFeature.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
-      "length": 6,
-      "value": "\"date\""
+      "offset": 1157,
+      "length": 30,
+      "value": "\"moduleapps-inappmessage.json\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 361,
-      "length": 16,
-      "value": "\"condition_list\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 361,
-      "length": 16,
-      "value": "\"condition_list\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 487,
-      "length": 17,
-      "value": "\"condition_group\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 487,
-      "length": 17,
-      "value": "\"condition_group\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 598,
-      "length": 10,
-      "value": "\"event_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 13,
-      "value": "\"event_count\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 598,
-      "length": 10,
-      "value": "\"event_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 13,
-      "value": "\"event_count\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 14,
-      "value": "\"app_msg_list\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 14,
-      "value": "\"app_msg_list\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 847,
-      "length": 11,
-      "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 847,
-      "length": 11,
-      "value": "\"error_msg\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2733,
-      "length": 11,
-      "value": "\"view_type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2770,
-      "length": 12,
-      "value": "\"image_path\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2806,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2840,
-      "length": 11,
-      "value": "\"trans_url\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2878,
-      "length": 13,
-      "value": "\"trans_param\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2916,
-      "length": 10,
-      "value": "\"deeplink\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2952,
-      "length": 8,
-      "value": "\"repeat\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2985,
-      "length": 12,
-      "value": "\"app_msg_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3027,
-      "length": 17,
-      "value": "\"view_trigger_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3067,
-      "length": 9,
-      "value": "\"sort_no\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3104,
-      "length": 14,
-      "value": "\"release_date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3144,
-      "length": 12,
-      "value": "\"close_date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3186,
-      "length": 16,
-      "value": "\"condition_list\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3227,
-      "length": 10,
-      "value": "\"interval\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2733,
-      "length": 11,
-      "value": "\"view_type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2770,
-      "length": 12,
-      "value": "\"image_path\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2806,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2840,
-      "length": 11,
-      "value": "\"trans_url\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2878,
-      "length": 13,
-      "value": "\"trans_param\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2916,
-      "length": 10,
-      "value": "\"deeplink\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2952,
-      "length": 8,
-      "value": "\"repeat\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 2985,
-      "length": 12,
-      "value": "\"app_msg_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3027,
-      "length": 17,
-      "value": "\"view_trigger_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3067,
-      "length": 9,
-      "value": "\"sort_no\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3104,
-      "length": 14,
-      "value": "\"release_date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3144,
-      "length": 12,
-      "value": "\"close_date\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3186,
-      "length": 16,
-      "value": "\"condition_list\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 3227,
-      "length": 10,
-      "value": "\"interval\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4641,
-      "length": 17,
-      "value": "\"condition_group\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 4641,
-      "length": 17,
-      "value": "\"condition_group\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5054,
-      "length": 10,
-      "value": "\"event_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5091,
-      "length": 13,
-      "value": "\"event_count\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5054,
-      "length": 10,
-      "value": "\"event_id\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5091,
-      "length": 13,
-      "value": "\"event_count\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5928,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5956,
-      "length": 7,
-      "value": "\"count\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5928,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/API\/IAMEntity.swift",
-      "kind": "StringLiteral",
-      "offset": 5956,
-      "length": 7,
-      "value": "\"count\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Base\/NautilusInAppMessageFeature.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Base\/NautilusInAppMessageFeature.swift",
       "kind": "BooleanLiteral",
       "offset": 1412,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Base\/NautilusInAppMessageFeature.swift",
-      "kind": "StringLiteral",
-      "offset": 445,
-      "length": 27,
-      "value": "\"NautilusInAppMessageSDK.NautilusInAppMessageFeature\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewType.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewType.swift",
       "kind": "IntegerLiteral",
       "offset": 398,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewType.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewType.swift",
       "kind": "IntegerLiteral",
       "offset": 439,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewType.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageViewType.swift",
       "kind": "IntegerLiteral",
       "offset": 494,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessage.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessage.swift",
       "kind": "IntegerLiteral",
       "offset": 796,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessage.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessage.swift",
       "kind": "IntegerLiteral",
       "offset": 857,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 796,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 857,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 796,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 857,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 38,
       "value": "\"ma_inappmessage_network_timeout_time\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
       "kind": "StringLiteral",
       "offset": 421,
       "length": 40,
       "value": "\"ma_inappmessage_toast_display_duration\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 40,
       "value": "\"ma_inappmessage_modal_display_duration\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
       "kind": "StringLiteral",
       "offset": 576,
       "length": 42,
       "value": "\"ma_inappmessage_modal_action_button_text\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 29,
       "value": "\"ma_inappmessage_toast_color\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
       "kind": "StringLiteral",
       "offset": 703,
       "length": 32,
       "value": "\"ma_inappmessage_on_toast_color\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 346,
-      "length": 38,
-      "value": "\"ma_inappmessage_network_timeout_time\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 421,
-      "length": 40,
-      "value": "\"ma_inappmessage_toast_display_duration\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 498,
-      "length": 40,
-      "value": "\"ma_inappmessage_modal_display_duration\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 576,
-      "length": 42,
-      "value": "\"ma_inappmessage_modal_action_button_text\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 645,
-      "length": 29,
-      "value": "\"ma_inappmessage_toast_color\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/Config\/NautilusInAppMessageConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 703,
-      "length": 32,
-      "value": "\"ma_inappmessage_on_toast_color\""
-    },
-    {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 43,
       "value": "\"Updated In-App Message: \""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
       "kind": "StringLiteral",
       "offset": 1084,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
       "kind": "Array",
       "offset": 996,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
       "kind": "StringLiteral",
       "offset": 1434,
       "length": 32,
       "value": "\"com.locationvalue.nautilus.iam\""
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Documents\/ma2\/SDK2\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
+      "filePath": "\/Users\/masuno\/Documents\/ma2\/SDK14_0\/Nautilus-ios-sdk\/Nautilus-ios-sdk\/InAppMessage\/Sources\/InAppMessage\/NautilusInAppMessageController.swift",
       "kind": "Array",
       "offset": 1615,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/moeka.masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-amarvarcwubeetamnzijgdhlxehc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusInAppMessageSDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusInAppMessageSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/masuno\/Library\/Developer\/Xcode\/DerivedData\/Nautilus-ios-sdk-byhzfjnfuanwpgbutbsrwxixhdis\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NautilusInAppMessageSDK\/IntermediateBuildFilesPath\/Nautilus-ios-sdk.build\/Release-iphoneos\/NautilusInAppMessageSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 754,
       "length": 24,

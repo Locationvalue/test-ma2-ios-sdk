@@ -10,27 +10,27 @@
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Headers/NautilusGeoUtilSDK-Swift.h</key>
 		<data>
-		T8PXrnIrEIdiC7xl2JzEEXcjmy0=
+		ziSGPrx9Wwl5xDrkjrf55VrX0t4=
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Info.plist</key>
 		<data>
-		uokTQ8rUwCnbCX8cRXeeetsUYUY=
+		kzth24Vf0Djf+c9FnewtJVeatgw=
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		N7bvMyuMN2kb6nL4BDEaiiKulbU=
+		QAD5Elvz3pIO+JSb+TbBweVbl0Q=
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1H/0cg3PIQLAat//Rum/yOAweW0=
+		t+zm1+s9cVhukoIUkACGhjcOu8A=
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		noMMEBI4JjYfHB33Kw0htjFkmPc=
+		xceM4LYxBggqGreLUHby7mnHYM0=
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1H/0cg3PIQLAat//Rum/yOAweW0=
+		t+zm1+s9cVhukoIUkACGhjcOu8A=
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/NautilusGeoUtilSDK</key>
 		<data>
-		DYDyIvPwVIP4lrDpTloH9QhtxRE=
+		R3+Yi5mQ5lNCodjj3GnrIs9y4XQ=
 		</data>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -48,49 +48,61 @@
 		<data>
 		NrwTZSP3tG5ThUHcdA8tjby7RGQ=
 		</data>
+		<key>ios-arm64/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		EprnNjRkcZ4rTPeeJf9gUvw4zDs=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/DWARF/NautilusGeoUtilSDK</key>
+		<data>
+		qGtBoHTUEpx8BMDjrV3PtYQwrX0=
+		</data>
+		<key>ios-arm64/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusGeoUtilSDK.yml</key>
+		<data>
+		mwmRyYL45lFB8YrvosHq2hREocw=
+		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Headers/NautilusGeoUtil.h</key>
 		<data>
 		GiJDdmHPdwlAzK7qQ2vCPhnJxuY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Headers/NautilusGeoUtilSDK-Swift.h</key>
 		<data>
-		x2APQ1hPS5WsUhTPXaw2udcWbsY=
+		zW/EdgfaWBybfuKuvx65HjKFzBI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Info.plist</key>
 		<data>
-		ehO/b9gcW3CYkwj/cTjgPmdQslc=
+		p76409FU6ml6nEsBBMsAx7TSThw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		N7bvMyuMN2kb6nL4BDEaiiKulbU=
+		QAD5Elvz3pIO+JSb+TbBweVbl0Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VX3+BaqL+veqTkuqCgBfsI29LtU=
+		61PN6L3iCJ6l3xzyJlO7aZEJOII=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		m7H94PXrxKspD7sf9tUDENNYHoQ=
+		LARALv97P+Cjr5WwP07gotokYek=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VX3+BaqL+veqTkuqCgBfsI29LtU=
+		61PN6L3iCJ6l3xzyJlO7aZEJOII=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		N7bvMyuMN2kb6nL4BDEaiiKulbU=
+		QAD5Elvz3pIO+JSb+TbBweVbl0Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FMlqHoitBTMl1WskTBhgRHDXmps=
+		iWU7Q78s1Ts+y91lwWyXOFYYlUY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		E8nh/OJHPZGC0m3N09q/Re2+Lqg=
+		NeWFQXn/8v50bYDheHLrLGGuCvM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FMlqHoitBTMl1WskTBhgRHDXmps=
+		iWU7Q78s1Ts+y91lwWyXOFYYlUY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -98,7 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/NautilusGeoUtilSDK</key>
 		<data>
-		k3NK5BxecmXjEUz4ZBuAkWFKyu8=
+		RMM/cffyCpHGkPEl9SZUGEj8Z4w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -106,11 +118,27 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		xdJndUq5oASPHUctyOcswhHiG+A=
+		b3jFm+biS/5kIytY4qGKhrSbYxo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/moduleapps-geoutil.json</key>
 		<data>
 		NrwTZSP3tG5ThUHcdA8tjby7RGQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		EprnNjRkcZ4rTPeeJf9gUvw4zDs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/DWARF/NautilusGeoUtilSDK</key>
+		<data>
+		PVLwRTgMMvO+XGzWrHfgHFkv92U=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusGeoUtilSDK.yml</key>
+		<data>
+		ovEg6XK1MyW2LVIaPzX0ODqZ+uY=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusGeoUtilSDK.yml</key>
+		<data>
+		+xy2EWEtY447F7N/n9Scv0SJGYE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -130,66 +158,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T8PXrnIrEIdiC7xl2JzEEXcjmy0=
+			ziSGPrx9Wwl5xDrkjrf55VrX0t4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q+JeBVhHx96lQcAIL7I0U6FF6ScyuiPoFGbog9VLmKw=
+			cOnw8d0ku1Saf89S75D5AOUqpM3cVMUZ5RraLZLwFqk=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uokTQ8rUwCnbCX8cRXeeetsUYUY=
+			kzth24Vf0Djf+c9FnewtJVeatgw=
 			</data>
 			<key>hash2</key>
 			<data>
-			KD2EmtRgmM8UUH1Js2GXdz+dg3k4N7VNwgTvrT+pXB8=
+			FBLFdsPrEO1FojrWsCTgkqiW3xhdVQtU55+sQ+oAR3Q=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N7bvMyuMN2kb6nL4BDEaiiKulbU=
+			QAD5Elvz3pIO+JSb+TbBweVbl0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			FJcRbrLzH41DgcfOhAzu4lrub98clnJW1fXXUewacL8=
+			/OM79/h4MhCAyC7FpUL/S+k8bM2IYgPS9JK8Wo2CghA=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1H/0cg3PIQLAat//Rum/yOAweW0=
+			t+zm1+s9cVhukoIUkACGhjcOu8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			SsBbVmDiZDcc2AR7UmoXx0Z4KJa+rkow6zJF8bTjwW4=
+			4QmFW0u+FpkqnJirbEW7b1RspPntZ9yQSMh3u/CgdL4=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			noMMEBI4JjYfHB33Kw0htjFkmPc=
+			xceM4LYxBggqGreLUHby7mnHYM0=
 			</data>
 			<key>hash2</key>
 			<data>
-			g/afDqpx8IzgtqAOaUfVq3lVjn+9WO8HgFpWUMmAfl8=
+			nhFOi9xTDVfxaCbGR5R15pUQRfrC6n+JbZkbm+TtgQQ=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1H/0cg3PIQLAat//Rum/yOAweW0=
+			t+zm1+s9cVhukoIUkACGhjcOu8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			SsBbVmDiZDcc2AR7UmoXx0Z4KJa+rkow6zJF8bTjwW4=
+			4QmFW0u+FpkqnJirbEW7b1RspPntZ9yQSMh3u/CgdL4=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/Modules/module.modulemap</key>
@@ -207,11 +235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DYDyIvPwVIP4lrDpTloH9QhtxRE=
+			R3+Yi5mQ5lNCodjj3GnrIs9y4XQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qTbou+hdMbYCW9ALkxdFb47GkUak5r298tzWlzx1S44=
+			DlSGivbJGMqmMw0X6hHCdDyWxuJPaq6/lejeRqS/afk=
 			</data>
 		</dict>
 		<key>ios-arm64/NautilusGeoUtilSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -236,6 +264,39 @@
 			BDxCYTGb7L4C1a6XYx7K0masNbSYmW41y8wpvAKK0Bk=
 			</data>
 		</dict>
+		<key>ios-arm64/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EprnNjRkcZ4rTPeeJf9gUvw4zDs=
+			</data>
+			<key>hash2</key>
+			<data>
+			5BmoQYhbcCGPce6CqefPGaQUgLmJnhVD7QVlnoYLYFY=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/DWARF/NautilusGeoUtilSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qGtBoHTUEpx8BMDjrV3PtYQwrX0=
+			</data>
+			<key>hash2</key>
+			<data>
+			hOsjXUKdodTYFUFZZ4xUunmFmK9YhwE0N3n5ElBM+Hg=
+			</data>
+		</dict>
+		<key>ios-arm64/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusGeoUtilSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mwmRyYL45lFB8YrvosHq2hREocw=
+			</data>
+			<key>hash2</key>
+			<data>
+			aVwDgI8OjbeELnN1d+mxcd07W9MzQQGAguA8CCTITCQ=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Headers/NautilusGeoUtil.h</key>
 		<dict>
 			<key>hash</key>
@@ -251,110 +312,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x2APQ1hPS5WsUhTPXaw2udcWbsY=
+			zW/EdgfaWBybfuKuvx65HjKFzBI=
 			</data>
 			<key>hash2</key>
 			<data>
-			lB7NWnKn1Ig4CURmzSU4D/g6ObeuY/g9GrxDy86voqw=
+			IYjPuxKwU3/r9NMnIHNP80+D8QUg0Q7AMoWRpltKrEU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ehO/b9gcW3CYkwj/cTjgPmdQslc=
+			p76409FU6ml6nEsBBMsAx7TSThw=
 			</data>
 			<key>hash2</key>
 			<data>
-			i8/xYrEjHQFnMm0rh/dsLPfVrXDyOE/ddlzLAdjUFPU=
+			DeDmSegVQpmYsYCOTzRFJX14a/M060c5IGUrd2YD6U0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N7bvMyuMN2kb6nL4BDEaiiKulbU=
+			QAD5Elvz3pIO+JSb+TbBweVbl0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			FJcRbrLzH41DgcfOhAzu4lrub98clnJW1fXXUewacL8=
+			/OM79/h4MhCAyC7FpUL/S+k8bM2IYgPS9JK8Wo2CghA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VX3+BaqL+veqTkuqCgBfsI29LtU=
+			61PN6L3iCJ6l3xzyJlO7aZEJOII=
 			</data>
 			<key>hash2</key>
 			<data>
-			jdO2UkV0ZVXILlGCA6qmckTbu/2xms/3Ce58BeRyNc0=
+			fKK3xlZdvminZuwshD+g0sO1IsUB+l50PNbo3yj+k3o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m7H94PXrxKspD7sf9tUDENNYHoQ=
+			LARALv97P+Cjr5WwP07gotokYek=
 			</data>
 			<key>hash2</key>
 			<data>
-			xgwkQ13G89ktAKQMB6nwu3nsa1bRW6Yk3peXnQPo5qo=
+			CiJsQBHHZoLbHW1d1h0ZJs51QCNwxL0CFz7iFlAssr4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VX3+BaqL+veqTkuqCgBfsI29LtU=
+			61PN6L3iCJ6l3xzyJlO7aZEJOII=
 			</data>
 			<key>hash2</key>
 			<data>
-			jdO2UkV0ZVXILlGCA6qmckTbu/2xms/3Ce58BeRyNc0=
+			fKK3xlZdvminZuwshD+g0sO1IsUB+l50PNbo3yj+k3o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N7bvMyuMN2kb6nL4BDEaiiKulbU=
+			QAD5Elvz3pIO+JSb+TbBweVbl0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			FJcRbrLzH41DgcfOhAzu4lrub98clnJW1fXXUewacL8=
+			/OM79/h4MhCAyC7FpUL/S+k8bM2IYgPS9JK8Wo2CghA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FMlqHoitBTMl1WskTBhgRHDXmps=
+			iWU7Q78s1Ts+y91lwWyXOFYYlUY=
 			</data>
 			<key>hash2</key>
 			<data>
-			FdCE2dVH0wLmb5OAn+0GAVaJXtHCh6ySHcuggZKSoHc=
+			7cRBkw26cbTltoNte69s0/X2z+DGn5P/WYVwl3mBivc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E8nh/OJHPZGC0m3N09q/Re2+Lqg=
+			NeWFQXn/8v50bYDheHLrLGGuCvM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kFaovUFpx+J7c4EwqJkp8etfJ4swiu7vZ+PqHfN44Zg=
+			2AtReT1EcKAU3O6mXyJyRzCfzvxL+EgH4XStru/Gvu0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/NautilusGeoUtilSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FMlqHoitBTMl1WskTBhgRHDXmps=
+			iWU7Q78s1Ts+y91lwWyXOFYYlUY=
 			</data>
 			<key>hash2</key>
 			<data>
-			FdCE2dVH0wLmb5OAn+0GAVaJXtHCh6ySHcuggZKSoHc=
+			7cRBkw26cbTltoNte69s0/X2z+DGn5P/WYVwl3mBivc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/Modules/module.modulemap</key>
@@ -372,11 +433,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k3NK5BxecmXjEUz4ZBuAkWFKyu8=
+			RMM/cffyCpHGkPEl9SZUGEj8Z4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			vDrWa92aPyo+EjYKiInQ2NwJDTBixj0hEuvd0Bn3aGw=
+			TDX6BWqAg4/VD0hgkwjIDzTq6IlKJZUDe4k0W7a9kdQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -394,11 +455,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xdJndUq5oASPHUctyOcswhHiG+A=
+			b3jFm+biS/5kIytY4qGKhrSbYxo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8loIe1LmGbTpJ7SYtYoXHG7luo6+U2rdHXxvktyKT9k=
+			HBETIrJW+SD7UEOz9dWawFcwkprKg0l8QLpRgnyWrgk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NautilusGeoUtilSDK.framework/moduleapps-geoutil.json</key>
@@ -410,6 +471,50 @@
 			<key>hash2</key>
 			<data>
 			BDxCYTGb7L4C1a6XYx7K0masNbSYmW41y8wpvAKK0Bk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EprnNjRkcZ4rTPeeJf9gUvw4zDs=
+			</data>
+			<key>hash2</key>
+			<data>
+			5BmoQYhbcCGPce6CqefPGaQUgLmJnhVD7QVlnoYLYFY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/DWARF/NautilusGeoUtilSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PVLwRTgMMvO+XGzWrHfgHFkv92U=
+			</data>
+			<key>hash2</key>
+			<data>
+			/KqsDxrykWSh8do7RPbOyJ4bf/UKC0gYPyYmy7j4BGg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/NautilusGeoUtilSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ovEg6XK1MyW2LVIaPzX0ODqZ+uY=
+			</data>
+			<key>hash2</key>
+			<data>
+			jDsD0hb4YCwTxuLoK6NApF32O52VzBttmLDKYXv8bYU=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/NautilusGeoUtilSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/NautilusGeoUtilSDK.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+xy2EWEtY447F7N/n9Scv0SJGYE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ImNE4ka4qSCcdwUNQdxGKtQuMl56AJ3YicgsvwnorWg=
 			</data>
 		</dict>
 	</dict>
